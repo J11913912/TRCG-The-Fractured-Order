@@ -28,7 +28,7 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -91,6 +91,15 @@
                     "name": "Roll",
                     "type": "Button",
                     "id": "eab9a8a4-74c5-4d80-8956-6db958bab099",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ClickTest",
+                    "type": "Button",
+                    "id": "1cd465e5-15fa-4cc1-87e3-9e388631b4e8",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -491,6 +500,17 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Roll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d6e13ba-b8c3-42eb-b99e-57bc75b1b1b9",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "ClickTest",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

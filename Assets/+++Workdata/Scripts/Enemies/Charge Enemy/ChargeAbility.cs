@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 
 public class ChargeAbility : MonoBehaviour
@@ -18,12 +19,15 @@ public class ChargeAbility : MonoBehaviour
 
     public bool chargingAllowed;
     public bool currentlyCharging;
-    public bool canCharge;
+   // public bool canCharge;
     private bool targetInReach = false;
 
     private int _enemyLayer;
     private int _playerLayer;
 
+    
+    private InputSystem_Actions _inputActions;
+    private InputAction _clickAction;
 
     private void Awake()
     {
@@ -31,32 +35,56 @@ public class ChargeAbility : MonoBehaviour
 
         _enemyLayer = LayerMask.NameToLayer("Enemy");
         _playerLayer = LayerMask.NameToLayer("Default");
+        
+        
+        _inputActions = new InputSystem_Actions();
+
+        _clickAction = _inputActions.Player.ClickTest;
+
     }
 
     private void OnEnable()
     {
         onChargeEnter += SetTarget;
         onTargetChange += SetTargetInReach;
+        
+        _inputActions.Enable();
+        _clickAction.performed += ClickTest;
     }
 
     private void OnDisable()
     {
         onChargeEnter -= SetTarget;
         onTargetChange -= SetTargetInReach;
+        
+        _inputActions.Disable();
+        _clickAction.performed -= ClickTest;
+
     }
 
     private void FixedUpdate()
     {
         if (chargingAllowed)
         {
-            if (!targetInReach) return;
+            if (!targetInReach)
+            {
+                StopCharge();
+                return;
+            }
             
             Charge();
         }
     }
 
+    private void ClickTest(InputAction.CallbackContext context)
+    {
+        GetTarget();
+    }
+    
     public void GetTarget()
     {
+        if (currentlyCharging) return;
+        
         TransferTarget.onChargeStart?.Invoke();
     }
 
@@ -87,6 +115,8 @@ public class ChargeAbility : MonoBehaviour
     {
         float distance = Vector2.Distance(transform.position, chargeTargetBeyond);
         
+        Debug.Log(distance);
+        
         if (distance > 0.1f)
         {
             _rb.linearVelocity = _direction * force;
@@ -100,7 +130,6 @@ public class ChargeAbility : MonoBehaviour
 
     public void StopCharge()
     {
-        Debug.Log("Stopping Charge");
         _rb.linearVelocity = Vector2.zero;
         
         chargingAllowed = false;
