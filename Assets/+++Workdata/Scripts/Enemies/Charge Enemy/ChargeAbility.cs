@@ -22,9 +22,6 @@ public class ChargeAbility : MonoBehaviour
    // public bool canCharge;
     private bool targetInReach = false;
 
-    private int _enemyLayer;
-    private int _playerLayer;
-
     
     private InputSystem_Actions _inputActions;
     private InputAction _clickAction;
@@ -32,10 +29,6 @@ public class ChargeAbility : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
-
-        _enemyLayer = LayerMask.NameToLayer("Enemy");
-        _playerLayer = LayerMask.NameToLayer("Default");
-        
         
         _inputActions = new InputSystem_Actions();
 
@@ -49,7 +42,7 @@ public class ChargeAbility : MonoBehaviour
         onTargetChange += SetTargetInReach;
         
         _inputActions.Enable();
-        _clickAction.performed += ClickTest;
+        _clickAction.performed += ClickTest;                // M druecken fur testing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     }
 
     private void OnDisable()
@@ -100,9 +93,6 @@ public class ChargeAbility : MonoBehaviour
         _direction.Normalize();
         
         chargeTargetBeyond = chargeTarget + _direction * 5f;
-        
-        Physics2D.IgnoreLayerCollision(_enemyLayer, _playerLayer, true);
-
     }
 
     public void SetTargetInReach(bool _targetInReach)
@@ -113,12 +103,14 @@ public class ChargeAbility : MonoBehaviour
 
     private void Charge()
     {
-        float distance = Vector2.Distance(transform.position, chargeTargetBeyond);
+        Debug.Log("charge");
         
-        Debug.Log(distance);
+        float distance = Vector2.Distance(transform.position, chargeTargetBeyond);
         
         if (distance > 0.1f)
         {
+            Debug.Log("charging");
+            
             _rb.linearVelocity = _direction * force;
             currentlyCharging = true;
         }
@@ -134,8 +126,6 @@ public class ChargeAbility : MonoBehaviour
         
         chargingAllowed = false;
         currentlyCharging = false;
-        
-        Physics2D.IgnoreLayerCollision(_enemyLayer, _playerLayer, false);
     }
 }
 

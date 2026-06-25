@@ -13,6 +13,8 @@ public class VomitBehaviour : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // TODO player health reduzieren
+            Debug.Log("player damaged");
+            StartCoroutine(DestroyItself());
         }
     }
     
@@ -35,6 +37,12 @@ public class VomitBehaviour : MonoBehaviour
     IEnumerator CountdownDestruction()
     {
         yield return new WaitForSeconds(10f);
+        Destroy(gameObject);
+    }
+
+    IEnumerator DestroyItself()
+    {
+        yield return new WaitForSeconds(0.1f);
         Destroy(gameObject);
     }
 }

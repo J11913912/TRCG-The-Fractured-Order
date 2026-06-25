@@ -6,6 +6,10 @@ public class TransferTarget : MonoBehaviour
     public static Action onChargeStart;
     
     private GameObject target;
+    
+    public enum ForWhatEnemy{Charge, Tumbleweed}
+
+    public ForWhatEnemy forWhatEnemy;
 
     private void OnEnable()
     {
@@ -25,7 +29,7 @@ public class TransferTarget : MonoBehaviour
         
             target = other.gameObject;
         
-            ChargeAbility.onTargetChange?.Invoke(true);
+            ChargeAbility.onTargetChange?.Invoke(true); // switch case for chasebahviour ????????????
         }
     }
 

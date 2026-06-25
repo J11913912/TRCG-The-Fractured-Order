@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.Events;
 using UnityEngine;
 
 public class EnemyContactDamage : MonoBehaviour
@@ -10,6 +11,7 @@ public class EnemyContactDamage : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // TODO player health reduzieren
+            Debug.Log("found player");
         }
     }
 }
