@@ -28,7 +28,7 @@ public class DropShards : MonoBehaviour
 
     IEnumerator ResetDrop()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         _hasDropped = false;
     }
 }
