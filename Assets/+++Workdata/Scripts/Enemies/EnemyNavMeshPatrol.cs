@@ -41,6 +41,8 @@ public class EnemyNavMeshPatrol : MonoBehaviour
     [SerializeField] private bool canPatrol = true;
     [SerializeField] private Vector2 waitDuration = new Vector2(1, 5);
 
+    public bool isTumbleweed = false;
+    
     #endregion
     
     #region Private Variables
@@ -63,6 +65,8 @@ public class EnemyNavMeshPatrol : MonoBehaviour
     private Coroutine _newWaitpoint;
 
     private Vector2 _lookDirection;
+
+    private Vector3 _targetBeyond;
 
     #endregion
     
@@ -108,11 +112,19 @@ public class EnemyNavMeshPatrol : MonoBehaviour
                 if (_lastNavmeshTime + navmeshPathTimer < Time.time)
                 {
                     _agent.SetDestination(_target.position);
-                    _lastNavmeshTime = Time.time;
+                    _lastNavmeshTime = Time.time; 
                 }
             }
             else
             {
+                _targetBeyond = _target.position + new Vector3(_lookDirection.x, _lookDirection.y, 0) * 5f;
+                
+                if (isTumbleweed)
+                {
+                    _agent.SetDestination(_targetBeyond);
+                    return;
+                }
+                
                 _agent.ResetPath();
             }
         }
