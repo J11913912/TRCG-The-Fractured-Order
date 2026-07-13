@@ -21,33 +21,35 @@ public class SheepBehaviour : MonoBehaviour
     private void Attack()
     {
         _canAttack = false;
+
+        for (int i = 0; i < 4; i++)
+        {
+            Vector2 direction = Vector2.zero;
+            
+            if (i == 0)
+            {
+                direction = Vector2.right;
+            }
+            else if (i == 1)
+            {
+                direction = Vector2.left;
+            }
+            else if (i == 2)
+            {
+                direction = Vector2.up;
+            }
+            else if (i == 3)
+            {
+                direction = Vector2.down;
+            }
+            
+            
+            GameObject newProjectile = Instantiate(projectilePrefab);
+            newProjectile.transform.position = gameObject.transform.position;
         
-        GameObject newProjectile = Instantiate(projectilePrefab);
-        newProjectile.transform.position = gameObject.transform.position;
-        
-        newProjectile.GetComponent<ShootProjectile>().Shoot(Vector2.right);
-        newProjectile.GetComponent<ShootProjectile>().StartDeathCountdown();
-        
-        
-        GameObject newProjectile1 = Instantiate(projectilePrefab);
-        newProjectile1.transform.position = gameObject.transform.position;
-        
-        newProjectile1.GetComponent<ShootProjectile>().Shoot(Vector2.left);
-        newProjectile1.GetComponent<ShootProjectile>().StartDeathCountdown();
-        
-        
-        GameObject newProjectile2 = Instantiate(projectilePrefab);
-        newProjectile2.transform.position = gameObject.transform.position;
-        
-        newProjectile2.GetComponent<ShootProjectile>().Shoot(Vector2.up);
-        newProjectile2.GetComponent<ShootProjectile>().StartDeathCountdown();
-        
-        
-        GameObject newProjectile3 = Instantiate(projectilePrefab);
-        newProjectile3.transform.position = gameObject.transform.position;
-        
-        newProjectile3.GetComponent<ShootProjectile>().Shoot(Vector2.down);
-        newProjectile3.GetComponent<ShootProjectile>().StartDeathCountdown();
+            newProjectile.GetComponent<ShootProjectile>().Shoot(direction);
+            newProjectile.GetComponent<ShootProjectile>().StartDeathCountdown();
+        }
 
         StartCoroutine(ResetAttack());
     }
