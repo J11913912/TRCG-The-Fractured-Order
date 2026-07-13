@@ -59,4 +59,14 @@ public class SheepBehaviour : MonoBehaviour
         yield return new WaitForSeconds(3f);
         _canAttack = true;
     }
+
+    public void SetEnemyState(EnemyState state)
+    {
+        enemyState = state;
+    }
+
+    public void SetCanAttack(bool value)
+    {
+        _canAttack = value;
+    }
 }
