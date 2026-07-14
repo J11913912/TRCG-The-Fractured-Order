@@ -6,6 +6,8 @@ using UnityEngine;
 public class VomitAbility : MonoBehaviour
 {
     public static VomitAbility Instance;
+
+    private SlurpEnemyPatrol _slurpEnemyPatrol;
     
     public GameObject vomitPrefab;
     public bool canVomit;
@@ -21,13 +23,15 @@ public class VomitAbility : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
+        _slurpEnemyPatrol = GetComponent<SlurpEnemyPatrol>();
     }
 
     public void ToggleVomit(bool value)
     {
         canVomit = value;
     }
-
+    
     private void Update()
     {
         if (!canVomit) return;
@@ -39,6 +43,8 @@ public class VomitAbility : MonoBehaviour
 
     public void SpawnVomit()
     {
+        canVomit = false;
+        
         _counter += Time.deltaTime;
 
         if (_counter > vomitTime)
@@ -51,6 +57,9 @@ public class VomitAbility : MonoBehaviour
 
             vomitsSpawned++;
         }
+        
+        _slurpEnemyPatrol.ResumePatrol(); 
+        _slurpEnemyPatrol.EnterAggroDistance();
     }
 
     public void SetSpawnPosition()
