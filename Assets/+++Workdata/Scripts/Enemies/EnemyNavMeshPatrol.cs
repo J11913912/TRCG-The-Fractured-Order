@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(CapsuleCollider2D))]
@@ -18,6 +19,9 @@ public class EnemyNavMeshPatrol : MonoBehaviour
     
     
     #region Inspector
+
+    public UnityEvent OnAttack;
+    
     [Header("Enemy States")] 
     [SerializeField] private EnemyState enemyState;
     [SerializeField] private EnemyFacingDirection enemyFacingDirection;
@@ -95,6 +99,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
             if (_attackCooldownTimer > attackCooldown)
             {
                 enemyState = EnemyState.Attacking;
+                OnAttack?.Invoke();
                 //SetAnimationAction(1);
             }
         }

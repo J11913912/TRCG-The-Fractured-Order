@@ -21,6 +21,8 @@ public class ChargeAbility : MonoBehaviour
     public bool currentlyCharging;
    // public bool canCharge;
     private bool targetInReach = false;
+    
+    private ChargeNavMeshPatrol _chargeNavMeshPatrol;
 
     
     private InputSystem_Actions _inputActions;
@@ -33,6 +35,8 @@ public class ChargeAbility : MonoBehaviour
         _inputActions = new InputSystem_Actions();
 
         _clickAction = _inputActions.Player.ClickTest;
+        
+        _chargeNavMeshPatrol = GetComponent<ChargeNavMeshPatrol>();
 
     }
 

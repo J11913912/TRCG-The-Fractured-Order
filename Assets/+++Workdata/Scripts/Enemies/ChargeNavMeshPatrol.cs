@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(CapsuleCollider2D))]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(NavMeshAgent))]
-public class SlurpEnemyPatrol : MonoBehaviour
+public class ChargeNavMeshPatrol : MonoBehaviour
 {
     private int HashMovementValue = Animator.StringToHash("MovementValue");
     private int HashDirX = Animator.StringToHash("dirX");
@@ -18,6 +19,9 @@ public class SlurpEnemyPatrol : MonoBehaviour
     
     
     #region Inspector
+
+    public UnityEvent OnAttack;
+    
     [Header("Enemy States")] 
     [SerializeField] private EnemyState enemyState;
     [SerializeField] private EnemyFacingDirection enemyFacingDirection;
@@ -33,6 +37,7 @@ public class SlurpEnemyPatrol : MonoBehaviour
     [SerializeField] private float stopChasingTimer = 2f;
 
     [SerializeField] private float attackCooldown = 1f;
+    [SerializeField] private float chargeCooldown = 1f;
     
     [Header("Waypoints")] 
     [SerializeField] private List<Transform> waypoints;
@@ -42,8 +47,8 @@ public class SlurpEnemyPatrol : MonoBehaviour
     [SerializeField] private Vector2 waitDuration = new Vector2(1, 5);
 
     public bool isTumbleweed = false;
-
-    public int random;
+    
+    public bool notCharging = true;
     
     #endregion
     
@@ -64,14 +69,11 @@ public class SlurpEnemyPatrol : MonoBehaviour
 
     private Coroutine _attackCoroutine;
     private Coroutine _aggroCoroutine;
-    private Coroutine _vomitCoroutine;
     private Coroutine _newWaitpoint;
 
     private Vector2 _lookDirection;
 
     private Vector3 _targetBeyond;
-
-    private VomitAbility _vomitAbility;
 
     #endregion
     
@@ -82,8 +84,6 @@ public class SlurpEnemyPatrol : MonoBehaviour
         _agent = GetComponent<NavMeshAgent>();
         _player = FindFirstObjectByType<PlayerController>().transform;
         _agent.autoBraking = waitAtWaypoint;
-
-        _vomitAbility = GetComponent<VomitAbility>();
     }
 
     private void Start()
@@ -94,30 +94,22 @@ public class SlurpEnemyPatrol : MonoBehaviour
         SetNextWaypoint();
     }
 
+    private IEnumerator Charge()
+    {
+        yield return new WaitForSeconds(chargeCooldown);
+        notCharging = true;
+        OnAttack?.Invoke();
+    }
+
     private void Update()
     {
         if (_canAttack && enemyState != EnemyState.Attacking)
         {
-            _attackCooldownTimer += Time.deltaTime;
-            if (_attackCooldownTimer > attackCooldown)
+            if (notCharging)
             {
-                enemyState = EnemyState.Attacking;
-                Debug.Log("Vomit guy attacks");
-                //SetAnimationAction(1);
+                notCharging = false;
+                StartCoroutine(Charge());
             }
-        }
-
-        if (enemyState == EnemyState.Chasing)
-        {
-           StartCoroutine(WaitForNewVomit());
-
-            if (random == 1)
-            {
-                StopPatrol();
-                _vomitAbility.ToggleVomit(true);
-                enemyState = EnemyState.Chasing;
-            }
-
         }
 
         if (!_agent.isStopped && enemyState != EnemyState.Chasing && enemyState != EnemyState.Attacking)
@@ -339,62 +331,18 @@ public class SlurpEnemyPatrol : MonoBehaviour
 
     public void EnterAggroDistance()
     {
-        enemyState = EnemyState.Chasing;
-        _target = _player;
+        _canAttack  = true;
         
-        if(_newWaitpoint != null)
-        {
-            _isWaiting = false;
-            StopCoroutine(_newWaitpoint);
-        }
-    }
-
-    private IEnumerator WaitForNewVomit()
-    {
-        yield return new WaitForSeconds(1f);
-        random = Random.Range(0, 2);
+        StopPatrol();
+        
     }
 
     public void ExitAggroDistance()
     {
-        enemyState = EnemyState.Idle;
-    }
-
-    IEnumerator InitiateAggroTimer()
-    {
-        yield return new WaitForSeconds(stopChasingTimer);
-        if (!_isAggroed)
-        {
-            enemyState = EnemyState.Idle;
-            SetNextWaypoint();
-            //TODO: Heal to max ?!
-        }
-    }
-
-    #endregion
-    
-    
-    #region Attack
-
-    public void EnterAttackDistance()
-    {
-        _canAttack = true;
-        _agent.isStopped = true;
-    }
-
-    public void ExitAttackDistance()
-    {
         _canAttack = false;
-        enemyState = EnemyState.Chasing;
-        _agent.isStopped = false;
+        StopCoroutine(Charge());
+        ResumePatrol();
     }
 
-    public void EndAttack()
-    {
-        _attackCooldownTimer = 0;
-        enemyState = EnemyState.Chasing;
-        _agent.isStopped = false;
-    }
-    
     #endregion
 }
