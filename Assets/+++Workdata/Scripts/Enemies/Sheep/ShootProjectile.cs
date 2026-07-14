@@ -23,4 +23,9 @@ public class ShootProjectile : MonoBehaviour
         yield return new WaitForSeconds(5f);
         Destroy(gameObject);
     }
+
+    public void DestroyProjectile()
+    {
+        Destroy(gameObject);
+    }
 }

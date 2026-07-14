@@ -8,8 +8,13 @@ public class SheepBehaviour : MonoBehaviour
     
     [SerializeField] private EnemyState enemyState;
 
-    public bool _canAttack;
+    public bool _canAttack = true;
 
+    private void Awake()
+    {
+        _canAttack = true;
+    }
+    
     private void Update()
     {
         if (enemyState == EnemyState.Attacking && _canAttack)
@@ -18,8 +23,10 @@ public class SheepBehaviour : MonoBehaviour
         }
     }
 
-    private void Attack()
+    public void Attack()
     {
+        if (!_canAttack) return;
+        
         _canAttack = false;
 
         for (int i = 0; i < 4; i++)

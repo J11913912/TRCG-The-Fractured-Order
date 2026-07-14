@@ -1,10 +1,13 @@
 using System;
 using UnityEditor.Events;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EnemyContactDamage : MonoBehaviour
 {
     public int damage;
+    
+    public UnityEvent OnDamage;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,6 +15,7 @@ public class EnemyContactDamage : MonoBehaviour
         {
             // TODO player health reduzieren
             Debug.Log("found player");
+            OnDamage?.Invoke();
         }
     }
 }
