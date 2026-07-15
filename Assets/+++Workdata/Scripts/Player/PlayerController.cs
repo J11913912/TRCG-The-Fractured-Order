@@ -81,14 +81,14 @@ public class PlayerController : MonoBehaviour
             PlayerStates.OnChangeMovement?.Invoke(_moveInput == Vector2.zero ? PlayerMovement.Idle : PlayerMovement.Moving);
             
             
-            if (_moveInput.x < 0)
+            /*if (_moveInput.x < 0)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
             }
             else if (_moveInput.x > 0)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
-            }
+            }*/
         }
 
         #endregion
