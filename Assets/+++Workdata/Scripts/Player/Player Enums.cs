@@ -1,5 +1,5 @@
 
-public enum PlayerAction{Default, Roll, Attack, Fishing}
+public enum PlayerAction{Default, Roll, Attack, Dead}
 public enum PlayerDirection{Up, Down, Left, Right}
 public enum PlayerMovement{Idle, Moving}
 
