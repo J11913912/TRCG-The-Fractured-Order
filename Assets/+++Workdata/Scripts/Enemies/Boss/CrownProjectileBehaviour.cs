@@ -56,4 +56,6 @@ public class CrownProjectileBehaviour : MonoBehaviour
     {
         transform.position = gameObject.transform.parent.transform.position;
     }
+    
+    // TODO set anioamtion for direction
 }

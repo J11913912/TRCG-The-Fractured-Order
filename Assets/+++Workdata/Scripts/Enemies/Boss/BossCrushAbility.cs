@@ -15,8 +15,12 @@ public class BossCrushAbility : MonoBehaviour
 
     public bool crush = false;
     
+    private BossPatrol _bossPatrol;
+    
     private void Awake()
     {
+        _bossPatrol = GetComponent<BossPatrol>();
+        
         _rb = GetComponent<Rigidbody2D>(); 
         
         _player = GameObject.Find("Player");
@@ -59,7 +63,14 @@ public class BossCrushAbility : MonoBehaviour
     public void Crush()
     {
         // animation
-        
+        // if second phase also shockwave
         // damage player
+        
+        _bossPatrol.ResumePatrolAfterAttack();
+    }
+
+    public void Shockwave()
+    {
+        
     }
 }

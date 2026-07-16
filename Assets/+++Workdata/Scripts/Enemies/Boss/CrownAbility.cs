@@ -15,10 +15,14 @@ public class CrownAbility : MonoBehaviour
 
     public bool start = false;
     
+    private BossPatrol _bossPatrol;
+    
     // TODO Randomeness einfuegen
 
     private void Awake()
     {
+        _bossPatrol = GetComponent<BossPatrol>();
+        
         crownProjectileBehaviour = GetComponent<CrownProjectileBehaviour>();
     }
 
@@ -30,14 +34,21 @@ public class CrownAbility : MonoBehaviour
             
             ConjureCrown();
 
-            StartCoroutine(WaitToRelase());
+            StartCoroutine(WaitToStart());
         }
     }
 
-    private IEnumerator WaitToRelase()
+    private IEnumerator WaitToStart()
     {
         yield return new WaitForSeconds(1f);
         StartReleasingProjectiles();
+    }
+
+    public void Attack()
+    {
+        ConjureCrown();
+
+        StartCoroutine(WaitToStart());
     }
 
     public void ConjureCrown()
@@ -128,5 +139,6 @@ public class CrownAbility : MonoBehaviour
     private void Reset()
     {
         StopAllCoroutines();
+        _bossPatrol.ResumePatrolAfterAttack();
     }
 }
