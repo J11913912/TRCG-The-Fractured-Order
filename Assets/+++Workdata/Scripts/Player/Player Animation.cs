@@ -50,7 +50,7 @@ public class PlayerAnimation : MonoBehaviour
         }
     }
 
-    private void AnimationSetAction(int ID)
+    public void AnimationSetAction(int ID)
     {
         foreach (var _animator in _animators)
         {
