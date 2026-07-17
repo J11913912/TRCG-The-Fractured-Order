@@ -108,7 +108,7 @@ public class PlayerInput : MonoBehaviour
 
         private void Interact(InputAction.CallbackContext ctx)
         {
-            //PlayerInteraction.OnInteract?.Invoke();
+            Playerinteraction.OnInteract?.Invoke();
         }
 
         #endregion
