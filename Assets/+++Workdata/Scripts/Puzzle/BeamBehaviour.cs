@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class BeamBehaviour : MonoBehaviour
 {
@@ -13,14 +14,24 @@ public class BeamBehaviour : MonoBehaviour
     
     public Vector3 raycastPos;
     public Transform target;
+    
+    public bool foundWall = false;
+
+    public Vector3 hitPoint;
+
+    public Vector3 normalLength;
+    public Vector3 normalPos;
 
     private void Awake()
     {
-        raycastPos = target.position;
+        normalLength = beamLength.transform.lossyScale;
+        normalPos = new Vector3(beamLength.transform.position.x, beamLength.transform.position.y, beamLength.transform.position.z);
     }
 
     private void Update()
     {
+        raycastPos = target.position;
+        
         direction = Vector2.right;
         
         pos = transform.position;
@@ -34,8 +45,26 @@ public class BeamBehaviour : MonoBehaviour
         
         if (hit.collider)
         {
-            Debug.Log(hit.collider.gameObject.name);
+            foundWall = true;
+            hitPoint = hit.point;
+
+            AdjustLength();
         }
+        else
+        {
+            beamLength.transform.localScale =  normalLength;
+            beamLength.transform.position = new Vector3(normalPos.x, beamLength.transform.position.y, beamLength.transform.position.z);
+        }
+    }
+
+    private void AdjustLength()
+    {
+        float distance = Vector2.Distance(hitPoint, gameObject.transform.position);
+        
+        beamLength.transform.localScale = new Vector3(distance, beamLength.transform.localScale.y, beamLength.transform.localScale.z);
+        beamLength.transform.localPosition =  new Vector3(distance / 2, beamLength.transform.localPosition.y, beamLength.transform.localPosition.z);
+        
+        // beamCollider.size = beamLength.transform.localScale;
     }
 
     private void OnDrawGizmos()
