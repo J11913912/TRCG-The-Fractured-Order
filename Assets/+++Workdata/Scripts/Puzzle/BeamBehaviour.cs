@@ -28,6 +28,11 @@ public class BeamBehaviour : MonoBehaviour
         normalPos = new Vector3(beamLength.transform.position.x, beamLength.transform.position.y, beamLength.transform.position.z);
     }
 
+    public void SetNewPos(Vector3 pos)
+    {
+        normalPos = pos;
+    }
+
     private void Update()
     {
         raycastPos = target.position;
@@ -72,4 +77,9 @@ public class BeamBehaviour : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawLine(raycastPos, raycastPos + Vector3.right * 10000000000f);
     }
+    
+    
+    
+    /// FUCKING RAYCAST WONT CHANGE WITH ROTATIONNNNNNNNNNNNNNNNN FIX IT FOR EMITTERS!!!!!!!!!!!!!!!!!!!!!!!!!
+    /// AND FIX THAT BEAMS COMES FUCKING ALONNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }

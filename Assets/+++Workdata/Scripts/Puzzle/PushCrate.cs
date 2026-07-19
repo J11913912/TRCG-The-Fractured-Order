@@ -16,6 +16,8 @@ public class PushCrate : MonoBehaviour
    public Direction direction;
 
    public Vector2 moveDirection;
+   
+   public GameObject crate;
 
    public Rigidbody2D rb;
 
@@ -24,6 +26,9 @@ public class PushCrate : MonoBehaviour
    public float pushLength;
 
    public CrateGrid _CrateGrid;
+
+   public bool beamOffWhilePushing = false;
+   public GameObject beam;
 
    public void Push()
    {
@@ -40,6 +45,11 @@ public class PushCrate : MonoBehaviour
                _CrateGrid.SetPositionX(_CrateGrid.PosX + 1);
 
                PlayPush();
+
+               if (beamOffWhilePushing)
+               {
+                  beam.SetActive(false);
+               }
             }
             else
             {
@@ -59,6 +69,11 @@ public class PushCrate : MonoBehaviour
                _CrateGrid.SetPositionX(_CrateGrid.PosX - 1);
                
                PlayPush();
+               
+               if (beamOffWhilePushing)
+               {
+                  beam.SetActive(false);
+               }
             }
             else
             {
@@ -78,6 +93,11 @@ public class PushCrate : MonoBehaviour
                _CrateGrid.SetPositionY(_CrateGrid.PosY + 1);
                
                PlayPush();
+               
+               if (beamOffWhilePushing)
+               {
+                  beam.SetActive(false);
+               }
             }
             else
             {
@@ -97,6 +117,11 @@ public class PushCrate : MonoBehaviour
                _CrateGrid.SetPositionY(_CrateGrid.PosY - 1);
                
                PlayPush();
+               
+               if (beamOffWhilePushing)
+               {
+                  beam.SetActive(false);
+               }
             }
             else
             {
@@ -113,6 +138,12 @@ public class PushCrate : MonoBehaviour
       yield return new WaitForSeconds(pushLength);
       rb.linearVelocity = Vector2.zero;
       _canPush = true;
+      
+      if (beamOffWhilePushing)
+      {
+         beam.SetActive(true);
+         beam.GetComponent<BeamBehaviour>().SetNewPos(crate.transform.position);
+      }
    }
 
    private void PlayPush()

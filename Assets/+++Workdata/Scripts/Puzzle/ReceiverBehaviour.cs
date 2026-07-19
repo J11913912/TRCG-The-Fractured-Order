@@ -4,13 +4,14 @@ using UnityEngine.Experimental.GlobalIllumination;
 
 public class ReceiverBehaviour : MonoBehaviour
 {
-    private bool _receiverOn = false;
+    public bool _receiverOn = false;
     
     public GameObject _light;
 
     public bool isEmitter;
 
     public GameObject beam;
+    public GameObject toggledObject;
     
     private void Update()
     {
@@ -19,6 +20,10 @@ public class ReceiverBehaviour : MonoBehaviour
         if (isEmitter)
         {
             beam.SetActive(_receiverOn);
+        }
+        else
+        {
+           toggledObject.SetActive(_receiverOn); 
         }
             
     }

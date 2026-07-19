@@ -15,6 +15,8 @@ public class CrateGridHorizontalShort : CrateGrid
         
         maxX = grid.GetLength(1);
         maxY = grid.GetLength(0);
+        
+        _startVector = _startPosition.position;
     }
 
     public override void RemoveBarrier()
@@ -26,5 +28,13 @@ public class CrateGridHorizontalShort : CrateGrid
     public override void LockCrate()
     {
         grid[0, 5] = 0;
+    }
+    
+    public override void Reset()
+    {
+        posX = 0;
+        posY = 0;
+        
+        gameObject.transform.position = _startVector;
     }
 }

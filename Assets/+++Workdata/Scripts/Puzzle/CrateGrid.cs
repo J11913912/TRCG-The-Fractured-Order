@@ -15,6 +15,9 @@ public class CrateGrid : MonoBehaviour
 
     public int maxX;
     public int maxY;
+    
+    public Transform _startPosition;
+    public Vector3 _startVector;
 
     public virtual void Awake()
     {
@@ -33,6 +36,8 @@ public class CrateGrid : MonoBehaviour
         
         maxX = grid.GetLength(1);
         maxY = grid.GetLength(0);
+        
+        _startVector = _startPosition.position;
     }
     
     public int GetGrid(int x, int y)
@@ -86,5 +91,13 @@ public class CrateGrid : MonoBehaviour
     public virtual void LockCrate()
     {
         grid[0, 5] = 0;
+    }
+    
+    public virtual void Reset()
+    {
+        posX = 0;
+        posY = 4;
+        
+        gameObject.transform.position = _startVector;
     }
 }
