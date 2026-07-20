@@ -1,27 +1,26 @@
 using System;
 using UnityEngine;
-public class CrateGridVerticalLong : CrateGrid
-{ 
+public class CrateGridLLayout : CrateGrid
+{
     public override void Awake()
     {
-        grid = new int[5, 1]
+        grid = new int[3, 3]
         {
-            {1},
-            {1}, // start pos
-            {1},
-            {1},
-            {1}
+            {1, 0, 0},
+            {1, 0, 0},
+            {1, 1, 1},
+                // start pos
         };
 
-        posX = overrideX;
-        posY = overrideY;
+        posX = 1;
+        posY = 2;
         
         maxX = grid.GetLength(1);
         maxY = grid.GetLength(0);
         
         _startVector = _startPosition.position;
     }
-    
+
     public override void RemoveBarrier()
     {
         grid[0, 4] = 1;
@@ -32,11 +31,11 @@ public class CrateGridVerticalLong : CrateGrid
     {
         grid[0, 5] = 0;
     }
-
+    
     public override void Reset()
     {
-        posX = 0;
-        posY = 1;
+        posX = 1;
+        posY = 2;
         
         gameObject.transform.position = _startVector;
     }

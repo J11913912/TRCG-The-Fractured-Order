@@ -15,6 +15,9 @@ public class CrateGrid : MonoBehaviour
 
     public int maxX;
     public int maxY;
+
+    public int overrideX;
+    public int overrideY;
     
     public Transform _startPosition;
     public Vector3 _startVector;
