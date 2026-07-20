@@ -10,6 +10,8 @@ public class ReceiverBehaviour : MonoBehaviour
 
     public bool isEmitter;
 
+    public bool isOpposite = false;
+
     public GameObject beam;
     public GameObject toggledObject;
     
@@ -23,9 +25,15 @@ public class ReceiverBehaviour : MonoBehaviour
         }
         else
         {
-           toggledObject.SetActive(_receiverOn); 
+            if (!isOpposite)
+            {
+                toggledObject.SetActive(_receiverOn);
+            }
+            else
+            {
+                toggledObject.SetActive(!_receiverOn);
+            }
         }
-            
     }
 
     public void ToggleReceiver()

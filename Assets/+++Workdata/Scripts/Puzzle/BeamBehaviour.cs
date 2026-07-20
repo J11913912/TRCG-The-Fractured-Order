@@ -9,11 +9,13 @@ public class BeamBehaviour : MonoBehaviour
     
     public LayerMask layerMask;
 
-    private Vector2 direction;
+    public Vector2 direction;
     private Vector2 pos;
     
     public Vector3 raycastPos;
+    public Vector3 raycastEnd;
     public Transform target;
+    public Transform raycastEndTarget;
     
     public bool foundWall = false;
 
@@ -21,6 +23,8 @@ public class BeamBehaviour : MonoBehaviour
 
     public Vector3 normalLength;
     public Vector3 normalPos;
+
+    public bool isShort;
 
     private void Awake()
     {
@@ -36,8 +40,9 @@ public class BeamBehaviour : MonoBehaviour
     private void Update()
     {
         raycastPos = target.position;
+        raycastEnd = raycastEndTarget.position;
         
-        direction = Vector2.right;
+        direction = raycastEnd - raycastPos;
         
         pos = transform.position;
         pos.x = transform.position.x;
@@ -57,8 +62,16 @@ public class BeamBehaviour : MonoBehaviour
         }
         else
         {
-            beamLength.transform.localScale =  normalLength;
-            beamLength.transform.position = new Vector3(normalPos.x, beamLength.transform.position.y, beamLength.transform.position.z);
+            beamLength.transform.localScale = normalLength;
+
+            if (isShort)
+            {
+                beamLength.transform.position = new Vector3(beamLength.transform.position.x, normalPos.y, beamLength.transform.position.z);
+            }
+            else
+            {
+                beamLength.transform.position = new Vector3(normalPos.x, beamLength.transform.position.y, beamLength.transform.position.z);
+            }
         }
     }
 
@@ -75,7 +88,7 @@ public class BeamBehaviour : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawLine(raycastPos, raycastPos + Vector3.right * 10000000000f);
+        Gizmos.DrawLine(raycastPos, raycastEnd * 10000000000f);
     }
     
     
