@@ -13,15 +13,24 @@ public class ReceiverBehaviour : MonoBehaviour
     public bool isOpposite = false;
 
     public GameObject beam;
-    public GameObject toggledObject;
+    public GameObject newBeam;
     
+    private GameObject _currentBeam;
+    
+    public GameObject toggledObject;
+
+    private void Awake()
+    {
+        _currentBeam = beam;
+    }
+
     private void Update()
     {
         _light.SetActive(_receiverOn);
 
         if (isEmitter)
         {
-            beam.SetActive(_receiverOn);
+            _currentBeam.SetActive(_receiverOn);
         }
         else
         {
@@ -39,5 +48,22 @@ public class ReceiverBehaviour : MonoBehaviour
     public void ToggleReceiver()
     {
         _receiverOn = !_receiverOn;
+    }
+
+    public void SetNewBeam()
+    {
+        _currentBeam = newBeam;
+        beam.SetActive(false);
+        newBeam.SetActive(true);
+    }
+    
+    public void SetOldBeam()
+    {
+        _currentBeam = beam;
+    }
+
+    public void SetReceiverState(bool value)
+    {
+        _receiverOn = value;
     }
 }

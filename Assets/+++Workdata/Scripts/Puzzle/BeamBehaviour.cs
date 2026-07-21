@@ -16,6 +16,8 @@ public class BeamBehaviour : MonoBehaviour
     public Vector3 raycastEnd;
     public Transform target;
     public Transform raycastEndTarget;
+
+    private Vector3 askewEnergy;
     
     public bool foundWall = false;
 
@@ -25,11 +27,14 @@ public class BeamBehaviour : MonoBehaviour
     public Vector3 normalPos;
 
     public bool isShort;
+    public bool isAskew;
 
     private void Awake()
     {
-        normalLength = beamLength.transform.lossyScale;
+        normalLength = beamLength.transform.lossyScale; 
         normalPos = new Vector3(beamLength.transform.position.x, beamLength.transform.position.y, beamLength.transform.position.z);
+        
+        askewEnergy = new Vector3(beamLength.transform.position.x, beamLength.transform.position.y, beamLength.transform.position.z);
     }
 
     public void SetNewPos(Vector3 pos)
@@ -63,14 +68,18 @@ public class BeamBehaviour : MonoBehaviour
         else
         {
             beamLength.transform.localScale = normalLength;
-
-            if (isShort)
+            
+            if (isShort && !isAskew)
             {
                 beamLength.transform.position = new Vector3(beamLength.transform.position.x, normalPos.y, beamLength.transform.position.z);
             }
-            else
+            else if (!isShort && !isAskew)
             {
-                beamLength.transform.position = new Vector3(normalPos.x, beamLength.transform.position.y, beamLength.transform.position.z);
+               beamLength.transform.position = new Vector3(normalPos.x, beamLength.transform.position.y, beamLength.transform.position.z);
+            }
+            else if (!isShort && isAskew)
+            {
+                beamLength.transform.position = askewEnergy;
             }
         }
     }

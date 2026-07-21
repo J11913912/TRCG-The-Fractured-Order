@@ -4,16 +4,17 @@ public class CrateGridLLayout : CrateGrid
 {
     public override void Awake()
     {
-        grid = new int[3, 3]
+        grid = new int[4, 3]
         {
             {1, 0, 0},
             {1, 0, 0},
-            {1, 1, 1},
+            {1, 0, 0},
+            {1, 1, 1}
                 // start pos
         };
 
         posX = 1;
-        posY = 2;
+        posY = 3;
         
         maxX = grid.GetLength(1);
         maxY = grid.GetLength(0);
