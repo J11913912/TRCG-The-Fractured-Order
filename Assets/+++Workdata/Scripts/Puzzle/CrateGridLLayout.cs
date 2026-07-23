@@ -36,7 +36,7 @@ public class CrateGridLLayout : CrateGrid
     public override void Reset()
     {
         posX = 1;
-        posY = 2;
+        posY = 3;
         
         gameObject.transform.position = _startVector;
     }

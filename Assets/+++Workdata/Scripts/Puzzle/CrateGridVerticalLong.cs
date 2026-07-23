@@ -35,8 +35,8 @@ public class CrateGridVerticalLong : CrateGrid
 
     public override void Reset()
     {
-        posX = 0;
-        posY = 1;
+        posX = overrideX;
+        posY = overrideY;
         
         gameObject.transform.position = _startVector;
     }
