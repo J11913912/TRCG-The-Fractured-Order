@@ -21,7 +21,7 @@ public class PushCrate : MonoBehaviour
 
    public Rigidbody2D rb;
 
-   private bool _canPush = true;
+   public bool _canPush = true;
 
    public float pushLength;
 
@@ -32,12 +32,15 @@ public class PushCrate : MonoBehaviour
 
    public void Push()
    {
+      if (!_canPush) return;
+      
       switch (direction)
       {
          case Direction.Left:
             moveDirection = Vector2.right;
             if (_CrateGrid.GetGrid(_CrateGrid.PosX + 1, _CrateGrid.PosY) == 1)
             {
+               _canPush = false;
                rb.linearVelocity = moveDirection * 2;
                Debug.Log("Moving");
                StartCoroutine(StopPush());
@@ -62,6 +65,7 @@ public class PushCrate : MonoBehaviour
             moveDirection = Vector2.left;
             if (_CrateGrid.GetGrid(_CrateGrid.PosX - 1, _CrateGrid.PosY) == 1)
             {
+               _canPush = false;
                rb.linearVelocity = moveDirection * 2;
                Debug.Log("Moving");
                StartCoroutine(StopPush());
@@ -86,6 +90,7 @@ public class PushCrate : MonoBehaviour
             moveDirection = Vector2.down;
             if (_CrateGrid.GetGrid(_CrateGrid.PosX, _CrateGrid.PosY + 1) == 1)
             {
+               _canPush = false;
                rb.linearVelocity = moveDirection * 2;
                Debug.Log("Moving");
                StartCoroutine(StopPush());
@@ -110,6 +115,7 @@ public class PushCrate : MonoBehaviour
             moveDirection = Vector2.up;
             if (_CrateGrid.GetGrid(_CrateGrid.PosX, _CrateGrid.PosY - 1) == 1)
             {
+               _canPush = false;
                rb.linearVelocity = moveDirection * 2;
                Debug.Log("Moving");
                StartCoroutine(StopPush());
