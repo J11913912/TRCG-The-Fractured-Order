@@ -53,6 +53,8 @@ public class BossCrushAbility : MonoBehaviour
 
     public void StopHover()
     {
+        if (!crush) return;
+        
         Debug.Log("CrushOff");
         crush = false;
         _rb.linearVelocity = Vector2.zero;
