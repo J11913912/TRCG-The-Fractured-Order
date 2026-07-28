@@ -40,13 +40,17 @@ public class BossPatrol : MonoBehaviour
     
     public int attackRandom;
     public int random;
+    public bool isSpinning = false;
     
     [Header("Waypoints")] 
     [SerializeField] private List<Transform> waypoints;
+    [SerializeField] private List<Transform> spinningWaypoints;
+    private List<Transform> oldWaypoints;
     [SerializeField] private bool waitAtWaypoint = true;
     [SerializeField] private bool randomOrder;
     [SerializeField] private bool canPatrol = true;
     [SerializeField] private Vector2 waitDuration = new Vector2(1, 5);
+    private Vector2 oldWaitDuration;
 
     public bool isTumbleweed = false;
     
@@ -92,6 +96,9 @@ public class BossPatrol : MonoBehaviour
         _bossCrushAbility = GetComponent<BossCrushAbility>();
         _bossSpinAbility = GetComponent<BossSpinAbility>();
         _crownAbility = GetComponent<CrownAbility>();
+        
+        oldWaypoints = waypoints;
+        oldWaitDuration = waitDuration;
     }
 
     private void Start()
@@ -259,6 +266,18 @@ public class BossPatrol : MonoBehaviour
         ResumePatrol();
     }
     
+    public void SetSpinning(List<Transform> newWaypoints)
+    {
+        waypoints = newWaypoints;
+        Debug.Log("set new waypoints");
+        Debug.Log(waypoints.Count);
+        canPatrol = true;
+        _isWaiting = false;
+        waitAtWaypoint = false;
+        waitDuration = new Vector2(0, 0);
+        ResumePatrol();
+    }
+    
     private void SetNextWaypoint()
     {
         if (randomOrder)
@@ -279,6 +298,7 @@ public class BossPatrol : MonoBehaviour
 
         _target = waypoints[_currentWaypointIndex];
         _agent.SetDestination(_target.position);
+        Debug.Log("found destination");
     }
 
     private void CheckIfWaypointIsReached()
@@ -295,6 +315,7 @@ public class BossPatrol : MonoBehaviour
             else
             {
                 SetNextWaypoint();
+                Debug.Log("Set next waypoint without wair");
             }
         }
     }
@@ -305,16 +326,23 @@ public class BossPatrol : MonoBehaviour
         yield return new WaitForSeconds(duration);
         random = Random.Range(0, 2);
 
-        if (random == 0)
+        if (isSpinning)
         {
-            _isWaiting = false;
             SetNextWaypoint();
         }
         else
         {
-            _isWaiting = true;
-            DecideAttack();
-            StopPatrol();
+            if (random == 0)
+            {
+                _isWaiting = false;
+                SetNextWaypoint();
+            }
+            else
+            {
+                _isWaiting = true;
+                DecideAttack();
+              //  StopPatrol();
+            }
         }
         
        
@@ -353,6 +381,7 @@ public class BossPatrol : MonoBehaviour
         switch (attackRandom)
         {
             case 0:
+                StopPatrol();
                 _bossCrushAbility.HoverOver();
                 Debug.Log("Boss Crush Ability");
                 break;
@@ -360,9 +389,12 @@ public class BossPatrol : MonoBehaviour
             case 1:
                 _bossSpinAbility.StartSpin();
                 Debug.Log("Boss Spin Ability");
+                isSpinning  = true;
+                SetSpinning(spinningWaypoints);
                 break;
             
             case 2:
+                StopPatrol();
                 _crownAbility.Attack();
                 Debug.Log("Crown Ability");
                 break;
@@ -371,6 +403,10 @@ public class BossPatrol : MonoBehaviour
 
     public void ResumePatrolAfterAttack()
     {
+        waypoints = oldWaypoints;
+        waitDuration = oldWaitDuration;
+        waitAtWaypoint = true;
+        isSpinning = false;
         ResumePatrol();
         _isWaiting = false;
     }

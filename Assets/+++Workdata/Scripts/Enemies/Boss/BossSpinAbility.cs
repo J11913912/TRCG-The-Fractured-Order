@@ -5,6 +5,7 @@ using UnityEngine;
 public class BossSpinAbility : MonoBehaviour
 {
     public bool start;
+    public bool isSecondPhase = false;
 
     public float spintime;
     
@@ -30,6 +31,11 @@ public class BossSpinAbility : MonoBehaviour
         Debug.Log("StopSpin");
         _bossPatrol.ResumePatrolAfterAttack();
         //stop animation
+    }
+
+    public void SetSecondPhase()
+    {
+        isSecondPhase = true;
     }
     
 }

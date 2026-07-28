@@ -15,6 +15,8 @@ public class BossCrushAbility : MonoBehaviour
 
     public bool crush = false;
     
+    public bool isSecondPhase = false;
+    
     private BossPatrol _bossPatrol;
     
     private void Awake()
@@ -53,6 +55,8 @@ public class BossCrushAbility : MonoBehaviour
 
     public void StopHover()
     {
+        if (!crush) return;
+        
         Debug.Log("CrushOff");
         crush = false;
         _rb.linearVelocity = Vector2.zero;
@@ -72,5 +76,10 @@ public class BossCrushAbility : MonoBehaviour
     public void Shockwave()
     {
         
+    }
+
+    public void SetSecondPhase()
+    {
+        isSecondPhase = true;
     }
 }
