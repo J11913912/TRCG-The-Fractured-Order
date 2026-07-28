@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 8c2ef6fa183a4b640abf1ec53e90b478
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 337598389129592607
+    second: Spell Incons Placeholder_0
+  - first:
+      213: 6978772477503892763
+    second: Spell Incons Placeholder_1
+  - first:
+      213: -6320183876355722741
+    second: Spell Incons Placeholder_2
+  - first:
+      213: 6789448974085511200
+    second: Spell Incons Placeholder_3
+  - first:
+      213: 7179327623420985911
+    second: Spell Incons Placeholder_4
+  - first:
+      213: 6430859112419687624
+    second: Spell Incons Placeholder_5
+  - first:
+      213: -3530282895980023148
+    second: Spell Incons Placeholder_6
+  - first:
+      213: -1360421580157703454
+    second: Spell Incons Placeholder_7
+  - first:
+      213: 6741076467203284008
+    second: Spell Incons Placeholder_8
+  - first:
+      213: -3197776979573447734
+    second: Spell Incons Placeholder_9
+  - first:
+      213: 2416948645891869137
+    second: Spell Incons Placeholder_10
+  - first:
+      213: -7857360106432412321
+    second: Spell Incons Placeholder_11
+  - first:
+      213: 670128256927192179
+    second: Spell Incons Placeholder_12
+  - first:
+      213: -8818247353335082536
+    second: Spell Incons Placeholder_13
+  - first:
+      213: 224610634760335010
+    second: Spell Incons Placeholder_14
+  - first:
+      213: 8082101950995029649
+    second: Spell Incons Placeholder_15
+  - first:
+      213: -2263798618699758672
+    second: Spell Incons Placeholder_16
+  - first:
+      213: -7739779461123531539
+    second: Spell Incons Placeholder_17
+  - first:
+      213: 185087773445536055
+    second: Spell Incons Placeholder_18
+  - first:
+      213: -1245323556745093295
+    second: Spell Incons Placeholder_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 62
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 107
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f30dc32f36fa400800000000000000
+      internalID: 337598389129592607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 105
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d64e9d79499d060800000000000000
+      internalID: 6978772477503892763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 106
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b027aae00423a48a0800000000000000
+      internalID: -6320183876355722741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 104
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028d101bed7f83e50800000000000000
+      internalID: 6789448974085511200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73248209f6812a360800000000000000
+      internalID: 7179327623420985911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 81
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccfb546a400f3950800000000000000
+      internalID: 6430859112419687624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 82
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492397c096ae10fc0800000000000000
+      internalID: -3530282895980023148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 83
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaace9d7cfce1de0800000000000000
+      internalID: -1360421580157703454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 83
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c9567c45d1d8d50800000000000000
+      internalID: 6741076467203284008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 83
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac36a9597c63f93d0800000000000000
+      internalID: -3197776979573447734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 58
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d90fb6ecf9ba8120800000000000000
+      internalID: 2416948645891869137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_11
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 58
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5545cffc9c05f290800000000000000
+      internalID: -7857360106432412321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 59
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374d8146916cc4900800000000000000
+      internalID: 670128256927192179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 59
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d11fe2d0ca4f9580800000000000000
+      internalID: -8818247353335082536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 61
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae2aa9ae2afd1300800000000000000
+      internalID: 224610634760335010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19edc8357e4692070800000000000000
+      internalID: 8082101950995029649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b38161862f5590e0800000000000000
+      internalID: -2263798618699758672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 34
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1ed35697c69490800000000000000
+      internalID: -7739779461123531539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 32
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7393d7c6950919200800000000000000
+      internalID: 185087773445536055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spell Incons Placeholder_19
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f58c9b2d8b7bee0800000000000000
+      internalID: -1245323556745093295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spell Incons Placeholder_0: 337598389129592607
+      Spell Incons Placeholder_1: 6978772477503892763
+      Spell Incons Placeholder_10: 2416948645891869137
+      Spell Incons Placeholder_11: -7857360106432412321
+      Spell Incons Placeholder_12: 670128256927192179
+      Spell Incons Placeholder_13: -8818247353335082536
+      Spell Incons Placeholder_14: 224610634760335010
+      Spell Incons Placeholder_15: 8082101950995029649
+      Spell Incons Placeholder_16: -2263798618699758672
+      Spell Incons Placeholder_17: -7739779461123531539
+      Spell Incons Placeholder_18: 185087773445536055
+      Spell Incons Placeholder_19: -1245323556745093295
+      Spell Incons Placeholder_2: -6320183876355722741
+      Spell Incons Placeholder_3: 6789448974085511200
+      Spell Incons Placeholder_4: 7179327623420985911
+      Spell Incons Placeholder_5: 6430859112419687624
+      Spell Incons Placeholder_6: -3530282895980023148
+      Spell Incons Placeholder_7: -1360421580157703454
+      Spell Incons Placeholder_8: 6741076467203284008
+      Spell Incons Placeholder_9: -3197776979573447734
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
