@@ -140,6 +140,22 @@ public class CrownAbility : MonoBehaviour
     {
         StopAllCoroutines();
         _bossPatrol.ResumePatrolAfterAttack();
+        StartCoroutine(WaitToKill());
+    }
+
+    private IEnumerator WaitToKill()
+    {
+        yield return new WaitForSeconds(3f);
+        KillAllProjectiles();
+    }
+    
+    public void KillAllProjectiles()
+    {
+        foreach (GameObject crownProjectile in crownProjectiles)
+            { 
+                crownProjectile.GetComponent<CrownProjectileBehaviour>().ResetPosition();
+                crownProjectile.GetComponent<CrownProjectileBehaviour>().IsActive(false);
+            }
     }
 
     public void SetSecondPhase()
