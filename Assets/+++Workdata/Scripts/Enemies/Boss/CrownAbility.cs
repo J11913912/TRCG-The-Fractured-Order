@@ -141,4 +141,9 @@ public class CrownAbility : MonoBehaviour
         StopAllCoroutines();
         _bossPatrol.ResumePatrolAfterAttack();
     }
+
+    public void SetSecondPhase()
+    {
+        phaseOne = false;
+    }
 }

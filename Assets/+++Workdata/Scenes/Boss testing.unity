@@ -896,6 +896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1082697137}
+  - component: {fileID: 1082697147}
   - component: {fileID: 1082697139}
   - component: {fileID: 1082697141}
   - component: {fileID: 1082697136}
@@ -966,6 +967,7 @@ MonoBehaviour:
   start: 0
   moveSpeed: 2
   crush: 0
+  isSecondPhase: 0
 --- !u!50 &1082697139
 Rigidbody2D:
   serializedVersion: 5
@@ -1175,7 +1177,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossSpinAbility
   start: 0
-  spintime: 4
+  isSecondPhase: 0
+  spintime: 10
+--- !u!114 &1082697147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082697135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49021856556fe0a4e9d0002b89381a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossInformation
+  health: 0
+  maxHealth: 0
+  halfHealth: 0
+  isDead: 0
+  isSecondPhase: 0
 --- !u!1 &1132217455
 GameObject:
   m_ObjectHideFlags: 0
