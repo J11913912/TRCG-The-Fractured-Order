@@ -22,6 +22,8 @@ public class SpellButtonSetter : MonoBehaviour
         
         _Id = spell.Id;
         
+        Debug.Log(_Id);
+        
         _spellEquipping = GetComponent<SpellEquipping>();
     }
 
