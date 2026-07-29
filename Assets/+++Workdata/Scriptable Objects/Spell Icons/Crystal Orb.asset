@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789e810022d25d04ca04707f3617fa9b, type: 3}
   m_Name: Crystal Orb
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
-  id: cr_orb
+  Id: 
   sprite: {fileID: -2263798618699758672, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
   displayName: Crystal Pillar
   description: 

@@ -6,7 +6,7 @@ public class SpellButtonSetter : MonoBehaviour
 {
     private Image _image;
     private string _spellName;
-    private string _id;
+    private string _Id;
 
     public SpellDefinition spell;
     
@@ -20,14 +20,14 @@ public class SpellButtonSetter : MonoBehaviour
         
         _spellName = spell.displayName;
         
-        _id = spell.id;
+        _Id = spell.Id;
         
         _spellEquipping = GetComponent<SpellEquipping>();
     }
 
     public void GetId() // on click
     {
-      _spellEquipping.EnterAssginMode(_id);
+      _spellEquipping.EnterAssginMode(_Id);
     }
     
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Spell", menuName = "LuckyFeli/Inventory/SpellIcon")]
 public class SpellDefinition : ScriptableObject
 {
-    public string id;
+    public string Id;
     
     public Sprite sprite;
     

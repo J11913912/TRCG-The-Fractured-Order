@@ -7,6 +7,8 @@ public class SpellEquipping : MonoBehaviour
 {
    private InputSystem_Actions _inputActions;
    private InputAction _arrowAction;
+   private InputAction _cornerAction;
+   private InputAction _focusAction;
 
    public string spellId;
    
@@ -20,19 +22,24 @@ public class SpellEquipping : MonoBehaviour
    {
       _inputActions = new InputSystem_Actions();
       _arrowAction = _inputActions.UI.ArrowsSelect;
+      _cornerAction = _inputActions.UI.NavigateCorners;
+      _focusAction = _inputActions.UI.EquippingFocus;
    }
 
    private void OnEnable()
    {
       _inputActions.Enable();
       _arrowAction.performed += Select;
+      _cornerAction.performed += Navigate;
+      _focusAction.performed += Focus;
    }
 
    private void OnDisable()
    {
       _inputActions.Disable();
       _arrowAction.performed -= Select;
-
+      _cornerAction.performed -= Navigate;
+      _focusAction.performed -= Focus;
    }
 
    private void Select(InputAction.CallbackContext ctx)
@@ -68,9 +75,27 @@ public class SpellEquipping : MonoBehaviour
       spellManager.WhichSpell(arrowPressed, spellId);
    }
 
-   public void EnterAssginMode(string id)
+   public void EnterAssginMode(string Id)
    {
       assignMode = true;
-      spellId = id;
+      spellId = Id;
    }
+
+   private void Navigate(InputAction.CallbackContext ctx)
+   {
+      Debug.Log("heloo");
+      
+      Vector2 input = ctx.ReadValue<Vector2>();
+      
+      SwitchButtonCorners.OnNavigate?.Invoke(input);
+   }
+
+   private void Focus(InputAction.CallbackContext ctx)
+   {
+      Debug.Log("focus");
+      
+      SwitchButtonCorners.OnFocus?.Invoke();
+   }
+
+
 }

@@ -33,13 +33,13 @@ public class SpellManager : MonoBehaviour
         downImage.sprite = downSpell.sprite;
     }
 
-    public void WhichSpell(ArrowPressed key, string id)
+    public void WhichSpell(ArrowPressed key, string Id)
     {
         ArrowPressed _key = key;
         
         foreach (SpellDefinition spell in allSpells)
         {
-            if (spell.id == id)
+            if (spell.Id == Id)
             {
                 SetSpell(spell, key);
             }
