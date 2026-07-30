@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
+using UnityEngine.UI;
 
 
 public class SpellEquipping : MonoBehaviour
@@ -9,6 +12,8 @@ public class SpellEquipping : MonoBehaviour
    private InputAction _arrowAction;
    private InputAction _cornerAction;
    private InputAction _focusAction;
+   
+   public GameObject assignModeIndicator;
 
    public string spellId;
    
@@ -17,6 +22,10 @@ public class SpellEquipping : MonoBehaviour
    public SpellManager spellManager;
 
    public ArrowPressed arrowPressed = ArrowPressed.none;
+   
+   public EventSystem eventSystem;
+
+   private InputActionReference _oldInput;
 
    private void Awake()
    {
@@ -41,6 +50,11 @@ public class SpellEquipping : MonoBehaviour
       _cornerAction.performed -= Navigate;
       _focusAction.performed -= Focus;
    }
+
+   // TODO Back button assignmode
+   // TODO ausgrauen
+   // TODO assignmode indicator
+   
 
    private void Select(InputAction.CallbackContext ctx)
    {
@@ -68,6 +82,9 @@ public class SpellEquipping : MonoBehaviour
       SetSpell();
       
       assignMode = false;
+      assignModeIndicator.SetActive(false);
+      eventSystem.GetComponent<InputSystemUIInputModule>().move = _oldInput ;
+
    }
 
    public void SetSpell()
@@ -79,12 +96,15 @@ public class SpellEquipping : MonoBehaviour
    {
       assignMode = true;
       spellId = Id;
+      
+      assignModeIndicator.SetActive(true);
+
+      _oldInput = eventSystem.GetComponent<InputSystemUIInputModule>().move; 
+      eventSystem.GetComponent<InputSystemUIInputModule>().move = null;
    }
 
    private void Navigate(InputAction.CallbackContext ctx)
    {
-      Debug.Log("heloo");
-      
       Vector2 input = ctx.ReadValue<Vector2>();
       
       SwitchButtonCorners.OnNavigate?.Invoke(input);
@@ -92,8 +112,6 @@ public class SpellEquipping : MonoBehaviour
 
    private void Focus(InputAction.CallbackContext ctx)
    {
-      Debug.Log("focus");
-      
       SwitchButtonCorners.OnFocus?.Invoke();
    }
 

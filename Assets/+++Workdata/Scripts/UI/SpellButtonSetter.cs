@@ -1,16 +1,22 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class SpellButtonSetter : MonoBehaviour
 {
     private Image _image;
     private string _spellName;
+    private string _spellDescription;
     private string _Id;
 
     public SpellDefinition spell;
     
+    public Corner corner;
+    
     private SpellEquipping _spellEquipping;
+    public DisplaySpellInfos _displaySpellInfos;
+    
 
     private void Awake()
     {
@@ -20,9 +26,9 @@ public class SpellButtonSetter : MonoBehaviour
         
         _spellName = spell.displayName;
         
-        _Id = spell.Id;
+        _spellDescription = spell.description;
         
-        Debug.Log(_Id);
+        _Id = spell.Id;
         
         _spellEquipping = GetComponent<SpellEquipping>();
     }
@@ -30,6 +36,21 @@ public class SpellButtonSetter : MonoBehaviour
     public void GetId() // on click
     {
       _spellEquipping.EnterAssginMode(_Id);
+    }
+
+    private void Update()
+    {
+        GameObject currentSelect = EventSystem.current.currentSelectedGameObject;
+
+        if (currentSelect == this.gameObject)
+        {
+            OnSelect();
+        }
+    }
+
+    public void OnSelect()
+    {
+        _displaySpellInfos.SetDescription(corner, _spellName, _spellDescription);
     }
     
 }

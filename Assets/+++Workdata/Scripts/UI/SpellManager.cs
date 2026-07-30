@@ -24,7 +24,7 @@ public class SpellManager : MonoBehaviour
     {
         SetImages();
     }
-
+    
     private void SetImages()
     {
         leftImage.sprite = leftSpell.sprite;
@@ -64,6 +64,29 @@ public class SpellManager : MonoBehaviour
                 break;
         }
         SetImages();
+    }
+
+    public SpellDefinition ReturnSpell(ArrowPressed key)
+    {
+        SpellDefinition spell = leftSpell;
+        
+        switch (key)
+        {
+            case ArrowPressed.left: 
+                spell = leftSpell;
+                break;
+            case ArrowPressed.right:
+                spell = rightSpell;
+                break;
+            case ArrowPressed.up:
+                spell = upSpell;
+                break;
+            case ArrowPressed.down: 
+                spell = downSpell;
+                break;
+        }
+
+        return spell;
     }
     
 }

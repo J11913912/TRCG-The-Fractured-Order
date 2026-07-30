@@ -6,3 +6,11 @@ public enum ArrowPressed
     down,
     none
 }
+
+public enum Corner
+{
+    upLeft,
+    upRright,
+    downLeft,
+    downRight
+}
