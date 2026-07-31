@@ -48,22 +48,29 @@ public class SpellManager : MonoBehaviour
 
     private void SetSpell(SpellDefinition spell, ArrowPressed key)
     {
+        string path = "";
+        
         switch (key)
         {
             case ArrowPressed.left:
                 leftSpell = spell;
+                path = "<Keyboard>/leftArrow";
                 break;
             case ArrowPressed.right:
                 rightSpell = spell;
+                path = "<Keyboard>/rightArrow";
                 break;
             case ArrowPressed.up:
                 upSpell = spell;
+                path = "<Keyboard>/upArrow";
                 break;
             case ArrowPressed.down:
                 downSpell = spell;
+                path = "<Keyboard>/downArrow";
                 break;
         }
         SetImages();
+        PlayerInput.OnChangeBinding?.Invoke(spell, path);
     }
 
     public SpellDefinition ReturnSpell(ArrowPressed key)

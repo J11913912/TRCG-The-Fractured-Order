@@ -190,6 +190,78 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""BaseProjectile"",
+                    ""type"": ""Button"",
+                    ""id"": ""3a34d645-bdd5-453e-8180-05206c400c23"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""BaseAoE"",
+                    ""type"": ""Button"",
+                    ""id"": ""f26b8780-c7a4-466b-8245-1ae734eec131"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""BaseShield"",
+                    ""type"": ""Button"",
+                    ""id"": ""ad9f1d9f-1113-4653-b3c4-034f14ce6725"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""BaseHealing"",
+                    ""type"": ""Button"",
+                    ""id"": ""cddbc3b6-9975-431b-b0be-63b8880b886d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CrystalProjectile"",
+                    ""type"": ""Button"",
+                    ""id"": ""9e4a6e2e-0842-4108-a2f6-056c34bbe36b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CrystalAoE"",
+                    ""type"": ""Button"",
+                    ""id"": ""51ec4a30-bbce-4b46-9db9-d4252732fd1f"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CrystalShield"",
+                    ""type"": ""Button"",
+                    ""id"": ""0a6f1351-6eed-44ad-bb39-3d3823c9ae22"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CrystalHealing"",
+                    ""type"": ""Button"",
+                    ""id"": ""7595b2ca-a942-4395-a29a-db078de57564"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -227,31 +299,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""up"",
-                    ""id"": ""8180e8bd-4097-4f4e-ab88-4523101a6ce9"",
-                    ""path"": ""<Keyboard>/upArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": ""down"",
                     ""id"": ""320bffee-a40b-4347-ac70-c210eb8bc73a"",
                     ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""1c5327b5-f71c-4f60-99c7-4e737386f1d1"",
-                    ""path"": ""<Keyboard>/downArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
@@ -271,31 +321,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""left"",
-                    ""id"": ""2e46982e-44cc-431b-9f0b-c11910bf467a"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
                     ""name"": ""right"",
                     ""id"": ""fcfe95b8-67b9-4526-84b5-5d0bc98d6400"",
                     ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""77bff152-3580-4b21-b6de-dcd0c7e41164"",
-                    ""path"": ""<Keyboard>/rightArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
@@ -599,6 +627,182 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""ClickTest"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""69b87f18-0612-4ba9-944e-2d978ddb0ad7"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalProjectile"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6f2ccd64-ea0e-42a2-9334-90b462535e57"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalProjectile"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a1f8e8ad-6755-42f8-932f-37178faa5271"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalAoE"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1cb6f01d-912a-43db-8f29-ef34bbcb97a9"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalAoE"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1dcc7849-acab-4d85-87dd-72ac5da564de"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalShield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f70c63cf-84f4-4d4e-88f0-8b6279bc8d8b"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalShield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b63841e9-1003-4833-baca-36e91c773f4b"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalHealing"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e2ff57e4-c854-4838-8e98-66add2f8830d"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrystalHealing"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""32bf72c5-d04f-4c64-bca4-a255f759f331"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseAoE"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""924031fb-6032-4129-a61f-3f4bcf21a5ae"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseAoE"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""399140c7-911f-4bdf-9fe3-d5ec88cfe677"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseShield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""82565563-3aac-4037-8616-b41707e996a3"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseShield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""be618d3d-8749-4409-b8c7-3c77db83c2d3"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseHealing"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""221af3f7-c0b1-4671-ad8d-fd22b7dfd524"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseHealing"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f98acda5-4bea-4605-8550-1bac82c3af2a"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseProjectile"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f9638b1c-301b-46e1-87e8-9f4b0a41b6f9"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""BaseProjectile"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -727,6 +931,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""name"": ""EquippingFocus"",
                     ""type"": ""Button"",
                     ""id"": ""69b579ea-478a-4a2e-9fa3-8b5ea4d7f2e0"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""456f68a1-1c54-466e-9ce0-328f8e03a3d9"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -1492,6 +1705,28 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""EquippingFocus"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bb4d327c-aa22-405c-8a1d-d6b8812614d4"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8fd79a17-9040-45b2-8107-793b5bb408f1"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -1572,6 +1807,14 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
         m_Player_Roll = m_Player.FindAction("Roll", throwIfNotFound: true);
         m_Player_ClickTest = m_Player.FindAction("ClickTest", throwIfNotFound: true);
+        m_Player_BaseProjectile = m_Player.FindAction("BaseProjectile", throwIfNotFound: true);
+        m_Player_BaseAoE = m_Player.FindAction("BaseAoE", throwIfNotFound: true);
+        m_Player_BaseShield = m_Player.FindAction("BaseShield", throwIfNotFound: true);
+        m_Player_BaseHealing = m_Player.FindAction("BaseHealing", throwIfNotFound: true);
+        m_Player_CrystalProjectile = m_Player.FindAction("CrystalProjectile", throwIfNotFound: true);
+        m_Player_CrystalAoE = m_Player.FindAction("CrystalAoE", throwIfNotFound: true);
+        m_Player_CrystalShield = m_Player.FindAction("CrystalShield", throwIfNotFound: true);
+        m_Player_CrystalHealing = m_Player.FindAction("CrystalHealing", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1588,6 +1831,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_UI_ArrowsSelect = m_UI.FindAction("ArrowsSelect", throwIfNotFound: true);
         m_UI_NavigateCorners = m_UI.FindAction("NavigateCorners", throwIfNotFound: true);
         m_UI_EquippingFocus = m_UI.FindAction("EquippingFocus", throwIfNotFound: true);
+        m_UI_Pause = m_UI.FindAction("Pause", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -1680,6 +1924,14 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Sprint;
     private readonly InputAction m_Player_Roll;
     private readonly InputAction m_Player_ClickTest;
+    private readonly InputAction m_Player_BaseProjectile;
+    private readonly InputAction m_Player_BaseAoE;
+    private readonly InputAction m_Player_BaseShield;
+    private readonly InputAction m_Player_BaseHealing;
+    private readonly InputAction m_Player_CrystalProjectile;
+    private readonly InputAction m_Player_CrystalAoE;
+    private readonly InputAction m_Player_CrystalShield;
+    private readonly InputAction m_Player_CrystalHealing;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -1735,6 +1987,38 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/ClickTest".
         /// </summary>
         public InputAction @ClickTest => m_Wrapper.m_Player_ClickTest;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/BaseProjectile".
+        /// </summary>
+        public InputAction @BaseProjectile => m_Wrapper.m_Player_BaseProjectile;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/BaseAoE".
+        /// </summary>
+        public InputAction @BaseAoE => m_Wrapper.m_Player_BaseAoE;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/BaseShield".
+        /// </summary>
+        public InputAction @BaseShield => m_Wrapper.m_Player_BaseShield;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/BaseHealing".
+        /// </summary>
+        public InputAction @BaseHealing => m_Wrapper.m_Player_BaseHealing;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/CrystalProjectile".
+        /// </summary>
+        public InputAction @CrystalProjectile => m_Wrapper.m_Player_CrystalProjectile;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/CrystalAoE".
+        /// </summary>
+        public InputAction @CrystalAoE => m_Wrapper.m_Player_CrystalAoE;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/CrystalShield".
+        /// </summary>
+        public InputAction @CrystalShield => m_Wrapper.m_Player_CrystalShield;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/CrystalHealing".
+        /// </summary>
+        public InputAction @CrystalHealing => m_Wrapper.m_Player_CrystalHealing;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1794,6 +2078,30 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @ClickTest.started += instance.OnClickTest;
             @ClickTest.performed += instance.OnClickTest;
             @ClickTest.canceled += instance.OnClickTest;
+            @BaseProjectile.started += instance.OnBaseProjectile;
+            @BaseProjectile.performed += instance.OnBaseProjectile;
+            @BaseProjectile.canceled += instance.OnBaseProjectile;
+            @BaseAoE.started += instance.OnBaseAoE;
+            @BaseAoE.performed += instance.OnBaseAoE;
+            @BaseAoE.canceled += instance.OnBaseAoE;
+            @BaseShield.started += instance.OnBaseShield;
+            @BaseShield.performed += instance.OnBaseShield;
+            @BaseShield.canceled += instance.OnBaseShield;
+            @BaseHealing.started += instance.OnBaseHealing;
+            @BaseHealing.performed += instance.OnBaseHealing;
+            @BaseHealing.canceled += instance.OnBaseHealing;
+            @CrystalProjectile.started += instance.OnCrystalProjectile;
+            @CrystalProjectile.performed += instance.OnCrystalProjectile;
+            @CrystalProjectile.canceled += instance.OnCrystalProjectile;
+            @CrystalAoE.started += instance.OnCrystalAoE;
+            @CrystalAoE.performed += instance.OnCrystalAoE;
+            @CrystalAoE.canceled += instance.OnCrystalAoE;
+            @CrystalShield.started += instance.OnCrystalShield;
+            @CrystalShield.performed += instance.OnCrystalShield;
+            @CrystalShield.canceled += instance.OnCrystalShield;
+            @CrystalHealing.started += instance.OnCrystalHealing;
+            @CrystalHealing.performed += instance.OnCrystalHealing;
+            @CrystalHealing.canceled += instance.OnCrystalHealing;
         }
 
         /// <summary>
@@ -1838,6 +2146,30 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @ClickTest.started -= instance.OnClickTest;
             @ClickTest.performed -= instance.OnClickTest;
             @ClickTest.canceled -= instance.OnClickTest;
+            @BaseProjectile.started -= instance.OnBaseProjectile;
+            @BaseProjectile.performed -= instance.OnBaseProjectile;
+            @BaseProjectile.canceled -= instance.OnBaseProjectile;
+            @BaseAoE.started -= instance.OnBaseAoE;
+            @BaseAoE.performed -= instance.OnBaseAoE;
+            @BaseAoE.canceled -= instance.OnBaseAoE;
+            @BaseShield.started -= instance.OnBaseShield;
+            @BaseShield.performed -= instance.OnBaseShield;
+            @BaseShield.canceled -= instance.OnBaseShield;
+            @BaseHealing.started -= instance.OnBaseHealing;
+            @BaseHealing.performed -= instance.OnBaseHealing;
+            @BaseHealing.canceled -= instance.OnBaseHealing;
+            @CrystalProjectile.started -= instance.OnCrystalProjectile;
+            @CrystalProjectile.performed -= instance.OnCrystalProjectile;
+            @CrystalProjectile.canceled -= instance.OnCrystalProjectile;
+            @CrystalAoE.started -= instance.OnCrystalAoE;
+            @CrystalAoE.performed -= instance.OnCrystalAoE;
+            @CrystalAoE.canceled -= instance.OnCrystalAoE;
+            @CrystalShield.started -= instance.OnCrystalShield;
+            @CrystalShield.performed -= instance.OnCrystalShield;
+            @CrystalShield.canceled -= instance.OnCrystalShield;
+            @CrystalHealing.started -= instance.OnCrystalHealing;
+            @CrystalHealing.performed -= instance.OnCrystalHealing;
+            @CrystalHealing.canceled -= instance.OnCrystalHealing;
         }
 
         /// <summary>
@@ -1889,6 +2221,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_ArrowsSelect;
     private readonly InputAction m_UI_NavigateCorners;
     private readonly InputAction m_UI_EquippingFocus;
+    private readonly InputAction m_UI_Pause;
     /// <summary>
     /// Provides access to input actions defined in input action map "UI".
     /// </summary>
@@ -1957,6 +2290,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @EquippingFocus => m_Wrapper.m_UI_EquippingFocus;
         /// <summary>
+        /// Provides access to the underlying input action "UI/Pause".
+        /// </summary>
+        public InputAction @Pause => m_Wrapper.m_UI_Pause;
+        /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
         public InputActionMap Get() { return m_Wrapper.m_UI; }
@@ -2024,6 +2361,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @EquippingFocus.started += instance.OnEquippingFocus;
             @EquippingFocus.performed += instance.OnEquippingFocus;
             @EquippingFocus.canceled += instance.OnEquippingFocus;
+            @Pause.started += instance.OnPause;
+            @Pause.performed += instance.OnPause;
+            @Pause.canceled += instance.OnPause;
         }
 
         /// <summary>
@@ -2077,6 +2417,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @EquippingFocus.started -= instance.OnEquippingFocus;
             @EquippingFocus.performed -= instance.OnEquippingFocus;
             @EquippingFocus.canceled -= instance.OnEquippingFocus;
+            @Pause.started -= instance.OnPause;
+            @Pause.performed -= instance.OnPause;
+            @Pause.canceled -= instance.OnPause;
         }
 
         /// <summary>
@@ -2259,6 +2602,62 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnClickTest(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "BaseProjectile" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnBaseProjectile(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "BaseAoE" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnBaseAoE(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "BaseShield" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnBaseShield(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "BaseHealing" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnBaseHealing(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CrystalProjectile" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCrystalProjectile(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CrystalAoE" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCrystalAoE(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CrystalShield" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCrystalShield(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CrystalHealing" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCrystalHealing(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.
@@ -2365,5 +2764,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnEquippingFocus(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Pause" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnPause(InputAction.CallbackContext context);
     }
 }

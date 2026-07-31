@@ -1,16 +1,31 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerInput : MonoBehaviour
 {
+    public static Action<SpellDefinition, string> OnChangeBinding;
+    
      #region InputActions
+     
+     private List<InputAction> actions = new List<InputAction>();
 
         private InputSystem_Actions _inputActions;
         private InputAction _moveAction;
-        private InputAction _rollAction;
-        private InputAction _attackAction;
+        private InputAction _teleAction;
+        
+        private InputAction _baseProjectileAction;
+        private InputAction _baseAoEAction;
+        private InputAction _baseShieldAction;
+        private InputAction _baseHealingAction;
+        
+        private InputAction _crystalProjectileAction;
+        private InputAction _crystalAoEAction;
+        private InputAction _crystalShieldAction;
+        private InputAction _crystalHealingAction;
+        
         private InputAction _interactAction;
 
         #endregion
@@ -23,9 +38,30 @@ public class PlayerInput : MonoBehaviour
         {
             _inputActions = new InputSystem_Actions();
             _moveAction = _inputActions.Player.Move;
-            _rollAction = _inputActions.Player.Roll;
-            _attackAction = _inputActions.Player.Attack;
+            _teleAction = _inputActions.Player.Roll;
+            
+            _baseProjectileAction = _inputActions.Player.BaseProjectile;
+            _baseAoEAction = _inputActions.Player.BaseAoE;
+            _baseShieldAction = _inputActions.Player.BaseShield;
+            _baseHealingAction = _inputActions.Player.BaseHealing;
+            
+            _crystalProjectileAction = _inputActions.Player.CrystalProjectile;
+            _crystalAoEAction  = _inputActions.Player.CrystalAoE;
+            _crystalShieldAction = _inputActions.Player.CrystalShield;
+            _crystalHealingAction = _inputActions.Player.CrystalHealing;
+            
             _interactAction = _inputActions.Player.Interact;
+            
+            actions.Add(_baseProjectileAction);
+            actions.Add(_baseAoEAction);
+            actions.Add(_baseShieldAction);
+            actions.Add(_baseHealingAction);
+            
+            actions.Add(_crystalProjectileAction);
+            actions.Add(_crystalAoEAction);
+            actions.Add(_crystalShieldAction);
+            actions.Add(_crystalHealingAction);
+            
 
         }
 
@@ -35,11 +71,21 @@ public class PlayerInput : MonoBehaviour
             _moveAction.performed += Move;
             _moveAction.canceled += Move;
 
-            _rollAction.performed += Roll;
+            _teleAction.performed += Teleport;
 
-            _attackAction.performed += Attack;
+            _baseProjectileAction.performed += BaseProjectile;
+            _baseAoEAction.performed += BaseAoE;
+            _baseShieldAction.performed += BaseShield;
+            _baseHealingAction.performed += BaseHealing;
+            
+            _crystalProjectileAction.performed += CrystalProjectile;
+            _crystalAoEAction.performed += CrystalAoE;
+            _crystalShieldAction.performed += CrystalShield;
+            _crystalHealingAction.performed += CrystalHealing;
 
             _interactAction.performed += Interact;
+            
+            OnChangeBinding += ChangeBinding;
         }
 
         private void OnDisable()
@@ -48,11 +94,21 @@ public class PlayerInput : MonoBehaviour
             _moveAction.performed -= Move;
             _moveAction.canceled -= Move;
 
-            _rollAction.performed -= Roll;
+            _teleAction.performed -= Teleport;
             
-            _attackAction.performed -= Attack;
+            _baseProjectileAction.performed -= BaseProjectile;
+            _baseAoEAction.performed -= BaseAoE;
+            _baseShieldAction.performed -= BaseShield;
+            _baseHealingAction.performed -= BaseHealing;
+            
+            _crystalProjectileAction.performed -= CrystalProjectile;
+            _crystalAoEAction.performed -= CrystalAoE;
+            _crystalShieldAction.performed -= CrystalShield;
+            _crystalHealingAction.performed -= CrystalHealing;
             
             _interactAction.performed += Interact;
+            
+            OnChangeBinding -= ChangeBinding;
         }
 
         public void EnableInput()
@@ -63,6 +119,19 @@ public class PlayerInput : MonoBehaviour
         public void DisableInput()
         {
             _inputActions.Disable();
+        }
+
+        #endregion
+
+
+        #region KeyBinds
+
+        public void ChangeBinding(SpellDefinition spellDefinition, string path)
+        {
+            //actions[spellDefinition.index].ChangeBinding(path);
+            Debug.Log(spellDefinition.index);
+            actions[spellDefinition.index].ApplyBindingOverride(0, path);
+            
         }
 
         #endregion
@@ -96,15 +165,64 @@ public class PlayerInput : MonoBehaviour
             _lasMoveInput = ctx.ReadValue<Vector2>();
         }
         
-        private void Roll(InputAction.CallbackContext ctx)
+        private void Teleport(InputAction.CallbackContext ctx)
         {
             //PlayerRoll.OnRollInput?.Invoke();
         }
+        
+        
+        #region Spells
 
-        private void Attack(InputAction.CallbackContext ctx)
+
+        #region BaseSpells
+
+        private void BaseProjectile(InputAction.CallbackContext ctx)
         {
-            //PlayerAttack.OnAttackInput?.Invoke();
+            Debug.Log("BaseProjectile");
         }
+        
+        private void BaseAoE(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("BaseAoE");
+        }
+        
+        private void BaseShield(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("BaseShield");
+        }
+        
+        private void BaseHealing(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("BaseHealing");
+        }
+
+        #endregion
+        
+        
+        private void CrystalProjectile(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("CrystalProjectile");
+        }
+        
+        private void CrystalAoE(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("CrystalAoE");
+        }
+        
+        private void CrystalShield(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("CrystalShield");
+        }
+        
+        private void CrystalHealing(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("CrystalHealing");
+        }
+        
+       
+        
+        #endregion
+        
 
         private void Interact(InputAction.CallbackContext ctx)
         {

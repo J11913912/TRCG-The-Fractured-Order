@@ -130,7 +130,7 @@ public class SwitchButtonCorners : MonoBehaviour
 
     private IEnumerator PressAgain()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForEndOfFrame();
         justPressed = false;
     }
 
@@ -193,7 +193,7 @@ public class SwitchButtonCorners : MonoBehaviour
     
     private IEnumerator PressAgainFocus()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForEndOfFrame();
         justPressedFocus = false;
     }
 }
