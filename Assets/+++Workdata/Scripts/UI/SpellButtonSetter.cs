@@ -50,7 +50,15 @@ public class SpellButtonSetter : MonoBehaviour
 
     public void OnSelect()
     {
-        _displaySpellInfos.SetDescription(corner, _spellName, _spellDescription);
+        if (gameObject.GetComponent<Button>().interactable)
+        {
+            _displaySpellInfos.SetDescription(corner, _spellName, _spellDescription);
+        }
+        else
+        {
+            _displaySpellInfos.SetEmpty(corner);
+        }
+        
     }
     
 }

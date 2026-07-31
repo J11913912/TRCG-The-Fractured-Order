@@ -8,12 +8,15 @@ using UnityEngine.UI;
 
 public class SpellEquipping : MonoBehaviour
 {
+   public static Action OnFocusShift;
+   
    private InputSystem_Actions _inputActions;
    private InputAction _arrowAction;
    private InputAction _cornerAction;
    private InputAction _focusAction;
    
    public GameObject assignModeIndicator;
+   public GameObject grey;
 
    public string spellId;
    
@@ -33,6 +36,8 @@ public class SpellEquipping : MonoBehaviour
       _arrowAction = _inputActions.UI.ArrowsSelect;
       _cornerAction = _inputActions.UI.NavigateCorners;
       _focusAction = _inputActions.UI.EquippingFocus;
+      
+      _oldInput = eventSystem.GetComponent<InputSystemUIInputModule>().move; 
    }
 
    private void OnEnable()
@@ -41,6 +46,8 @@ public class SpellEquipping : MonoBehaviour
       _arrowAction.performed += Select;
       _cornerAction.performed += Navigate;
       _focusAction.performed += Focus;
+
+      OnFocusShift += TurnOffAssign;
    }
 
    private void OnDisable()
@@ -49,12 +56,10 @@ public class SpellEquipping : MonoBehaviour
       _arrowAction.performed -= Select;
       _cornerAction.performed -= Navigate;
       _focusAction.performed -= Focus;
-   }
+      
+      OnFocusShift -= TurnOffAssign;
 
-   // TODO Back button assignmode
-   // TODO ausgrauen
-   // TODO assignmode indicator
-   
+   }
 
    private void Select(InputAction.CallbackContext ctx)
    {
@@ -81,9 +86,7 @@ public class SpellEquipping : MonoBehaviour
       
       SetSpell();
       
-      assignMode = false;
-      assignModeIndicator.SetActive(false);
-      eventSystem.GetComponent<InputSystemUIInputModule>().move = _oldInput ;
+      TurnOffAssign();
 
    }
 
@@ -94,12 +97,17 @@ public class SpellEquipping : MonoBehaviour
 
    public void EnterAssginMode(string Id)
    {
+      if (assignMode)
+      {
+         TurnOffAssign();
+         return;
+      }
+      
       assignMode = true;
       spellId = Id;
       
       assignModeIndicator.SetActive(true);
-
-      _oldInput = eventSystem.GetComponent<InputSystemUIInputModule>().move; 
+      grey.SetActive(true);
       eventSystem.GetComponent<InputSystemUIInputModule>().move = null;
    }
 
@@ -113,6 +121,14 @@ public class SpellEquipping : MonoBehaviour
    private void Focus(InputAction.CallbackContext ctx)
    {
       SwitchButtonCorners.OnFocus?.Invoke();
+   }
+
+   private void TurnOffAssign()
+   {
+      assignMode = false;
+      grey.SetActive(false);
+      assignModeIndicator.SetActive(false);
+      eventSystem.GetComponent<InputSystemUIInputModule>().move = _oldInput;
    }
 
 

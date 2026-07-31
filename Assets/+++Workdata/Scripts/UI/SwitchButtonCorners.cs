@@ -54,8 +54,8 @@ public class SwitchButtonCorners : MonoBehaviour
         if (focusOn) return;
         justPressed = true;
 
-        Debug.Log(input);
-
+        SpellEquipping.OnFocusShift?.Invoke();
+        
         if (input == Vector2.left)
         {
             currentPos.x = currentPos.x ==  0 ? 1 : 0;
@@ -138,25 +138,25 @@ public class SwitchButtonCorners : MonoBehaviour
     {
         Debug.Log("SetNewButton");
 
-       if (currentPos == new Vector2(0, 0))
-       {
-           currentSelectedGameObject = allButtons[0];
-       }
+        if (currentPos == new Vector2(0, 0))
+        {
+            currentSelectedGameObject = allButtons[0];
+        }
        
-       if (currentPos == new Vector2(1, 0))
-       {
-           currentSelectedGameObject = allButtons[1];
-       }
+        if (currentPos == new Vector2(1, 0))
+        {
+            currentSelectedGameObject = allButtons[12];
+        }
        
-       if (currentPos == new Vector2(1, 1))
-       {
-           currentSelectedGameObject = allButtons[2];
-       }
+        if (currentPos == new Vector2(1, 1))
+        {
+            currentSelectedGameObject = allButtons[8];
+        }
        
-       if (currentPos == new Vector2(0, 1))
-       {
-           currentSelectedGameObject = allButtons[3];
-       }
+        if (currentPos == new Vector2(0, 1))
+        {
+            currentSelectedGameObject = allButtons[4];
+        }
         
         currentSelectedGameObject.GetComponent<Button>().Select();
     }
@@ -172,6 +172,8 @@ public class SwitchButtonCorners : MonoBehaviour
 
             currentSelectedGameObject = focusButton;
             currentSelectedGameObject.GetComponent<Button>().Select();
+            
+            SpellEquipping.OnFocusShift?.Invoke();
         }
         else
         {

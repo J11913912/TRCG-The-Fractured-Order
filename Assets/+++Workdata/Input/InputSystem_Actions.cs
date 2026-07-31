@@ -1484,17 +1484,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""7dca7e11-027c-480b-9b60-30680a4b2b9e"",
-                    ""path"": ""<Keyboard>/shift"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""EquippingFocus"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""5ecb5dcf-9143-466e-9102-608741c5dfe8"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",

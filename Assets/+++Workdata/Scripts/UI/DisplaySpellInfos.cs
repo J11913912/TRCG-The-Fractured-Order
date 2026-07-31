@@ -49,4 +49,45 @@ public class DisplaySpellInfos : MonoBehaviour
                 break;
         }
     }
+
+    public void SetEmpty(Corner corner)
+    {
+        foreach (GameObject desc in descriptions)
+        {
+            desc.SetActive(false);
+        }
+        
+        _corner = corner;
+
+        switch (_corner)
+        {
+            case Corner.upLeft:
+                descriptions[0].SetActive(true);
+                texts = descriptions[0].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
+                texts[0].text = "";
+                texts[1].text = "Spell not unlocked, go learn it somewhere!";
+                break;
+            
+            case Corner.upRright:
+                descriptions[1].SetActive(true);
+                texts = descriptions[1].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
+                texts[0].text = "";
+                texts[1].text = "Spell not unlocked, go learn it somewhere!";
+                break;
+            
+            case Corner.downRight:
+                descriptions[2].SetActive(true);
+                texts = descriptions[2].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
+                texts[0].text = "";
+                texts[1].text = "Spell not unlocked, go learn it somewhere!";
+                break;
+            
+            case Corner.downLeft:
+                descriptions[3].SetActive(true);
+                texts = descriptions[3].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
+                texts[0].text = "";
+                texts[1].text = "Spell not unlocked, go learn it somewhere!";
+                break;
+        }
+    }
 }
