@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.Mathematics.Geometry;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -8,6 +9,7 @@ using Random = UnityEngine.Random;
 public class LoadingScreenSetter : MonoBehaviour
 {
     public bool start = false;
+    public bool special = false;
 
     public Slider slider;
     
@@ -15,6 +17,8 @@ public class LoadingScreenSetter : MonoBehaviour
 
     public int randomDuration;
     public float duration;
+    
+    public RoomTransition roomTransition;
 
     private void Awake()
     {
@@ -34,13 +38,37 @@ public class LoadingScreenSetter : MonoBehaviour
                 start = false;
                 animator.SetBool("isLoading", false);
                 slider.value = 0;
+                
+               // roomTransition.
+            }
+        }
+
+        if (special)
+        {
+            animator.SetBool("isLoading", true);
+            
+            slider.value += Time.deltaTime * duration;
+            
+            if (slider.value >= 0.75f)
+            { 
+                special = false;
+                int waitDuration = Random.Range(3, 7);
+                animator.SetBool("isPausing", true);
+                StartCoroutine(WaitToContinue(waitDuration));
             }
         }
     }
 
+    private IEnumerator WaitToContinue(int waitDuration)
+    {
+        yield return new WaitForSeconds(waitDuration);
+        animator.SetBool("isPausing", false);
+        start = true;
+    }
+
     public void StartThingy()
     {
-        randomDuration = Random.Range(0, 3);
+        randomDuration = Random.Range(0, 5);
 
         switch (randomDuration)
         {
@@ -56,6 +84,11 @@ public class LoadingScreenSetter : MonoBehaviour
             case 3:
                 duration = 0.8f;
                 break;
+            case 4:
+                duration = 0.2f;
+                special = true;
+                return;
+                
         }
         
         start = true;

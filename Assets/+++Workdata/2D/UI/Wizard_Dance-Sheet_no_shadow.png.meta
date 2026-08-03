@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: a4e6b16088ad4104c864229d60d774cc
+guid: 75aacd01311ad7545b12cd9d8ef6280c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6501236909888343602
-    second: Player_Spin-Sheet_0
+      213: 1103718565981175306
+    second: Wizard_Dance-Sheet_no_shadow_0
   - first:
-      213: 4865102758787883748
-    second: Player_Spin-Sheet_1
+      213: 6598247554332034544
+    second: Wizard_Dance-Sheet_no_shadow_1
   - first:
-      213: 2486253926913947104
-    second: Player_Spin-Sheet_2
+      213: 6028677816797742433
+    second: Wizard_Dance-Sheet_no_shadow_2
   - first:
-      213: 596025969020378342
-    second: Player_Spin-Sheet_3
+      213: -3081430121620752349
+    second: Wizard_Dance-Sheet_no_shadow_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 126
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Spin-Sheet_0
+      name: Wizard_Dance-Sheet_no_shadow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec17279b977f6c5a0800000000000000
-      internalID: -6501236909888343602
+      spriteID: a0ebf412032315f00800000000000000
+      internalID: 1103718565981175306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Spin-Sheet_1
+      name: Wizard_Dance-Sheet_no_shadow_1
       rect:
         serializedVersion: 2
         x: 128
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e22355ce21548340800000000000000
-      internalID: 4865102758787883748
+      spriteID: 0f50d00113fa19b50800000000000000
+      internalID: 6598247554332034544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Spin-Sheet_2
+      name: Wizard_Dance-Sheet_no_shadow_2
       rect:
         serializedVersion: 2
         x: 256
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e5302716c2f08220800000000000000
-      internalID: 2486253926913947104
+      spriteID: 165c187788a2aa350800000000000000
+      internalID: 6028677816797742433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Spin-Sheet_3
+      name: Wizard_Dance-Sheet_no_shadow_3
       rect:
         serializedVersion: 2
         x: 384
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ec1e500672854800800000000000000
-      internalID: 596025969020378342
+      spriteID: 3283b9861af8c35d0800000000000000
+      internalID: -3081430121620752349
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2113168ca7c41eb4ea40d96eb21d01fd
+    spriteID: 2a8deffc3f6c90e4c8d3d3036ced5bf2
     internalID: 0
     vertices: []
     indices: 
@@ -225,10 +225,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Spin-Sheet_0: -6501236909888343602
-      Player_Spin-Sheet_1: 4865102758787883748
-      Player_Spin-Sheet_2: 2486253926913947104
-      Player_Spin-Sheet_3: 596025969020378342
+      Wizard_Dance-Sheet_no_shadow_0: 1103718565981175306
+      Wizard_Dance-Sheet_no_shadow_1: 6598247554332034544
+      Wizard_Dance-Sheet_no_shadow_2: 6028677816797742433
+      Wizard_Dance-Sheet_no_shadow_3: -3081430121620752349
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
