@@ -35,12 +35,17 @@ public class RoomTransition : MonoBehaviour
             player.GetComponent<PlayerInput>().DisableInput();
                 
             StartCoroutine(Teleport(other.gameObject));
+           
         }
     }
 
     IEnumerator Teleport(GameObject _player)
     {
         yield return StartCoroutine(Fade(0f, 1f));
+        
+        player.GetComponent<PlayerInput>().DisableInput();
+        
+        _loadingScreenSetter.StartThingy();
         
         _oldPos = _player.transform.position;
                 
@@ -54,14 +59,11 @@ public class RoomTransition : MonoBehaviour
                 
         Debug.Log("Teleport");
 
-        yield return StartCoroutine(Fade(1f, 0f));
     }
     
     IEnumerator Fade(float _startAlpha, float _endAlpha)
     { 
-        _startAlpha = fade.color.a;
-       
-        Color color = fade.color;
+        _startAlpha = fade2.alpha;
         
        // fadeDuration = _loadingScreenSetter.StartThingy();
        
@@ -70,22 +72,18 @@ public class RoomTransition : MonoBehaviour
         while (time < fadeDuration)
         { 
             time += Time.deltaTime; 
-            color.a = Mathf.Lerp(_startAlpha, _endAlpha, time / fadeDuration);
+            fade2.alpha = Mathf.Lerp(_startAlpha, _endAlpha, time / fadeDuration);
             
-            fade.color = color;
             yield return null;
 
         } 
         
-        color.a = _endAlpha;
-        fade.color = color;
-       
-        player.GetComponent<PlayerInput>().EnableInput();
        // _setLevelConfiner.SetNewConfiner(confiner);
     }
 
     public void EndTransition()
     {
+        StartCoroutine(Fade(1f, 0f));
         player.GetComponent<PlayerInput>().EnableInput();
     }
 }
