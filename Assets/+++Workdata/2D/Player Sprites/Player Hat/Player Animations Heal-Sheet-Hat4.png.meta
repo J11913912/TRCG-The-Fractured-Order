@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: 696cffa565c6bd54088c9797ed98e3c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8685775001519973691
+    second: Player Animations Heal-Sheet-Hat4_0
+  - first:
+      213: 4529212651012632770
+    second: Player Animations Heal-Sheet-Hat4_1
+  - first:
+      213: 5431473569578727529
+    second: Player Animations Heal-Sheet-Hat4_2
+  - first:
+      213: -4317289286508208791
+    second: Player Animations Heal-Sheet-Hat4_3
+  - first:
+      213: -3501150392620765573
+    second: Player Animations Heal-Sheet-Hat4_4
+  - first:
+      213: -8266596423328936930
+    second: Player Animations Heal-Sheet-Hat4_5
+  - first:
+      213: -4396511557006232800
+    second: Player Animations Heal-Sheet-Hat4_6
+  - first:
+      213: -918503526178268117
+    second: Player Animations Heal-Sheet-Hat4_7
+  - first:
+      213: -5405354341655846837
+    second: Player Animations Heal-Sheet-Hat4_8
+  - first:
+      213: -678510276524846447
+    second: Player Animations Heal-Sheet-Hat4_9
+  - first:
+      213: 7746338816725157973
+    second: Player Animations Heal-Sheet-Hat4_10
+  - first:
+      213: 5275856514265092815
+    second: Player Animations Heal-Sheet-Hat4_11
+  - first:
+      213: 298024997785411266
+    second: Player Animations Heal-Sheet-Hat4_12
+  - first:
+      213: 4903614356975052804
+    second: Player Animations Heal-Sheet-Hat4_13
+  - first:
+      213: -271840253006418353
+    second: Player Animations Heal-Sheet-Hat4_14
+  - first:
+      213: -4159258369090232134
+    second: Player Animations Heal-Sheet-Hat4_15
+  - first:
+      213: -4021465291351626841
+    second: Player Animations Heal-Sheet-Hat4_16
+  - first:
+      213: 1792181282150759547
+    second: Player Animations Heal-Sheet-Hat4_17
+  - first:
+      213: 659145204015494876
+    second: Player Animations Heal-Sheet-Hat4_18
+  - first:
+      213: -1988774685771013485
+    second: Player Animations Heal-Sheet-Hat4_19
+  - first:
+      213: -534105231849486157
+    second: Player Animations Heal-Sheet-Hat4_20
+  - first:
+      213: 390858070696536379
+    second: Player Animations Heal-Sheet-Hat4_21
+  - first:
+      213: -679425513039122222
+    second: Player Animations Heal-Sheet-Hat4_22
+  - first:
+      213: 8671808852233926383
+    second: Player Animations Heal-Sheet-Hat4_23
+  - first:
+      213: 3194322560716829675
+    second: Player Animations Heal-Sheet-Hat4_24
+  - first:
+      213: -2532301656819099601
+    second: Player Animations Heal-Sheet-Hat4_25
+  - first:
+      213: -7912351249902289665
+    second: Player Animations Heal-Sheet-Hat4_26
+  - first:
+      213: -4770516715730612944
+    second: Player Animations Heal-Sheet-Hat4_27
+  - first:
+      213: 8452718701192346631
+    second: Player Animations Heal-Sheet-Hat4_28
+  - first:
+      213: -1568492673796465927
+    second: Player Animations Heal-Sheet-Hat4_29
+  - first:
+      213: 53867571137298179
+    second: Player Animations Heal-Sheet-Hat4_30
+  - first:
+      213: -3992986414031303734
+    second: Player Animations Heal-Sheet-Hat4_31
+  - first:
+      213: -5316868766570774613
+    second: Player Animations Heal-Sheet-Hat4_32
+  - first:
+      213: -8467224699584863651
+    second: Player Animations Heal-Sheet-Hat4_33
+  - first:
+      213: -924469374829984592
+    second: Player Animations Heal-Sheet-Hat4_34
+  - first:
+      213: 6199568371966977550
+    second: Player Animations Heal-Sheet-Hat4_35
+  - first:
+      213: 4735789868497980316
+    second: Player Animations Heal-Sheet-Hat4_36
+  - first:
+      213: 6278273370788230940
+    second: Player Animations Heal-Sheet-Hat4_37
+  - first:
+      213: -8229905887070013178
+    second: Player Animations Heal-Sheet-Hat4_38
+  - first:
+      213: -5446792106360631972
+    second: Player Animations Heal-Sheet-Hat4_39
+  - first:
+      213: -7923206394991412150
+    second: Player Animations Heal-Sheet-Hat4_40
+  - first:
+      213: -3968299596771379527
+    second: Player Animations Heal-Sheet-Hat4_41
+  - first:
+      213: -6701266058162977659
+    second: Player Animations Heal-Sheet-Hat4_42
+  - first:
+      213: 1877798724373034368
+    second: Player Animations Heal-Sheet-Hat4_43
+  - first:
+      213: 8268738304665042786
+    second: Player Animations Heal-Sheet-Hat4_44
+  - first:
+      213: -2439518283080758300
+    second: Player Animations Heal-Sheet-Hat4_45
+  - first:
+      213: -1358860608513893813
+    second: Player Animations Heal-Sheet-Hat4_46
+  - first:
+      213: 4855894625262825001
+    second: Player Animations Heal-Sheet-Hat4_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca1f63c7ade57780800000000000000
+      internalID: -8685775001519973691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c030d7c8eefade30800000000000000
+      internalID: 4529212651012632770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968b9a13f68706b40800000000000000
+      internalID: 5431473569578727529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d14159448e514c0800000000000000
+      internalID: -4317289286508208791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7eae9e844a696fc0800000000000000
+      internalID: -3501150392620765573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cc6fde956274d80800000000000000
+      internalID: -8266596423328936930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0237eb958047cf2c0800000000000000
+      internalID: -4396511557006232800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c533dc8e1d043f0800000000000000
+      internalID: -918503526178268117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40ec747dd25cf4b0800000000000000
+      internalID: -5405354341655846837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192d8479f727596f0800000000000000
+      internalID: -678510276524846447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55809b8ac16808b60800000000000000
+      internalID: 7746338816725157973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc293ba0c8b973940800000000000000
+      internalID: 5275856514265092815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce9f2f082cc22400800000000000000
+      internalID: 298024997785411266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408e007f6432d0440800000000000000
+      internalID: 4903614356975052804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e66ebeaba3a3cf0800000000000000
+      internalID: -271840253006418353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab06e4dcc885746c0800000000000000
+      internalID: -4159258369090232134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab6c68cf92e038c0800000000000000
+      internalID: -4021465291351626841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c33b7716b1fd810800000000000000
+      internalID: 1792181282150759547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6febc1211c52900800000000000000
+      internalID: 659145204015494876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3926454d5f37664e0800000000000000
+      internalID: -1988774685771013485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b80fe61f1a7698f0800000000000000
+      internalID: -534105231849486157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39267d285b9c6500800000000000000
+      internalID: 390858070696536379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d037fb78123296f0800000000000000
+      internalID: -679425513039122222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6bd75b434785870800000000000000
+      internalID: 8671808852233926383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3fa89d173845c20800000000000000
+      internalID: 3194322560716829675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f281a215f057bdcd0800000000000000
+      internalID: -2532301656819099601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcb47ba57ea13290800000000000000
+      internalID: -7912351249902289665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d40d38258bbcdb0800000000000000
+      internalID: -4770516715730612944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cfed2dfd61e4570800000000000000
+      internalID: 8452718701192346631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa1f8139389b3ae0800000000000000
+      internalID: -1568492673796465927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f3d8245406fb000800000000000000
+      internalID: 53867571137298179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb04be13001698c0800000000000000
+      internalID: -3992986414031303734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baffd2bd600b636b0800000000000000
+      internalID: -5316868766570774613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52a4db3fff5e7a80800000000000000
+      internalID: -8467224699584863651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4088b6000ab23f0800000000000000
+      internalID: -924469374829984592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06a6db669a490650800000000000000
+      internalID: 6199568371966977550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b47ba4bc7e8b140800000000000000
+      internalID: 4735789868497980316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1770a4fd58e02750800000000000000
+      internalID: 6278273370788230940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609bb4a133089cd80800000000000000
+      internalID: -8229905887070013178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d09f6007b1964b0800000000000000
+      internalID: -5446792106360631972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cfe6043cd1b0290800000000000000
+      internalID: -7923206394991412150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6bd1caa84cde8c0800000000000000
+      internalID: -3968299596771379527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58440d166025003a0800000000000000
+      internalID: -6701266058162977659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085bfe5adf74f0a10800000000000000
+      internalID: 1877798724373034368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fb93eada570c270800000000000000
+      internalID: 8268738304665042786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb86e1fb07152ed0800000000000000
+      internalID: -2439518283080758300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a1242e97b542de0800000000000000
+      internalID: -1358860608513893813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Heal-Sheet-Hat4_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ee48d1f6a936340800000000000000
+      internalID: 4855894625262825001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3489f9195955f82458de23daa5e1ae76
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4921875,"y":0.1640625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player Animations Heal-Sheet-Hat4_0: -8685775001519973691
+      Player Animations Heal-Sheet-Hat4_1: 4529212651012632770
+      Player Animations Heal-Sheet-Hat4_10: 7746338816725157973
+      Player Animations Heal-Sheet-Hat4_11: 5275856514265092815
+      Player Animations Heal-Sheet-Hat4_12: 298024997785411266
+      Player Animations Heal-Sheet-Hat4_13: 4903614356975052804
+      Player Animations Heal-Sheet-Hat4_14: -271840253006418353
+      Player Animations Heal-Sheet-Hat4_15: -4159258369090232134
+      Player Animations Heal-Sheet-Hat4_16: -4021465291351626841
+      Player Animations Heal-Sheet-Hat4_17: 1792181282150759547
+      Player Animations Heal-Sheet-Hat4_18: 659145204015494876
+      Player Animations Heal-Sheet-Hat4_19: -1988774685771013485
+      Player Animations Heal-Sheet-Hat4_2: 5431473569578727529
+      Player Animations Heal-Sheet-Hat4_20: -534105231849486157
+      Player Animations Heal-Sheet-Hat4_21: 390858070696536379
+      Player Animations Heal-Sheet-Hat4_22: -679425513039122222
+      Player Animations Heal-Sheet-Hat4_23: 8671808852233926383
+      Player Animations Heal-Sheet-Hat4_24: 3194322560716829675
+      Player Animations Heal-Sheet-Hat4_25: -2532301656819099601
+      Player Animations Heal-Sheet-Hat4_26: -7912351249902289665
+      Player Animations Heal-Sheet-Hat4_27: -4770516715730612944
+      Player Animations Heal-Sheet-Hat4_28: 8452718701192346631
+      Player Animations Heal-Sheet-Hat4_29: -1568492673796465927
+      Player Animations Heal-Sheet-Hat4_3: -4317289286508208791
+      Player Animations Heal-Sheet-Hat4_30: 53867571137298179
+      Player Animations Heal-Sheet-Hat4_31: -3992986414031303734
+      Player Animations Heal-Sheet-Hat4_32: -5316868766570774613
+      Player Animations Heal-Sheet-Hat4_33: -8467224699584863651
+      Player Animations Heal-Sheet-Hat4_34: -924469374829984592
+      Player Animations Heal-Sheet-Hat4_35: 6199568371966977550
+      Player Animations Heal-Sheet-Hat4_36: 4735789868497980316
+      Player Animations Heal-Sheet-Hat4_37: 6278273370788230940
+      Player Animations Heal-Sheet-Hat4_38: -8229905887070013178
+      Player Animations Heal-Sheet-Hat4_39: -5446792106360631972
+      Player Animations Heal-Sheet-Hat4_4: -3501150392620765573
+      Player Animations Heal-Sheet-Hat4_40: -7923206394991412150
+      Player Animations Heal-Sheet-Hat4_41: -3968299596771379527
+      Player Animations Heal-Sheet-Hat4_42: -6701266058162977659
+      Player Animations Heal-Sheet-Hat4_43: 1877798724373034368
+      Player Animations Heal-Sheet-Hat4_44: 8268738304665042786
+      Player Animations Heal-Sheet-Hat4_45: -2439518283080758300
+      Player Animations Heal-Sheet-Hat4_46: -1358860608513893813
+      Player Animations Heal-Sheet-Hat4_47: 4855894625262825001
+      Player Animations Heal-Sheet-Hat4_5: -8266596423328936930
+      Player Animations Heal-Sheet-Hat4_6: -4396511557006232800
+      Player Animations Heal-Sheet-Hat4_7: -918503526178268117
+      Player Animations Heal-Sheet-Hat4_8: -5405354341655846837
+      Player Animations Heal-Sheet-Hat4_9: -678510276524846447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
