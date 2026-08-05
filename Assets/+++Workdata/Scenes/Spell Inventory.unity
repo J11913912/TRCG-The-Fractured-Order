@@ -3327,7 +3327,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60
-    OrthographicSize: 10.2
+    OrthographicSize: 4.17
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -4001,6 +4001,14 @@ PrefabInstance:
     - target: {fileID: 4803592846052854511, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
       propertyPath: actions.Array.data[0].m_ExpectedControlType
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988583526963062057, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4115384200003166860, guid: ab638e321e632524ba1e92036636aade, type: 3}
+    - target: {fileID: 4988583526963062057, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6513679979285681003, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8801,7 +8809,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.2
+  orthographic size: 4.17
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

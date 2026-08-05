@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: 3303f7ef9384da24695c56c75b81d1b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 558765937051786676
+    second: Player Animations Projectile Base-Sheet-Hat3_0
+  - first:
+      213: -811425656557502480
+    second: Player Animations Projectile Base-Sheet-Hat3_1
+  - first:
+      213: 6342618322629947987
+    second: Player Animations Projectile Base-Sheet-Hat3_2
+  - first:
+      213: 6849994817404542562
+    second: Player Animations Projectile Base-Sheet-Hat3_3
+  - first:
+      213: -3731228573822224870
+    second: Player Animations Projectile Base-Sheet-Hat3_4
+  - first:
+      213: 3715396727314178218
+    second: Player Animations Projectile Base-Sheet-Hat3_5
+  - first:
+      213: 1688722846142612846
+    second: Player Animations Projectile Base-Sheet-Hat3_6
+  - first:
+      213: -8040119361477509757
+    second: Player Animations Projectile Base-Sheet-Hat3_7
+  - first:
+      213: 2553853460470473608
+    second: Player Animations Projectile Base-Sheet-Hat3_8
+  - first:
+      213: 7181204434282225005
+    second: Player Animations Projectile Base-Sheet-Hat3_9
+  - first:
+      213: -8390358150926860176
+    second: Player Animations Projectile Base-Sheet-Hat3_10
+  - first:
+      213: -2240209122294506786
+    second: Player Animations Projectile Base-Sheet-Hat3_11
+  - first:
+      213: -2109472384145674986
+    second: Player Animations Projectile Base-Sheet-Hat3_12
+  - first:
+      213: 1637756842442126544
+    second: Player Animations Projectile Base-Sheet-Hat3_13
+  - first:
+      213: -2154502662065004992
+    second: Player Animations Projectile Base-Sheet-Hat3_14
+  - first:
+      213: 7379824825855871368
+    second: Player Animations Projectile Base-Sheet-Hat3_15
+  - first:
+      213: 1247544859105186320
+    second: Player Animations Projectile Base-Sheet-Hat3_16
+  - first:
+      213: -7828599274321935189
+    second: Player Animations Projectile Base-Sheet-Hat3_17
+  - first:
+      213: -4537102859339160016
+    second: Player Animations Projectile Base-Sheet-Hat3_18
+  - first:
+      213: 6971743159991158697
+    second: Player Animations Projectile Base-Sheet-Hat3_19
+  - first:
+      213: 152119046733690060
+    second: Player Animations Projectile Base-Sheet-Hat3_20
+  - first:
+      213: 8500445286724075580
+    second: Player Animations Projectile Base-Sheet-Hat3_21
+  - first:
+      213: -3419647837426398605
+    second: Player Animations Projectile Base-Sheet-Hat3_22
+  - first:
+      213: 96210180198891155
+    second: Player Animations Projectile Base-Sheet-Hat3_23
+  - first:
+      213: -1100502983924401385
+    second: Player Animations Projectile Base-Sheet-Hat3_24
+  - first:
+      213: -7913604284350936346
+    second: Player Animations Projectile Base-Sheet-Hat3_25
+  - first:
+      213: -5991446031943838369
+    second: Player Animations Projectile Base-Sheet-Hat3_26
+  - first:
+      213: -6098675797184164708
+    second: Player Animations Projectile Base-Sheet-Hat3_27
+  - first:
+      213: -7602832782435553361
+    second: Player Animations Projectile Base-Sheet-Hat3_28
+  - first:
+      213: -6571056204912458621
+    second: Player Animations Projectile Base-Sheet-Hat3_29
+  - first:
+      213: -5731759927994212854
+    second: Player Animations Projectile Base-Sheet-Hat3_30
+  - first:
+      213: 214435850296270097
+    second: Player Animations Projectile Base-Sheet-Hat3_31
+  - first:
+      213: 7520704419382502559
+    second: Player Animations Projectile Base-Sheet-Hat3_32
+  - first:
+      213: 2430278004560820825
+    second: Player Animations Projectile Base-Sheet-Hat3_33
+  - first:
+      213: 3045633971995697873
+    second: Player Animations Projectile Base-Sheet-Hat3_34
+  - first:
+      213: -4188297441637455760
+    second: Player Animations Projectile Base-Sheet-Hat3_35
+  - first:
+      213: 8999179514299553338
+    second: Player Animations Projectile Base-Sheet-Hat3_36
+  - first:
+      213: 1216952094855819071
+    second: Player Animations Projectile Base-Sheet-Hat3_37
+  - first:
+      213: -496712622658210904
+    second: Player Animations Projectile Base-Sheet-Hat3_38
+  - first:
+      213: 497735452258187600
+    second: Player Animations Projectile Base-Sheet-Hat3_39
+  - first:
+      213: 1109047806803681618
+    second: Player Animations Projectile Base-Sheet-Hat3_40
+  - first:
+      213: -238187469635131962
+    second: Player Animations Projectile Base-Sheet-Hat3_41
+  - first:
+      213: 6371845394355767592
+    second: Player Animations Projectile Base-Sheet-Hat3_42
+  - first:
+      213: 70422044299046374
+    second: Player Animations Projectile Base-Sheet-Hat3_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd5f86c8a221c700800000000000000
+      internalID: 558765937051786676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff704b1aac3db4f0800000000000000
+      internalID: -811425656557502480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352fd3282c1850850800000000000000
+      internalID: 6342618322629947987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e1aac5ef1101f50800000000000000
+      internalID: 6849994817404542562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16f9898163083cc0800000000000000
+      internalID: -3731228573822224870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0e53373adbf8330800000000000000
+      internalID: 3715396727314178218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65ca683b7c8f6710800000000000000
+      internalID: 1688722846142612846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d74630a02cb6090800000000000000
+      internalID: -8040119361477509757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883aebff03c117320800000000000000
+      internalID: 2553853460470473608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d1ad4a263c8a360800000000000000
+      internalID: 7181204434282225005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07083bb37b57f8b80800000000000000
+      internalID: -8390358150926860176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edadb032cad29e0e0800000000000000
+      internalID: -2240209122294506786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d20870b06a9b2e0800000000000000
+      internalID: -2109472384145674986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d47a36cb2b7ab610800000000000000
+      internalID: 1637756842442126544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e5bff6e3ba912e0800000000000000
+      internalID: -2154502662065004992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8898fb144976a6660800000000000000
+      internalID: 7379824825855871368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0125458807b205110800000000000000
+      internalID: 1247544859105186320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4092d007a3b5390800000000000000
+      internalID: -7828599274321935189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0362eafecf8f801c0800000000000000
+      internalID: -4537102859339160016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a74884577b90c060800000000000000
+      internalID: 6971743159991158697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4f120977f6c1200800000000000000
+      internalID: 152119046733690060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3005d373f5a7f570800000000000000
+      internalID: 8500445286724075580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a4441f868fa80d0800000000000000
+      internalID: -3419647837426398605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ef78e26aec55100800000000000000
+      internalID: 96210180198891155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bbde8ed5a3ab0f0800000000000000
+      internalID: -1100502983924401385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eac04ad4da3d2290800000000000000
+      internalID: -7913604284350936346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f555017f39b1adca0800000000000000
+      internalID: -5991446031943838369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cc094bca62d5ba0800000000000000
+      internalID: -6098675797184164708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafeb3caddf4d7690800000000000000
+      internalID: -7602832782435553361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3840113523beec4a0800000000000000
+      internalID: -6571056204912458621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e1612b6b2b470b0800000000000000
+      internalID: -5731759927994212854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d940c0544d9f200800000000000000
+      internalID: 214435850296270097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f942102b2d8ee5860800000000000000
+      internalID: 7520704419382502559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95afa4f08f41ab120800000000000000
+      internalID: 2430278004560820825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d26aa806f3444a20800000000000000
+      internalID: 3045633971995697873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078a589daad20e5c0800000000000000
+      internalID: -4188297441637455760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a361ccba61283ec70800000000000000
+      internalID: 8999179514299553338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f6c8a8b7b73e010800000000000000
+      internalID: 1216952094855819071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3310b50825b19f0800000000000000
+      internalID: -496712622658210904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059b7f7b1cf48e600800000000000000
+      internalID: 497735452258187600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251a573ba11246f00800000000000000
+      internalID: 1109047806803681618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5e27222c9c1bcf0800000000000000
+      internalID: -238187469635131962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829c84e60a75d6850800000000000000
+      internalID: 6371845394355767592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base-Sheet-Hat3_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed2dc6e9703af000800000000000000
+      internalID: 70422044299046374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 907dca5a860274f44acd06879450477c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4921875,"y":0.1640625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player Animations Projectile Base-Sheet-Hat3_0: 558765937051786676
+      Player Animations Projectile Base-Sheet-Hat3_1: -811425656557502480
+      Player Animations Projectile Base-Sheet-Hat3_10: -8390358150926860176
+      Player Animations Projectile Base-Sheet-Hat3_11: -2240209122294506786
+      Player Animations Projectile Base-Sheet-Hat3_12: -2109472384145674986
+      Player Animations Projectile Base-Sheet-Hat3_13: 1637756842442126544
+      Player Animations Projectile Base-Sheet-Hat3_14: -2154502662065004992
+      Player Animations Projectile Base-Sheet-Hat3_15: 7379824825855871368
+      Player Animations Projectile Base-Sheet-Hat3_16: 1247544859105186320
+      Player Animations Projectile Base-Sheet-Hat3_17: -7828599274321935189
+      Player Animations Projectile Base-Sheet-Hat3_18: -4537102859339160016
+      Player Animations Projectile Base-Sheet-Hat3_19: 6971743159991158697
+      Player Animations Projectile Base-Sheet-Hat3_2: 6342618322629947987
+      Player Animations Projectile Base-Sheet-Hat3_20: 152119046733690060
+      Player Animations Projectile Base-Sheet-Hat3_21: 8500445286724075580
+      Player Animations Projectile Base-Sheet-Hat3_22: -3419647837426398605
+      Player Animations Projectile Base-Sheet-Hat3_23: 96210180198891155
+      Player Animations Projectile Base-Sheet-Hat3_24: -1100502983924401385
+      Player Animations Projectile Base-Sheet-Hat3_25: -7913604284350936346
+      Player Animations Projectile Base-Sheet-Hat3_26: -5991446031943838369
+      Player Animations Projectile Base-Sheet-Hat3_27: -6098675797184164708
+      Player Animations Projectile Base-Sheet-Hat3_28: -7602832782435553361
+      Player Animations Projectile Base-Sheet-Hat3_29: -6571056204912458621
+      Player Animations Projectile Base-Sheet-Hat3_3: 6849994817404542562
+      Player Animations Projectile Base-Sheet-Hat3_30: -5731759927994212854
+      Player Animations Projectile Base-Sheet-Hat3_31: 214435850296270097
+      Player Animations Projectile Base-Sheet-Hat3_32: 7520704419382502559
+      Player Animations Projectile Base-Sheet-Hat3_33: 2430278004560820825
+      Player Animations Projectile Base-Sheet-Hat3_34: 3045633971995697873
+      Player Animations Projectile Base-Sheet-Hat3_35: -4188297441637455760
+      Player Animations Projectile Base-Sheet-Hat3_36: 8999179514299553338
+      Player Animations Projectile Base-Sheet-Hat3_37: 1216952094855819071
+      Player Animations Projectile Base-Sheet-Hat3_38: -496712622658210904
+      Player Animations Projectile Base-Sheet-Hat3_39: 497735452258187600
+      Player Animations Projectile Base-Sheet-Hat3_4: -3731228573822224870
+      Player Animations Projectile Base-Sheet-Hat3_40: 1109047806803681618
+      Player Animations Projectile Base-Sheet-Hat3_41: -238187469635131962
+      Player Animations Projectile Base-Sheet-Hat3_42: 6371845394355767592
+      Player Animations Projectile Base-Sheet-Hat3_43: 70422044299046374
+      Player Animations Projectile Base-Sheet-Hat3_5: 3715396727314178218
+      Player Animations Projectile Base-Sheet-Hat3_6: 1688722846142612846
+      Player Animations Projectile Base-Sheet-Hat3_7: -8040119361477509757
+      Player Animations Projectile Base-Sheet-Hat3_8: 2553853460470473608
+      Player Animations Projectile Base-Sheet-Hat3_9: 7181204434282225005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

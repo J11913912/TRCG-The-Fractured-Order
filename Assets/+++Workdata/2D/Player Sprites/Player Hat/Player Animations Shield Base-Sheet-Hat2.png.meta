@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: 03d4a880402fe4644b29c0cd0192348c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2196662810430990167
+    second: Player Animations Shield Base-Sheet-Hat2_0
+  - first:
+      213: -4143497100343800211
+    second: Player Animations Shield Base-Sheet-Hat2_1
+  - first:
+      213: -6718514281424063642
+    second: Player Animations Shield Base-Sheet-Hat2_2
+  - first:
+      213: 5838871653957847245
+    second: Player Animations Shield Base-Sheet-Hat2_3
+  - first:
+      213: 820150725257954014
+    second: Player Animations Shield Base-Sheet-Hat2_4
+  - first:
+      213: -9168039668435845515
+    second: Player Animations Shield Base-Sheet-Hat2_5
+  - first:
+      213: -5762469477161262878
+    second: Player Animations Shield Base-Sheet-Hat2_6
+  - first:
+      213: 2918764200568574624
+    second: Player Animations Shield Base-Sheet-Hat2_7
+  - first:
+      213: 2195064512330936114
+    second: Player Animations Shield Base-Sheet-Hat2_8
+  - first:
+      213: -4357760733535983475
+    second: Player Animations Shield Base-Sheet-Hat2_9
+  - first:
+      213: 2590648483109884434
+    second: Player Animations Shield Base-Sheet-Hat2_10
+  - first:
+      213: -721867590633008625
+    second: Player Animations Shield Base-Sheet-Hat2_11
+  - first:
+      213: -9043667831806030339
+    second: Player Animations Shield Base-Sheet-Hat2_12
+  - first:
+      213: -7288730227013456473
+    second: Player Animations Shield Base-Sheet-Hat2_13
+  - first:
+      213: -8566972427426243979
+    second: Player Animations Shield Base-Sheet-Hat2_14
+  - first:
+      213: -5547951007355846729
+    second: Player Animations Shield Base-Sheet-Hat2_15
+  - first:
+      213: 9008307861791800470
+    second: Player Animations Shield Base-Sheet-Hat2_16
+  - first:
+      213: 5151249710171657888
+    second: Player Animations Shield Base-Sheet-Hat2_17
+  - first:
+      213: -893216957651992773
+    second: Player Animations Shield Base-Sheet-Hat2_18
+  - first:
+      213: 7500997311962626064
+    second: Player Animations Shield Base-Sheet-Hat2_19
+  - first:
+      213: -4713279994405890677
+    second: Player Animations Shield Base-Sheet-Hat2_20
+  - first:
+      213: -8243725149063388464
+    second: Player Animations Shield Base-Sheet-Hat2_21
+  - first:
+      213: 7000831260850747788
+    second: Player Animations Shield Base-Sheet-Hat2_22
+  - first:
+      213: 7668611708644799669
+    second: Player Animations Shield Base-Sheet-Hat2_23
+  - first:
+      213: -6788295717444913885
+    second: Player Animations Shield Base-Sheet-Hat2_24
+  - first:
+      213: -5960696143431365841
+    second: Player Animations Shield Base-Sheet-Hat2_25
+  - first:
+      213: -7806521383861163791
+    second: Player Animations Shield Base-Sheet-Hat2_26
+  - first:
+      213: -5577428119768038242
+    second: Player Animations Shield Base-Sheet-Hat2_27
+  - first:
+      213: -967599563277413227
+    second: Player Animations Shield Base-Sheet-Hat2_28
+  - first:
+      213: -2492444016479500057
+    second: Player Animations Shield Base-Sheet-Hat2_29
+  - first:
+      213: -5363308556194435410
+    second: Player Animations Shield Base-Sheet-Hat2_30
+  - first:
+      213: 4923298022301946819
+    second: Player Animations Shield Base-Sheet-Hat2_31
+  - first:
+      213: -608868656820878095
+    second: Player Animations Shield Base-Sheet-Hat2_32
+  - first:
+      213: -1952458023008917439
+    second: Player Animations Shield Base-Sheet-Hat2_33
+  - first:
+      213: 3819924915495831094
+    second: Player Animations Shield Base-Sheet-Hat2_34
+  - first:
+      213: -3163180433949523308
+    second: Player Animations Shield Base-Sheet-Hat2_35
+  - first:
+      213: 2183462966852451778
+    second: Player Animations Shield Base-Sheet-Hat2_36
+  - first:
+      213: -4125871020077076488
+    second: Player Animations Shield Base-Sheet-Hat2_37
+  - first:
+      213: 5918810871218466530
+    second: Player Animations Shield Base-Sheet-Hat2_38
+  - first:
+      213: -4801080106128670037
+    second: Player Animations Shield Base-Sheet-Hat2_39
+  - first:
+      213: 3443832654796191851
+    second: Player Animations Shield Base-Sheet-Hat2_40
+  - first:
+      213: -5622433220037963548
+    second: Player Animations Shield Base-Sheet-Hat2_41
+  - first:
+      213: -6798414735652327782
+    second: Player Animations Shield Base-Sheet-Hat2_42
+  - first:
+      213: -2690648005137021419
+    second: Player Animations Shield Base-Sheet-Hat2_43
+  - first:
+      213: -6786321224461072707
+    second: Player Animations Shield Base-Sheet-Hat2_44
+  - first:
+      213: -3028714414278379970
+    second: Player Animations Shield Base-Sheet-Hat2_45
+  - first:
+      213: 117594803159337326
+    second: Player Animations Shield Base-Sheet-Hat2_46
+  - first:
+      213: -8002412468485010956
+    second: Player Animations Shield Base-Sheet-Hat2_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757ec0b003d1c7e10800000000000000
+      internalID: 2196662810430990167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e852627575f76c0800000000000000
+      internalID: -4143497100343800211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66374557bda03c2a0800000000000000
+      internalID: -6718514281424063642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8414765d6d70150800000000000000
+      internalID: 5838871653957847245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed287414db2c16b00800000000000000
+      internalID: 820150725257954014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ef034fe7494c080800000000000000
+      internalID: -9168039668435845515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0a5c89a889700b0800000000000000
+      internalID: -5762469477161262878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2540e7398818820800000000000000
+      internalID: 2918764200568574624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f2d844b8f667e10800000000000000
+      internalID: 2195064512330936114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88217583bf1683c0800000000000000
+      internalID: -4357760733535983475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2125badc115d3f320800000000000000
+      internalID: 2590648483109884434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02d37d30496bf5f0800000000000000
+      internalID: -721867590633008625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd039ab5007e7280800000000000000
+      internalID: -9043667831806030339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ade533d97a39da90800000000000000
+      internalID: -7288730227013456473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a51be87fffb1980800000000000000
+      internalID: -8566972427426243979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfb84ff3f7b103b0800000000000000
+      internalID: -5547951007355846729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c7571b540f30d70800000000000000
+      internalID: 9008307861791800470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a69d14a15aec7740800000000000000
+      internalID: 5151249710171657888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f3cc3d8e7aa93f0800000000000000
+      internalID: -893216957651992773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01831b03055e81860800000000000000
+      internalID: 7500997311962626064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b855b7e21d0179eb0800000000000000
+      internalID: -4713279994405890677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d26f1077a7689d80800000000000000
+      internalID: -8243725149063388464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89757390f2f72160800000000000000
+      internalID: 7000831260850747788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4bc2e08b16c6a60800000000000000
+      internalID: 7668611708644799669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325f36bc2012bc1a0800000000000000
+      internalID: -6788295717444913885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b8bbc407a574da0800000000000000
+      internalID: -5960696143431365841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8e67f792aa9a390800000000000000
+      internalID: -7806521383861163791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9483f0fcaef892b0800000000000000
+      internalID: -5577428119768038242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594d602e2556292f0800000000000000
+      internalID: -967599563277413227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8013f5f5f096dd0800000000000000
+      internalID: -2492444016479500057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaea73fb843b195b0800000000000000
+      internalID: -5363308556194435410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3d0be6771135440800000000000000
+      internalID: 4923298022301946819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4825bbe2ddc87f0800000000000000
+      internalID: -608868656820878095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14821bbc5c977e4e0800000000000000
+      internalID: -1952458023008917439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6360bc8c879130530800000000000000
+      internalID: 3819924915495831094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49209f197202a14d0800000000000000
+      internalID: -3163180433949523308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdf577fff73d4e10800000000000000
+      internalID: 2183462966852451778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff2a33ca26fdb6c0800000000000000
+      internalID: -4125871020077076488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee62bfc027d32250800000000000000
+      internalID: 5918810871218466530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba28108a4132f5db0800000000000000
+      internalID: -4801080106128670037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b687407ad83facf20800000000000000
+      internalID: 3443832654796191851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0184a76ca19f1b0800000000000000
+      internalID: -5622433220037963548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e69a541dd27a1a0800000000000000
+      internalID: -6798414735652327782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516c13e15e5e8aad0800000000000000
+      internalID: -2690648005137021419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6cd444dc422d1a0800000000000000
+      internalID: -6786321224461072707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36f4da7948d7f5d0800000000000000
+      internalID: -3028714414278379970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e698eb5b9d7c1a100800000000000000
+      internalID: 117594803159337326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Shield Base-Sheet-Hat2_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f94bcd2248b1f090800000000000000
+      internalID: -8002412468485010956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f13f58c5c974cb4f946a198d9fb8a7a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4921875,"y":0.1640625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player Animations Shield Base-Sheet-Hat2_0: 2196662810430990167
+      Player Animations Shield Base-Sheet-Hat2_1: -4143497100343800211
+      Player Animations Shield Base-Sheet-Hat2_10: 2590648483109884434
+      Player Animations Shield Base-Sheet-Hat2_11: -721867590633008625
+      Player Animations Shield Base-Sheet-Hat2_12: -9043667831806030339
+      Player Animations Shield Base-Sheet-Hat2_13: -7288730227013456473
+      Player Animations Shield Base-Sheet-Hat2_14: -8566972427426243979
+      Player Animations Shield Base-Sheet-Hat2_15: -5547951007355846729
+      Player Animations Shield Base-Sheet-Hat2_16: 9008307861791800470
+      Player Animations Shield Base-Sheet-Hat2_17: 5151249710171657888
+      Player Animations Shield Base-Sheet-Hat2_18: -893216957651992773
+      Player Animations Shield Base-Sheet-Hat2_19: 7500997311962626064
+      Player Animations Shield Base-Sheet-Hat2_2: -6718514281424063642
+      Player Animations Shield Base-Sheet-Hat2_20: -4713279994405890677
+      Player Animations Shield Base-Sheet-Hat2_21: -8243725149063388464
+      Player Animations Shield Base-Sheet-Hat2_22: 7000831260850747788
+      Player Animations Shield Base-Sheet-Hat2_23: 7668611708644799669
+      Player Animations Shield Base-Sheet-Hat2_24: -6788295717444913885
+      Player Animations Shield Base-Sheet-Hat2_25: -5960696143431365841
+      Player Animations Shield Base-Sheet-Hat2_26: -7806521383861163791
+      Player Animations Shield Base-Sheet-Hat2_27: -5577428119768038242
+      Player Animations Shield Base-Sheet-Hat2_28: -967599563277413227
+      Player Animations Shield Base-Sheet-Hat2_29: -2492444016479500057
+      Player Animations Shield Base-Sheet-Hat2_3: 5838871653957847245
+      Player Animations Shield Base-Sheet-Hat2_30: -5363308556194435410
+      Player Animations Shield Base-Sheet-Hat2_31: 4923298022301946819
+      Player Animations Shield Base-Sheet-Hat2_32: -608868656820878095
+      Player Animations Shield Base-Sheet-Hat2_33: -1952458023008917439
+      Player Animations Shield Base-Sheet-Hat2_34: 3819924915495831094
+      Player Animations Shield Base-Sheet-Hat2_35: -3163180433949523308
+      Player Animations Shield Base-Sheet-Hat2_36: 2183462966852451778
+      Player Animations Shield Base-Sheet-Hat2_37: -4125871020077076488
+      Player Animations Shield Base-Sheet-Hat2_38: 5918810871218466530
+      Player Animations Shield Base-Sheet-Hat2_39: -4801080106128670037
+      Player Animations Shield Base-Sheet-Hat2_4: 820150725257954014
+      Player Animations Shield Base-Sheet-Hat2_40: 3443832654796191851
+      Player Animations Shield Base-Sheet-Hat2_41: -5622433220037963548
+      Player Animations Shield Base-Sheet-Hat2_42: -6798414735652327782
+      Player Animations Shield Base-Sheet-Hat2_43: -2690648005137021419
+      Player Animations Shield Base-Sheet-Hat2_44: -6786321224461072707
+      Player Animations Shield Base-Sheet-Hat2_45: -3028714414278379970
+      Player Animations Shield Base-Sheet-Hat2_46: 117594803159337326
+      Player Animations Shield Base-Sheet-Hat2_47: -8002412468485010956
+      Player Animations Shield Base-Sheet-Hat2_5: -9168039668435845515
+      Player Animations Shield Base-Sheet-Hat2_6: -5762469477161262878
+      Player Animations Shield Base-Sheet-Hat2_7: 2918764200568574624
+      Player Animations Shield Base-Sheet-Hat2_8: 2195064512330936114
+      Player Animations Shield Base-Sheet-Hat2_9: -4357760733535983475
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
