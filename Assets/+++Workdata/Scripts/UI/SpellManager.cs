@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class SpellManager : MonoBehaviour
 {
+    public PlayerInput playerInput;
+    
     public SpellDefinition leftSpell;
     public SpellDefinition rightSpell;
     public SpellDefinition upSpell;
@@ -16,13 +18,15 @@ public class SpellManager : MonoBehaviour
     public Image downImage;
     
     public ArrowPressed arrowPressed = ArrowPressed.none;
-
     
     public List<SpellDefinition> allSpells = new List<SpellDefinition>();
 
     private void Awake()
     {
-        SetImages();
+        WhichSpell(ArrowPressed.up, "spell_dart");
+        WhichSpell(ArrowPressed.down, "spell_orb");
+        WhichSpell(ArrowPressed.left, "spell_guard");
+        WhichSpell(ArrowPressed.right, "spell_healing");
     }
     
     private void SetImages()
@@ -48,6 +52,9 @@ public class SpellManager : MonoBehaviour
 
     private void SetSpell(SpellDefinition spell, ArrowPressed key)
     {
+        Debug.Log(spell);
+        Debug.Log(key);
+        
         string path = "";
         
         switch (key)
@@ -69,8 +76,14 @@ public class SpellManager : MonoBehaviour
                 path = "<Keyboard>/downArrow";
                 break;
         }
-        SetImages();
-        PlayerInput.OnChangeBinding?.Invoke(spell, path);
+       // SetImages();
+        Debug.Log(path);
+        if (playerInput == null)
+        {
+            Debug.Log("_playerInput == null");
+            return;
+        }
+        playerInput.ChangeBinding(spell, path);
     }
 
     public SpellDefinition ReturnSpell(ArrowPressed key)

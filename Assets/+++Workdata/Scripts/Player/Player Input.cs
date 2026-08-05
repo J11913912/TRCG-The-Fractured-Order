@@ -121,6 +121,18 @@ public class PlayerInput : MonoBehaviour
             _inputActions.Disable();
         }
 
+        public void ToggleMovement(bool value)
+        {
+            if (value)
+            {
+                _moveAction.Enable();
+            }
+            else if (!value)
+            {
+                _moveAction.Disable();
+            }
+        }
+
         #endregion
 
 
@@ -129,7 +141,6 @@ public class PlayerInput : MonoBehaviour
         public void ChangeBinding(SpellDefinition spellDefinition, string path)
         {
             //actions[spellDefinition.index].ChangeBinding(path);
-            Debug.Log(spellDefinition.index);
             actions[spellDefinition.index].ApplyBindingOverride(0, path);
             
         }
@@ -179,11 +190,13 @@ public class PlayerInput : MonoBehaviour
         private void BaseProjectile(InputAction.CallbackContext ctx)
         {
             Debug.Log("BaseProjectile");
+            BasicProjectileSpell.BaseProjectileSpell?.Invoke();
         }
         
         private void BaseAoE(InputAction.CallbackContext ctx)
         {
             Debug.Log("BaseAoE");
+            BasicAoESpell.BasicAoE?.Invoke();
         }
         
         private void BaseShield(InputAction.CallbackContext ctx)
