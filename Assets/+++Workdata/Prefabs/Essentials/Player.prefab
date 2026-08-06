@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -4841984833691940352, guid: 0628791dd71051649aa8fd8b3f79e262, type: 3}
+  m_Sprite: {fileID: -4115384200003166860, guid: ab638e321e632524ba1e92036636aade, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 3490833127354826253}
   - component: {fileID: 1528802712222067727}
   - component: {fileID: 4474689304367631854}
+  - component: {fileID: 2874083355405610181}
   m_Layer: 0
   m_Name: Player Body Shadow
   m_TagString: Untagged
@@ -228,6 +229,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2874083355405610181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362013670515121856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee312bda85a56334aa9f380759396d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationEventManager
+  baseAoESpell: {fileID: 6823101444443523382}
 --- !u!1 &5750016407163372012
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +306,8 @@ GameObject:
   - component: {fileID: 8600017832290420584}
   - component: {fileID: 6865402396189784047}
   - component: {fileID: 7336889594268032163}
+  - component: {fileID: 4889857719390999303}
+  - component: {fileID: 6823101444443523382}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -466,3 +482,31 @@ MonoBehaviour:
   _animators:
   - {fileID: 3064352249455391785}
   - {fileID: 4474689304367631854}
+--- !u!114 &4889857719390999303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80785168a452bba4d8b88ba2e48117e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicProjectileSpell
+  projectilePrefab: {fileID: 6559585208921659398, guid: 4fa82e86265d8914c801d85c03729c37, type: 3}
+--- !u!114 &6823101444443523382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9307a117068f684fa617d2d7b06ede2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicAoESpell
+  targetPrefab: {fileID: 2805717590181599927, guid: 06e020fabe0793e4f9ab181ece51ae01, type: 3}
+  attackPillarPrefab: {fileID: 7315864855031046300, guid: 916b1cb09e5264e45b24e67ff5a3c4cc, type: 3}
+  deathTime: 15

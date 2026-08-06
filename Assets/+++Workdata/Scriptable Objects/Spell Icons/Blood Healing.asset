@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789e810022d25d04ca04707f3617fa9b, type: 3}
   m_Name: Blood Healing
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
+  index: 11
   Id: spell_bl_healing
   sprite: {fileID: 6741076467203284008, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
   displayName: Life Drain

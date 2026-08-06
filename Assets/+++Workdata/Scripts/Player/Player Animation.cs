@@ -58,4 +58,12 @@ public class PlayerAnimation : MonoBehaviour
             _animator.SetTrigger(Hash_ActionTrigger);
         }
     }
+    
+    public void AnimationSetBool(string boolInQuestion, bool value)
+    {
+        foreach (var _animator in _animators)
+        {
+            _animator.SetBool(boolInQuestion, value);
+        }
+    }
 }

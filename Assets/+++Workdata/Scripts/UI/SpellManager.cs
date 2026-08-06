@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,6 +24,12 @@ public class SpellManager : MonoBehaviour
 
     private void Awake()
     {
+        StartCoroutine(SetDefault());
+    }
+
+    private IEnumerator SetDefault()
+    {
+        yield return new WaitForEndOfFrame();
         WhichSpell(ArrowPressed.up, "spell_dart");
         WhichSpell(ArrowPressed.down, "spell_orb");
         WhichSpell(ArrowPressed.left, "spell_guard");
@@ -52,9 +59,6 @@ public class SpellManager : MonoBehaviour
 
     private void SetSpell(SpellDefinition spell, ArrowPressed key)
     {
-        Debug.Log(spell);
-        Debug.Log(key);
-        
         string path = "";
         
         switch (key)
@@ -77,12 +81,6 @@ public class SpellManager : MonoBehaviour
                 break;
         }
        // SetImages();
-        Debug.Log(path);
-        if (playerInput == null)
-        {
-            Debug.Log("_playerInput == null");
-            return;
-        }
         playerInput.ChangeBinding(spell, path);
     }
 

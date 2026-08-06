@@ -6,29 +6,35 @@ using Debug = UnityEngine.Debug;
 
 public class BasicAoESpell : MonoBehaviour
 {
+    // TODO fix the spamming and put it to end of animation!!!!!!!!!!!!!!!!!!!!!!!!
+    
     public static Action BasicAoE;
 
     public GameObject targetPrefab;
+    public GameObject attackPillarPrefab;
     
-    private GameObject target;
+    private GameObject _target;
+    private GameObject _pillar;
 
     private bool _castStarted = false;
     private bool _casting = false;
     
     private PlayerStates _playerState;
     private PlayerInput _playerInput;
+    private PlayerAnimation _playerAnimation;
     
     private PlayerDirection _playerDirection;
     private Vector2 _direction;
     private Vector2 _spawnPosition;
 
-    private float time;
+    private float _time;
     public float deathTime;
 
     private void Awake()
     {
         _playerState = GetComponent<PlayerStates>();
         _playerInput = GetComponent<PlayerInput>();
+        _playerAnimation = GetComponent<PlayerAnimation>();
     }
     
     private void OnEnable()
@@ -45,12 +51,12 @@ public class BasicAoESpell : MonoBehaviour
     {
         if (_casting)
         {
-            time += Time.deltaTime;
+            _time += Time.deltaTime;
 
-            if (time >= deathTime)
+            if (_time >= deathTime)
             {
                 Attack();
-                time = 0;
+                _time = 0;
             }
         }
     }
@@ -59,6 +65,9 @@ public class BasicAoESpell : MonoBehaviour
     {
         if (!_castStarted && !_casting)
         {
+            _playerAnimation.AnimationSetAction(20);
+            _playerAnimation.AnimationSetBool("isCharging", true);
+            
             _casting = true;
             _castStarted = true;
             
@@ -87,8 +96,8 @@ public class BasicAoESpell : MonoBehaviour
                 _direction = Vector2.down;
             }
 
-            target = Instantiate(targetPrefab);
-            target.transform.position = _spawnPosition;
+            _target = Instantiate(targetPrefab);
+            _target.transform.position = _spawnPosition;
         }
         else
         {
@@ -100,11 +109,17 @@ public class BasicAoESpell : MonoBehaviour
     {
         _castStarted = false;
         _casting = false;
-            
-        Destroy(target);
+        
+        _playerAnimation.AnimationSetBool("isCharging", false);
+    }
+
+    public void Attack2()
+    {
+        _pillar = Instantiate(attackPillarPrefab);
+        _pillar.transform.position = _target.transform.position;
+        
+        Destroy(_target);
             
         _playerInput.ToggleMovement(true);
-            
-        Debug.Log("FIREBALL!!!!!!!!!");
     }
 }

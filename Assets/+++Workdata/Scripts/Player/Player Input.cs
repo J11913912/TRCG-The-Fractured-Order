@@ -214,7 +214,7 @@ public class PlayerInput : MonoBehaviour
         
         private void CrystalProjectile(InputAction.CallbackContext ctx)
         {
-            Debug.Log("CrystalProjectile");
+            CrystalProjectileSpell.CrysProjectileSpell?.Invoke();
         }
         
         private void CrystalAoE(InputAction.CallbackContext ctx)
