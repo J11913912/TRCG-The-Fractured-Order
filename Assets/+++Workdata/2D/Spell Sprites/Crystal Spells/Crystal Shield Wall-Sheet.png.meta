@@ -1,0 +1,820 @@
+fileFormatVersion: 2
+guid: c697c3fb0fbce0148b64f25307840ffc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2021066748814026801
+    second: Crystal Shield Wall-Sheet_0
+  - first:
+      213: 3836998072663125188
+    second: Crystal Shield Wall-Sheet_1
+  - first:
+      213: -4802568568054320648
+    second: Crystal Shield Wall-Sheet_2
+  - first:
+      213: 2886172862465613512
+    second: Crystal Shield Wall-Sheet_3
+  - first:
+      213: 1732749218996535872
+    second: Crystal Shield Wall-Sheet_4
+  - first:
+      213: 4621404952329377568
+    second: Crystal Shield Wall-Sheet_5
+  - first:
+      213: 7459252287264583960
+    second: Crystal Shield Wall-Sheet_6
+  - first:
+      213: 6915039612291531090
+    second: Crystal Shield Wall-Sheet_7
+  - first:
+      213: -3940847576239770558
+    second: Crystal Shield Wall-Sheet_8
+  - first:
+      213: 5871407519160412490
+    second: Crystal Shield Wall-Sheet_9
+  - first:
+      213: -8682783590031085270
+    second: Crystal Shield Wall-Sheet_10
+  - first:
+      213: 6356813814419237183
+    second: Crystal Shield Wall-Sheet_11
+  - first:
+      213: -7261457854068853943
+    second: Crystal Shield Wall-Sheet_12
+  - first:
+      213: -5161957636595426047
+    second: Crystal Shield Wall-Sheet_13
+  - first:
+      213: 5501184497600478889
+    second: Crystal Shield Wall-Sheet_14
+  - first:
+      213: 8212818251652509719
+    second: Crystal Shield Wall-Sheet_15
+  - first:
+      213: -7205641506598773765
+    second: Crystal Shield Wall-Sheet_16
+  - first:
+      213: 1606882438156473096
+    second: Crystal Shield Wall-Sheet_17
+  - first:
+      213: -5559484574862792517
+    second: Crystal Shield Wall-Sheet_18
+  - first:
+      213: 4703487852885978491
+    second: Crystal Shield Wall-Sheet_19
+  - first:
+      213: 6215664685538821268
+    second: Crystal Shield Wall-Sheet_20
+  - first:
+      213: 6127209159094749242
+    second: Crystal Shield Wall-Sheet_21
+  - first:
+      213: -9155218694057725529
+    second: Crystal Shield Wall-Sheet_22
+  - first:
+      213: 4861240670858353549
+    second: Crystal Shield Wall-Sheet_23
+  - first:
+      213: -5764786565288124121
+    second: Crystal Shield Wall-Sheet_24
+  - first:
+      213: -4715732807673152826
+    second: Crystal Shield Wall-Sheet_25
+  - first:
+      213: 6454213938722427654
+    second: Crystal Shield Wall-Sheet_26
+  - first:
+      213: -1835948437514117207
+    second: Crystal Shield Wall-Sheet_27
+  - first:
+      213: 5715438228439295197
+    second: Crystal Shield Wall-Sheet_28
+  - first:
+      213: -4137514582951443072
+    second: Crystal Shield Wall-Sheet_29
+  - first:
+      213: -3824209316393346153
+    second: Crystal Shield Wall-Sheet_30
+  - first:
+      213: 1415356799302640087
+    second: Crystal Shield Wall-Sheet_31
+  - first:
+      213: -2026901562640576143
+    second: Crystal Shield Wall-Sheet_32
+  - first:
+      213: 1883628103675954664
+    second: Crystal Shield Wall-Sheet_33
+  - first:
+      213: -6943394942055766805
+    second: Crystal Shield Wall-Sheet_34
+  - first:
+      213: -3260126763667330416
+    second: Crystal Shield Wall-Sheet_35
+  - first:
+      213: 6716291199563498257
+    second: Crystal Shield Wall-Sheet_36
+  - first:
+      213: -8302806531145000314
+    second: Crystal Shield Wall-Sheet_37
+  - first:
+      213: -3084771499673923277
+    second: Crystal Shield Wall-Sheet_38
+  - first:
+      213: 953347779182468039
+    second: Crystal Shield Wall-Sheet_39
+  - first:
+      213: -5741157644052476167
+    second: Crystal Shield Wall-Sheet_40
+  - first:
+      213: -6402841349306259902
+    second: Crystal Shield Wall-Sheet_41
+  - first:
+      213: 5543421883439218663
+    second: Crystal Shield Wall-Sheet_42
+  - first:
+      213: -6050154177490121258
+    second: Crystal Shield Wall-Sheet_43
+  - first:
+      213: -5116943741171626523
+    second: Crystal Shield Wall-Sheet_44
+  - first:
+      213: -1753030926646630387
+    second: Crystal Shield Wall-Sheet_45
+  - first:
+      213: 8613294093924729329
+    second: Crystal Shield Wall-Sheet_46
+  - first:
+      213: -1168980338184426772
+    second: Crystal Shield Wall-Sheet_47
+  - first:
+      213: 2611030477452726836
+    second: Crystal Shield Wall-Sheet_48
+  - first:
+      213: 8400233251705805370
+    second: Crystal Shield Wall-Sheet_49
+  - first:
+      213: 6631387352497271641
+    second: Crystal Shield Wall-Sheet_50
+  - first:
+      213: -3123936496520668104
+    second: Crystal Shield Wall-Sheet_51
+  - first:
+      213: -7106171714405392687
+    second: Crystal Shield Wall-Sheet_52
+  - first:
+      213: -2439675553734099028
+    second: Crystal Shield Wall-Sheet_53
+  - first:
+      213: -3535983557756721629
+    second: Crystal Shield Wall-Sheet_54
+  - first:
+      213: -2343337801646888960
+    second: Crystal Shield Wall-Sheet_55
+  - first:
+      213: 6966187352260455220
+    second: Crystal Shield Wall-Sheet_56
+  - first:
+      213: -2211187328140927660
+    second: Crystal Shield Wall-Sheet_57
+  - first:
+      213: -2252678881087477493
+    second: Crystal Shield Wall-Sheet_58
+  - first:
+      213: 3903047825473826701
+    second: Crystal Shield Wall-Sheet_59
+  - first:
+      213: -468827161823792776
+    second: Crystal Shield Wall-Sheet_60
+  - first:
+      213: 5813010319420329538
+    second: Crystal Shield Wall-Sheet_61
+  - first:
+      213: -8848029069972286575
+    second: Crystal Shield Wall-Sheet_62
+  - first:
+      213: -3273279677615548032
+    second: Crystal Shield Wall-Sheet_63
+  - first:
+      213: -8150090605584439799
+    second: Crystal Shield Wall-Sheet_64
+  - first:
+      213: 4483735525051558178
+    second: Crystal Shield Wall-Sheet_65
+  - first:
+      213: 1679511314542855484
+    second: Crystal Shield Wall-Sheet_66
+  - first:
+      213: -2167741035617882609
+    second: Crystal Shield Wall-Sheet_67
+  - first:
+      213: 1005606271481654995
+    second: Crystal Shield Wall-Sheet_68
+  - first:
+      213: 1664505169341149851
+    second: Crystal Shield Wall-Sheet_69
+  - first:
+      213: -5020153775368650482
+    second: Crystal Shield Wall-Sheet_70
+  - first:
+      213: 810919987275901825
+    second: Crystal Shield Wall-Sheet_71
+  - first:
+      213: -3249305016199313445
+    second: Crystal Shield Wall-Sheet_72
+  - first:
+      213: 4247652453839498770
+    second: Crystal Shield Wall-Sheet_73
+  - first:
+      213: 3759801468950673344
+    second: Crystal Shield Wall-Sheet_74
+  - first:
+      213: -6271359014503668010
+    second: Crystal Shield Wall-Sheet_75
+  - first:
+      213: 4237088283899308779
+    second: Crystal Shield Wall-Sheet_76
+  - first:
+      213: 6291254720051389920
+    second: Crystal Shield Wall-Sheet_77
+  - first:
+      213: 1924966352362793807
+    second: Crystal Shield Wall-Sheet_78
+  - first:
+      213: -8789099186220422444
+    second: Crystal Shield Wall-Sheet_79
+  - first:
+      213: -1458992905665656567
+    second: Crystal Shield Wall-Sheet_80
+  - first:
+      213: -2614686587725080437
+    second: Crystal Shield Wall-Sheet_81
+  - first:
+      213: 4743721411106547955
+    second: Crystal Shield Wall-Sheet_82
+  - first:
+      213: 1830542950770901689
+    second: Crystal Shield Wall-Sheet_83
+  - first:
+      213: -1434311469371434848
+    second: Crystal Shield Wall-Sheet_84
+  - first:
+      213: 1791110051955578381
+    second: Crystal Shield Wall-Sheet_85
+  - first:
+      213: 6872697110615769770
+    second: Crystal Shield Wall-Sheet_86
+  - first:
+      213: -4618534740357868123
+    second: Crystal Shield Wall-Sheet_87
+  - first:
+      213: 8823707161633548225
+    second: Crystal Shield Wall-Sheet_88
+  - first:
+      213: -7217806790417292803
+    second: Crystal Shield Wall-Sheet_89
+  - first:
+      213: -8887267794928245800
+    second: Crystal Shield Wall-Sheet_90
+  - first:
+      213: -6063563615644400991
+    second: Crystal Shield Wall-Sheet_91
+  - first:
+      213: 998828080299403849
+    second: Crystal Shield Wall-Sheet_92
+  - first:
+      213: 8158094938914634019
+    second: Crystal Shield Wall-Sheet_93
+  - first:
+      213: 1438405086704284332
+    second: Crystal Shield Wall-Sheet_94
+  - first:
+      213: -946874271473899496
+    second: Crystal Shield Wall-Sheet_95
+  - first:
+      213: 6860887233316143163
+    second: Crystal Shield Wall-Sheet_96
+  - first:
+      213: -8841779478780875875
+    second: Crystal Shield Wall-Sheet_97
+  - first:
+      213: -6297271005357551182
+    second: Crystal Shield Wall-Sheet_98
+  - first:
+      213: -9156834475456488514
+    second: Crystal Shield Wall-Sheet_99
+  - first:
+      213: -2724731445209934102
+    second: Crystal Shield Wall-Sheet_100
+  - first:
+      213: -6008833024013749970
+    second: Crystal Shield Wall-Sheet_101
+  - first:
+      213: -1378112019964182831
+    second: Crystal Shield Wall-Sheet_102
+  - first:
+      213: 7095892378796596927
+    second: Crystal Shield Wall-Sheet_103
+  - first:
+      213: 5158106919670819624
+    second: Crystal Shield Wall-Sheet_104
+  - first:
+      213: -3030252275002002224
+    second: Crystal Shield Wall-Sheet_105
+  - first:
+      213: 2522272130322562450
+    second: Crystal Shield Wall-Sheet_106
+  - first:
+      213: -73067017286938487
+    second: Crystal Shield Wall-Sheet_107
+  - first:
+      213: -5304160451083126633
+    second: Crystal Shield Wall-Sheet_108
+  - first:
+      213: -5724908487877248642
+    second: Crystal Shield Wall-Sheet_109
+  - first:
+      213: 5351494441337316028
+    second: Crystal Shield Wall-Sheet_110
+  - first:
+      213: 3103255941848059880
+    second: Crystal Shield Wall-Sheet_111
+  - first:
+      213: -3350628286819928786
+    second: Crystal Shield Wall-Sheet_112
+  - first:
+      213: -7092697289801207165
+    second: Crystal Shield Wall-Sheet_113
+  - first:
+      213: -8547293719974180469
+    second: Crystal Shield Wall-Sheet_114
+  - first:
+      213: -6338938695350112400
+    second: Crystal Shield Wall-Sheet_115
+  - first:
+      213: 5564234423713923000
+    second: Crystal Shield Wall-Sheet_116
+  - first:
+      213: 2024902824921940300
+    second: Crystal Shield Wall-Sheet_117
+  - first:
+      213: -3972405310408384648
+    second: Crystal Shield Wall-Sheet_118
+  - first:
+      213: -6654798668865531211
+    second: Crystal Shield Wall-Sheet_119
+  - first:
+      213: -3745274020684190580
+    second: Crystal Shield Wall-Sheet_120
+  - first:
+      213: 969659371106124523
+    second: Crystal Shield Wall-Sheet_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138e96eff754c0c10800000000000000
+      internalID: 2021066748814026801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cca1f4fa61cf3530800000000000000
+      internalID: 3836998072663125188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f17aab1559d95db0800000000000000
+      internalID: -4802568568054320648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce92a34deebd0820800000000000000
+      internalID: 2886172862465613512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042cf13fb36fb0810800000000000000
+      internalID: 1732749218996535872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027d2d2a157822040800000000000000
+      internalID: 4621404952329377568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811fc683f66948760800000000000000
+      internalID: 7459252287264583960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2514462d3e727ff50800000000000000
+      internalID: 6915039612291531090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244f448420c4f49c0800000000000000
+      internalID: -3940847576239770558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a492d17d70e6b7150800000000000000
+      internalID: 5871407519160412490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a213b96045e808780800000000000000
+      internalID: -8682783590031085270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3921cffb70f73850800000000000000
+      internalID: 6356813814419237183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94371c8fd8e1a3b90800000000000000
+      internalID: -7261457854068853943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Shield Wall-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc159c8c636f1d4a81d877785bbcded
+      internalID: -5161957636595426047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fc30d9c9cbe3b5f46ae18c9c62083e55
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.078125},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Crystal Shield Wall-Sheet_0: 2021066748814026801
+      Crystal Shield Wall-Sheet_1: 3836998072663125188
+      Crystal Shield Wall-Sheet_10: -8682783590031085270
+      Crystal Shield Wall-Sheet_11: 6356813814419237183
+      Crystal Shield Wall-Sheet_12: -7261457854068853943
+      Crystal Shield Wall-Sheet_13: -5161957636595426047
+      Crystal Shield Wall-Sheet_2: -4802568568054320648
+      Crystal Shield Wall-Sheet_3: 2886172862465613512
+      Crystal Shield Wall-Sheet_4: 1732749218996535872
+      Crystal Shield Wall-Sheet_5: 4621404952329377568
+      Crystal Shield Wall-Sheet_6: 7459252287264583960
+      Crystal Shield Wall-Sheet_7: 6915039612291531090
+      Crystal Shield Wall-Sheet_8: -3940847576239770558
+      Crystal Shield Wall-Sheet_9: 5871407519160412490
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

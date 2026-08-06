@@ -6336,6 +6336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88eeb26537f4d7842a9ba854c3a01d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpellManager
+  playerInput: {fileID: 0}
   leftSpell: {fileID: 11400000, guid: 111ffdc7d7ea0aa4fb0aea671fd566bb, type: 2}
   rightSpell: {fileID: 11400000, guid: 19205219b4dbb2a4f8739462012a4db1, type: 2}
   upSpell: {fileID: 11400000, guid: 36e58c9bf60680c448a08b0f94e577d8, type: 2}
