@@ -2,10 +2,22 @@ using UnityEngine;
 
 public class AnimationEventManager : MonoBehaviour
 {
-    public BasicAoESpell baseAoESpell;
+    public CrystalAoESpell crystalAoESpell;
+    public BasicBubbleSpell baseBubbleSpell;
+    public BasicHealingSpell baseHealingSpell;
 
-    public void AttackBasicAoESpell()
+    public void AttackCrystalAoESpell()
     {
-        baseAoESpell.Attack2();
+        crystalAoESpell.Attack2();
+    }
+
+    public void BasicShieldSpell()
+    {
+        baseBubbleSpell.SpawnBubble();
+    }
+
+    public void BasicHealingSpell()
+    {
+        baseHealingSpell.SpawnSparkles();
     }
 }

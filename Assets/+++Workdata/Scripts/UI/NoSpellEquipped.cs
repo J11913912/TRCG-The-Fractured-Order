@@ -16,6 +16,8 @@ public class NoSpellEquipped : MonoBehaviour
 
     public void UnequippSpell()
     {
+        Debug.Log("Unequipping spell");
+        
        currentSpell = spellManager.ReturnSpell(equippedButton);
 
        if (currentSpell == null)

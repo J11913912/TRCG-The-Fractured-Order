@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Debug = UnityEngine.Debug;
 
-public class BasicAoESpell : MonoBehaviour
+public class CrystalAoESpell : MonoBehaviour
 {
     // TODO fix the spamming and put it to end of animation!!!!!!!!!!!!!!!!!!!!!!!!
     
-    public static Action BasicAoE;
+    public static Action CrystalAoE;
 
     public GameObject targetPrefab;
     public GameObject attackPillarPrefab;
@@ -18,6 +18,7 @@ public class BasicAoESpell : MonoBehaviour
 
     private bool _castStarted = false;
     private bool _casting = false;
+    private bool _canCast = true;
     
     private PlayerStates _playerState;
     private PlayerInput _playerInput;
@@ -39,12 +40,12 @@ public class BasicAoESpell : MonoBehaviour
     
     private void OnEnable()
     {
-        BasicAoE += Cast;
+        CrystalAoE += Cast;
     }
 
     private void OnDisable()
     {
-        BasicAoE -= Cast;
+        CrystalAoE -= Cast;
     }
 
     private void Update()
@@ -63,13 +64,14 @@ public class BasicAoESpell : MonoBehaviour
 
     private void Cast()
     {
-        if (!_castStarted && !_casting)
+        if (!_castStarted && !_casting && _canCast)
         {
             _playerAnimation.AnimationSetAction(20);
             _playerAnimation.AnimationSetBool("isCharging", true);
             
             _casting = true;
             _castStarted = true;
+            _canCast = false;
             
             _playerInput.ToggleMovement(false);
         
@@ -119,6 +121,8 @@ public class BasicAoESpell : MonoBehaviour
         _pillar.transform.position = _target.transform.position;
         
         Destroy(_target);
+        
+        _canCast = true;
             
         _playerInput.ToggleMovement(true);
     }

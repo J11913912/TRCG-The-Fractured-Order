@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerInformation : MonoBehaviour
 {
     public static Action<int> OnHealthChange;
+    
+    public static Action<string, bool> ShieldOn;
    
     [SerializeField] private PlayerStates playerState;
     [SerializeField] private PlayerAnimation playerAnimation;
@@ -14,6 +16,12 @@ public class PlayerInformation : MonoBehaviour
 
 
     public bool canTakeDamage = true;
+    public bool shieldOn = false;
+    
+    public BasicBubbleSpell basicBubbleSpell;
+    // all the other guard spells
+
+    private MonoBehaviour _currentGuard;
    
    
 
@@ -25,17 +33,25 @@ public class PlayerInformation : MonoBehaviour
     private void OnEnable()
     {
         OnHealthChange += SetDamage;
+        ShieldOn += ActivateShield;
     }
 
     private void OnDisable()
     {
         OnHealthChange -= SetDamage;
+        ShieldOn -= ActivateShield;
     }
 
     public void SetDamage(int damage)
     {
-        if (!canTakeDamage)  return;
-      
+        if (!canTakeDamage)
+        {
+            shieldOn = false;
+            canTakeDamage = true;
+            _currentGuard.Invoke("BurstBubble", 0);
+            return;
+        }
+        
         canTakeDamage = false;
         currentHealth -= damage;
         //RuntimeManager.PlayOneShot("event:/SFX/Hit/Player Hit");
@@ -58,8 +74,42 @@ public class PlayerInformation : MonoBehaviour
         canTakeDamage = true;
     }
 
+    public void SetHealth(int amount)
+    {
+        currentHealth += amount;
+        
+        if (currentHealth + amount > maxHealth)
+        {
+            currentHealth = maxHealth;
+        } 
+    }
+
     public void SetHealthToMax()
     {
         currentHealth = maxHealth;
+    }
+
+    private void ActivateShield(string guardSpell, bool value)
+    {
+        if (!value)
+        {
+            canTakeDamage = true;
+            return;
+        }
+        
+        switch (guardSpell)
+        {
+            case "Basic": 
+                _currentGuard = basicBubbleSpell;
+                break;
+            
+            case "Crystal":
+                _currentGuard = basicBubbleSpell;
+                break;
+  
+        }
+        
+        canTakeDamage = false;
+        shieldOn = true;
     }
 }

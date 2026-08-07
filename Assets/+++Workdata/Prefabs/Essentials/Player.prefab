@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 1528802712222067727}
   - component: {fileID: 4474689304367631854}
   - component: {fileID: 2874083355405610181}
+  - component: {fileID: 1411788606652100118}
   m_Layer: 0
   m_Name: Player Body Shadow
   m_TagString: Untagged
@@ -242,6 +243,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimationEventManager
   baseAoESpell: {fileID: 6823101444443523382}
+  baseBubbleSpell: {fileID: 1979724783844789743}
+  baseHealingSpell: {fileID: 1920033775742012589}
+--- !u!114 &1411788606652100118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362013670515121856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17ef6c4dcfb5b54ca4c0b65ed16314c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EndOfActionManager
 --- !u!1 &5750016407163372012
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +323,9 @@ GameObject:
   - component: {fileID: 7336889594268032163}
   - component: {fileID: 4889857719390999303}
   - component: {fileID: 6823101444443523382}
+  - component: {fileID: 8001303803466474047}
+  - component: {fileID: 1979724783844789743}
+  - component: {fileID: 1920033775742012589}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -427,6 +445,8 @@ MonoBehaviour:
   maxHealth: 4
   currentHealth: 0
   canTakeDamage: 1
+  shieldOn: 0
+  basicBubbleSpell: {fileID: 0}
 --- !u!114 &4803592846052854511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,6 +515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicProjectileSpell
   projectilePrefab: {fileID: 6559585208921659398, guid: 4fa82e86265d8914c801d85c03729c37, type: 3}
+  ySpawnOffset: 0.4
 --- !u!114 &6823101444443523382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,3 +531,44 @@ MonoBehaviour:
   targetPrefab: {fileID: 2805717590181599927, guid: 06e020fabe0793e4f9ab181ece51ae01, type: 3}
   attackPillarPrefab: {fileID: 7315864855031046300, guid: 916b1cb09e5264e45b24e67ff5a3c4cc, type: 3}
   deathTime: 15
+--- !u!114 &8001303803466474047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4410f886867608488f62f76f3eb2553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CrystalProjectileSpell
+  projectilePrefab: {fileID: 928591610570380805, guid: 93dd59c10ff1f794fb98df944144b3f5, type: 3}
+  ySpawnOffset: 0
+--- !u!114 &1979724783844789743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e148a829865d4a8bd5757fb50e441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicBubbleSpell
+  bubblePrefab: {fileID: 4636320461149965388, guid: afa80ef15f7e57342888206a97bc6617, type: 3}
+  _bubbleOn: 0
+--- !u!114 &1920033775742012589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b502e7b7afc8e74897d17bb988ac195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicHealingSpell
+  sparklesPrefab: {fileID: 7963704601534173387, guid: 7062f46bb3397d34f9fac6b86870afb7, type: 3}

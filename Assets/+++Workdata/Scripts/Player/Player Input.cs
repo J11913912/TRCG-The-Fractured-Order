@@ -6,12 +6,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerInput : MonoBehaviour
 {
-    public static Action<SpellDefinition, string> OnChangeBinding;
+    public static Action<SpellDefinition, string, SpellDefinition> OnChangeBinding;
     
      #region InputActions
      
-     private List<InputAction> actions = new List<InputAction>();
-
+     public List<InputAction> actions = new List<InputAction>();
+     public List<List<InputAction>> inputActions = new List<List<InputAction>>();
+     
         private InputSystem_Actions _inputActions;
         private InputAction _moveAction;
         private InputAction _teleAction;
@@ -138,10 +139,40 @@ public class PlayerInput : MonoBehaviour
 
         #region KeyBinds
 
-        public void ChangeBinding(SpellDefinition spellDefinition, string path)
+        public void ChangeBinding(SpellDefinition spellDefinition, string path, SpellDefinition oldSpell)
         {
+            Debug.Log("changedbinding");
+            Debug.Log(spellDefinition.index);
+            Debug.Log(path);
+            Debug.Log(oldSpell);
+
+            InputBinding currentBinding = actions[spellDefinition.index].bindings[0];
+            if (currentBinding.path == "")
+            {
+                Debug.Log("hallloooooooooooooooo");
+                actions[spellDefinition.index].ApplyBindingOverride(0, path);
+            }
+            else
+            { 
+                currentBinding = actions[spellDefinition.index].bindings[1];
+                actions[spellDefinition.index].ApplyBindingOverride(1, path);
+            }
+            
+            
+
+         //  
+            
+            if (oldSpell != null)
+            {
+                if (actions[oldSpell.index].GetBindingIndex() == -1) return;
+                
+                actions[oldSpell.index].ChangeBinding(0).Erase();
+                
+            }
+            
             //actions[spellDefinition.index].ChangeBinding(path);
-            actions[spellDefinition.index].ApplyBindingOverride(0, path);
+
+         //   if (actions[spellDefinition.index].GetBindingIndexForControl())
             
         }
 
@@ -196,17 +227,18 @@ public class PlayerInput : MonoBehaviour
         private void BaseAoE(InputAction.CallbackContext ctx)
         {
             Debug.Log("BaseAoE");
-            BasicAoESpell.BasicAoE?.Invoke();
         }
         
         private void BaseShield(InputAction.CallbackContext ctx)
         {
             Debug.Log("BaseShield");
+            BasicBubbleSpell.BaseBubbleSpell?.Invoke();
         }
         
         private void BaseHealing(InputAction.CallbackContext ctx)
         {
             Debug.Log("BaseHealing");
+            BasicHealingSpell.BaseHealingSpell?.Invoke();
         }
 
         #endregion
@@ -214,12 +246,14 @@ public class PlayerInput : MonoBehaviour
         
         private void CrystalProjectile(InputAction.CallbackContext ctx)
         {
+            Debug.Log("CrystalProjectile");
             CrystalProjectileSpell.CrysProjectileSpell?.Invoke();
         }
         
         private void CrystalAoE(InputAction.CallbackContext ctx)
         {
             Debug.Log("CrystalAoE");
+            CrystalAoESpell.CrystalAoE?.Invoke();
         }
         
         private void CrystalShield(InputAction.CallbackContext ctx)

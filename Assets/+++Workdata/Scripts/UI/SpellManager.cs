@@ -22,6 +22,8 @@ public class SpellManager : MonoBehaviour
     
     public List<SpellDefinition> allSpells = new List<SpellDefinition>();
 
+    private bool _allowImageSetting = false;
+
     private void Awake()
     {
         StartCoroutine(SetDefault());
@@ -34,6 +36,11 @@ public class SpellManager : MonoBehaviour
         WhichSpell(ArrowPressed.down, "spell_orb");
         WhichSpell(ArrowPressed.left, "spell_guard");
         WhichSpell(ArrowPressed.right, "spell_healing");
+        
+        yield return new WaitForEndOfFrame();
+        _allowImageSetting = true;
+        SetImages();
+        
     }
     
     private void SetImages()
@@ -59,29 +66,53 @@ public class SpellManager : MonoBehaviour
 
     private void SetSpell(SpellDefinition spell, ArrowPressed key)
     {
+        SpellDefinition oldSpell = null;
+        
         string path = "";
         
         switch (key)
         {
             case ArrowPressed.left:
+                if (_allowImageSetting)
+                {
+                    oldSpell = leftSpell;
+                }
                 leftSpell = spell;
                 path = "<Keyboard>/leftArrow";
                 break;
             case ArrowPressed.right:
+                if (_allowImageSetting)
+                {
+                    oldSpell = rightSpell;
+                }
                 rightSpell = spell;
                 path = "<Keyboard>/rightArrow";
                 break;
             case ArrowPressed.up:
+                if (_allowImageSetting)
+                {
+                    oldSpell = upSpell;
+                }
                 upSpell = spell;
                 path = "<Keyboard>/upArrow";
                 break;
             case ArrowPressed.down:
+                if (_allowImageSetting)
+                {
+                    oldSpell = downSpell;
+                }
                 downSpell = spell;
                 path = "<Keyboard>/downArrow";
                 break;
         }
-       // SetImages();
-        playerInput.ChangeBinding(spell, path);
+        
+        if (_allowImageSetting)
+        {
+            SetImages();
+        }
+        
+        
+        playerInput.ChangeBinding(spell, path, oldSpell);
     }
 
     public SpellDefinition ReturnSpell(ArrowPressed key)
