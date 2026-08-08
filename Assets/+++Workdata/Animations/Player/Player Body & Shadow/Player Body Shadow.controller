@@ -363,7 +363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8458c08442036a74498d5f0a386f745e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndAnimationPlayer
-  methodToGoTo: BasicHealing
+  methods:
+  - BasicHealing
 --- !u!1109 &-5169027684360086876
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -965,7 +966,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8458c08442036a74498d5f0a386f745e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  methodToGoTo: BasicProjectile
+  methods:
+  - CrysProjectile
+  - BasicProjectile
 --- !u!1102 &1312415230557595090
 AnimatorState:
   serializedVersion: 6

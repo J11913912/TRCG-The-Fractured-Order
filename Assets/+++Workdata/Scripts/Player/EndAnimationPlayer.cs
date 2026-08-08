@@ -1,8 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EndAnimationPlayer : StateMachineBehaviour
 {
-    public string methodToGoTo;
+    public List<string> methods = new List<string>();
     
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -19,7 +20,10 @@ public class EndAnimationPlayer : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.gameObject.GetComponent<EndOfActionManager>().SetEnd(methodToGoTo);
+        foreach (string method in methods)
+        {
+            animator.gameObject.GetComponent<EndOfActionManager>().SetEnd(method);
+        }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

@@ -17,6 +17,7 @@ public class BasicProjectileSpell : MonoBehaviour
     private Vector2 _direction;
 
     private bool _canAttack = true;
+    private bool _currentlyActive = false;
 
     public float ySpawnOffset;
 
@@ -43,6 +44,8 @@ public class BasicProjectileSpell : MonoBehaviour
 
     private void Cast()
     {
+        _currentlyActive = true;
+        
         if (!_canAttack) return;
         
         _canAttack = false;
@@ -82,6 +85,9 @@ public class BasicProjectileSpell : MonoBehaviour
 
     private void EndAttack()
     {
+        if (!_currentlyActive) return;
+
+        _currentlyActive = false;
         _canAttack = true;
     }
 }

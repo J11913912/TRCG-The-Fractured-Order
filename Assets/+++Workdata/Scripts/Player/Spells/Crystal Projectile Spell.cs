@@ -17,7 +17,9 @@ public class CrystalProjectileSpell : MonoBehaviour
     private Vector2 _direction;
     
     public float ySpawnOffset;
-    private bool _canAttack = true;
+    public bool _canAttack = true;
+    
+    private bool _currentlyActive = true;
 
     // TODO charging
     
@@ -41,6 +43,8 @@ public class CrystalProjectileSpell : MonoBehaviour
 
     private void Cast()
     {
+        _currentlyActive = true;
+        
         if (!_canAttack) return;
         
         Debug.Log("Crystal Projectile Spell casting");
@@ -82,6 +86,9 @@ public class CrystalProjectileSpell : MonoBehaviour
 
     private void EndAttack()
     {
+        if (!_currentlyActive) return;
+        
+        _currentlyActive = false;
         _canAttack = true;
     }
 }

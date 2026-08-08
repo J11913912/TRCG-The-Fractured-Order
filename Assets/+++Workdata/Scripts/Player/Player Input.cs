@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -133,6 +134,24 @@ public class PlayerInput : MonoBehaviour
                 _moveAction.Disable();
             }
         }
+        
+        public void ToggleSpells(bool value)
+        {
+            if (value)
+            {
+                foreach (InputAction action in actions)
+                {
+                    action.Enable();
+                }
+            }
+            else if (!value)
+            {
+                foreach (InputAction action in actions)
+                {
+                    action.Disable();
+                }
+            }
+        }
 
         #endregion
 
@@ -143,10 +162,90 @@ public class PlayerInput : MonoBehaviour
         {
             Debug.Log("changedbinding");
             Debug.Log(spellDefinition.index);
-            Debug.Log(path);
+           // Debug.Log(path);
             Debug.Log(oldSpell);
 
-            InputBinding currentBinding = actions[spellDefinition.index].bindings[0];
+            if (oldSpell != null)
+            {
+                InputAction oldAction = actions[oldSpell.index];
+                
+                for (int i = 0; i < oldAction.bindings.Count; i++)
+                {
+                    InputBinding oldBinding = oldAction.bindings[i];
+
+                    if (oldBinding.effectivePath == path)
+                    {
+                        oldAction.ApplyBindingOverride(i, "");
+                        break;
+                    }
+                }
+            }
+            
+            InputAction newAction = actions[spellDefinition.index];
+                
+            for (int i = 0; i < newAction.bindings.Count; i++)
+            {
+                InputBinding newBinding = newAction.bindings[i];
+
+                if (string.IsNullOrEmpty(newBinding.overridePath))
+                {
+                    newAction.ApplyBindingOverride(i, path);
+                    break;
+                }
+            }
+            
+
+         
+            
+            
+          /*  if (oldSpell != null)
+            {
+                List<InputBinding> oldInputBindings = new List<InputBinding>();
+            
+                oldInputBindings = actions[oldSpell.index].bindings.ToList();
+
+                int oldIndexBindings = 0;
+
+                foreach (InputBinding inputBinding in oldInputBindings)
+                {
+                    if (inputBinding.overridePath == path)
+                    {
+                        InputBinding currentInputBinding = inputBinding;
+                        
+                        currentInputBinding.overridePath = "";
+                        actions[oldSpell.index].ApplyBindingOverride(currentInputBinding); 
+                    }
+                
+                    oldIndexBindings++;
+                }
+            }
+            
+            List<InputBinding> newInputBindings = new List<InputBinding>();
+            
+            newInputBindings = actions[spellDefinition.index].bindings.ToList();
+
+            int indexBindings = 0;
+
+            foreach (InputBinding inputBinding in newInputBindings)
+            {
+                Debug.Log(inputBinding.path);
+                
+                if (inputBinding.path == "")
+                {
+                    InputBinding currentInputBinding = inputBinding;
+                        
+                    currentInputBinding.overridePath = path;
+                    actions[spellDefinition.index].ApplyBindingOverride(currentInputBinding); 
+                    Debug.Log(currentInputBinding.overridePath);
+                    Debug.Log(currentInputBinding.path);
+                }
+                
+                indexBindings++;
+            }
+            
+            */
+            
+            /*InputBinding currentBinding = actions[spellDefinition.index].bindings[0];
             if (currentBinding.path == "")
             {
                 Debug.Log("hallloooooooooooooooo");
@@ -173,6 +272,8 @@ public class PlayerInput : MonoBehaviour
             //actions[spellDefinition.index].ChangeBinding(path);
 
          //   if (actions[spellDefinition.index].GetBindingIndexForControl())
+         
+         */
             
         }
 

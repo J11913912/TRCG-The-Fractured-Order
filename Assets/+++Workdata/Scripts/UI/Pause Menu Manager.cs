@@ -26,6 +26,8 @@ public class PauseMenuManager : MonoBehaviour
 
        private bool unlockQuestLog = false;
        
+       public PlayerInput playerInput;
+       
        
        
        
@@ -90,6 +92,8 @@ public class PauseMenuManager : MonoBehaviour
            
            if (!_isPaused && !_menuAlreadyOpen)
            {
+               playerInput.ToggleSpells(false);
+               
                _currentMenu.SetActive(false);
                pauseMenuContainer.SetActive(true);
                //hudContainer.SetActive(false);
@@ -102,6 +106,8 @@ public class PauseMenuManager : MonoBehaviour
            
            else if (_isPaused)
            {
+               playerInput.ToggleSpells(true);
+               
                pauseMenuContainer.SetActive(false);
                //hudContainer.SetActive(true);
                Time.timeScale = 1;

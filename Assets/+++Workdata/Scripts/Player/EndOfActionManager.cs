@@ -13,6 +13,10 @@ public class EndOfActionManager : MonoBehaviour
             case "BasicHealing":
                 BasicHealingSpell.OnHealEnd?.Invoke();
                 break;
+            
+            case "CrysProjectile":
+                CrystalProjectileSpell.OnAttackEnd?.Invoke();
+                break;
         }
     }
 }
