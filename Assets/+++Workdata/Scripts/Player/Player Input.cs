@@ -160,11 +160,6 @@ public class PlayerInput : MonoBehaviour
 
         public void ChangeBinding(SpellDefinition spellDefinition, string path, SpellDefinition oldSpell)
         {
-            Debug.Log("changedbinding");
-            Debug.Log(spellDefinition.index);
-           // Debug.Log(path);
-            Debug.Log(oldSpell);
-
             if (oldSpell != null)
             {
                 InputAction oldAction = actions[oldSpell.index];

@@ -11,6 +11,7 @@ public class BasicHealingSpell : MonoBehaviour
     
     private PlayerAnimation _playerAnimation;
     private PlayerInformation _playerInformation;
+    private PlayerInput _playerInput;
     
     public GameObject sparklesPrefab;
     private GameObject sparkles;
@@ -27,6 +28,7 @@ public class BasicHealingSpell : MonoBehaviour
     {
         _playerAnimation =  GetComponent<PlayerAnimation>();
         _playerInformation = GetComponent<PlayerInformation>();
+        _playerInput = GetComponent<PlayerInput>();
     }
 
     private void OnEnable()
@@ -42,6 +44,19 @@ public class BasicHealingSpell : MonoBehaviour
         OnHealEnd -= EndHeal; 
         OnCooldownEnd -= EndCooldown;
     }
+    
+    private void FixedUpdate()
+    {
+        if (!_canHeal)
+        {
+            _spawnPosition = transform.position;
+            _spawnPosition.y = transform.position.y + 0.7f;
+            
+            if (sparkles == null) return;
+            
+            sparkles.transform.position = _spawnPosition;
+        }
+    }
 
     private void Cast()
     {
@@ -52,6 +67,7 @@ public class BasicHealingSpell : MonoBehaviour
         _canHeal = false;
         
         _playerAnimation.AnimationSetAction(40);
+        _playerInput.ToggleMovement(false);
     }
 
     public void SpawnSparkles()
@@ -70,6 +86,8 @@ public class BasicHealingSpell : MonoBehaviour
         _playerInformation.SetHealth(healAmount);
         
         Destroy(sparkles);
+        
+        _playerInput.ToggleMovement(true);
 
         _isCooling = true;
         SpellCooldownManager.OnStartCooldown?.Invoke(spell);
