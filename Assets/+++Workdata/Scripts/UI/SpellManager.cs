@@ -18,6 +18,11 @@ public class SpellManager : MonoBehaviour
     public Image upImage;
     public Image downImage;
     
+    public Image leftImageHUD;
+    public Image rightImageHUD;
+    public Image upImageHUD;
+    public Image downImageHUD;
+    
     public ArrowPressed arrowPressed = ArrowPressed.none;
     
     public List<SpellDefinition> allSpells = new List<SpellDefinition>();
@@ -49,6 +54,11 @@ public class SpellManager : MonoBehaviour
         rightImage.sprite = rightSpell.sprite;
         upImage.sprite = upSpell.sprite;
         downImage.sprite = downSpell.sprite;
+        
+        leftImageHUD.sprite = leftSpell.sprite;
+        rightImageHUD.sprite = rightSpell.sprite;
+        upImageHUD.sprite = upSpell.sprite;
+        downImageHUD.sprite = downSpell.sprite;
     }
 
     public void WhichSpell(ArrowPressed key, string Id)
