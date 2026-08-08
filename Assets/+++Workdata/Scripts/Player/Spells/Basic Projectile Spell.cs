@@ -21,6 +21,8 @@ public class BasicProjectileSpell : MonoBehaviour
 
     public float ySpawnOffset;
 
+    public SpellDefinition spell;
+
     // TODO charging
     // TODO cooldown
     
@@ -33,12 +35,14 @@ public class BasicProjectileSpell : MonoBehaviour
     private void OnEnable()
     {
         BaseProjectileSpell += Cast;
+        
         OnAttackEnd += EndAttack;
     }
 
     private void OnDisable()
     {
         BaseProjectileSpell -= Cast;
+        
         OnAttackEnd -= EndAttack;
     }
 
@@ -47,6 +51,8 @@ public class BasicProjectileSpell : MonoBehaviour
         _currentlyActive = true;
         
         if (!_canAttack) return;
+
+        SpellCooldownManager.OnStartCooldown(spell);
         
         _canAttack = false;
         
@@ -83,10 +89,10 @@ public class BasicProjectileSpell : MonoBehaviour
         _playerAnimation.AnimationSetAction(10);
     }
 
-    private void EndAttack()
+    public void EndAttack()
     {
         if (!_currentlyActive) return;
-
+        
         _currentlyActive = false;
         _canAttack = true;
     }

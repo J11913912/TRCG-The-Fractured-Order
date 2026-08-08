@@ -32,6 +32,11 @@ public class SpellManager : MonoBehaviour
     private void Awake()
     {
         StartCoroutine(SetDefault());
+
+        foreach (SpellDefinition spell in allSpells)
+        {
+            spell.cooldownState = SpellDefinition.CooldownState.cooled;
+        }
     }
 
     private IEnumerator SetDefault()
@@ -46,6 +51,101 @@ public class SpellManager : MonoBehaviour
         _allowImageSetting = true;
         SetImages();
         
+    }
+
+    private void Update()
+    {
+        if (_allowImageSetting)
+        {
+            SetCooldownGrey();
+        }
+    }
+
+    private void SetCooldownGrey()
+    {
+        if (leftSpell.cooldownState == SpellDefinition.CooldownState.cooling)
+        {
+            Color alpha = leftImage.color;
+            alpha.a = 0.5f;
+            leftImage.color = alpha;
+            
+            Color alphaHUD = leftImageHUD.color;
+            alphaHUD.a = 0.5f;
+            leftImageHUD.color = alpha;
+        }
+        else
+        {
+            Color alpha = leftImage.color;
+            alpha.a = 1f;
+            leftImage.color = alpha;
+            
+            Color alphaHUD = leftImageHUD.color;
+            alphaHUD.a = 1f;
+            leftImageHUD.color = alpha;
+        }
+        
+        if (rightSpell.cooldownState == SpellDefinition.CooldownState.cooling)
+        {
+            Color alpha = rightImage.color;
+            alpha.a = 0.5f;
+            rightImage.color = alpha;
+            
+            Color alphaHUD = rightImageHUD.color;
+            alphaHUD.a = 0.5f;
+            rightImageHUD.color = alpha;
+        }
+        else
+        {
+            Color alpha = rightImage.color;
+            alpha.a = 1f;
+            rightImage.color = alpha;
+            
+            Color alphaHUD = rightImageHUD.color;
+            alphaHUD.a = 1f;
+            rightImageHUD.color = alpha;
+        }
+        
+        if (upSpell.cooldownState == SpellDefinition.CooldownState.cooling)
+        {
+            Color alpha = upImage.color;
+            alpha.a = 0.5f;
+            upImage.color = alpha;
+            
+            Color alphaHUD = upImageHUD.color;
+            alphaHUD.a = 0.5f;
+            upImageHUD.color = alpha;
+        }
+        else
+        {
+            Color alpha = upImage.color;
+            alpha.a = 1f;
+            upImage.color = alpha;
+            
+            Color alphaHUD = upImageHUD.color;
+            alphaHUD.a = 1f;
+            upImageHUD.color = alpha;
+        }
+        
+        if (downSpell.cooldownState == SpellDefinition.CooldownState.cooling)
+        {
+            Color alpha = downImage.color;
+            alpha.a = 0.5f;
+            downImage.color = alpha;
+            
+            Color alphaHUD = downImageHUD.color;
+            alphaHUD.a = 0.5f;
+            downImageHUD.color = alpha;
+        }
+        else
+        {
+            Color alpha = downImage.color;
+            alpha.a = 1f;
+            downImage.color = alpha;
+            
+            Color alphaHUD = downImageHUD.color;
+            alphaHUD.a = 1f;
+            downImageHUD.color = alpha;
+        }
     }
     
     private void SetImages()

@@ -5,6 +5,7 @@ public class BasicHealingSpell : MonoBehaviour
 {
     public static Action BaseHealingSpell;
     public static Action OnHealEnd;
+    public static Action OnCooldownEnd;
     
     private bool _canHeal = true;
     
@@ -18,6 +19,10 @@ public class BasicHealingSpell : MonoBehaviour
 
     public int healAmount;
 
+    private bool _isCooling = false;
+
+    public SpellDefinition spell;
+
     private void Awake()
     {
         _playerAnimation =  GetComponent<PlayerAnimation>();
@@ -28,16 +33,20 @@ public class BasicHealingSpell : MonoBehaviour
     {
         BaseHealingSpell += Cast;
         OnHealEnd += EndHeal;
+        OnCooldownEnd += EndCooldown;
     }
 
     private void OnDisable()
     {
         BaseHealingSpell -= Cast;
         OnHealEnd -= EndHeal; 
+        OnCooldownEnd -= EndCooldown;
     }
 
     private void Cast()
     {
+        if (_isCooling) return;
+        
         if (!_canHeal) return;
         
         _canHeal = false;
@@ -61,5 +70,13 @@ public class BasicHealingSpell : MonoBehaviour
         _playerInformation.SetHealth(healAmount);
         
         Destroy(sparkles);
+
+        _isCooling = true;
+        SpellCooldownManager.OnStartCooldown?.Invoke(spell);
+    }
+
+    private void EndCooldown()
+    {
+        _isCooling = false;
     }
 }

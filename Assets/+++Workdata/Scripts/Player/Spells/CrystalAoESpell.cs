@@ -6,9 +6,8 @@ using Debug = UnityEngine.Debug;
 
 public class CrystalAoESpell : MonoBehaviour
 {
-    // TODO fix the spamming and put it to end of animation!!!!!!!!!!!!!!!!!!!!!!!!
-    
     public static Action CrystalAoE;
+    public static Action OnCooldownEnd;
 
     public GameObject targetPrefab;
     public GameObject attackPillarPrefab;
@@ -31,6 +30,10 @@ public class CrystalAoESpell : MonoBehaviour
     private float _time;
     public float deathTime;
 
+    private bool _isCooling = false;
+
+    public SpellDefinition spell;
+
     private void Awake()
     {
         _playerState = GetComponent<PlayerStates>();
@@ -41,11 +44,13 @@ public class CrystalAoESpell : MonoBehaviour
     private void OnEnable()
     {
         CrystalAoE += Cast;
+        OnCooldownEnd += EndCooldown;
     }
 
     private void OnDisable()
     {
         CrystalAoE -= Cast;
+        OnCooldownEnd -= EndCooldown;
     }
 
     private void Update()
@@ -64,6 +69,8 @@ public class CrystalAoESpell : MonoBehaviour
 
     private void Cast()
     {
+        if (_isCooling) return;
+        
         if (!_castStarted && !_casting && _canCast)
         {
             _playerAnimation.AnimationSetAction(20);
@@ -125,5 +132,13 @@ public class CrystalAoESpell : MonoBehaviour
         _canCast = true;
             
         _playerInput.ToggleMovement(true);
+        
+        _isCooling = true;
+        SpellCooldownManager.OnStartCooldown?.Invoke(spell);
+    }
+
+    private void EndCooldown()
+    {
+        _isCooling = false;
     }
 }

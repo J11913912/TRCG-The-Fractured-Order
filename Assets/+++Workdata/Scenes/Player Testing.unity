@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 20471011}
   - component: {fileID: 20471009}
   - component: {fileID: 20471010}
+  - component: {fileID: 20471013}
   m_Layer: 0
   m_Name: SpellManager
   m_TagString: Untagged
@@ -438,6 +439,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 92186888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20471013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20471007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12f92baf7c4ac3643823198dc0205c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpellCooldownManager
+  player: {fileID: 1776460275}
 --- !u!1001 &73624804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1714,7 +1728,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1728,7 +1742,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 300973272}
   m_OnClick:
     m_PersistentCalls:
@@ -6949,6 +6963,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1920033775742012589, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      propertyPath: spell
+      value: 
+      objectReference: {fileID: 11400000, guid: 19205219b4dbb2a4f8739462012a4db1, type: 2}
+    - target: {fileID: 1979724783844789743, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      propertyPath: spell
+      value: 
+      objectReference: {fileID: 11400000, guid: 7052801b732c15846ba34125654be98c, type: 2}
+    - target: {fileID: 2874083355405610181, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      propertyPath: crystalAoESpell
+      value: 
+      objectReference: {fileID: 1776460279}
+    - target: {fileID: 4889857719390999303, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      propertyPath: spell
+      value: 
+      objectReference: {fileID: 11400000, guid: 111ffdc7d7ea0aa4fb0aea671fd566bb, type: 2}
     - target: {fileID: 6513679979285681003, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6993,6 +7023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6823101444443523382, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      propertyPath: spell
+      value: 
+      objectReference: {fileID: 11400000, guid: b0126853edcba1243a61ca025c66177f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7647,7 +7681,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4803592846052854511, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
   m_PrefabInstance: {fileID: 1312156861}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1776460275}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f91979f016b0c340824356e12d3cefa, type: 3}
@@ -8139,7 +8173,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -8153,7 +8187,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1591774674}
   m_OnClick:
     m_PersistentCalls:
@@ -8333,7 +8367,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -8347,7 +8381,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1596714656}
   m_OnClick:
     m_PersistentCalls:
@@ -8616,7 +8650,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.19607843}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -8630,7 +8664,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1629328173}
   m_OnClick:
     m_PersistentCalls:
@@ -9116,6 +9150,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774976310}
   m_CullTransparentMesh: 1
+--- !u!1 &1776460275 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6719532005816098622, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+  m_PrefabInstance: {fileID: 1312156861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1776460279 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6823101444443523382, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+  m_PrefabInstance: {fileID: 1312156861}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776460275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9307a117068f684fa617d2d7b06ede2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicAoESpell
 --- !u!1 &1789446596
 GameObject:
   m_ObjectHideFlags: 0

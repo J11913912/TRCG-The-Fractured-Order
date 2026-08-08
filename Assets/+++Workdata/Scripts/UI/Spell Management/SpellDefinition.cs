@@ -13,4 +13,15 @@ public class SpellDefinition : ScriptableObject
     
     [TextArea(3,10)]
     public string description;
+
+    public enum CooldownState
+    {
+        cooled,
+        cooling
+    };
+    public CooldownState cooldownState;
+
+    public string spellScript;
+    
+    public float cooldownTime;
 }

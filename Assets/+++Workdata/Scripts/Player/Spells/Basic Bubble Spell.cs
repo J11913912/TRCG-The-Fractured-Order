@@ -9,18 +9,22 @@ public class BasicBubbleSpell : MonoBehaviour
     public static Action BaseBubbleSpell;
     public static Action OnActivateShield;
     public static Action KillBubble;
+    public static Action OnCooledDown;
     
     public GameObject bubblePrefab;
     private GameObject bubble;
 
     public bool _bubbleOn = false;
     private bool _shieldOn = false;
+    private bool _isCooling = false;
     
     private Animator _animator;
     
     private PlayerAnimation _playerAnimation;
     
     private Vector2 _spawnPosition;
+
+    public SpellDefinition spell;
 
     private void Awake()
     {
@@ -32,6 +36,7 @@ public class BasicBubbleSpell : MonoBehaviour
         BaseBubbleSpell += Cast;
         OnActivateShield += ActivateShield;
         KillBubble += BurstBubble;
+        OnCooledDown += EndCooldown;
     }
 
     private void OnDisable()
@@ -39,6 +44,7 @@ public class BasicBubbleSpell : MonoBehaviour
         BaseBubbleSpell -= Cast;
         OnActivateShield -= ActivateShield;
         KillBubble -= BurstBubble;
+        OnCooledDown -= EndCooldown;
     }
 
     private void FixedUpdate()
@@ -56,6 +62,8 @@ public class BasicBubbleSpell : MonoBehaviour
     { 
         if (_bubbleOn) return;
         
+        if (_isCooling) return;
+        
         Debug.Log("Bubble spell casting");
         
         _playerAnimation.AnimationSetAction(30);
@@ -70,12 +78,16 @@ public class BasicBubbleSpell : MonoBehaviour
         
         bubble =  Instantiate(bubblePrefab);
         bubble.transform.position = _spawnPosition;
+        
+        _isCooling = true;
+        SpellCooldownManager.OnStartCooldown?.Invoke(spell);
     }
 
-    private void ActivateShield()
+    private void ActivateShield() // doenst get called yet
     {
         _shieldOn = true;
         PlayerInformation.ShieldOn?.Invoke("Basic", true);
+        
     }
 
     public void BurstBubble()
@@ -84,5 +96,10 @@ public class BasicBubbleSpell : MonoBehaviour
         _shieldOn = false;
         
         PlayerInformation.ShieldOn?.Invoke("Basic", false);
+    }
+
+    private void EndCooldown()
+    {
+        _isCooling = false;
     }
 }

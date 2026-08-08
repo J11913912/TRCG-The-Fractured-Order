@@ -17,3 +17,6 @@ MonoBehaviour:
   sprite: {fileID: 224610634760335010, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
   displayName: Bubble
   description: 2
+  cooldownState: 1
+  spellScript: 
+  cooldownTime: 3
