@@ -1,0 +1,127 @@
+using System;
+using System.Collections;
+using UnityEngine;
+
+public class CrystalHealingSpell : MonoBehaviour
+{
+    public static Action CrysHealingSpell;
+    public static Action OnHealEnd;
+    public static Action OnCooldownEnd;
+    
+    private bool _canHeal = true;
+    
+    private PlayerAnimation _playerAnimation;
+    private PlayerInformation _playerInformation;
+    private PlayerInput _playerInput;
+    
+    public GameObject crystalBallPrefab;
+    private GameObject crystalBall;
+    
+    private Vector2 _spawnPosition;
+
+    public int healAmount;
+
+    public bool _isCooling = false;
+    private bool _isActive = false;
+    private bool _isHealing = false;
+
+    public float maxHealTime;
+
+    public SpellDefinition spell;
+
+    private void Awake()
+    {
+        _playerAnimation =  GetComponent<PlayerAnimation>();
+        _playerInformation = GetComponent<PlayerInformation>();
+        _playerInput = GetComponent<PlayerInput>();
+    }
+
+    private void OnEnable()
+    {
+        CrysHealingSpell += Cast;
+        OnHealEnd += EndHeal;
+        OnCooldownEnd += EndCooldown;
+    }
+
+    private void OnDisable()
+    {
+        CrysHealingSpell -= Cast;
+        OnHealEnd -= EndHeal; 
+        OnCooldownEnd -= EndCooldown;
+    }
+
+    private void Cast()
+    {
+        if (_isCooling) return;
+        
+        if (!_canHeal) return;
+        
+        _canHeal = false;
+        
+        _isActive = true;
+        
+        _playerAnimation.AnimationSetAction(50);
+        _playerAnimation.AnimationSetBool("isCharging", true);
+        
+        HealOverTime();
+        
+        _playerInput.ToggleMovement(false);
+        Debug.Log("disabled movement");
+        
+        // TODO fix movement for player, idea: some other script toggles movement on the animatiom? ansonsnte: collider in crystal ball cage player or freeze rb from player
+        // TODO fix healing sparkles
+        // TODO do the heal over time
+    }
+
+    private void HealOverTime()
+    {
+        _isHealing = true;
+        StartCoroutine(StopHealing());
+            
+    }
+
+    private IEnumerator StopHealing()
+    {
+        yield return new WaitForSeconds(maxHealTime);
+        _isHealing = false;
+        EndHeal();
+    }
+   
+
+    public void SpawnSparkles()
+    {
+        if (!_isActive) return;
+        
+        _spawnPosition = transform.position;
+        _spawnPosition.y = transform.position.y + 0.56f;
+        
+        crystalBall = Instantiate(crystalBallPrefab);
+        crystalBall.transform.position = _spawnPosition;
+    }
+
+    private void EndHeal()
+    {
+        if (crystalBall == null) return;
+        
+        if (_canHeal) return;
+        
+        crystalBall.GetComponent<Animator>().SetTrigger("ActionTrigger");
+        crystalBall.GetComponent<Animator>().SetInteger("ActionID", 100);
+        
+        _canHeal = true;
+        
+        _playerInput.ToggleMovement(true);
+        
+        _playerAnimation.AnimationSetBool("isCharging", false);
+
+        _isCooling = true;
+        SpellCooldownManager.OnStartCooldown?.Invoke(spell);
+        
+        _isActive = false;
+    }
+
+    private void EndCooldown()
+    {
+        _isCooling = false;
+    }
+}

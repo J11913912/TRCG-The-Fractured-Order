@@ -246,6 +246,7 @@ MonoBehaviour:
   baseBubbleSpell: {fileID: 1979724783844789743}
   baseHealingSpell: {fileID: 1920033775742012589}
   crystalGuardSpell: {fileID: 4382461020824544556}
+  crystalHealingSpell: {fileID: 7660072762119870192}
 --- !u!114 &1411788606652100118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +330,7 @@ GameObject:
   - component: {fileID: 1979724783844789743}
   - component: {fileID: 1920033775742012589}
   - component: {fileID: 4382461020824544556}
+  - component: {fileID: 7660072762119870192}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -613,3 +615,19 @@ MonoBehaviour:
   _bubbleOn: 0
   ySpawnOffset: 1
   spell: {fileID: 11400000, guid: 0104b0a043aa83f4bbdf94f87fc03c58, type: 2}
+--- !u!114 &7660072762119870192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ac60d41bffc2441b05a29ddf90a1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CrystalHealingSpell
+  crystalBallPrefab: {fileID: 1326835886221984847, guid: 7c32d23ffb1610841b3167634d6e6c70, type: 3}
+  healAmount: 0
+  maxHealTime: 30
+  spell: {fileID: 11400000, guid: 90c1901905fe62343a326826f6c4380e, type: 2}

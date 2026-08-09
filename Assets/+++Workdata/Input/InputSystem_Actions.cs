@@ -269,7 +269,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""id"": ""7595b2ca-a942-4395-a29a-db078de57564"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Hold(duration=30,pressPoint=0.5)"",
                     ""initialStateCheck"": false
                 }
             ],

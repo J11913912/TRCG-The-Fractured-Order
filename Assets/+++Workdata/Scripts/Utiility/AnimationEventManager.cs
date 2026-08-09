@@ -5,7 +5,9 @@ public class AnimationEventManager : MonoBehaviour
     public CrystalAoESpell crystalAoESpell;
     public BasicBubbleSpell baseBubbleSpell;
     public BasicHealingSpell baseHealingSpell;
-    public CrystalGuardSpell  crystalGuardSpell;
+    public CrystalGuardSpell crystalGuardSpell;
+    public CrystalHealingSpell crystalHealingSpell;
+    
     public void AttackCrystalAoESpell()
     {
         crystalAoESpell.Attack2();
@@ -20,6 +22,7 @@ public class AnimationEventManager : MonoBehaviour
     public void BasicHealingSpell()
     {
         baseHealingSpell.SpawnSparkles();
+        crystalHealingSpell.SpawnSparkles();
     }
     
 }

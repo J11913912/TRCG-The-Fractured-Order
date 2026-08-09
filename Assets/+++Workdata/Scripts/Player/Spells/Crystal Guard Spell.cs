@@ -15,9 +15,9 @@ public class CrystalGuardSpell : MonoBehaviour
     private GameObject _shield;
 
     public bool _bubbleOn = false;
-    public bool _shieldOn = false;
-    public bool _isCooling = false;
-    public bool _isActive = false;
+    private bool _shieldOn = false;
+    private bool _isCooling = false;
+    private bool _isActive = false;
     
     private Animator _animator;
     

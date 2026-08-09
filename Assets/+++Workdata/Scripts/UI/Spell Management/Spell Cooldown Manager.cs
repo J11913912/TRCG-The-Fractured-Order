@@ -55,6 +55,9 @@ public class SpellCooldownManager : MonoBehaviour
             case 6:
                 CrystalGuardSpell.OnCooledDown?.Invoke();
                 break;
+            case 7:
+                CrystalHealingSpell.OnCooldownEnd?.Invoke();
+                break;
             
         }
     }

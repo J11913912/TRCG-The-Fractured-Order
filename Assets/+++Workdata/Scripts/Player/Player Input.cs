@@ -85,7 +85,9 @@ public class PlayerInput : MonoBehaviour
             _crystalProjectileAction.performed += CrystalProjectile;
             _crystalAoEAction.performed += CrystalAoE;
             _crystalShieldAction.performed += CrystalShield;
-            _crystalHealingAction.performed += CrystalHealing;
+            _crystalHealingAction.started += CrystalHealing;
+            _crystalHealingAction.performed += CrystalHealing2;
+            _crystalHealingAction.canceled += CrystalHealing2;
 
             _interactAction.performed += Interact;
             
@@ -110,7 +112,9 @@ public class PlayerInput : MonoBehaviour
             _crystalProjectileAction.performed -= CrystalProjectile;
             _crystalAoEAction.performed -= CrystalAoE;
             _crystalShieldAction.performed -= CrystalShield;
-            _crystalHealingAction.performed -= CrystalHealing;
+            _crystalHealingAction.started -= CrystalHealing;
+            _crystalHealingAction.performed -= CrystalHealing2;
+            _crystalHealingAction.canceled -= CrystalHealing2;
             
             _interactAction.performed += Interact;
             
@@ -129,6 +133,8 @@ public class PlayerInput : MonoBehaviour
 
         public void ToggleMovement(bool value)
         {
+            Debug.Log("toggle movement");
+            
             if (value)
             {
                 _moveAction.Enable();
@@ -380,7 +386,14 @@ public class PlayerInput : MonoBehaviour
         private void CrystalHealing(InputAction.CallbackContext ctx)
         {
             Debug.Log("CrystalHealing");
+            CrystalHealingSpell.CrysHealingSpell?.Invoke();
         }
+        
+        private void CrystalHealing2(InputAction.CallbackContext ctx)
+        {
+            CrystalHealingSpell.OnHealEnd?.Invoke();
+        }
+        
         
        
         

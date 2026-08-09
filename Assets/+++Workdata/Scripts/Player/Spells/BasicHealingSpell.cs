@@ -21,6 +21,7 @@ public class BasicHealingSpell : MonoBehaviour
     public int healAmount;
 
     private bool _isCooling = false;
+    private bool _isActive = false;
 
     public SpellDefinition spell;
 
@@ -64,6 +65,8 @@ public class BasicHealingSpell : MonoBehaviour
         
         if (!_canHeal) return;
         
+        _isActive = true;
+        
         _canHeal = false;
         
         _playerAnimation.AnimationSetAction(40);
@@ -72,6 +75,8 @@ public class BasicHealingSpell : MonoBehaviour
 
     public void SpawnSparkles()
     {
+        if (!_isActive) return;
+        
         _spawnPosition = transform.position;
         _spawnPosition.y = transform.position.y + 0.56f;
         
@@ -88,6 +93,8 @@ public class BasicHealingSpell : MonoBehaviour
         Destroy(sparkles);
         
         _playerInput.ToggleMovement(true);
+        
+        _isActive = false;
 
         _isCooling = true;
         SpellCooldownManager.OnStartCooldown?.Invoke(spell);
