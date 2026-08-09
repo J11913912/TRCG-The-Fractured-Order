@@ -31,6 +31,7 @@ public class CrystalAoESpell : MonoBehaviour
     public float deathTime;
 
     private bool _isCooling = false;
+    private bool _isActive = false;
 
     public SpellDefinition spell;
 
@@ -70,6 +71,8 @@ public class CrystalAoESpell : MonoBehaviour
     private void Cast()
     {
         if (_isCooling) return;
+        
+        _isActive = true;
         
         if (!_castStarted && !_casting && _canCast)
         {
@@ -119,11 +122,15 @@ public class CrystalAoESpell : MonoBehaviour
         _castStarted = false;
         _casting = false;
         
+        _playerInput.ToggleMovement(false);
+        
         _playerAnimation.AnimationSetBool("isCharging", false);
     }
 
     public void Attack2()
     {
+        if (!_isActive) return;
+        
         _pillar = Instantiate(attackPillarPrefab);
         _pillar.transform.position = _target.transform.position;
         
@@ -135,6 +142,9 @@ public class CrystalAoESpell : MonoBehaviour
         
         _isCooling = true;
         SpellCooldownManager.OnStartCooldown?.Invoke(spell);
+        
+        _isActive = false;
+        _playerInput.ToggleMovement(true);
     }
 
     private void EndCooldown()

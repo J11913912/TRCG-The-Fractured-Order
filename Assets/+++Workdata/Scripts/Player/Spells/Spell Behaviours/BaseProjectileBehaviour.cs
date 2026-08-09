@@ -18,6 +18,8 @@ public class BaseProjectileBehaviour : MonoBehaviour
     
     private PlayerStates _playerState;
     private PlayerDirection _direction; 
+    
+    public bool isAoE = false;
 
     private void Awake()
     {
@@ -43,7 +45,11 @@ public class BaseProjectileBehaviour : MonoBehaviour
 
     public void Shoot(Vector2 direction)
     {
-        UpdateAnimator();
+        if (!isAoE)
+        {
+            UpdateAnimator();
+        }
+        
         _rb.linearVelocity = direction * moveSpeed;
     }
 

@@ -242,9 +242,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee312bda85a56334aa9f380759396d1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimationEventManager
-  baseAoESpell: {fileID: 6823101444443523382}
+  crystalAoESpell: {fileID: 6823101444443523382}
   baseBubbleSpell: {fileID: 1979724783844789743}
   baseHealingSpell: {fileID: 1920033775742012589}
+  baseAoESpell: {fileID: 7714341567131980322}
 --- !u!114 &1411788606652100118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,6 +323,7 @@ GameObject:
   - component: {fileID: 6865402396189784047}
   - component: {fileID: 7336889594268032163}
   - component: {fileID: 4889857719390999303}
+  - component: {fileID: 7714341567131980322}
   - component: {fileID: 6823101444443523382}
   - component: {fileID: 8001303803466474047}
   - component: {fileID: 1979724783844789743}
@@ -459,6 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f91979f016b0c340824356e12d3cefa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInput
+  actions: []
 --- !u!114 &8600017832290420584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,6 +519,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BasicProjectileSpell
   projectilePrefab: {fileID: 6559585208921659398, guid: 4fa82e86265d8914c801d85c03729c37, type: 3}
   ySpawnOffset: 0.4
+  spell: {fileID: 11400000, guid: 111ffdc7d7ea0aa4fb0aea671fd566bb, type: 2}
+--- !u!114 &7714341567131980322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11543dbc01dd03a4aa859cab8f5c1770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicAoESpell
+  projectilePrefab: {fileID: 1050587239907258890, guid: 8ac48cdc77ca1dc40a1a1a2c9bc18b03, type: 3}
+  ySpawnOffset: 0
+  spell: {fileID: 11400000, guid: 36e58c9bf60680c448a08b0f94e577d8, type: 2}
 --- !u!114 &6823101444443523382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,6 +550,7 @@ MonoBehaviour:
   targetPrefab: {fileID: 2805717590181599927, guid: 06e020fabe0793e4f9ab181ece51ae01, type: 3}
   attackPillarPrefab: {fileID: 7315864855031046300, guid: 916b1cb09e5264e45b24e67ff5a3c4cc, type: 3}
   deathTime: 15
+  spell: {fileID: 11400000, guid: b0126853edcba1243a61ca025c66177f, type: 2}
 --- !u!114 &8001303803466474047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,6 +565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CrystalProjectileSpell
   projectilePrefab: {fileID: 928591610570380805, guid: 93dd59c10ff1f794fb98df944144b3f5, type: 3}
   ySpawnOffset: 0
+  _canAttack: 1
 --- !u!114 &1979724783844789743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,6 +580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BasicBubbleSpell
   bubblePrefab: {fileID: 4636320461149965388, guid: afa80ef15f7e57342888206a97bc6617, type: 3}
   _bubbleOn: 0
+  spell: {fileID: 11400000, guid: 7052801b732c15846ba34125654be98c, type: 2}
 --- !u!114 &1920033775742012589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,3 +594,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicHealingSpell
   sparklesPrefab: {fileID: 7963704601534173387, guid: 7062f46bb3397d34f9fac6b86870afb7, type: 3}
+  healAmount: 0
+  spell: {fileID: 11400000, guid: 19205219b4dbb2a4f8739462012a4db1, type: 2}

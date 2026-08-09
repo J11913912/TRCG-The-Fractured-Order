@@ -76,7 +76,9 @@ public class PlayerInput : MonoBehaviour
             _teleAction.performed += Teleport;
 
             _baseProjectileAction.performed += BaseProjectile;
-            _baseAoEAction.performed += BaseAoE;
+            _baseAoEAction.started += BaseAoE;
+            _baseAoEAction.performed += BaseAoE2;
+            _baseAoEAction.canceled += BaseAoE3;
             _baseShieldAction.performed += BaseShield;
             _baseHealingAction.performed += BaseHealing;
             
@@ -99,7 +101,9 @@ public class PlayerInput : MonoBehaviour
             _teleAction.performed -= Teleport;
             
             _baseProjectileAction.performed -= BaseProjectile;
-            _baseAoEAction.performed -= BaseAoE;
+            _baseAoEAction.started -= BaseAoE;
+            _baseAoEAction.performed -= BaseAoE2;
+            _baseAoEAction.canceled -= BaseAoE3;
             _baseShieldAction.performed -= BaseShield;
             _baseHealingAction.performed -= BaseHealing;
             
@@ -323,6 +327,19 @@ public class PlayerInput : MonoBehaviour
         private void BaseAoE(InputAction.CallbackContext ctx)
         {
             Debug.Log("BaseAoE");
+            BasicAoESpell.BaseAoESpell?.Invoke();
+        }
+        
+        private void BaseAoE2(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("BaseAoE2");
+            BasicAoESpell.OnAttack?.Invoke();
+        }
+        
+        private void BaseAoE3(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("BaseAoE3");
+            BasicAoESpell.OnAttackCancel?.Invoke();
         }
         
         private void BaseShield(InputAction.CallbackContext ctx)

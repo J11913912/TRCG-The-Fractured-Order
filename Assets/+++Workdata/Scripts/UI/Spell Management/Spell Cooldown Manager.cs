@@ -38,6 +38,7 @@ public class SpellCooldownManager : MonoBehaviour
                 // BasicProjectileSpell.OnAttackFree?.Invoke();
                 break;
             case 1:
+                BasicAoESpell.OnCooldownEnd?.Invoke();
                 break;
             case 2:
                 BasicBubbleSpell.OnCooledDown?.Invoke();
