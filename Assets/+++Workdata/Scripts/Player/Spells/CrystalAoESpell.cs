@@ -35,6 +35,8 @@ public class CrystalAoESpell : MonoBehaviour
 
     public SpellDefinition spell;
 
+    // TODO player has to really charge like with basic aoe??????
+    
     private void Awake()
     {
         _playerState = GetComponent<PlayerStates>();
@@ -76,6 +78,11 @@ public class CrystalAoESpell : MonoBehaviour
         
         if (!_castStarted && !_casting && _canCast)
         {
+            if (_pillar != null)
+            {
+                _pillar.GetComponent<CrystalPillarBehaviour>().SetAction(100);
+            }
+            
             _playerAnimation.AnimationSetAction(20);
             _playerAnimation.AnimationSetBool("isCharging", true);
             

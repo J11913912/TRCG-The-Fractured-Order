@@ -6963,22 +6963,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1920033775742012589, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
-      propertyPath: spell
-      value: 
-      objectReference: {fileID: 11400000, guid: 19205219b4dbb2a4f8739462012a4db1, type: 2}
-    - target: {fileID: 1979724783844789743, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
-      propertyPath: spell
-      value: 
-      objectReference: {fileID: 11400000, guid: 7052801b732c15846ba34125654be98c, type: 2}
-    - target: {fileID: 2874083355405610181, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
-      propertyPath: crystalAoESpell
-      value: 
-      objectReference: {fileID: 1776460279}
-    - target: {fileID: 4889857719390999303, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
-      propertyPath: spell
-      value: 
-      objectReference: {fileID: 11400000, guid: 111ffdc7d7ea0aa4fb0aea671fd566bb, type: 2}
     - target: {fileID: 6513679979285681003, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7023,10 +7007,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6823101444443523382, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
-      propertyPath: spell
-      value: 
-      objectReference: {fileID: 11400000, guid: b0126853edcba1243a61ca025c66177f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8972,6 +8952,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d93cb68076ea4a74c95ab16e4fe548ef, type: 3}
+--- !u!1001 &1634483378
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 899792797028155889, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_Name
+      value: Crystal Shield Wall Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.13714
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6087944053387897763, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
 --- !u!1 &1668202205 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1066017491868724273, guid: d93cb68076ea4a74c95ab16e4fe548ef, type: 3}
@@ -9155,17 +9192,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6719532005816098622, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
   m_PrefabInstance: {fileID: 1312156861}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1776460279 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6823101444443523382, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
-  m_PrefabInstance: {fileID: 1312156861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776460275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9307a117068f684fa617d2d7b06ede2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BasicAoESpell
 --- !u!1 &1789446596
 GameObject:
   m_ObjectHideFlags: 0
@@ -10508,3 +10534,4 @@ SceneRoots:
   - {fileID: 92186888}
   - {fileID: 763183341}
   - {fileID: 1163804923}
+  - {fileID: 1634483378}

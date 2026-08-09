@@ -161,6 +161,8 @@ public class PlayerInput : MonoBehaviour
 
 
         #region KeyBinds
+        
+        // TODO blood dart is out of range???
 
         public void ChangeBinding(SpellDefinition spellDefinition, string path, SpellDefinition oldSpell)
         {
@@ -372,6 +374,7 @@ public class PlayerInput : MonoBehaviour
         private void CrystalShield(InputAction.CallbackContext ctx)
         {
             Debug.Log("CrystalShield");
+            CrystalGuardSpell.CrysGuardSpell?.Invoke();
         }
         
         private void CrystalHealing(InputAction.CallbackContext ctx)

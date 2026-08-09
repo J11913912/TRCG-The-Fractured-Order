@@ -245,7 +245,7 @@ MonoBehaviour:
   crystalAoESpell: {fileID: 6823101444443523382}
   baseBubbleSpell: {fileID: 1979724783844789743}
   baseHealingSpell: {fileID: 1920033775742012589}
-  baseAoESpell: {fileID: 7714341567131980322}
+  crystalGuardSpell: {fileID: 4382461020824544556}
 --- !u!114 &1411788606652100118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,6 +328,7 @@ GameObject:
   - component: {fileID: 8001303803466474047}
   - component: {fileID: 1979724783844789743}
   - component: {fileID: 1920033775742012589}
+  - component: {fileID: 4382461020824544556}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -596,3 +597,19 @@ MonoBehaviour:
   sparklesPrefab: {fileID: 7963704601534173387, guid: 7062f46bb3397d34f9fac6b86870afb7, type: 3}
   healAmount: 0
   spell: {fileID: 11400000, guid: 19205219b4dbb2a4f8739462012a4db1, type: 2}
+--- !u!114 &4382461020824544556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcafd1da4057c147b8bcac6a5b7ae36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CrystalGuardSpell
+  shieldPrefab: {fileID: 899792797028155889, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
+  _bubbleOn: 0
+  ySpawnOffset: 1
+  spell: {fileID: 11400000, guid: 0104b0a043aa83f4bbdf94f87fc03c58, type: 2}

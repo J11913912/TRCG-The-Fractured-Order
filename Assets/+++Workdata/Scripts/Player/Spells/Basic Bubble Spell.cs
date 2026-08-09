@@ -17,6 +17,7 @@ public class BasicBubbleSpell : MonoBehaviour
     public bool _bubbleOn = false;
     private bool _shieldOn = false;
     private bool _isCooling = false;
+    private bool _isActive = false;
     
     private Animator _animator;
     
@@ -64,6 +65,8 @@ public class BasicBubbleSpell : MonoBehaviour
         
         if (_isCooling) return;
         
+        _isActive = true;
+        
         Debug.Log("Bubble spell casting");
         
         _playerAnimation.AnimationSetAction(30);
@@ -71,6 +74,8 @@ public class BasicBubbleSpell : MonoBehaviour
 
     public void SpawnBubble()
     {
+        if (!_isActive) return;
+        
         _bubbleOn = true;
         
         _spawnPosition  = transform.position;
@@ -94,6 +99,8 @@ public class BasicBubbleSpell : MonoBehaviour
     {
         _bubbleOn = false;
         _shieldOn = false;
+        
+        _isActive = false;
         
         PlayerInformation.ShieldOn?.Invoke("Basic", false);
     }
