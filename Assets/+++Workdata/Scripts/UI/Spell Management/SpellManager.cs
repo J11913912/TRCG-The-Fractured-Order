@@ -176,6 +176,12 @@ public class SpellManager : MonoBehaviour
 
     private void SetSpell(SpellDefinition spell, ArrowPressed key)
     {
+        if (spell == leftSpell || spell == rightSpell || spell == upSpell || spell == downSpell)
+        {
+            Debug.Log("already got that spell you oaf!");
+            return;
+        }
+        
         SpellDefinition oldSpell = null;
         
         string path = "";
