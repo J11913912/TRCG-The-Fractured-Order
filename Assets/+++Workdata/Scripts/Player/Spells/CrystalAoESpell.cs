@@ -1,5 +1,7 @@
 using System;
 using System.Diagnostics;
+using Mono.Cecil;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Debug = UnityEngine.Debug;
@@ -34,8 +36,14 @@ public class CrystalAoESpell : MonoBehaviour
     private bool _isActive = false;
 
     public SpellDefinition spell;
+    
+    public CinemachineCamera playerCamera;
+
+    public float howFarFromPlayer;
 
     // TODO player has to really charge like with basic aoe??????
+    
+    // TODO  find better solution to keep target in camera????
     
     private void Awake()
     {
@@ -58,8 +66,26 @@ public class CrystalAoESpell : MonoBehaviour
 
     private void Update()
     {
+        if (_target == null) return;
+        
         if (_casting)
         {
+            TargetBehaviour targetBehaviour= _target.GetComponent<TargetBehaviour>();
+
+            howFarFromPlayer = Vector2.Distance(gameObject.transform.position, _target.transform.position);
+
+            if (howFarFromPlayer >= 12f)
+            {
+               targetBehaviour.ToggleMoveSpeed(false);
+               
+               Debug.Log("target too far");
+            }
+
+            if (howFarFromPlayer < 12f)
+            {
+                targetBehaviour.ToggleMoveSpeed(true);
+            }
+            
             _time += Time.deltaTime;
 
             if (_time >= deathTime)
@@ -91,7 +117,7 @@ public class CrystalAoESpell : MonoBehaviour
             _canCast = false;
             
             _playerInput.ToggleMovement(false);
-        
+            
             _playerDirection = _playerState.GetPlayerDirection();
         
             if (_playerDirection == PlayerDirection.Left)
@@ -117,6 +143,8 @@ public class CrystalAoESpell : MonoBehaviour
 
             _target = Instantiate(targetPrefab);
             _target.transform.position = _spawnPosition;
+            
+            playerCamera.Follow = _target.transform;
         }
         else
         {
@@ -140,6 +168,8 @@ public class CrystalAoESpell : MonoBehaviour
         
         _pillar = Instantiate(attackPillarPrefab);
         _pillar.transform.position = _target.transform.position;
+        
+        playerCamera.Follow = gameObject.transform;
         
         Destroy(_target);
         

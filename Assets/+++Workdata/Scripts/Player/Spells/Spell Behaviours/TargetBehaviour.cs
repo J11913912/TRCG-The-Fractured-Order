@@ -1,4 +1,5 @@
 using System;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,6 +8,7 @@ public class TargetBehaviour : MonoBehaviour
     public static Action BasicAoE;
 
     public float moveSpeed;
+    private float _defaultMoveSpeed;
 
     private bool _castStarted = false;
 
@@ -23,6 +25,8 @@ public class TargetBehaviour : MonoBehaviour
         _moveAction = _inputActions.Player.MoveForTarget;
         
         _rb = GetComponent<Rigidbody2D>();
+
+        _defaultMoveSpeed = moveSpeed;
     }
 
     private void OnEnable()
@@ -47,5 +51,17 @@ public class TargetBehaviour : MonoBehaviour
     private void Move(InputAction.CallbackContext context)
     {
         _moveInput = context.ReadValue<Vector2>();
+    }
+
+    public void ToggleMoveSpeed(bool value)
+    {
+        if (value)
+        {
+            moveSpeed = _defaultMoveSpeed;
+        }
+        else if (!value)
+        {
+            moveSpeed = 1f;
+        }
     }
 }

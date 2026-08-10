@@ -84,7 +84,6 @@ public class CrystalHealingSpell : MonoBehaviour
         
         _playerInput.ToggleMovement(false);
         
-        // TODO fix healing sparkles
         // TODO fix the target camera follow
     }
 
