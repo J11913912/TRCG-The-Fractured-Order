@@ -91,7 +91,7 @@ public class BasicHealingSpell : MonoBehaviour
         _playerInformation.SetHealth(healAmount);
         
         Destroy(sparkles);
-        
+
         _playerInput.ToggleMovement(true);
         
         _isActive = false;

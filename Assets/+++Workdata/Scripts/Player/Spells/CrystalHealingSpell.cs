@@ -29,6 +29,9 @@ public class CrystalHealingSpell : MonoBehaviour
 
     public SpellDefinition spell;
 
+    private float time;
+    private float timeToNextHeal = 1f;
+
     private void Awake()
     {
         _playerAnimation =  GetComponent<PlayerAnimation>();
@@ -50,6 +53,20 @@ public class CrystalHealingSpell : MonoBehaviour
         OnCooldownEnd -= EndCooldown;
     }
 
+    private void Update()
+    {
+        if (_isHealing)
+        {
+            time += Time.deltaTime;
+            if (time >= timeToNextHeal)
+            {
+                time = 0;
+                _playerInformation.SetHealth(healAmount);
+                Debug.Log("healed a bit");
+            }
+        }
+    }
+
     private void Cast()
     {
         if (_isCooling) return;
@@ -66,11 +83,9 @@ public class CrystalHealingSpell : MonoBehaviour
         HealOverTime();
         
         _playerInput.ToggleMovement(false);
-        Debug.Log("disabled movement");
         
-        // TODO fix movement for player, idea: some other script toggles movement on the animatiom? ansonsnte: collider in crystal ball cage player or freeze rb from player
         // TODO fix healing sparkles
-        // TODO do the heal over time
+        // TODO fix the target camera follow
     }
 
     private void HealOverTime()

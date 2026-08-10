@@ -21,6 +21,10 @@ public class EndOfActionManager : MonoBehaviour
             case "CrysProjectile":
                 CrystalProjectileSpell.OnAttackEnd?.Invoke();
                 break;
+            
+            case "CrystalHealing":
+                CrystalHealingSpell.OnHealEnd?.Invoke();
+                break;
         }
     }
 }
