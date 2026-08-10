@@ -88,8 +88,6 @@ public class CrystalHealingSpell : MonoBehaviour
         HealOverTime();
         
         _playerInput.ToggleMovement(false);
-        
-        // TODO fix the target camera follow
     }
 
     private void HealOverTime()
