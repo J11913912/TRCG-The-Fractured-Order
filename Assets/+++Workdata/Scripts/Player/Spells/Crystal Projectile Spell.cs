@@ -12,9 +12,12 @@ public class CrystalProjectileSpell : MonoBehaviour
     private PlayerStates _playerState;
     private PlayerAnimation _playerAnimation;
     private BaseProjectileBehaviour _projectileBehaviour;
+    private ManaManager _manaManager;
     
     private Vector2 _spawnPosition;
     private Vector2 _direction;
+    
+    public int manaCost;
     
     public float ySpawnOffset;
     public bool _canAttack = true;
@@ -27,6 +30,7 @@ public class CrystalProjectileSpell : MonoBehaviour
     {
         _playerState =  GetComponent<PlayerStates>();
         _playerAnimation = GetComponent<PlayerAnimation>();
+        _manaManager = GetComponent<ManaManager>();
     }
 
     private void OnEnable()
@@ -46,6 +50,8 @@ public class CrystalProjectileSpell : MonoBehaviour
         _currentlyActive = true;
         
         if (!_canAttack) return;
+        
+        if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
         
         Debug.Log("Crystal Projectile Spell casting");
         

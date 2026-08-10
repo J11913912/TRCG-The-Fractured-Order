@@ -7,10 +7,12 @@ public class AnimationEventManager : MonoBehaviour
     public BasicHealingSpell baseHealingSpell;
     public CrystalGuardSpell crystalGuardSpell;
     public CrystalHealingSpell crystalHealingSpell;
+    public BasicAoESpell baseAoESpell;
     
     public void AttackCrystalAoESpell()
     {
         crystalAoESpell.Attack2();
+        baseAoESpell.Attack2();
     }
 
     public void BasicShieldSpell()

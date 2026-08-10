@@ -81,7 +81,14 @@ public class BasicAoESpell : MonoBehaviour
 
     private void Attack()
     {
+        if (!_currentlyActive) return;
+        
         _playerAnimation.AnimationSetBool("isCharging", false);
+    }
+
+    public void Attack2()
+    {
+        if (!_currentlyActive) return;
         
         _isCooling = true;
         SpellCooldownManager.OnStartCooldown(spell);
@@ -139,6 +146,8 @@ public class BasicAoESpell : MonoBehaviour
         _playerAnimation.AnimationSetBool("secondPress", true);
 
         StartCoroutine(ResetCharge());
+        
+        _playerInput.ToggleMovement(true);
         
         if (!_currentlyActive) return;
         

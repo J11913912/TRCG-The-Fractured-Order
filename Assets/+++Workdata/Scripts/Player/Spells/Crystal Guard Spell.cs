@@ -13,6 +13,8 @@ public class CrystalGuardSpell : MonoBehaviour
     
     public GameObject shieldPrefab;
     private GameObject _shield;
+    
+    public int manaCost;
 
     public bool _bubbleOn = false;
     private bool _shieldOn = false;
@@ -23,6 +25,7 @@ public class CrystalGuardSpell : MonoBehaviour
     
     private PlayerAnimation _playerAnimation;
     private PlayerInput _playerInput;
+    private ManaManager _manaManager;
     
     private PlayerDirection _playerDirection;
     private PlayerStates _playerState;
@@ -39,6 +42,7 @@ public class CrystalGuardSpell : MonoBehaviour
         _playerAnimation = GetComponent<PlayerAnimation>();
         _playerInput = GetComponent<PlayerInput>();
         _playerState =  GetComponent<PlayerStates>();
+        _manaManager = GetComponent<ManaManager>();
     }
 
     private void OnEnable()
@@ -62,6 +66,8 @@ public class CrystalGuardSpell : MonoBehaviour
         if (_bubbleOn) return;
         
         if (_isCooling) return;
+
+        if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
         
         _isActive = true;
         

@@ -13,6 +13,7 @@ public class CrystalHealingSpell : MonoBehaviour
     private PlayerAnimation _playerAnimation;
     private PlayerInformation _playerInformation;
     private PlayerInput _playerInput;
+    private ManaManager _manaManager;
     
     public GameObject crystalBallPrefab;
     private GameObject crystalBall;
@@ -26,6 +27,7 @@ public class CrystalHealingSpell : MonoBehaviour
     private bool _isHealing = false;
 
     public float maxHealTime;
+    public int manaCost;
 
     public SpellDefinition spell;
 
@@ -37,6 +39,7 @@ public class CrystalHealingSpell : MonoBehaviour
         _playerAnimation =  GetComponent<PlayerAnimation>();
         _playerInformation = GetComponent<PlayerInformation>();
         _playerInput = GetComponent<PlayerInput>();
+        _manaManager = GetComponent<ManaManager>();
     }
 
     private void OnEnable()
@@ -73,6 +76,8 @@ public class CrystalHealingSpell : MonoBehaviour
         
         if (!_canHeal) return;
         
+        if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
+        
         _canHeal = false;
         
         _isActive = true;
@@ -107,7 +112,7 @@ public class CrystalHealingSpell : MonoBehaviour
         if (!_isActive) return;
         
         _spawnPosition = transform.position;
-        _spawnPosition.y = transform.position.y + 0.56f;
+        _spawnPosition.y = transform.position.y + 0.8f;
         
         crystalBall = Instantiate(crystalBallPrefab);
         crystalBall.transform.position = _spawnPosition;

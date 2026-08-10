@@ -24,6 +24,7 @@ public class CrystalAoESpell : MonoBehaviour
     private PlayerStates _playerState;
     private PlayerInput _playerInput;
     private PlayerAnimation _playerAnimation;
+    private ManaManager _manaManager;
     
     private PlayerDirection _playerDirection;
     private Vector2 _direction;
@@ -31,6 +32,8 @@ public class CrystalAoESpell : MonoBehaviour
 
     private float _time;
     public float deathTime;
+    
+    public int manaCost;
 
     private bool _isCooling = false;
     private bool _isActive = false;
@@ -50,6 +53,7 @@ public class CrystalAoESpell : MonoBehaviour
         _playerState = GetComponent<PlayerStates>();
         _playerInput = GetComponent<PlayerInput>();
         _playerAnimation = GetComponent<PlayerAnimation>();
+        _manaManager =  GetComponent<ManaManager>();
     }
     
     private void OnEnable()
@@ -99,6 +103,8 @@ public class CrystalAoESpell : MonoBehaviour
     private void Cast()
     {
         if (_isCooling) return;
+        
+        if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
         
         _isActive = true;
         
