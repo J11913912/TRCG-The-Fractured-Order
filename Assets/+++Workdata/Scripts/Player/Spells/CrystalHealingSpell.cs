@@ -65,10 +65,22 @@ public class CrystalHealingSpell : MonoBehaviour
             {
                 time = 0;
                 _playerInformation.SetHealth(healAmount);
+                crystalBall.GetComponent<CrystalBallBehaviour>().ChangeColor();
                 Debug.Log("healed a bit");
             }
         }
     }
+    
+    // TODO destroy ball on cancel and everywhere          DONE
+    // TODO sprite setter for on heal                      DONE BUT UGLY
+    // TODO fix spawn timing projectile and aoe            DONE
+    // TODO make bubble appear longer                      DONE
+    // TODO random healing amout crystal healing
+    // TODO add back hand shoot for crystal projectile
+    // TODO destroy crystal walls                         DONE
+    // TODO adjust crystal walls collision
+    // TODO make non unlocked spells somehow disappear in spell menu (delete them completely, make them invisble but keep the naivagtion running)
+    // TODO start on health bar
 
     private void Cast()
     {

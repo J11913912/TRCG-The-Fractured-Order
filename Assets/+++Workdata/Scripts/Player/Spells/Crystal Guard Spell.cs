@@ -79,6 +79,11 @@ public class CrystalGuardSpell : MonoBehaviour
     public void SpawnBubble()
     {
         if (!_isActive) return;
+
+        if (_shield != null)
+        {
+            _shield.GetComponent<CrystalGuardBehaviour>().SetAnimation(100);
+        }
         
         Debug.Log("Bubble spawning");
         
@@ -126,12 +131,13 @@ public class CrystalGuardSpell : MonoBehaviour
         
     }
 
-    public void BurstBubble()
+    public void BurstBubble() // doesnt get called yet
     {
         _bubbleOn = false;
         _shieldOn = false;
         
         PlayerInformation.ShieldOn?.Invoke("Crystal", false);
+        _shield.GetComponent<CrystalGuardBehaviour>().SetAnimation(100);
         
         _isActive = false;
     }

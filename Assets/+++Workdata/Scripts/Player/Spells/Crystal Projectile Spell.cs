@@ -22,7 +22,7 @@ public class CrystalProjectileSpell : MonoBehaviour
     public float ySpawnOffset;
     public bool _canAttack = true;
     
-    private bool _currentlyActive = true;
+    private bool _currentlyActive = false;
 
     // TODO charging
     
@@ -53,9 +53,14 @@ public class CrystalProjectileSpell : MonoBehaviour
         
         if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
         
-        Debug.Log("Crystal Projectile Spell casting");
-        
         _canAttack  = false;
+        
+        _playerAnimation.AnimationSetAction(10);
+    }
+
+    public void Attack()
+    {
+        if (!_currentlyActive) return;
         
         _playerDirection = _playerState.GetPlayerDirection();
         
@@ -86,8 +91,6 @@ public class CrystalProjectileSpell : MonoBehaviour
         _projectileBehaviour = projectile.GetComponent<BaseProjectileBehaviour>();
         
         _projectileBehaviour.Shoot(_direction);
-        
-        _playerAnimation.AnimationSetAction(10);
     }
 
     private void EndAttack()

@@ -45,6 +45,12 @@ public class CrystalGuardBehaviour : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void SetAnimation(int ID)
+    {
+        _animator.SetInteger(Hash_ActionID, ID);
+        _animator.SetTrigger(Hash_ActionTrigger);
+    }
+
     public void Shoot(Vector2 direction)
     {
         if (!isAoE)

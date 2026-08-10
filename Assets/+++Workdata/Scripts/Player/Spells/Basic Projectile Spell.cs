@@ -56,6 +56,13 @@ public class BasicProjectileSpell : MonoBehaviour
         
         _canAttack = false;
         
+        _playerAnimation.AnimationSetAction(10);
+    }
+
+    public void Attack()
+    {
+        if (!_currentlyActive) return;
+        
         _playerDirection = _playerState.GetPlayerDirection();
         
         if (_playerDirection == PlayerDirection.Left)
@@ -85,8 +92,6 @@ public class BasicProjectileSpell : MonoBehaviour
         _projectileBehaviour = projectile.GetComponent<BaseProjectileBehaviour>();
         
         _projectileBehaviour.Shoot(_direction);
-        
-        _playerAnimation.AnimationSetAction(10);
     }
 
     public void EndAttack()
