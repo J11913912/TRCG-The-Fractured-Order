@@ -83,7 +83,7 @@ public class CrystalHealingSpell : MonoBehaviour
     // TODO destroy crystal walls                         DONE
     // TODO adjust crystal walls collision
     // TODO make non unlocked spells somehow disappear in spell menu (delete them completely, make them invisble but keep the naivagtion running)       DONE but needs logic to set unokicng spells while running
-    // TODO start on health bar
+    // TODO start on health bar                           DONE
 
     private void Cast()
     {

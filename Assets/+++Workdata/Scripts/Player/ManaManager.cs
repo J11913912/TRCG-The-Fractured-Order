@@ -10,20 +10,18 @@ public class ManaManager : MonoBehaviour
    {
       currrentMana =  maxMana;
    }
-   private void Update()
-   {
-      // TODO update mana bar
-   }
 
    public void DecreaseMana(int mana)
    {
       if (currrentMana - mana < 0)
       {
          currrentMana = 0;
+         ManabarManager.OnManaDecrease(mana);
       }
       else
       {
          currrentMana -= mana;
+         ManabarManager.OnManaDecrease(mana);
       }
    }
 
@@ -32,10 +30,12 @@ public class ManaManager : MonoBehaviour
       if (currrentMana + mana > maxMana)
       {
          currrentMana = maxMana;
+         ManabarManager.OnManaIncrease(maxMana);
       }
       else
       {
          currrentMana += mana;
+         ManabarManager.OnManaIncrease(mana);
       }
    }
 
