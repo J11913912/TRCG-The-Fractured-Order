@@ -140,5 +140,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 915b11b990b868b4088238405bb494fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteColorChanger
-  colorSprite: {r: 1, g: 1, b: 0.8, a: 0.74509805}
-  colorTime: 0.3
+  colorSprite: {r: 1, g: 1, b: 1, a: 0.8627451}
+  colorTime: 0.5

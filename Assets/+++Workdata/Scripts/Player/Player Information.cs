@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerInformation : MonoBehaviour
 {
-    public static Action<int> OnHealthChange;
+    public static Action<int> OnHealthDown;
+    public static Action<int> OnHealthUp;
     
     public static Action<string, bool> ShieldOn;
    
@@ -32,13 +33,15 @@ public class PlayerInformation : MonoBehaviour
 
     private void OnEnable()
     {
-        OnHealthChange += SetDamage;
+        OnHealthDown += SetDamage;
+        OnHealthUp += SetHealth;
         ShieldOn += ActivateShield;
     }
 
     private void OnDisable()
     {
-        OnHealthChange -= SetDamage;
+        OnHealthDown -= SetDamage;
+        OnHealthUp -= SetHealth;
         ShieldOn -= ActivateShield;
     }
 
@@ -48,13 +51,15 @@ public class PlayerInformation : MonoBehaviour
         {
             shieldOn = false;
             canTakeDamage = true;
-            _currentGuard.Invoke("BurstBubble", 0);
+           // _currentGuard.Invoke("BurstBubble", 0);
             return;
         }
         
         canTakeDamage = false;
         currentHealth -= damage;
         //RuntimeManager.PlayOneShot("event:/SFX/Hit/Player Hit");
+        
+        StartCoroutine(TakeDamage());
       
         if (currentHealth < 1)
         {
@@ -62,10 +67,13 @@ public class PlayerInformation : MonoBehaviour
          
             playerAnimation.AnimationSetAction(100);
             PlayerStates.OnChangeAction?.Invoke(PlayerAction.Dead);
-         
+            
+            HealthbarManager.OnHealthDecrease(damage);
         }
-        
-        StartCoroutine(TakeDamage());
+        else
+        {
+            HealthbarManager.OnHealthDecrease(damage);
+        }
     }
 
     public IEnumerator TakeDamage()
@@ -81,7 +89,12 @@ public class PlayerInformation : MonoBehaviour
         if (currentHealth + amount > maxHealth)
         {
             currentHealth = maxHealth;
-        } 
+            HealthbarManager.OnHealthIncrease(maxHealth);
+        }
+        else
+        {
+            HealthbarManager.OnHealthIncrease(amount);
+        }
     }
 
     public void SetHealthToMax()

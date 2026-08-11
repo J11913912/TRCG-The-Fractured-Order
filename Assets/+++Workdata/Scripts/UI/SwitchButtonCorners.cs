@@ -140,22 +140,22 @@ public class SwitchButtonCorners : MonoBehaviour
 
         if (currentPos == new Vector2(0, 0))
         {
-            currentSelectedGameObject = allButtons[0];
+            currentSelectedGameObject = allButtons[1];
         }
        
         if (currentPos == new Vector2(1, 0))
         {
-            currentSelectedGameObject = allButtons[12];
+            currentSelectedGameObject = allButtons[13];
         }
        
         if (currentPos == new Vector2(1, 1))
         {
-            currentSelectedGameObject = allButtons[8];
+            currentSelectedGameObject = allButtons[9];
         }
        
         if (currentPos == new Vector2(0, 1))
         {
-            currentSelectedGameObject = allButtons[4];
+            currentSelectedGameObject = allButtons[5];
         }
         
         currentSelectedGameObject.GetComponent<Button>().Select();

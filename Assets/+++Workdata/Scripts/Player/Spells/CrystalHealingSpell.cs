@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class CrystalHealingSpell : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class CrystalHealingSpell : MonoBehaviour
     public SpellDefinition spell;
 
     private float time;
-    private float timeToNextHeal = 1f;
+    public float timeToNextHeal;
 
     private void Awake()
     {
@@ -63,6 +64,8 @@ public class CrystalHealingSpell : MonoBehaviour
             time += Time.deltaTime;
             if (time >= timeToNextHeal)
             {
+                healAmount = Random.Range(3, 10);
+                
                 time = 0;
                 _playerInformation.SetHealth(healAmount);
                 crystalBall.GetComponent<CrystalBallBehaviour>().ChangeColor();
@@ -75,11 +78,11 @@ public class CrystalHealingSpell : MonoBehaviour
     // TODO sprite setter for on heal                      DONE BUT UGLY
     // TODO fix spawn timing projectile and aoe            DONE
     // TODO make bubble appear longer                      DONE
-    // TODO random healing amout crystal healing
-    // TODO add back hand shoot for crystal projectile
+    // TODO random healing amout crystal healing           DONE
+    // TODO add back hand shoot for crystal projectile     DONE But adjust spamming?
     // TODO destroy crystal walls                         DONE
     // TODO adjust crystal walls collision
-    // TODO make non unlocked spells somehow disappear in spell menu (delete them completely, make them invisble but keep the naivagtion running)
+    // TODO make non unlocked spells somehow disappear in spell menu (delete them completely, make them invisble but keep the naivagtion running)       DONE but needs logic to set unokicng spells while running
     // TODO start on health bar
 
     private void Cast()

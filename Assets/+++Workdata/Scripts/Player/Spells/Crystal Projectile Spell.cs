@@ -21,6 +21,8 @@ public class CrystalProjectileSpell : MonoBehaviour
     
     public float ySpawnOffset;
     public bool _canAttack = true;
+
+    private bool _secondAttack = false;
     
     private bool _currentlyActive = false;
 
@@ -54,8 +56,19 @@ public class CrystalProjectileSpell : MonoBehaviour
         if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
         
         _canAttack  = false;
-        
-        _playerAnimation.AnimationSetAction(10);
+
+        if (_secondAttack)
+        {
+            _secondAttack = false;
+            _playerAnimation.AnimationSetAction(10);
+            _playerAnimation.AnimationSetBool("secondPress", true);
+        }
+        else
+        {
+            _secondAttack = true;
+            _playerAnimation.AnimationSetAction(10);
+            _playerAnimation.AnimationSetBool("secondPress", false);
+        }
     }
 
     public void Attack()
