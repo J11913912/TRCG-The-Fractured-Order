@@ -177,7 +177,7 @@ public class InventorySystem : MonoBehaviour
         if (items[_index].amount <= 0)
         {
             items.RemoveAt(_index);
-            //GetComponent<TurnOffDescription>().TurnOff();
+            GetComponent<TurnOffDescription>().TurnOff();
         }
             
         InventoryManager.Instance.SetInventoryItems(items);
