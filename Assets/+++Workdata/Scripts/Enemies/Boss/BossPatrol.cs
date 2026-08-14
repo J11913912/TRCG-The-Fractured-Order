@@ -12,10 +12,10 @@ using Random = UnityEngine.Random;
 public class BossPatrol : MonoBehaviour
 {
     private int HashMovementValue = Animator.StringToHash("MovementValue");
-    private int HashDirX = Animator.StringToHash("dirX");
-    private int HashDirY = Animator.StringToHash("dirY");
+    private int HashDirX = Animator.StringToHash("XDirection");
+    private int HashDirY = Animator.StringToHash("YDirection");
     private int HashActionTrigger = Animator.StringToHash("ActionTrigger");
-    private int HashActionId = Animator.StringToHash("ActionId");
+    private int HashActionID = Animator.StringToHash("ActionID");
     
     
     #region Inspector
@@ -156,8 +156,16 @@ public class BossPatrol : MonoBehaviour
 
     private void LateUpdate()
     {
-        UpdateFacing();
-        //UpdateAniamtor();
+        if (!_isWaiting)
+        { 
+            UpdateFacing();
+        }
+        else
+        {
+            LookAtPlayer();
+        }
+        
+        UpdateAniamtor();
     }
     
     #endregion
@@ -192,12 +200,12 @@ public class BossPatrol : MonoBehaviour
         {
             enemyFacingDirection = dir.y > 0 ? EnemyFacingDirection.Up : EnemyFacingDirection.Down;
         }
-        //SetAnimationDirection(new Vector2(dir.x, dir.y));
-        /*
+        SetAnimationDirection(new Vector2(dir.x, dir.y));
+        
         switch (enemyFacingDirection)
         {
             case EnemyFacingDirection.Up:
-
+                SetAnimationDirection(new Vector2(0, 1));
                 break;
             
             case EnemyFacingDirection.Down:
@@ -211,7 +219,41 @@ public class BossPatrol : MonoBehaviour
             case EnemyFacingDirection.Right:
                 SetAnimationDirection(new Vector2(1, 0));
                 break;
-        }*/
+        }
+    }
+
+    private void LookAtPlayer()
+    {
+        Vector2 direction = _player.position - transform.position;
+        
+        if(Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            enemyFacingDirection = direction.x > 0 ? EnemyFacingDirection.Right : EnemyFacingDirection.Left;
+        }
+        else
+        {
+            enemyFacingDirection = direction.y > 0 ? EnemyFacingDirection.Up : EnemyFacingDirection.Down;
+        }
+        SetAnimationDirection(new Vector2(direction.x, direction.y));
+
+        switch (enemyFacingDirection)
+        {
+            case EnemyFacingDirection.Up:
+                SetAnimationDirection(new Vector2(0, 1));
+                break;
+
+            case EnemyFacingDirection.Down:
+                SetAnimationDirection(new Vector2(0, -1));
+                break;
+
+            case EnemyFacingDirection.Left:
+                SetAnimationDirection(new Vector2(-1, 0));
+                break;
+
+            case EnemyFacingDirection.Right:
+                SetAnimationDirection(new Vector2(1, 0));
+                break;
+        }
     }
     
     private void RotateObj(Vector2 direction)
@@ -269,13 +311,11 @@ public class BossPatrol : MonoBehaviour
     public void SetSpinning(List<Transform> newWaypoints)
     {
         waypoints = newWaypoints;
-        Debug.Log("set new waypoints");
         Debug.Log(waypoints.Count);
         canPatrol = true;
         _isWaiting = false;
         waitAtWaypoint = false;
         waitDuration = new Vector2(0, 0);
-        ResumePatrol();
     }
     
     private void SetNextWaypoint()
@@ -298,7 +338,6 @@ public class BossPatrol : MonoBehaviour
 
         _target = waypoints[_currentWaypointIndex];
         _agent.SetDestination(_target.position);
-        Debug.Log("found destination");
     }
 
     private void CheckIfWaypointIsReached()
@@ -315,7 +354,6 @@ public class BossPatrol : MonoBehaviour
             else
             {
                 SetNextWaypoint();
-                Debug.Log("Set next waypoint without wair");
             }
         }
     }
@@ -353,20 +391,20 @@ public class BossPatrol : MonoBehaviour
     #region Animation
 
     private void UpdateAniamtor()
-    {
-     //   animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
+    { 
+        animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
     }
 
     private void SetAnimationDirection(Vector2 direction)
-    {
-     //   animator.SetFloat(HashDirX, direction.x);
-      //  animator.SetFloat(HashDirY, direction.y);
+    { 
+        animator.SetFloat(HashDirX, direction.x); 
+        animator.SetFloat(HashDirY, direction.y);
     }
 
     private void SetAnimationAction(int actionId)
-    {
-       // animator.SetTrigger(HashActionTrigger);
-       // animator.SetInteger(HashActionId, actionId);
+    { 
+        animator.SetTrigger(HashActionTrigger); 
+        animator.SetInteger(HashActionID, actionId);
     }
 
     #endregion
@@ -376,6 +414,8 @@ public class BossPatrol : MonoBehaviour
     
     public void DecideAttack()
     {
+        StopPatrol();
+        
         attackRandom =  Random.Range(0, 3);
 
         switch (attackRandom)
@@ -391,6 +431,7 @@ public class BossPatrol : MonoBehaviour
                 Debug.Log("Boss Spin Ability");
                 isSpinning  = true;
                 SetSpinning(spinningWaypoints);
+                SetAnimationAction(10);
                 break;
             
             case 2:

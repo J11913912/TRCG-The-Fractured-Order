@@ -166,8 +166,6 @@ public class PlayerInput : MonoBehaviour
 
         #region KeyBinds
         
-        // TODO blood dart is out of range???
-
         public void ChangeBinding(SpellDefinition spellDefinition, string path, SpellDefinition oldSpell)
         {
             if (oldSpell != null)

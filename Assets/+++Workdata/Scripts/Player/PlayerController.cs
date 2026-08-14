@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -30,6 +31,10 @@ public class PlayerController : MonoBehaviour
         private float _currentSpeed;
 
         public bool _isRolling = false;
+        
+        public bool _pushedBack = false;
+        
+        private bool _isRunning = false;
 
         #endregion
 
@@ -66,6 +71,8 @@ public class PlayerController : MonoBehaviour
 
         void MoveHandler()
         {
+            if (_pushedBack) return;
+            
             //if (_playerState.GetPlayerAction() == PlayerAction.Roll) return;
             
             Vector2 targetVelocity = _moveInput * _currentSpeed;
@@ -76,6 +83,8 @@ public class PlayerController : MonoBehaviour
 
         void SetMoveInput(Vector2 moveInput)
         {
+            if (_pushedBack) return;
+            
             _moveInput = moveInput;
 
             PlayerStates.OnChangeMovement?.Invoke(_moveInput == Vector2.zero ? PlayerMovement.Idle : PlayerMovement.Moving);
@@ -89,6 +98,30 @@ public class PlayerController : MonoBehaviour
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
             }*/
+        }
+
+        public void ApplyForce(Vector2 force)
+        {
+            _pushedBack = true;
+            _rb.linearVelocity = force * 20f;
+
+            if (!_isRunning)
+            {
+                StartCoroutine(StopPushBack());
+            }
+            
+            _isRunning = true;
+            
+         //   _rb.AddForce(Vector2.left * 5, ForceMode2D.Impulse);
+         
+        }
+
+        private IEnumerator StopPushBack()
+        {
+            yield return new WaitForSeconds(0.2f);
+            _rb.linearVelocity = Vector2.zero;
+            _pushedBack = false;
+            _isRunning = false;
         }
 
         #endregion

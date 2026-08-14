@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class BossSpinAbility : MonoBehaviour
 {
+    private int HashActionTrigger = Animator.StringToHash("ActionTrigger");
+    private int HashActionID = Animator.StringToHash("ActionID");
+    
     public bool start;
     public bool isSecondPhase = false;
+    public Animator animator;
+    public GameObject spinCollider;
 
     public float spintime;
     
@@ -20,7 +25,7 @@ public class BossSpinAbility : MonoBehaviour
     {
         Debug.Log("StartSpin");
         start = true;
-        // start animation
+        spinCollider.SetActive(true);
         StartCoroutine(SpinTimer());
     }
 
@@ -29,8 +34,9 @@ public class BossSpinAbility : MonoBehaviour
         yield return new WaitForSeconds(spintime);
         start = false;
         Debug.Log("StopSpin");
+        spinCollider.SetActive(false);
         _bossPatrol.ResumePatrolAfterAttack();
-        //stop animation
+        animator.SetInteger(HashActionID, 11); 
     }
 
     public void SetSecondPhase()
