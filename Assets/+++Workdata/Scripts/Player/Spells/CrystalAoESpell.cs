@@ -78,11 +78,9 @@ public class CrystalAoESpell : MonoBehaviour
 
             howFarFromPlayer = Vector2.Distance(gameObject.transform.position, _target.transform.position);
 
-            if (howFarFromPlayer >= 12f)
+            if (howFarFromPlayer >= 12f)                                                                                // target movement gets painfully slow when too far away
             {
                targetBehaviour.ToggleMoveSpeed(false);
-               
-               Debug.Log("target too far");
             }
 
             if (howFarFromPlayer < 12f)
@@ -100,11 +98,11 @@ public class CrystalAoESpell : MonoBehaviour
         }
     }
 
-    private void Cast()
+    private void Cast()                                                                                                 // on input
     {
         if (_isCooling) return;
         
-        if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
+        if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;                                                      // only if enough mana
         
         _isActive = true;
         
@@ -126,7 +124,7 @@ public class CrystalAoESpell : MonoBehaviour
             
             _playerDirection = _playerState.GetPlayerDirection();
         
-            if (_playerDirection == PlayerDirection.Left)
+            if (_playerDirection == PlayerDirection.Left)                                                               // target spawn position
             {
                 _spawnPosition = new Vector2(transform.position.x - 1, transform.position.y);
                 _direction = Vector2.left;
@@ -150,11 +148,11 @@ public class CrystalAoESpell : MonoBehaviour
             _target = Instantiate(targetPrefab);
             _target.transform.position = _spawnPosition;
             
-            playerCamera.Follow = _target.transform;
+            playerCamera.Follow = _target.transform;                                                                    // camera follows target
         }
         else
         {
-            Attack();
+            Attack();                                                                                                   // on second inpuz
         }
     }
 
@@ -168,14 +166,14 @@ public class CrystalAoESpell : MonoBehaviour
         _playerAnimation.AnimationSetBool("isCharging", false);
     }
 
-    public void Attack2()
+    public void Attack2()                                                                                               // triggered via animations event
     {
         if (!_isActive) return;
         
-        _pillar = Instantiate(attackPillarPrefab);
+        _pillar = Instantiate(attackPillarPrefab);                                                                      // pillar damage
         _pillar.transform.position = _target.transform.position;
         
-        playerCamera.Follow = gameObject.transform;
+        playerCamera.Follow = gameObject.transform;                                                                     // camera back to player
         
         Destroy(_target);
         

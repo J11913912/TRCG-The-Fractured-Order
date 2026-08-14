@@ -45,7 +45,7 @@ public class TargetBehaviour : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rb.linearVelocity = _moveInput * moveSpeed;
+        _rb.linearVelocity = _moveInput * moveSpeed;                                                                    // movement
     }
 
     private void Move(InputAction.CallbackContext context)
@@ -53,7 +53,7 @@ public class TargetBehaviour : MonoBehaviour
         _moveInput = context.ReadValue<Vector2>();
     }
 
-    public void ToggleMoveSpeed(bool value)
+    public void ToggleMoveSpeed(bool value)                                                                             // movement speed
     {
         if (value)
         {

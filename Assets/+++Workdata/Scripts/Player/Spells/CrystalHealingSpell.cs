@@ -59,7 +59,7 @@ public class CrystalHealingSpell : MonoBehaviour
 
     private void Update()
     {
-        if (_isHealing)
+        if (_isHealing)                                                                                                 // heal over time while in crystal
         {
             time += Time.deltaTime;
             if (time >= timeToNextHeal)
@@ -85,7 +85,7 @@ public class CrystalHealingSpell : MonoBehaviour
     // TODO make non unlocked spells somehow disappear in spell menu (delete them completely, make them invisble but keep the naivagtion running)       DONE but needs logic to set unokicng spells while running
     // TODO start on health bar                           DONE
 
-    private void Cast()
+    private void Cast()                                                                                                 // on input
     {
         if (_isCooling) return;
         
@@ -108,7 +108,7 @@ public class CrystalHealingSpell : MonoBehaviour
     private void HealOverTime()
     {
         _isHealing = true;
-        StartCoroutine(StopHealing());
+        StartCoroutine(StopHealing());                                                                           // max healing time
             
     }
 
@@ -120,7 +120,7 @@ public class CrystalHealingSpell : MonoBehaviour
     }
    
 
-    public void SpawnSparkles()
+    public void SpawnSparkles()                                                                                         // triggered via animation event
     {
         if (!_isActive) return;
         
@@ -131,7 +131,7 @@ public class CrystalHealingSpell : MonoBehaviour
         crystalBall.transform.position = _spawnPosition;
     }
 
-    private void EndHeal()
+    private void EndHeal()                                                                                              // triggered when player stops holding or is forced out of healing                                                                                       
     {
         if (crystalBall == null) return;
         

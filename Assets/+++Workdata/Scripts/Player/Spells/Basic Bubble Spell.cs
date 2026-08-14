@@ -14,7 +14,7 @@ public class BasicBubbleSpell : MonoBehaviour
     public GameObject bubblePrefab;
     private GameObject bubble;
 
-    public bool _bubbleOn = false;
+    private bool _bubbleOn = false;
     private bool _shieldOn = false;
     private bool _isCooling = false;
     private bool _isActive = false;
@@ -59,7 +59,7 @@ public class BasicBubbleSpell : MonoBehaviour
         }
     }
 
-    private void Cast()
+    private void Cast()                                                                                                 // on input
     { 
         if (_bubbleOn) return;
         
@@ -67,12 +67,10 @@ public class BasicBubbleSpell : MonoBehaviour
         
         _isActive = true;
         
-        Debug.Log("Bubble spell casting");
-        
         _playerAnimation.AnimationSetAction(30);
     }
 
-    public void SpawnBubble()
+    public void SpawnBubble()                                                                                           // triggered via animation event in attack animation
     {
         if (!_isActive) return;
         
@@ -95,7 +93,7 @@ public class BasicBubbleSpell : MonoBehaviour
         
     }
 
-    public void BurstBubble()
+    public void BurstBubble()                                                                                           // triggered when bubble is touched
     {
         _bubbleOn = false;
         _shieldOn = false;

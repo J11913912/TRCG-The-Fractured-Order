@@ -20,7 +20,7 @@ public class CrystalProjectileSpell : MonoBehaviour
     public int manaCost;
     
     public float ySpawnOffset;
-    public bool _canAttack = true;
+    private bool _canAttack = true;
 
     private bool _secondAttack = false;
     
@@ -47,7 +47,7 @@ public class CrystalProjectileSpell : MonoBehaviour
         OnAttackEnd += EndAttack;
     }
 
-    private void Cast()
+    private void Cast()                                                                                                 // on input
     {
         _currentlyActive = true;
         
@@ -57,7 +57,7 @@ public class CrystalProjectileSpell : MonoBehaviour
         
         _canAttack  = false;
 
-        if (_secondAttack)
+        if (_secondAttack)                                                                                              // switch between two animations
         {
             _secondAttack = false;
             _playerAnimation.AnimationSetAction(10);
@@ -71,13 +71,13 @@ public class CrystalProjectileSpell : MonoBehaviour
         }
     }
 
-    public void Attack()
+    public void Attack()                                                                                                // triggered via animation event in attack animation
     {
         if (!_currentlyActive) return;
         
         _playerDirection = _playerState.GetPlayerDirection();
         
-        if (_playerDirection == PlayerDirection.Left)
+        if (_playerDirection == PlayerDirection.Left)                                                                   // spawn position and direction
         {
             _spawnPosition = new Vector2(transform.position.x - 1, transform.position.y + ySpawnOffset);
             _direction = Vector2.left;
@@ -106,7 +106,7 @@ public class CrystalProjectileSpell : MonoBehaviour
         _projectileBehaviour.Shoot(_direction);
     }
 
-    private void EndAttack()
+    private void EndAttack()                                                                                            // after end of attack animation
     {
         if (!_currentlyActive) return;
         

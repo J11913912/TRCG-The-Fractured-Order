@@ -16,7 +16,7 @@ public class CrystalPillarBehaviour : MonoBehaviour
     private void Update()
     {
         time += Time.deltaTime;
-        if (time >= timeToSelfDestruct)
+        if (time >= timeToSelfDestruct)                                                                                 // selfdestruct after time
         {
             Destroy(gameObject);
         }
@@ -28,7 +28,7 @@ public class CrystalPillarBehaviour : MonoBehaviour
         _animator.SetInteger("ActionID", ID);
     }
 
-    public void DestroyThis()
+    public void DestroyThis()                                                                                           // triggered via aniamtion event
     {
         Destroy(gameObject);
     }

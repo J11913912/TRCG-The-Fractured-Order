@@ -27,14 +27,14 @@ public class CrystalGuardBehaviour : MonoBehaviour
     private void Update()
     {
         time += Time.deltaTime;
-        if (time >= timeToSelfDestruct)
+        if (time >= timeToSelfDestruct)                                                                                 // selfdestruct after time
         {
             _animator.SetTrigger(Hash_ActionTrigger);
             _animator.SetInteger(Hash_ActionID, 100);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)                                                                     // destroy on contact
     {
         _animator.SetTrigger(Hash_ActionTrigger);
         _animator.SetInteger(Hash_ActionID, 100);
@@ -55,15 +55,15 @@ public class CrystalGuardBehaviour : MonoBehaviour
     {
         if (!isAoE)
         {
-            UpdateAnimator();
+            UpdateAnimator();                                                                                           // only needed for the non-aoe version
         }
     }
 
     private void UpdateAnimator()
     {
-        _direction = _playerState.GetPlayerDirection();
+        _direction = _playerState.GetPlayerDirection();     
 
-        switch (_direction)
+        switch (_direction)                                                                                             // direction
         {
             case PlayerDirection.Down:
                 _animator.SetFloat(Hash_YDirection, -1);

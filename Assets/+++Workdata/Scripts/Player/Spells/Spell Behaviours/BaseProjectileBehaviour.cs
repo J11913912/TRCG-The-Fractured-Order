@@ -33,7 +33,7 @@ public class BaseProjectileBehaviour : MonoBehaviour
         time += Time.deltaTime;
         if (time >= timeToSelfDestruct)
         {
-            Destroy(gameObject);
+            Destroy(gameObject);                                                                                        // selfdestruct after times
         }
     }
 
@@ -57,7 +57,7 @@ public class BaseProjectileBehaviour : MonoBehaviour
     {
         _direction = _playerState.GetPlayerDirection();
 
-        switch (_direction)
+        switch (_direction)                                                                                             // set flying direction
         {
             case PlayerDirection.Down:
                 _animator.SetFloat(Hash_YDirection, -1);

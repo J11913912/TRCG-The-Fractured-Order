@@ -46,26 +46,26 @@ public class BasicProjectileSpell : MonoBehaviour
         OnAttackEnd -= EndAttack;
     }
 
-    private void Cast()
+    private void Cast()                                                                                                 // on Input
     {
         _currentlyActive = true;
         
         if (!_canAttack) return;
 
-        SpellCooldownManager.OnStartCooldown(spell);
+      // SpellCooldownManager.OnStartCooldown(spell);
         
         _canAttack = false;
         
         _playerAnimation.AnimationSetAction(10);
     }
 
-    public void Attack()
+    public void Attack()                                                                                                // triggered via Animationevent in attack animation
     {
         if (!_currentlyActive) return;
         
         _playerDirection = _playerState.GetPlayerDirection();
         
-        if (_playerDirection == PlayerDirection.Left)
+        if (_playerDirection == PlayerDirection.Left)                                                                   // spawn in position and direction according to playerDirection
         {
             _spawnPosition = new Vector2(transform.position.x - 1, transform.position.y + ySpawnOffset);
             _direction = Vector2.left;
@@ -94,7 +94,7 @@ public class BasicProjectileSpell : MonoBehaviour
         _projectileBehaviour.Shoot(_direction);
     }
 
-    public void EndAttack()
+    public void EndAttack()                                                                                             // triggered after attack animation ends
     {
         if (!_currentlyActive) return;
         

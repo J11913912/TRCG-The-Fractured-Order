@@ -10,12 +10,12 @@ public class CrystalBallBehaviour : MonoBehaviour
         _spriteColorChanger = GetComponent<SpriteColorChanger>();
     }
 
-    public void ChangeColor()
+    public void ChangeColor()                                                                                           // triggered every heal over time
     {
         _spriteColorChanger.ColorObject();
     }
 
-    public void DestroyThis()
+    public void DestroyThis()                                                                                           // triggered via animation event
     {
         Destroy(gameObject);
     }

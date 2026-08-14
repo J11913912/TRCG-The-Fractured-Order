@@ -63,7 +63,7 @@ public class BasicAoESpell : MonoBehaviour
         OnCooldownEnd -= EndCooldown;
     }
 
-    private void Cast()
+    private void Cast()                                                                                                 // on Input
     {
         _currentlyActive = true;
 
@@ -74,19 +74,19 @@ public class BasicAoESpell : MonoBehaviour
         _playerInput.ToggleMovement(false);
         
         _playerAnimation.AnimationSetAction(20);
-        _playerAnimation.AnimationSetBool("isCharging", true);
+        _playerAnimation.AnimationSetBool("isCharging", true);                                                          // hold key to start charge (via interaction hold in inputmap)
         
         _canAttack = false;
     }
 
-    private void Attack()
+    private void Attack()                                                                                               // when held long enough
     {
         if (!_currentlyActive) return;
         
         _playerAnimation.AnimationSetBool("isCharging", false);
     }
 
-    public void Attack2()
+    public void Attack2()                                                                                               // triggered via Animationevent in attack animation
     {
         if (!_currentlyActive) return;
         
@@ -95,7 +95,7 @@ public class BasicAoESpell : MonoBehaviour
         
         _playerDirection = _playerState.GetPlayerDirection();
         
-        if (_playerDirection == PlayerDirection.Left)
+        if (_playerDirection == PlayerDirection.Left)                                                                   // spawn position and direction
         {
             _spawnPosition = new Vector2(transform.position.x - 1, transform.position.y + ySpawnOffset);
             _direction = Vector2.left;
@@ -126,7 +126,7 @@ public class BasicAoESpell : MonoBehaviour
         _playerInput.ToggleMovement(true);
     }
 
-    public void EndAttack()
+    public void EndAttack()                                                                                             // after attack aniamtion
     {
         if (!_currentlyActive) return;
         
@@ -139,7 +139,7 @@ public class BasicAoESpell : MonoBehaviour
         _isCooling = false;
     }
 
-    private void CancelAttack()
+    private void CancelAttack()                                                                                         // cancel attack before charged up
     {
         Debug.Log("CANCEL");
         

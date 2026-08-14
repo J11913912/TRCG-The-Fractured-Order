@@ -61,7 +61,7 @@ public class CrystalGuardSpell : MonoBehaviour
         OnCooledDown -= EndCooldown;
     }
 
-    private void Cast()
+    private void Cast()                                                                                                 // on input
     { 
         if (_bubbleOn) return;
         
@@ -71,12 +71,10 @@ public class CrystalGuardSpell : MonoBehaviour
         
         _isActive = true;
         
-        Debug.Log("Bubble spell casting");
-        
         _playerAnimation.AnimationSetAction(30);
     }
 
-    public void SpawnBubble()
+    public void SpawnBubble()                                                                                           // triggered via animation event
     {
         if (!_isActive) return;
 
@@ -85,8 +83,6 @@ public class CrystalGuardSpell : MonoBehaviour
             _shield.GetComponent<CrystalGuardBehaviour>().SetAnimation(100);
         }
         
-        Debug.Log("Bubble spawning");
-        
         _bubbleOn = true;
         
         _spawnPosition  = transform.position;
@@ -94,7 +90,7 @@ public class CrystalGuardSpell : MonoBehaviour
         
         _playerDirection = _playerState.GetPlayerDirection();
         
-        if (_playerDirection == PlayerDirection.Left)
+        if (_playerDirection == PlayerDirection.Left)                                                                   // spawn direction
         {
             _spawnPosition = new Vector2(transform.position.x - 1.5f, transform.position.y);
             _direction = Vector2.left;

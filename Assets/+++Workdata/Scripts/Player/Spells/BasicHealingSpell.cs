@@ -55,11 +55,11 @@ public class BasicHealingSpell : MonoBehaviour
             
             if (sparkles == null) return;
             
-            sparkles.transform.position = _spawnPosition;
+            sparkles.transform.position = _spawnPosition;                                                            // keep position straight
         }
     }
 
-    private void Cast()
+    private void Cast()                                                                                                 // on input
     {
         if (_isCooling) return;
         
@@ -73,7 +73,7 @@ public class BasicHealingSpell : MonoBehaviour
         _playerInput.ToggleMovement(false);
     }
 
-    public void SpawnSparkles()
+    public void SpawnSparkles()                                                                                         // triggered via animation event
     {
         if (!_isActive) return;
         
@@ -84,7 +84,7 @@ public class BasicHealingSpell : MonoBehaviour
         sparkles.transform.position = _spawnPosition;
     }
 
-    private void EndHeal()
+    private void EndHeal()                                                                                              // triggered after animation ends
     {
         _canHeal = true;
         
