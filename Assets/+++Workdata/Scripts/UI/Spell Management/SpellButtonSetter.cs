@@ -22,8 +22,6 @@ public class SpellButtonSetter : MonoBehaviour
     private void Awake()
     {
         _image = GetComponent<Image>();
-
-        _image.sprite = spell.sprite;
         
         _spellName = spell.displayName;
         
@@ -60,6 +58,12 @@ public class SpellButtonSetter : MonoBehaviour
             _displaySpellInfos.SetEmpty(corner);
         }
         
+    }
+
+    public void UnlockedSpell()
+    {
+        _image.sprite = spell.sprite;
+        gameObject.GetComponent<Button>().interactable = true;
     }
     
 }

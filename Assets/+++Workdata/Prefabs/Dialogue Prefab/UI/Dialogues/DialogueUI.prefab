@@ -130,7 +130,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1970105947187398337}
-  - component: {fileID: 7020390249500257011}
+  - component: {fileID: 5037349842770547758}
+  - component: {fileID: 2011171920999891986}
   m_Layer: 5
   m_Name: DialogueUI
   m_TagString: Untagged
@@ -158,7 +159,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7020390249500257011
+--- !u!114 &5037349842770547758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,54 +168,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 581485803076861481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 679621ca03a8ed14d98d25c425bb87b8, type: 3}
+  m_Script: {fileID: 11500000, guid: f26b07f293881b040a75f3b0db893bc0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueController
   inkAssets:
   - {fileID: 4900000, guid: 56b2498d1680c7646b052d25378f84bc, type: 3}
   languageIndex: 0
-  dialogueBox: {fileID: 1627961446181732375}
+  dialogueBox: {fileID: 1651734150111200073}
   onDialogueStarted:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerInput, Assembly-CSharp
-        m_MethodName: DisableInput
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onDialogueEnd:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerInput, Assembly-CSharp
-        m_MethodName: EnableInput
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  avatars:
-  - avatarId: player
-    avatarSprite: {fileID: -2311659948842064771, guid: cdb3f775bc1dec34bba25a421ebe10af, type: 3}
-  - avatarId: cow
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
-  - avatarId: sister
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
-  - avatarId: orc_1
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
-  - avatarId: orc_2
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
+      m_Calls: []
+  avatars: []
+--- !u!114 &2011171920999891986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581485803076861481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26b07f293881b040a75f3b0db893bc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueController
+  inkAssets:
+  - {fileID: 4900000, guid: 56b2498d1680c7646b052d25378f84bc, type: 3}
+  languageIndex: 0
+  dialogueBox: {fileID: 1651734150111200073}
+  onDialogueStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  avatars: []
 --- !u!1 &1480401880643714462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,7 +1050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6492207388916844419}
   - component: {fileID: 2651897145528403810}
-  - component: {fileID: 1627961446181732375}
+  - component: {fileID: 1651734150111200073}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -1103,7 +1093,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &1627961446181732375
+--- !u!114 &1651734150111200073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1112,16 +1102,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8412845600522823063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d5e94e4e2ccd6d46bacc86f04015c5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 987e2a4c2a3d9bb47aacafc5d783153d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueBox
   dialogueSpeaker: {fileID: 3019389494374653113}
   dialogueText: {fileID: 8810099341096493347}
   continueButton: {fileID: 7891727869785155778}
   avatarContainer: {fileID: 1770006074643102108}
   avatarImage: {fileID: 822292285844576981}
   choicesContainer: {fileID: 7485599463725279289}
-  choiceButtonPrefab: {fileID: 752370701486354290, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}
+  choiceButtonPrefab: {fileID: 19742906497832027}
 --- !u!1001 &736005640742402857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1267,6 +1257,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}
+--- !u!114 &19742906497832027 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 752370701486354290, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}
+  m_PrefabInstance: {fileID: 736005640742402857}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2091093181369905852 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1671925147753843093, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}

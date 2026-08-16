@@ -16,7 +16,7 @@ public class SetUnlockedSpells : MonoBehaviour
       {
          if (var == true)
          {
-            allButtons[index].interactable = true;
+            allButtons[index].GetComponent<SpellButtonSetter>().UnlockedSpell();
          }
          
          index++;
