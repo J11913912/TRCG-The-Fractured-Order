@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 089b9ebd04dfdd940b3c5b3d153e70f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4290128492616256701
+    second: Big Crystalls_0
+  - first:
+      213: 1798198280763674932
+    second: Big Crystalls_1
+  - first:
+      213: 8818174326611782352
+    second: Big Crystalls_2
+  - first:
+      213: -6301467994985745601
+    second: Big Crystalls_3
+  - first:
+      213: -2800737020277958520
+    second: Big Crystalls_4
+  - first:
+      213: -2637650980706405153
+    second: Big Crystalls_5
+  - first:
+      213: -6763976806161101493
+    second: Big Crystalls_6
+  - first:
+      213: 3473957667054129486
+    second: Big Crystalls_7
+  - first:
+      213: 7156585412916117087
+    second: Big Crystalls_8
+  - first:
+      213: -7255675257316227089
+    second: Big Crystalls_9
+  - first:
+      213: -4290643582537106285
+    second: Big Crystalls_10
+  - first:
+      213: 6765194150716363011
+    second: Big Crystalls_11
+  - first:
+      213: 3816055690977235994
+    second: Big Crystalls_12
+  - first:
+      213: 4945043943776223459
+    second: Big Crystalls_13
+  - first:
+      213: 6242099684419210183
+    second: Big Crystalls_14
+  - first:
+      213: -5834641137146851452
+    second: Big Crystalls_15
+  - first:
+      213: 2844326318558996946
+    second: Big Crystalls_16
+  - first:
+      213: -2615827561462900745
+    second: Big Crystalls_17
+  - first:
+      213: -8467166645638754465
+    second: Big Crystalls_18
+  - first:
+      213: -2595793067111329326
+    second: Big Crystalls_19
+  - first:
+      213: 4166431476395769428
+    second: Big Crystalls_20
+  - first:
+      213: 1732756534696973329
+    second: Big Crystalls_21
+  - first:
+      213: -7037867060287592665
+    second: Big Crystalls_22
+  - first:
+      213: 3559419816489877770
+    second: Big Crystalls_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Crystalls_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 263
+        width: 85
+        height: 109
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.11926605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34373d4bdd66674c0800000000000000
+      internalID: -4290128492616256701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 268
+        width: 85
+        height: 104
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43113a02fcb74f810800000000000000
+      internalID: 1798198280763674932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 267
+        width: 83
+        height: 98
+      alignment: 9
+      pivot: {x: 0.69879514, y: 0.13265306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da2a2154d2706a70800000000000000
+      internalID: 8818174326611782352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 270
+        width: 83
+        height: 95
+      alignment: 9
+      pivot: {x: 0.6987952, y: 0.1368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33b163ce30bc88a0800000000000000
+      internalID: -6301467994985745601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 272
+        width: 80
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.13684212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888db0dd488c129d0800000000000000
+      internalID: -2800737020277958520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_5
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 277
+        width: 80
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.14444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4b88d686e256bd0800000000000000
+      internalID: -2637650980706405153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_6
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 191
+        width: 179
+        height: 166
+      alignment: 9
+      pivot: {x: 0.4860335, y: 0.10843373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d49cf8ee68122a0800000000000000
+      internalID: -6763976806161101493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_7
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 191
+        width: 179
+        height: 166
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.10843374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e419185a71af53030800000000000000
+      internalID: 3473957667054129486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_8
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 191
+        width: 179
+        height: 166
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.10843374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e7b9d048c415360800000000000000
+      internalID: 7156585412916117087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 135
+        width: 85
+        height: 109
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.119266056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74312bbc9ae4b90800000000000000
+      internalID: -7255675257316227089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 140
+        width: 85
+        height: 104
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cf01df4629474c0800000000000000
+      internalID: -4290643582537106285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 139
+        width: 83
+        height: 98
+      alignment: 9
+      pivot: {x: 0.6987952, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301dffd8c3cc2ed50800000000000000
+      internalID: 6765194150716363011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_12
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 142
+        width: 83
+        height: 95
+      alignment: 9
+      pivot: {x: 0.6987952, y: 0.1368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a145ecfbe6a55f430800000000000000
+      internalID: 3816055690977235994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_13
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 144
+        width: 80
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.1368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e08a73544350a440800000000000000
+      internalID: 4945043943776223459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 149
+        width: 80
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.14444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb8266479460a650800000000000000
+      internalID: 6242099684419210183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_15
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1
+        width: 179
+        height: 164
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.1097561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f0b7c8cc0370fa0800000000000000
+      internalID: -5834641137146851452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_16
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1
+        width: 179
+        height: 164
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.1097561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9e00387b3197720800000000000000
+      internalID: 2844326318558996946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_17
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1
+        width: 179
+        height: 164
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.1097561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7d35d21b6b2bbd0800000000000000
+      internalID: -2615827561462900745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 7
+        width: 85
+        height: 109
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.119266056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f8aa8fbc49e7a80800000000000000
+      internalID: -8467166645638754465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 12
+        width: 85
+        height: 104
+      alignment: 9
+      pivot: {x: 0.48235294, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1586465f3e9fbd0800000000000000
+      internalID: -2595793067111329326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_20
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 11
+        width: 83
+        height: 98
+      alignment: 9
+      pivot: {x: 0.6987952, y: 0.13265306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e73936a5322d930800000000000000
+      internalID: 4166431476395769428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_21
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 14
+        width: 83
+        height: 95
+      alignment: 9
+      pivot: {x: 0.6987952, y: 0.1368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11499d443ecfb0810800000000000000
+      internalID: 1732756534696973329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_22
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 16
+        width: 80
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.1368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727a2276239745e90800000000000000
+      internalID: -7037867060287592665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Crystalls_23
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 21
+        width: 80
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.14444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a018d58e679956130800000000000000
+      internalID: 3559419816489877770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f50889c08c7a44f4eb35ebcc78cce7ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big Crystalls_0: -4290128492616256701
+      Big Crystalls_1: 1798198280763674932
+      Big Crystalls_10: -4290643582537106285
+      Big Crystalls_11: 6765194150716363011
+      Big Crystalls_12: 3816055690977235994
+      Big Crystalls_13: 4945043943776223459
+      Big Crystalls_14: 6242099684419210183
+      Big Crystalls_15: -5834641137146851452
+      Big Crystalls_16: 2844326318558996946
+      Big Crystalls_17: -2615827561462900745
+      Big Crystalls_18: -8467166645638754465
+      Big Crystalls_19: -2595793067111329326
+      Big Crystalls_2: 8818174326611782352
+      Big Crystalls_20: 4166431476395769428
+      Big Crystalls_21: 1732756534696973329
+      Big Crystalls_22: -7037867060287592665
+      Big Crystalls_23: 3559419816489877770
+      Big Crystalls_3: -6301467994985745601
+      Big Crystalls_4: -2800737020277958520
+      Big Crystalls_5: -2637650980706405153
+      Big Crystalls_6: -6763976806161101493
+      Big Crystalls_7: 3473957667054129486
+      Big Crystalls_8: 7156585412916117087
+      Big Crystalls_9: -7255675257316227089
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -42,5 +42,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Grid
+    uniqueID: 769109683
+    locked: 0
+  - name: Decoration
+    uniqueID: 3136388677
+    locked: 0
+  - name: Player
+    uniqueID: 2412294531
+    locked: 0
   m_RenderingLayers:
   - Default
