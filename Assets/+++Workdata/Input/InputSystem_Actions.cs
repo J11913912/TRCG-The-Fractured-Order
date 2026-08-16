@@ -1305,6 +1305,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Spells"",
+                    ""type"": ""Button"",
+                    ""id"": ""5ed187b3-2e71-4ace-8831-e34398de5a62"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -2088,6 +2097,17 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""37e48ac9-3961-4abc-a38a-55099e0cde87"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Spells"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -2194,6 +2214,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_UI_NavigateCorners = m_UI.FindAction("NavigateCorners", throwIfNotFound: true);
         m_UI_EquippingFocus = m_UI.FindAction("EquippingFocus", throwIfNotFound: true);
         m_UI_Pause = m_UI.FindAction("Pause", throwIfNotFound: true);
+        m_UI_Spells = m_UI.FindAction("Spells", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -2595,6 +2616,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_NavigateCorners;
     private readonly InputAction m_UI_EquippingFocus;
     private readonly InputAction m_UI_Pause;
+    private readonly InputAction m_UI_Spells;
     /// <summary>
     /// Provides access to input actions defined in input action map "UI".
     /// </summary>
@@ -2667,6 +2689,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Pause => m_Wrapper.m_UI_Pause;
         /// <summary>
+        /// Provides access to the underlying input action "UI/Spells".
+        /// </summary>
+        public InputAction @Spells => m_Wrapper.m_UI_Spells;
+        /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
         public InputActionMap Get() { return m_Wrapper.m_UI; }
@@ -2737,6 +2763,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Pause.started += instance.OnPause;
             @Pause.performed += instance.OnPause;
             @Pause.canceled += instance.OnPause;
+            @Spells.started += instance.OnSpells;
+            @Spells.performed += instance.OnSpells;
+            @Spells.canceled += instance.OnSpells;
         }
 
         /// <summary>
@@ -2793,6 +2822,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Pause.started -= instance.OnPause;
             @Pause.performed -= instance.OnPause;
             @Pause.canceled -= instance.OnPause;
+            @Spells.started -= instance.OnSpells;
+            @Spells.performed -= instance.OnSpells;
+            @Spells.canceled -= instance.OnSpells;
         }
 
         /// <summary>
@@ -3151,5 +3183,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnPause(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Spells" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSpells(InputAction.CallbackContext context);
     }
 }

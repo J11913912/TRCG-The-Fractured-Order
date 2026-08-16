@@ -22,4 +22,9 @@ public class SetUnlockedSpells : MonoBehaviour
          index++;
       }
    }
+
+   public void UnlockSpell(int index)
+   {
+      unlockedStates[index] = true;
+   }
 }

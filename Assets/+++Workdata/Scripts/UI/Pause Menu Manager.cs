@@ -4,29 +4,31 @@ using UnityEngine.InputSystem;
 
 public class PauseMenuManager : MonoBehaviour
 {
-     public GameObject pauseMenuContainer;
+    public GameObject spellMenuContainer;
+    public GameObject pauseMenuContainer;
     public GameObject inventoryMenuContainer;
     public GameObject optionsMenuContainer;
-       public GameObject gameOverMenuContainer;
-       public GameObject winMenuContainer;
-       public GameObject hudContainer;
-       public GameObject questLogContainer;
+    public GameObject gameOverMenuContainer;
+    public GameObject winMenuContainer; 
+    public GameObject hudContainer;
+    public GameObject questLogContainer;
        
-       private InputSystem_Actions _inputActions;
-       private InputAction _pauseAction;
-       private InputAction _inventoryAction;
-       private InputAction _questLogAction;
+    private InputSystem_Actions _inputActions;
+    private InputAction _pauseAction;
+    private InputAction _spellAction;
+    private InputAction _inventoryAction;
+    private InputAction _questLogAction;
        
-       private GameObject _currentMenu;
+    private GameObject _currentMenu;
    
-       private bool _isPaused = false;
-       private bool _isInventory = false;
-       private bool _isQuestLog = false;
-       private bool _menuAlreadyOpen = false;
+    private bool _isPaused = false;
+    private bool _isInventory = false;
+    private bool _isQuestLog = false;
+    private bool _menuAlreadyOpen = false;
 
-       private bool unlockQuestLog = false;
+    private bool unlockQuestLog = false;
        
-       public PlayerInput playerInput;
+    public PlayerInput playerInput;
        
        
        
@@ -35,6 +37,7 @@ public class PauseMenuManager : MonoBehaviour
        {
            _inputActions = new InputSystem_Actions();
            _pauseAction = _inputActions.UI.Pause;
+           _spellAction = _inputActions.UI.Spells;
            //_inventoryAction = _inputActions.UI.Inventory;
            //_questLogAction = _inputActions.UI.QuestLog;
 
@@ -49,6 +52,7 @@ public class PauseMenuManager : MonoBehaviour
        {
            _inputActions.Enable();
            _pauseAction.performed += Pause;
+           _spellAction.performed += SpellMenu;
            //_inventoryAction.performed += Inventory;
            //_questLogAction.performed += QuestLog;
            
@@ -59,6 +63,7 @@ public class PauseMenuManager : MonoBehaviour
        {
            _inputActions.Disable();
            _pauseAction.performed -= Pause;
+           _spellAction.performed -= SpellMenu;
             //_inventoryAction.performed -= Inventory;
             //_questLogAction.performed -= QuestLog;
             
@@ -70,6 +75,11 @@ public class PauseMenuManager : MonoBehaviour
            OpenPauseMenu();
        }
        
+       private void SpellMenu(InputAction.CallbackContext context)
+       {
+           OpenSpellMenu();
+       }
+       
        /*private void Inventory(InputAction.CallbackContext context)
        {
            OpenInventoryMenu();
@@ -79,6 +89,37 @@ public class PauseMenuManager : MonoBehaviour
        {
            OpenQuestLogMenu();
        }*/
+       
+       public void OpenSpellMenu()
+       {
+           if (!_isPaused && !_menuAlreadyOpen)
+           {
+               playerInput.ToggleSpells(false);
+               
+               _currentMenu.SetActive(false);
+               spellMenuContainer.SetActive(true);
+               spellMenuContainer.GetComponent<CanvasGroup>().alpha = 1;
+               Debug.Log("on");
+               //hudContainer.SetActive(false);
+               Time.timeScale = 0;
+               _isPaused = true;
+               _menuAlreadyOpen = true;
+           
+               _currentMenu = spellMenuContainer;
+           }
+           
+           else if (_isPaused)
+           {
+               playerInput.ToggleSpells(true);
+               
+               spellMenuContainer.GetComponent<CanvasGroup>().alpha = 0;
+               Debug.Log("off");
+               //hudContainer.SetActive(true);
+               Time.timeScale = 1;
+               _isPaused = false;
+               _menuAlreadyOpen = false;
+           }
+       }
        
        public void OpenPauseMenu()
        {
