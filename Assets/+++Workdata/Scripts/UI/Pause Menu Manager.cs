@@ -12,6 +12,8 @@ public class PauseMenuManager : MonoBehaviour
     public GameObject winMenuContainer; 
     public GameObject hudContainer;
     public GameObject questLogContainer;
+
+    public SpellTutorialManager spellTutorialManager;
        
     private InputSystem_Actions _inputActions;
     private InputAction _pauseAction;
@@ -99,6 +101,9 @@ public class PauseMenuManager : MonoBehaviour
                _currentMenu.SetActive(false);
                spellMenuContainer.SetActive(true);
                spellMenuContainer.GetComponent<CanvasGroup>().alpha = 1;
+               
+               spellTutorialManager.StartTutorial();
+               
                Debug.Log("on");
                //hudContainer.SetActive(false);
                Time.timeScale = 0;
