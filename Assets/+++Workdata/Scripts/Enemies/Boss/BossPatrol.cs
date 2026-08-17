@@ -111,6 +111,11 @@ public class BossPatrol : MonoBehaviour
 
     private void Update()
     {
+        if (isSpinning)
+        {
+            SetNewTarget(_player);
+        }
+        
         if (_canAttack && enemyState != EnemyState.Attacking)
         {
             _attackCooldownTimer += Time.deltaTime;
@@ -311,11 +316,12 @@ public class BossPatrol : MonoBehaviour
     public void SetSpinning(List<Transform> newWaypoints)
     {
         waypoints = newWaypoints;
-        Debug.Log(waypoints.Count);
-        canPatrol = true;
+       // canPatrol = true;
         _isWaiting = false;
         waitAtWaypoint = false;
         waitDuration = new Vector2(0, 0);
+        
+        SetNewTarget(_player);
     }
     
     private void SetNextWaypoint()
@@ -430,7 +436,7 @@ public class BossPatrol : MonoBehaviour
                 _bossSpinAbility.StartSpin();
                 Debug.Log("Boss Spin Ability");
                 isSpinning  = true;
-                SetSpinning(spinningWaypoints);
+                //SetSpinning(spinningWaypoints);
                 SetAnimationAction(10);
                 break;
             

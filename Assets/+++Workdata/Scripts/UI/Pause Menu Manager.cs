@@ -96,6 +96,8 @@ public class PauseMenuManager : MonoBehaviour
        {
            if (!_isPaused && !_menuAlreadyOpen)
            {
+               if (_menuAlreadyOpen) return;
+               
                playerInput.ToggleSpells(false);
                
                _currentMenu.SetActive(false);
@@ -104,7 +106,6 @@ public class PauseMenuManager : MonoBehaviour
                
                spellTutorialManager.StartTutorial();
                
-               Debug.Log("on");
                //hudContainer.SetActive(false);
                Time.timeScale = 0;
                _isPaused = true;
@@ -118,7 +119,6 @@ public class PauseMenuManager : MonoBehaviour
                playerInput.ToggleSpells(true);
                
                spellMenuContainer.GetComponent<CanvasGroup>().alpha = 0;
-               Debug.Log("off");
                //hudContainer.SetActive(true);
                Time.timeScale = 1;
                _isPaused = false;
@@ -138,6 +138,8 @@ public class PauseMenuManager : MonoBehaviour
            
            if (!_isPaused && !_menuAlreadyOpen)
            {
+               if (_menuAlreadyOpen) return;
+               
                playerInput.ToggleSpells(false);
                
                _currentMenu.SetActive(false);
