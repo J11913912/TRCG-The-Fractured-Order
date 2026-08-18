@@ -16,6 +16,10 @@ public class PlayerController : MonoBehaviour
 
         [SerializeField] private float acceleration = 10f;
 
+        public float bossPushBackForce = 20f;
+        public float normalPushBackForce = 10f;
+        public float dashForce = 10f;
+
         #endregion
 
         #region Private Variables
@@ -73,7 +77,7 @@ public class PlayerController : MonoBehaviour
         {
             if (_pushedBack) return;
             
-            //if (_playerState.GetPlayerAction() == PlayerAction.Roll) return;
+           // if (_playerState.GetPlayerAction() == PlayerAction.Roll) return;
             
             Vector2 targetVelocity = _moveInput * _currentSpeed;
             Vector2 currentVelocity = _rb.linearVelocity;
@@ -100,10 +104,21 @@ public class PlayerController : MonoBehaviour
             }*/
         }
 
-        public void ApplyForce(Vector2 force)
+        public void ApplyForce(Vector2 force, bool isBoss) // for pushback in boss
         {
+            float pushBackForce = 0;
+            
+            if (isBoss)
+            {
+                pushBackForce = bossPushBackForce;
+            }
+            else
+            {
+                pushBackForce = normalPushBackForce;
+            }
+            
             _pushedBack = true;
-            _rb.linearVelocity = force * 20f;
+            _rb.linearVelocity = force * pushBackForce;
 
             if (!_isRunning)
             {
@@ -113,6 +128,22 @@ public class PlayerController : MonoBehaviour
             _isRunning = true;
             
          //   _rb.AddForce(Vector2.left * 5, ForceMode2D.Impulse);
+         
+        }
+        
+        public void ApplyDash(Vector2 force)
+        {
+            _pushedBack = true;
+            _rb.linearVelocity = force * dashForce;
+
+            if (!_isRunning)
+            {
+                StartCoroutine(StopPushBack());
+            }
+            
+            _isRunning = true;
+            
+            //   _rb.AddForce(Vector2.left * 5, ForceMode2D.Impulse);
          
         }
 

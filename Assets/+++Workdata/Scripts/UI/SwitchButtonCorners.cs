@@ -136,8 +136,6 @@ public class SwitchButtonCorners : MonoBehaviour
 
     private void SetNewButtonCorner(int corner)
     {
-        Debug.Log("SetNewButton");
-
         if (currentPos == new Vector2(0, 0))
         {
             currentSelectedGameObject = allButtons[1];

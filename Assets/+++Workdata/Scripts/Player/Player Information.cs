@@ -17,12 +17,16 @@ public class PlayerInformation : MonoBehaviour
 
 
     public bool canTakeDamage = true;
+    public bool inIFrames = false;
     public bool shieldOn = false;
     
     public BasicBubbleSpell basicBubbleSpell;
     // all the other guard spells
 
     private MonoBehaviour _currentGuard;
+
+    private int iFrames;
+    public int howManyIFrames;
    
    
 
@@ -45,6 +49,25 @@ public class PlayerInformation : MonoBehaviour
         ShieldOn -= ActivateShield;
     }
 
+    private void Update()
+    {
+        if (iFrames > 0)
+        {
+            Debug.Log("taking iframes");
+            iFrames -= 1;
+            
+            if (iFrames == 0)
+            { 
+                inIFrames = false;
+            }
+        }
+    }
+
+    public void SetIFrames(int frames)
+    {
+        iFrames += frames;
+    }
+
     public void SetDamage(int damage)
     {
         if (!canTakeDamage)
@@ -54,12 +77,18 @@ public class PlayerInformation : MonoBehaviour
            // _currentGuard.Invoke("BurstBubble", 0);
             return;
         }
-        
+
+        if (inIFrames) return;
+
+        inIFrames = true;
         canTakeDamage = false;
         currentHealth -= damage;
+
+        SetIFrames(howManyIFrames);
+        
         //RuntimeManager.PlayOneShot("event:/SFX/Hit/Player Hit");
         
-        StartCoroutine(TakeDamage());
+        //StartCoroutine(TakeDamage());
       
         if (currentHealth < 1)
         {

@@ -313,7 +313,7 @@ public class PlayerInput : MonoBehaviour
         
         private void Teleport(InputAction.CallbackContext ctx)
         {
-            //PlayerRoll.OnRollInput?.Invoke();
+            DashAbility.OnDashInput?.Invoke();
         }
         
         

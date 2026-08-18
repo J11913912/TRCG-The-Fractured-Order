@@ -248,6 +248,8 @@ MonoBehaviour:
   crystalGuardSpell: {fileID: 4382461020824544556}
   crystalHealingSpell: {fileID: 7660072762119870192}
   baseAoESpell: {fileID: 7714341567131980322}
+  baseProjectileSpell: {fileID: 4889857719390999303}
+  crystalProjectileSpell: {fileID: 8001303803466474047}
 --- !u!114 &1411788606652100118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +327,7 @@ GameObject:
   - component: {fileID: 8600017832290420584}
   - component: {fileID: 6865402396189784047}
   - component: {fileID: 7336889594268032163}
+  - component: {fileID: 2144096356729650436}
   - component: {fileID: 4889857719390999303}
   - component: {fileID: 7714341567131980322}
   - component: {fileID: 6823101444443523382}
@@ -435,6 +438,7 @@ MonoBehaviour:
   walkingSpeed: 5
   acceleration: 10
   _isRolling: 0
+  _pushedBack: 0
 --- !u!114 &8711114055122832588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,13 +465,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f37a8058d99935742aab391c56d8d05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInformation
-  playerState: {fileID: 0}
-  playerAnimation: {fileID: 0}
-  maxHealth: 4
+  playerState: {fileID: 8600017832290420584}
+  playerAnimation: {fileID: 7336889594268032163}
+  maxHealth: 120
   currentHealth: 0
   canTakeDamage: 1
+  inIFrames: 0
   shieldOn: 0
-  basicBubbleSpell: {fileID: 0}
+  basicBubbleSpell: {fileID: 1979724783844789743}
+  howManyIFrames: 600
 --- !u!114 &4803592846052854511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +530,20 @@ MonoBehaviour:
   _animators:
   - {fileID: 3064352249455391785}
   - {fileID: 4474689304367631854}
+--- !u!114 &2144096356729650436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfad94e740bd5e4fb5ec25fc40634a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DashAbility
+  actionId: 10
+  rollForce: 5
 --- !u!114 &4889857719390999303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,7 +608,6 @@ MonoBehaviour:
   projectilePrefab: {fileID: 928591610570380805, guid: 93dd59c10ff1f794fb98df944144b3f5, type: 3}
   manaCost: 2
   ySpawnOffset: 0
-  _canAttack: 1
 --- !u!114 &1979724783844789743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,7 +621,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicBubbleSpell
   bubblePrefab: {fileID: 4636320461149965388, guid: afa80ef15f7e57342888206a97bc6617, type: 3}
-  _bubbleOn: 0
   spell: {fileID: 11400000, guid: 7052801b732c15846ba34125654be98c, type: 2}
 --- !u!114 &1920033775742012589
 MonoBehaviour:
@@ -654,3 +672,4 @@ MonoBehaviour:
   maxHealTime: 30
   manaCost: 20
   spell: {fileID: 11400000, guid: 90c1901905fe62343a326826f6c4380e, type: 2}
+  timeToNextHeal: 1.5

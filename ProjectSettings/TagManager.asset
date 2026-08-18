@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Light
+  - GoUp
+  - GoDown
+  - GoLeft
+  - GoRight
   layers:
   - Default
   - TransparentFX

@@ -54,7 +54,7 @@ public class SpinColliderBehaviour : MonoBehaviour
 
       if (_inYeetingRange)
       {
-         _playerController.ApplyForce(_pushBack);
+         _playerController.ApplyForce(_pushBack, true);
       }
    }
 }
