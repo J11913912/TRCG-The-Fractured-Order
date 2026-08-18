@@ -45,19 +45,6 @@ public class BasicHealingSpell : MonoBehaviour
         OnHealEnd -= EndHeal; 
         OnCooldownEnd -= EndCooldown;
     }
-    
-    private void FixedUpdate()
-    {
-        if (!_canHeal)
-        {
-            _spawnPosition = transform.position;
-            _spawnPosition.y = transform.position.y + 0.7f;
-            
-            if (sparkles == null) return;
-            
-            sparkles.transform.position = _spawnPosition;                                                            // keep position straight
-        }
-    }
 
     private void Cast()                                                                                                 // on input
     {
@@ -76,6 +63,11 @@ public class BasicHealingSpell : MonoBehaviour
     public void SpawnSparkles()                                                                                         // triggered via animation event
     {
         if (!_isActive) return;
+
+        if (sparkles != null)
+        {
+            Destroy(sparkles);
+        }
         
         _spawnPosition = transform.position;
         _spawnPosition.y = transform.position.y + 0.56f;
