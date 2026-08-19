@@ -94,9 +94,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushCrate
   direction: 0
   moveDirection: {x: 0, y: 0}
+  crate: {fileID: 0}
   rb: {fileID: 6231131413739381282}
+  _canPush: 1
   pushLength: 1
   _CrateGrid: {fileID: 883772605592285005}
+  beamOffWhilePushing: 0
+  beam: {fileID: 0}
 --- !u!114 &3578305640067267330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,9 +242,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushCrate
   direction: 2
   moveDirection: {x: 0, y: 0}
+  crate: {fileID: 0}
   rb: {fileID: 6231131413739381282}
+  _canPush: 1
   pushLength: 1
   _CrateGrid: {fileID: 883772605592285005}
+  beamOffWhilePushing: 0
+  beam: {fileID: 0}
 --- !u!114 &5879654692342622558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,9 +378,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushCrate
   direction: 1
   moveDirection: {x: 0, y: 0}
+  crate: {fileID: 0}
   rb: {fileID: 6231131413739381282}
+  _canPush: 1
   pushLength: 1
   _CrateGrid: {fileID: 883772605592285005}
+  beamOffWhilePushing: 0
+  beam: {fileID: 0}
 --- !u!114 &381847082124420121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,8 +509,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.7058824, g: 0.16862746, b: 0, a: 1}
+  m_Sprite: {fileID: 4779634423313441035, guid: 8f18631c12677fc42a669a14baa5ab9c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -544,8 +556,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.3663366, y: 0.33035716}
+    oldSize: {x: 1.578125, y: 1.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -596,6 +608,10 @@ MonoBehaviour:
   posY: 0
   maxX: 0
   maxY: 0
+  overrideX: 0
+  overrideY: 0
+  _startPosition: {fileID: 0}
+  _startVector: {x: 0, y: 0, z: 0}
 --- !u!1 &8294070376635703855
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,9 +706,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PushCrate
   direction: 3
   moveDirection: {x: 0, y: 0}
+  crate: {fileID: 0}
   rb: {fileID: 6231131413739381282}
+  _canPush: 1
   pushLength: 1
   _CrateGrid: {fileID: 883772605592285005}
+  beamOffWhilePushing: 0
+  beam: {fileID: 0}
 --- !u!114 &2472361079135042414
 MonoBehaviour:
   m_ObjectHideFlags: 0

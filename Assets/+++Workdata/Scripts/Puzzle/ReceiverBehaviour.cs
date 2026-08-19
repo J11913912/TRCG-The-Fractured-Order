@@ -16,6 +16,8 @@ public class ReceiverBehaviour : MonoBehaviour
     public GameObject newBeam;
     
     private GameObject _currentBeam;
+    public GameObject lightOn;
+    public GameObject lightOff;
     
     public GameObject toggledObject;
 
@@ -27,6 +29,8 @@ public class ReceiverBehaviour : MonoBehaviour
     private void Update()
     {
         _light.SetActive(_receiverOn);
+        lightOn.SetActive(_receiverOn);
+        lightOff.SetActive(!_receiverOn);
 
         if (isEmitter)
         {
