@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3161155965173082073}
   - component: {fileID: 1666940190994583558}
   - component: {fileID: 705687096127149201}
+  - component: {fileID: 7292128767558983210}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Light
@@ -82,11 +83,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.8039216, b: 0, a: 1}
+  m_Sprite: {fileID: 4678211087732843756, guid: 63d3c3b8a3a60c845b76be84170829ae, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 1
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -128,16 +129,38 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.1328125, y: 0, z: 0.1171875, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 4, y: 0.359375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
-    drawMode: 0
+    drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &7292128767558983210
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88550391332253901}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 443fb69cc170d934baf24f04d55b998a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &351326114047456757
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,10 +275,14 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 16
+  direction: {x: 0, y: 0}
   raycastPos: {x: 0, y: 0, z: 0}
-  raycastStart: {fileID: 0}
-  raycastEnd: {fileID: 0}
+  raycastEnd: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  raycastEndTarget: {fileID: 0}
   foundWall: 0
   hitPoint: {x: 0, y: 0, z: 0}
   normalLength: {x: 0, y: 0, z: 0}
   normalPos: {x: 0, y: 0, z: 0}
+  isShort: 0
+  isAskew: 0
