@@ -25,8 +25,12 @@ public class BossSpinAbility : MonoBehaviour
     {
         Debug.Log("StartSpin");
         start = true;
-        spinCollider.SetActive(true);
         StartCoroutine(SpinTimer());
+    }
+
+    public void ActivateSpinColliders()
+    {
+        spinCollider.SetActive(true);
     }
 
     private IEnumerator SpinTimer()
