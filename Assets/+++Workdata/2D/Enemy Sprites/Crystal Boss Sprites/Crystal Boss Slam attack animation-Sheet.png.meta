@@ -1,0 +1,2376 @@
+fileFormatVersion: 2
+guid: 89b53493c7b1f0d43ae17b947a46d30d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3689806008338098377
+    second: Crystal Boss Slam attack animation-Sheet_0
+  - first:
+      213: -7454245949260788318
+    second: Crystal Boss Slam attack animation-Sheet_1
+  - first:
+      213: -1379718337779398724
+    second: Crystal Boss Slam attack animation-Sheet_2
+  - first:
+      213: 3838772533369574651
+    second: Crystal Boss Slam attack animation-Sheet_3
+  - first:
+      213: 8017985579184032301
+    second: Crystal Boss Slam attack animation-Sheet_4
+  - first:
+      213: 2257080316332138471
+    second: Crystal Boss Slam attack animation-Sheet_5
+  - first:
+      213: -5612927108437570438
+    second: Crystal Boss Slam attack animation-Sheet_6
+  - first:
+      213: -7757701172537454635
+    second: Crystal Boss Slam attack animation-Sheet_7
+  - first:
+      213: -5405444737345761132
+    second: Crystal Boss Slam attack animation-Sheet_8
+  - first:
+      213: 5105986113523094294
+    second: Crystal Boss Slam attack animation-Sheet_9
+  - first:
+      213: -3248500628938648959
+    second: Crystal Boss Slam attack animation-Sheet_10
+  - first:
+      213: 4862179346767880304
+    second: Crystal Boss Slam attack animation-Sheet_11
+  - first:
+      213: 8339260044015214210
+    second: Crystal Boss Slam attack animation-Sheet_12
+  - first:
+      213: -8440565026704785992
+    second: Crystal Boss Slam attack animation-Sheet_13
+  - first:
+      213: -6764232551313360516
+    second: Crystal Boss Slam attack animation-Sheet_14
+  - first:
+      213: -6429092156735524515
+    second: Crystal Boss Slam attack animation-Sheet_15
+  - first:
+      213: 1450932282209534026
+    second: Crystal Boss Slam attack animation-Sheet_16
+  - first:
+      213: 2904916711763732237
+    second: Crystal Boss Slam attack animation-Sheet_17
+  - first:
+      213: 4178699783417941664
+    second: Crystal Boss Slam attack animation-Sheet_18
+  - first:
+      213: -7749405586951491902
+    second: Crystal Boss Slam attack animation-Sheet_19
+  - first:
+      213: -6386148688245768850
+    second: Crystal Boss Slam attack animation-Sheet_20
+  - first:
+      213: -8026235403665732960
+    second: Crystal Boss Slam attack animation-Sheet_21
+  - first:
+      213: 4105908995690721798
+    second: Crystal Boss Slam attack animation-Sheet_22
+  - first:
+      213: -6698503672691500994
+    second: Crystal Boss Slam attack animation-Sheet_23
+  - first:
+      213: 8843231339413245975
+    second: Crystal Boss Slam attack animation-Sheet_24
+  - first:
+      213: 8569755343436741781
+    second: Crystal Boss Slam attack animation-Sheet_25
+  - first:
+      213: 4123006572166253257
+    second: Crystal Boss Slam attack animation-Sheet_26
+  - first:
+      213: 6513936589818807595
+    second: Crystal Boss Slam attack animation-Sheet_27
+  - first:
+      213: 2326462638866920825
+    second: Crystal Boss Slam attack animation-Sheet_28
+  - first:
+      213: -983348448360578199
+    second: Crystal Boss Slam attack animation-Sheet_29
+  - first:
+      213: 8341797935959797852
+    second: Crystal Boss Slam attack animation-Sheet_30
+  - first:
+      213: -1607198113938681542
+    second: Crystal Boss Slam attack animation-Sheet_31
+  - first:
+      213: -7549789654302761510
+    second: Crystal Boss Slam attack animation-Sheet_32
+  - first:
+      213: -4564690481313335834
+    second: Crystal Boss Slam attack animation-Sheet_33
+  - first:
+      213: 8729627986478825711
+    second: Crystal Boss Slam attack animation-Sheet_34
+  - first:
+      213: -3065937695439521053
+    second: Crystal Boss Slam attack animation-Sheet_35
+  - first:
+      213: -1135071582532761604
+    second: Crystal Boss Slam attack animation-Sheet_36
+  - first:
+      213: -3505983970761195330
+    second: Crystal Boss Slam attack animation-Sheet_37
+  - first:
+      213: 5890094082452265678
+    second: Crystal Boss Slam attack animation-Sheet_38
+  - first:
+      213: 3793284112716661368
+    second: Crystal Boss Slam attack animation-Sheet_39
+  - first:
+      213: -8036303404775095520
+    second: Crystal Boss Slam attack animation-Sheet_40
+  - first:
+      213: -4870063888748148231
+    second: Crystal Boss Slam attack animation-Sheet_41
+  - first:
+      213: -8102899918997694744
+    second: Crystal Boss Slam attack animation-Sheet_42
+  - first:
+      213: -6999007511186336494
+    second: Crystal Boss Slam attack animation-Sheet_43
+  - first:
+      213: 5690441117880131789
+    second: Crystal Boss Slam attack animation-Sheet_44
+  - first:
+      213: 5691125379670996064
+    second: Crystal Boss Slam attack animation-Sheet_45
+  - first:
+      213: -3126004629491447546
+    second: Crystal Boss Slam attack animation-Sheet_46
+  - first:
+      213: 2479940677821828159
+    second: Crystal Boss Slam attack animation-Sheet_47
+  - first:
+      213: -1653373394475637170
+    second: Crystal Boss Slam attack animation-Sheet_48
+  - first:
+      213: 8254163806847053586
+    second: Crystal Boss Slam attack animation-Sheet_49
+  - first:
+      213: 3308546953005680470
+    second: Crystal Boss Slam attack animation-Sheet_50
+  - first:
+      213: 8450171864723756188
+    second: Crystal Boss Slam attack animation-Sheet_51
+  - first:
+      213: -2440520221553554716
+    second: Crystal Boss Slam attack animation-Sheet_52
+  - first:
+      213: 6386444106478810305
+    second: Crystal Boss Slam attack animation-Sheet_53
+  - first:
+      213: 6005440875520542424
+    second: Crystal Boss Slam attack animation-Sheet_54
+  - first:
+      213: -3212906144444013508
+    second: Crystal Boss Slam attack animation-Sheet_55
+  - first:
+      213: -9177291605314072565
+    second: Crystal Boss Slam attack animation-Sheet_56
+  - first:
+      213: -1827276470351260604
+    second: Crystal Boss Slam attack animation-Sheet_57
+  - first:
+      213: -1577604945903180740
+    second: Crystal Boss Slam attack animation-Sheet_58
+  - first:
+      213: 2529763914120811096
+    second: Crystal Boss Slam attack animation-Sheet_59
+  - first:
+      213: -5118806690933739935
+    second: Crystal Boss Slam attack animation-Sheet_60
+  - first:
+      213: -3387815776489632598
+    second: Crystal Boss Slam attack animation-Sheet_61
+  - first:
+      213: 7875414073211209287
+    second: Crystal Boss Slam attack animation-Sheet_62
+  - first:
+      213: 4926917065011237233
+    second: Crystal Boss Slam attack animation-Sheet_63
+  - first:
+      213: -284386632721101114
+    second: Crystal Boss Slam attack animation-Sheet_64
+  - first:
+      213: -8368303098727478218
+    second: Crystal Boss Slam attack animation-Sheet_65
+  - first:
+      213: -3229619904012766683
+    second: Crystal Boss Slam attack animation-Sheet_66
+  - first:
+      213: -2201967296938039349
+    second: Crystal Boss Slam attack animation-Sheet_67
+  - first:
+      213: -1404577983208329143
+    second: Crystal Boss Slam attack animation-Sheet_68
+  - first:
+      213: 6167163764997412237
+    second: Crystal Boss Slam attack animation-Sheet_69
+  - first:
+      213: 883294640530986640
+    second: Crystal Boss Slam attack animation-Sheet_70
+  - first:
+      213: 2496564713584794802
+    second: Crystal Boss Slam attack animation-Sheet_71
+  - first:
+      213: -6083391435152332772
+    second: Crystal Boss Slam attack animation-Sheet_72
+  - first:
+      213: -2908645236674025120
+    second: Crystal Boss Slam attack animation-Sheet_73
+  - first:
+      213: -2071659625365351894
+    second: Crystal Boss Slam attack animation-Sheet_74
+  - first:
+      213: 2880195654156046734
+    second: Crystal Boss Slam attack animation-Sheet_75
+  - first:
+      213: 1450772104456740104
+    second: Crystal Boss Slam attack animation-Sheet_76
+  - first:
+      213: -3792200407444734996
+    second: Crystal Boss Slam attack animation-Sheet_77
+  - first:
+      213: 2551422426761377495
+    second: Crystal Boss Slam attack animation-Sheet_78
+  - first:
+      213: 8890620156439106534
+    second: Crystal Boss Slam attack animation-Sheet_79
+  - first:
+      213: 192423079683800416
+    second: Crystal Boss Slam attack animation-Sheet_80
+  - first:
+      213: 2140960695799824883
+    second: Crystal Boss Slam attack animation-Sheet_81
+  - first:
+      213: 1548671634198739404
+    second: Crystal Boss Slam attack animation-Sheet_82
+  - first:
+      213: 8505935185379800165
+    second: Crystal Boss Slam attack animation-Sheet_83
+  - first:
+      213: -1757419858019574202
+    second: Crystal Boss Slam attack animation-Sheet_84
+  - first:
+      213: -8580867030154559349
+    second: Crystal Boss Slam attack animation-Sheet_85
+  - first:
+      213: 336884525039155659
+    second: Crystal Boss Slam attack animation-Sheet_86
+  - first:
+      213: 8789764513212889017
+    second: Crystal Boss Slam attack animation-Sheet_87
+  - first:
+      213: 1815669543080269231
+    second: Crystal Boss Slam attack animation-Sheet_88
+  - first:
+      213: -4783701923766916713
+    second: Crystal Boss Slam attack animation-Sheet_89
+  - first:
+      213: -1272505906568842379
+    second: Crystal Boss Slam attack animation-Sheet_90
+  - first:
+      213: 8057933080558173735
+    second: Crystal Boss Slam attack animation-Sheet_91
+  - first:
+      213: 4247457224311554808
+    second: Crystal Boss Slam attack animation-Sheet_92
+  - first:
+      213: 8569029570911820793
+    second: Crystal Boss Slam attack animation-Sheet_93
+  - first:
+      213: 1228561954447258169
+    second: Crystal Boss Slam attack animation-Sheet_94
+  - first:
+      213: -4832203981773139603
+    second: Crystal Boss Slam attack animation-Sheet_95
+  - first:
+      213: 3967222452815513912
+    second: Crystal Boss Slam attack animation-Sheet_96
+  - first:
+      213: -8511975150902801943
+    second: Crystal Boss Slam attack animation-Sheet_97
+  - first:
+      213: 4860271289985553183
+    second: Crystal Boss Slam attack animation-Sheet_98
+  - first:
+      213: 1451746398102582428
+    second: Crystal Boss Slam attack animation-Sheet_99
+  - first:
+      213: -4900376073655448041
+    second: Crystal Boss Slam attack animation-Sheet_100
+  - first:
+      213: -6926065459361590743
+    second: Crystal Boss Slam attack animation-Sheet_101
+  - first:
+      213: 7080794106740419101
+    second: Crystal Boss Slam attack animation-Sheet_102
+  - first:
+      213: -1701050675674725517
+    second: Crystal Boss Slam attack animation-Sheet_103
+  - first:
+      213: -1974412223044060943
+    second: Crystal Boss Slam attack animation-Sheet_104
+  - first:
+      213: -587270999146343418
+    second: Crystal Boss Slam attack animation-Sheet_105
+  - first:
+      213: -2734974307554100859
+    second: Crystal Boss Slam attack animation-Sheet_106
+  - first:
+      213: -2891066675426580654
+    second: Crystal Boss Slam attack animation-Sheet_107
+  - first:
+      213: 9122730414419685795
+    second: Crystal Boss Slam attack animation-Sheet_108
+  - first:
+      213: 5937645635530081593
+    second: Crystal Boss Slam attack animation-Sheet_109
+  - first:
+      213: -3731702303193752758
+    second: Crystal Boss Slam attack animation-Sheet_110
+  - first:
+      213: 8163222068686823387
+    second: Crystal Boss Slam attack animation-Sheet_111
+  - first:
+      213: -8475989034460068206
+    second: Crystal Boss Slam attack animation-Sheet_112
+  - first:
+      213: 3957144069205373600
+    second: Crystal Boss Slam attack animation-Sheet_113
+  - first:
+      213: 7825272542046900622
+    second: Crystal Boss Slam attack animation-Sheet_114
+  - first:
+      213: 1125887204554274538
+    second: Crystal Boss Slam attack animation-Sheet_115
+  - first:
+      213: -3477086248496397791
+    second: Crystal Boss Slam attack animation-Sheet_116
+  - first:
+      213: 6820552717453130374
+    second: Crystal Boss Slam attack animation-Sheet_117
+  - first:
+      213: 6754124810354093571
+    second: Crystal Boss Slam attack animation-Sheet_118
+  - first:
+      213: -6892068812004386266
+    second: Crystal Boss Slam attack animation-Sheet_119
+  - first:
+      213: 6371537557978830006
+    second: Crystal Boss Slam attack animation-Sheet_120
+  - first:
+      213: 2650659539994314778
+    second: Crystal Boss Slam attack animation-Sheet_121
+  - first:
+      213: 5602175819831243590
+    second: Crystal Boss Slam attack animation-Sheet_122
+  - first:
+      213: -778180090581336101
+    second: Crystal Boss Slam attack animation-Sheet_123
+  - first:
+      213: 9113707071529223459
+    second: Crystal Boss Slam attack animation-Sheet_124
+  - first:
+      213: 8425904377139203066
+    second: Crystal Boss Slam attack animation-Sheet_125
+  - first:
+      213: 8711091822737366965
+    second: Crystal Boss Slam attack animation-Sheet_126
+  - first:
+      213: 4855096761021836655
+    second: Crystal Boss Slam attack animation-Sheet_127
+  - first:
+      213: 2478180494374026448
+    second: Crystal Boss Slam attack animation-Sheet_128
+  - first:
+      213: -1598984732106611979
+    second: Crystal Boss Slam attack animation-Sheet_129
+  - first:
+      213: -6687123629722403102
+    second: Crystal Boss Slam attack animation-Sheet_130
+  - first:
+      213: 3558581115217423103
+    second: Crystal Boss Slam attack animation-Sheet_131
+  - first:
+      213: -7282733617299474702
+    second: Crystal Boss Slam attack animation-Sheet_132
+  - first:
+      213: -3076147644039271798
+    second: Crystal Boss Slam attack animation-Sheet_133
+  - first:
+      213: -6812283467304659287
+    second: Crystal Boss Slam attack animation-Sheet_134
+  - first:
+      213: 1057326615690271102
+    second: Crystal Boss Slam attack animation-Sheet_135
+  - first:
+      213: 2070409446228166458
+    second: Crystal Boss Slam attack animation-Sheet_136
+  - first:
+      213: -502565775696873459
+    second: Crystal Boss Slam attack animation-Sheet_137
+  - first:
+      213: -1166587139537427976
+    second: Crystal Boss Slam attack animation-Sheet_138
+  - first:
+      213: 7397085918566672357
+    second: Crystal Boss Slam attack animation-Sheet_139
+  - first:
+      213: -3790613624135607642
+    second: Crystal Boss Slam attack animation-Sheet_140
+  - first:
+      213: 80190196300168191
+    second: Crystal Boss Slam attack animation-Sheet_141
+  - first:
+      213: 6673886907809445526
+    second: Crystal Boss Slam attack animation-Sheet_142
+  - first:
+      213: 7063835967628964000
+    second: Crystal Boss Slam attack animation-Sheet_143
+  - first:
+      213: -1733343073166884714
+    second: Crystal Boss Slam attack animation-Sheet_144
+  - first:
+      213: 3904187086368207822
+    second: Crystal Boss Slam attack animation-Sheet_145
+  - first:
+      213: -4510406929319062375
+    second: Crystal Boss Slam attack animation-Sheet_146
+  - first:
+      213: -6304223208026836819
+    second: Crystal Boss Slam attack animation-Sheet_147
+  - first:
+      213: -6556529160126649148
+    second: Crystal Boss Slam attack animation-Sheet_148
+  - first:
+      213: 6088932203884955178
+    second: Crystal Boss Slam attack animation-Sheet_149
+  - first:
+      213: -4309921779175068770
+    second: Crystal Boss Slam attack animation-Sheet_150
+  - first:
+      213: 6760905526768736400
+    second: Crystal Boss Slam attack animation-Sheet_151
+  - first:
+      213: -1217428119321129253
+    second: Crystal Boss Slam attack animation-Sheet_152
+  - first:
+      213: -8341625467466630035
+    second: Crystal Boss Slam attack animation-Sheet_153
+  - first:
+      213: 7831727999073618737
+    second: Crystal Boss Slam attack animation-Sheet_154
+  - first:
+      213: 6010320290522258417
+    second: Crystal Boss Slam attack animation-Sheet_155
+  - first:
+      213: -935050051617371644
+    second: Crystal Boss Slam attack animation-Sheet_156
+  - first:
+      213: 6783380650862374005
+    second: Crystal Boss Slam attack animation-Sheet_157
+  - first:
+      213: 822840464539513448
+    second: Crystal Boss Slam attack animation-Sheet_158
+  - first:
+      213: 76738656370373691
+    second: Crystal Boss Slam attack animation-Sheet_159
+  - first:
+      213: 4115972322457743183
+    second: Crystal Boss Slam attack animation-Sheet_160
+  - first:
+      213: -2120153447418014731
+    second: Crystal Boss Slam attack animation-Sheet_161
+  - first:
+      213: 360066013289065297
+    second: Crystal Boss Slam attack animation-Sheet_162
+  - first:
+      213: 3504811071573204864
+    second: Crystal Boss Slam attack animation-Sheet_163
+  - first:
+      213: 3702646175462806763
+    second: Crystal Boss Slam attack animation-Sheet_164
+  - first:
+      213: 4648317936341054204
+    second: Crystal Boss Slam attack animation-Sheet_165
+  - first:
+      213: -5105511583039292917
+    second: Crystal Boss Slam attack animation-Sheet_166
+  - first:
+      213: -7007549535924449211
+    second: Crystal Boss Slam attack animation-Sheet_167
+  - first:
+      213: 3374577492705267861
+    second: Crystal Boss Slam attack animation-Sheet_168
+  - first:
+      213: -8050897259349328573
+    second: Crystal Boss Slam attack animation-Sheet_169
+  - first:
+      213: -3412197346730071301
+    second: Crystal Boss Slam attack animation-Sheet_170
+  - first:
+      213: 137630377996563713
+    second: Crystal Boss Slam attack animation-Sheet_171
+  - first:
+      213: -7388499502789545875
+    second: Crystal Boss Slam attack animation-Sheet_172
+  - first:
+      213: -7817913295121161740
+    second: Crystal Boss Slam attack animation-Sheet_173
+  - first:
+      213: 298763045390401043
+    second: Crystal Boss Slam attack animation-Sheet_174
+  - first:
+      213: 2634280629356767597
+    second: Crystal Boss Slam attack animation-Sheet_175
+  - first:
+      213: 4926142406367486368
+    second: Crystal Boss Slam attack animation-Sheet_176
+  - first:
+      213: -8882811151142938403
+    second: Crystal Boss Slam attack animation-Sheet_177
+  - first:
+      213: 8583000523775316376
+    second: Crystal Boss Slam attack animation-Sheet_178
+  - first:
+      213: 4900526025645676709
+    second: Crystal Boss Slam attack animation-Sheet_179
+  - first:
+      213: 1950726559293838510
+    second: Crystal Boss Slam attack animation-Sheet_180
+  - first:
+      213: -8134981267912488576
+    second: Crystal Boss Slam attack animation-Sheet_181
+  - first:
+      213: 6941823111403067875
+    second: Crystal Boss Slam attack animation-Sheet_182
+  - first:
+      213: -568975665962239612
+    second: Crystal Boss Slam attack animation-Sheet_183
+  - first:
+      213: -1786649734186953573
+    second: Crystal Boss Slam attack animation-Sheet_184
+  - first:
+      213: 1715936044559985339
+    second: Crystal Boss Slam attack animation-Sheet_185
+  - first:
+      213: 4402034175549320966
+    second: Crystal Boss Slam attack animation-Sheet_186
+  - first:
+      213: 4900456794557289632
+    second: Crystal Boss Slam attack animation-Sheet_187
+  - first:
+      213: 3333005692430066296
+    second: Crystal Boss Slam attack animation-Sheet_188
+  - first:
+      213: -1018698302478849900
+    second: Crystal Boss Slam attack animation-Sheet_189
+  - first:
+      213: -7275273721903874509
+    second: Crystal Boss Slam attack animation-Sheet_190
+  - first:
+      213: -2330535706969823298
+    second: Crystal Boss Slam attack animation-Sheet_191
+  - first:
+      213: 2552436873303276205
+    second: Crystal Boss Slam attack animation-Sheet_192
+  - first:
+      213: 6532274453394322775
+    second: Crystal Boss Slam attack animation-Sheet_193
+  - first:
+      213: 8821356154598385747
+    second: Crystal Boss Slam attack animation-Sheet_194
+  - first:
+      213: -5495632492349066521
+    second: Crystal Boss Slam attack animation-Sheet_195
+  - first:
+      213: -8637580347494933423
+    second: Crystal Boss Slam attack animation-Sheet_196
+  - first:
+      213: 3924843128255132087
+    second: Crystal Boss Slam attack animation-Sheet_197
+  - first:
+      213: -897776709578448712
+    second: Crystal Boss Slam attack animation-Sheet_198
+  - first:
+      213: 6987664569900414966
+    second: Crystal Boss Slam attack animation-Sheet_199
+  - first:
+      213: 6539436103957706851
+    second: Crystal Boss Slam attack animation-Sheet_200
+  - first:
+      213: -7456431605714507893
+    second: Crystal Boss Slam attack animation-Sheet_201
+  - first:
+      213: 3061098747394221553
+    second: Crystal Boss Slam attack animation-Sheet_202
+  - first:
+      213: 5588336911266511394
+    second: Crystal Boss Slam attack animation-Sheet_203
+  - first:
+      213: 5942094040115065163
+    second: Crystal Boss Slam attack animation-Sheet_204
+  - first:
+      213: 3609256164969903143
+    second: Crystal Boss Slam attack animation-Sheet_205
+  - first:
+      213: -1232124739140334654
+    second: Crystal Boss Slam attack animation-Sheet_206
+  - first:
+      213: 4643829222941042782
+    second: Crystal Boss Slam attack animation-Sheet_207
+  - first:
+      213: -4006471668314384106
+    second: Crystal Boss Slam attack animation-Sheet_208
+  - first:
+      213: -5804397002226563195
+    second: Crystal Boss Slam attack animation-Sheet_209
+  - first:
+      213: -3049763063293457906
+    second: Crystal Boss Slam attack animation-Sheet_210
+  - first:
+      213: 5268607235976276154
+    second: Crystal Boss Slam attack animation-Sheet_211
+  - first:
+      213: -8536946475515381947
+    second: Crystal Boss Slam attack animation-Sheet_212
+  - first:
+      213: -7616748932238545897
+    second: Crystal Boss Slam attack animation-Sheet_213
+  - first:
+      213: 3836297681335263604
+    second: Crystal Boss Slam attack animation-Sheet_214
+  - first:
+      213: 1463156191541253679
+    second: Crystal Boss Slam attack animation-Sheet_215
+  - first:
+      213: -1722313145404226523
+    second: Crystal Boss Slam attack animation-Sheet_216
+  - first:
+      213: 5893065822597895594
+    second: Crystal Boss Slam attack animation-Sheet_217
+  - first:
+      213: 6157751970431008030
+    second: Crystal Boss Slam attack animation-Sheet_218
+  - first:
+      213: 6043571114351921801
+    second: Crystal Boss Slam attack animation-Sheet_219
+  - first:
+      213: 3902311215102629858
+    second: Crystal Boss Slam attack animation-Sheet_220
+  - first:
+      213: 1695886774515487241
+    second: Crystal Boss Slam attack animation-Sheet_221
+  - first:
+      213: -1071557054806686699
+    second: Crystal Boss Slam attack animation-Sheet_222
+  - first:
+      213: 390971527113839508
+    second: Crystal Boss Slam attack animation-Sheet_223
+  - first:
+      213: 798774178351858892
+    second: Crystal Boss Slam attack animation-Sheet_224
+  - first:
+      213: -362746041510819306
+    second: Crystal Boss Slam attack animation-Sheet_225
+  - first:
+      213: -8199519578655896632
+    second: Crystal Boss Slam attack animation-Sheet_226
+  - first:
+      213: -8659200174487515109
+    second: Crystal Boss Slam attack animation-Sheet_227
+  - first:
+      213: -4694178640532521341
+    second: Crystal Boss Slam attack animation-Sheet_228
+  - first:
+      213: 2685644909543040985
+    second: Crystal Boss Slam attack animation-Sheet_229
+  - first:
+      213: -5246908950275857204
+    second: Crystal Boss Slam attack animation-Sheet_230
+  - first:
+      213: 8168863362412500664
+    second: Crystal Boss Slam attack animation-Sheet_231
+  - first:
+      213: 1376988803750359475
+    second: Crystal Boss Slam attack animation-Sheet_232
+  - first:
+      213: -8822718070024824201
+    second: Crystal Boss Slam attack animation-Sheet_233
+  - first:
+      213: 7158930694331912614
+    second: Crystal Boss Slam attack animation-Sheet_234
+  - first:
+      213: 1479249640744542027
+    second: Crystal Boss Slam attack animation-Sheet_235
+  - first:
+      213: 1250045795469967637
+    second: Crystal Boss Slam attack animation-Sheet_236
+  - first:
+      213: -4791957412434298842
+    second: Crystal Boss Slam attack animation-Sheet_237
+  - first:
+      213: 7522309660539514549
+    second: Crystal Boss Slam attack animation-Sheet_238
+  - first:
+      213: -5176704927626895167
+    second: Crystal Boss Slam attack animation-Sheet_239
+  - first:
+      213: 2868348652304546366
+    second: Crystal Boss Slam attack animation-Sheet_240
+  - first:
+      213: -3786646930759137162
+    second: Crystal Boss Slam attack animation-Sheet_241
+  - first:
+      213: 6732733904705564504
+    second: Crystal Boss Slam attack animation-Sheet_242
+  - first:
+      213: 3287162629680737918
+    second: Crystal Boss Slam attack animation-Sheet_243
+  - first:
+      213: 4758686073977597751
+    second: Crystal Boss Slam attack animation-Sheet_244
+  - first:
+      213: -3814219721198793738
+    second: Crystal Boss Slam attack animation-Sheet_245
+  - first:
+      213: -5188571706227755359
+    second: Crystal Boss Slam attack animation-Sheet_246
+  - first:
+      213: 4086705463127279180
+    second: Crystal Boss Slam attack animation-Sheet_247
+  - first:
+      213: 5738109848694885719
+    second: Crystal Boss Slam attack animation-Sheet_248
+  - first:
+      213: -3046371883603324126
+    second: Crystal Boss Slam attack animation-Sheet_249
+  - first:
+      213: 6320598405524120017
+    second: Crystal Boss Slam attack animation-Sheet_250
+  - first:
+      213: -138059777379056509
+    second: Crystal Boss Slam attack animation-Sheet_251
+  - first:
+      213: -7141355701076317383
+    second: Crystal Boss Slam attack animation-Sheet_252
+  - first:
+      213: 8199032491860694419
+    second: Crystal Boss Slam attack animation-Sheet_253
+  - first:
+      213: 744060853517725443
+    second: Crystal Boss Slam attack animation-Sheet_254
+  - first:
+      213: 3770132952154437932
+    second: Crystal Boss Slam attack animation-Sheet_255
+  - first:
+      213: 6085767519145227413
+    second: Crystal Boss Slam attack animation-Sheet_256
+  - first:
+      213: 6658876686802189094
+    second: Crystal Boss Slam attack animation-Sheet_257
+  - first:
+      213: 593200985398648492
+    second: Crystal Boss Slam attack animation-Sheet_258
+  - first:
+      213: -2668728953640499389
+    second: Crystal Boss Slam attack animation-Sheet_259
+  - first:
+      213: -2917969944419343957
+    second: Crystal Boss Slam attack animation-Sheet_260
+  - first:
+      213: 3235516294667912544
+    second: Crystal Boss Slam attack animation-Sheet_261
+  - first:
+      213: -2942274269125587286
+    second: Crystal Boss Slam attack animation-Sheet_262
+  - first:
+      213: 5876701236923440556
+    second: Crystal Boss Slam attack animation-Sheet_263
+  - first:
+      213: 615296353912763965
+    second: Crystal Boss Slam attack animation-Sheet_264
+  - first:
+      213: -1786510715065559007
+    second: Crystal Boss Slam attack animation-Sheet_265
+  - first:
+      213: 5080982448484379285
+    second: Crystal Boss Slam attack animation-Sheet_266
+  - first:
+      213: 880094382676873405
+    second: Crystal Boss Slam attack animation-Sheet_267
+  - first:
+      213: 4553239206607290998
+    second: Crystal Boss Slam attack animation-Sheet_268
+  - first:
+      213: -3080670440044387468
+    second: Crystal Boss Slam attack animation-Sheet_269
+  - first:
+      213: 6295307193195109777
+    second: Crystal Boss Slam attack animation-Sheet_270
+  - first:
+      213: -1476494950497344007
+    second: Crystal Boss Slam attack animation-Sheet_271
+  - first:
+      213: -7492875647625073553
+    second: Crystal Boss Slam attack animation-Sheet_272
+  - first:
+      213: -8176880078992561203
+    second: Crystal Boss Slam attack animation-Sheet_273
+  - first:
+      213: 3961293148781296296
+    second: Crystal Boss Slam attack animation-Sheet_274
+  - first:
+      213: 809083019028438792
+    second: Crystal Boss Slam attack animation-Sheet_275
+  - first:
+      213: -4474724989753297829
+    second: Crystal Boss Slam attack animation-Sheet_276
+  - first:
+      213: -2059773495404696987
+    second: Crystal Boss Slam attack animation-Sheet_277
+  - first:
+      213: -3668256222988656800
+    second: Crystal Boss Slam attack animation-Sheet_278
+  - first:
+      213: 8864469091277339013
+    second: Crystal Boss Slam attack animation-Sheet_279
+  - first:
+      213: 8384922600834347801
+    second: Crystal Boss Slam attack animation-Sheet_280
+  - first:
+      213: 7786972781250149447
+    second: Crystal Boss Slam attack animation-Sheet_281
+  - first:
+      213: -9023176726467620710
+    second: Crystal Boss Slam attack animation-Sheet_282
+  - first:
+      213: -4493643831283637200
+    second: Crystal Boss Slam attack animation-Sheet_283
+  - first:
+      213: -6313346401749342911
+    second: Crystal Boss Slam attack animation-Sheet_284
+  - first:
+      213: -4454538940258329916
+    second: Crystal Boss Slam attack animation-Sheet_285
+  - first:
+      213: -3746879275965518784
+    second: Crystal Boss Slam attack animation-Sheet_286
+  - first:
+      213: 1346462514980322810
+    second: Crystal Boss Slam attack animation-Sheet_287
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1980
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c82811e303d43330800000000000000
+      internalID: 3689806008338098377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1980
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad8aedadc23d8890800000000000000
+      internalID: -7454245949260788318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1980
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7019a5b714adce0800000000000000
+      internalID: -1379718337779398724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1980
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf41509c74f064530800000000000000
+      internalID: 3838772533369574651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1980
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a0875376b954f60800000000000000
+      internalID: 8017985579184032301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efd084d692c25f10800000000000000
+      internalID: 2257080316332138471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1800
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c0b6f8880ea12b0800000000000000
+      internalID: -5612927108437570438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1800
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df0649b2eb175490800000000000000
+      internalID: -7757701172537454635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1800
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490508196a00cf4b0800000000000000
+      internalID: -5405444737345761132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1800
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6131f9c415b1cd640800000000000000
+      internalID: 5105986113523094294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1829a77a3e10be2d0800000000000000
+      internalID: -3248500628938648959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1620
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070275eda5ee97340800000000000000
+      internalID: 4862179346767880304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1620
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e9225a3d00bb370800000000000000
+      internalID: 8339260044015214210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1620
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdfca704d61dda80800000000000000
+      internalID: -8440565026704785992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1620
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7935d0455e9022a0800000000000000
+      internalID: -6764232551313360516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5177890fb647c6a0800000000000000
+      internalID: -6429092156735524515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1440
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a400f3a293fb22410800000000000000
+      internalID: 1450932282209534026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1440
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07e5c2cb56505820800000000000000
+      internalID: 2904916711763732237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1440
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aec0a53059bdf930800000000000000
+      internalID: 4178699783417941664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1440
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce24514da4947490800000000000000
+      internalID: -7749405586951491902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db8427a97df57a0800000000000000
+      internalID: -6386148688245768850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1260
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa07d8dc651d9090800000000000000
+      internalID: -8026235403665732960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1260
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602f9304a7e1bf830800000000000000
+      internalID: 4105908995690721798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1260
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38d29e56622a03a0800000000000000
+      internalID: -6698503672691500994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1260
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710145cbc0879ba70800000000000000
+      internalID: 8843231339413245975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c7d819413ede670800000000000000
+      internalID: 8569755343436741781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1080
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca029cf1acd73930800000000000000
+      internalID: 4123006572166253257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1080
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25c19de0d6266a50800000000000000
+      internalID: 6513936589818807595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1080
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97571e4a171494020800000000000000
+      internalID: 2326462638866920825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1080
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9634905dbc17a52f0800000000000000
+      internalID: -983348448360578199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5078f8a60504c370800000000000000
+      internalID: 8341797935959797852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 900
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31d107a4d512b9e0800000000000000
+      internalID: -1607198113938681542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add5d565f42c93790800000000000000
+      internalID: -7549789654302761510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 900
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e536b72136f6a0c0800000000000000
+      internalID: -4564690481313335834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe00163f66ed52970800000000000000
+      internalID: 8729627986478825711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaf8d7f8e99375d0800000000000000
+      internalID: -3065937695439521053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 720
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf78e78d86a6f30f0800000000000000
+      internalID: -1135071582532761604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 720
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0c092772e385fc0800000000000000
+      internalID: -3505983970761195330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 720
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca92366c51ddb150800000000000000
+      internalID: 5890094082452265678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 720
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8720c968dc374a430800000000000000
+      internalID: 3793284112716661368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0234e1ba1a0597090800000000000000
+      internalID: -8036303404775095520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 540
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f985b522be0a6cb0800000000000000
+      internalID: -4870063888748148231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 540
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6d9956477bc8f80800000000000000
+      internalID: -8102899918997694744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 540
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215927b30c78ede90800000000000000
+      internalID: -6999007511186336494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 540
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0a5862c0288fe40800000000000000
+      internalID: 5690441117880131789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064ff734160fafe40800000000000000
+      internalID: 5691125379670996064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 360
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6098fec0a533e94d0800000000000000
+      internalID: -3126004629491447546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 360
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c8c9d38e48a6220800000000000000
+      internalID: 2479940677821828159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 360
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46a23d58a90e09e0800000000000000
+      internalID: -1653373394475637170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 360
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f2109ff3eac8270800000000000000
+      internalID: 8254163806847053586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657ca90ace15aed20800000000000000
+      internalID: 3308546953005680470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 180
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c941cdf3a8a054570800000000000000
+      internalID: 8450171864723756188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 180
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea8427f9c7812ed0800000000000000
+      internalID: -2440520221553554716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 180
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c47e88f31531a850800000000000000
+      internalID: 6386444106478810305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 180
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6430978ac975350800000000000000
+      internalID: 6005440875520542424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34aeb362e67963d0800000000000000
+      internalID: -3212906144444013508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00941988e5b3a080800000000000000
+      internalID: -9177291605314072565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44498464bb534a6e0800000000000000
+      internalID: -1827276470351260604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34aa8309a83b1ae0800000000000000
+      internalID: -1577604945903180740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Boss Slam attack animation-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 180
+      alignment: 9
+      pivot: {x: 0.504, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852d5ca60e68b1320800000000000000
+      internalID: 2529763914120811096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7405022eca5b2bc439142a0de8b24079
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":250.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5040000081062317,"y":0.1666666716337204},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Crystal Boss Slam attack animation-Sheet_0: 3689806008338098377
+      Crystal Boss Slam attack animation-Sheet_1: -7454245949260788318
+      Crystal Boss Slam attack animation-Sheet_10: -3248500628938648959
+      Crystal Boss Slam attack animation-Sheet_11: 4862179346767880304
+      Crystal Boss Slam attack animation-Sheet_12: 8339260044015214210
+      Crystal Boss Slam attack animation-Sheet_13: -8440565026704785992
+      Crystal Boss Slam attack animation-Sheet_14: -6764232551313360516
+      Crystal Boss Slam attack animation-Sheet_15: -6429092156735524515
+      Crystal Boss Slam attack animation-Sheet_16: 1450932282209534026
+      Crystal Boss Slam attack animation-Sheet_17: 2904916711763732237
+      Crystal Boss Slam attack animation-Sheet_18: 4178699783417941664
+      Crystal Boss Slam attack animation-Sheet_19: -7749405586951491902
+      Crystal Boss Slam attack animation-Sheet_2: -1379718337779398724
+      Crystal Boss Slam attack animation-Sheet_20: -6386148688245768850
+      Crystal Boss Slam attack animation-Sheet_21: -8026235403665732960
+      Crystal Boss Slam attack animation-Sheet_22: 4105908995690721798
+      Crystal Boss Slam attack animation-Sheet_23: -6698503672691500994
+      Crystal Boss Slam attack animation-Sheet_24: 8843231339413245975
+      Crystal Boss Slam attack animation-Sheet_25: 8569755343436741781
+      Crystal Boss Slam attack animation-Sheet_26: 4123006572166253257
+      Crystal Boss Slam attack animation-Sheet_27: 6513936589818807595
+      Crystal Boss Slam attack animation-Sheet_28: 2326462638866920825
+      Crystal Boss Slam attack animation-Sheet_29: -983348448360578199
+      Crystal Boss Slam attack animation-Sheet_3: 3838772533369574651
+      Crystal Boss Slam attack animation-Sheet_30: 8341797935959797852
+      Crystal Boss Slam attack animation-Sheet_31: -1607198113938681542
+      Crystal Boss Slam attack animation-Sheet_32: -7549789654302761510
+      Crystal Boss Slam attack animation-Sheet_33: -4564690481313335834
+      Crystal Boss Slam attack animation-Sheet_34: 8729627986478825711
+      Crystal Boss Slam attack animation-Sheet_35: -3065937695439521053
+      Crystal Boss Slam attack animation-Sheet_36: -1135071582532761604
+      Crystal Boss Slam attack animation-Sheet_37: -3505983970761195330
+      Crystal Boss Slam attack animation-Sheet_38: 5890094082452265678
+      Crystal Boss Slam attack animation-Sheet_39: 3793284112716661368
+      Crystal Boss Slam attack animation-Sheet_4: 8017985579184032301
+      Crystal Boss Slam attack animation-Sheet_40: -8036303404775095520
+      Crystal Boss Slam attack animation-Sheet_41: -4870063888748148231
+      Crystal Boss Slam attack animation-Sheet_42: -8102899918997694744
+      Crystal Boss Slam attack animation-Sheet_43: -6999007511186336494
+      Crystal Boss Slam attack animation-Sheet_44: 5690441117880131789
+      Crystal Boss Slam attack animation-Sheet_45: 5691125379670996064
+      Crystal Boss Slam attack animation-Sheet_46: -3126004629491447546
+      Crystal Boss Slam attack animation-Sheet_47: 2479940677821828159
+      Crystal Boss Slam attack animation-Sheet_48: -1653373394475637170
+      Crystal Boss Slam attack animation-Sheet_49: 8254163806847053586
+      Crystal Boss Slam attack animation-Sheet_5: 2257080316332138471
+      Crystal Boss Slam attack animation-Sheet_50: 3308546953005680470
+      Crystal Boss Slam attack animation-Sheet_51: 8450171864723756188
+      Crystal Boss Slam attack animation-Sheet_52: -2440520221553554716
+      Crystal Boss Slam attack animation-Sheet_53: 6386444106478810305
+      Crystal Boss Slam attack animation-Sheet_54: 6005440875520542424
+      Crystal Boss Slam attack animation-Sheet_55: -3212906144444013508
+      Crystal Boss Slam attack animation-Sheet_56: -9177291605314072565
+      Crystal Boss Slam attack animation-Sheet_57: -1827276470351260604
+      Crystal Boss Slam attack animation-Sheet_58: -1577604945903180740
+      Crystal Boss Slam attack animation-Sheet_59: 2529763914120811096
+      Crystal Boss Slam attack animation-Sheet_6: -5612927108437570438
+      Crystal Boss Slam attack animation-Sheet_7: -7757701172537454635
+      Crystal Boss Slam attack animation-Sheet_8: -5405444737345761132
+      Crystal Boss Slam attack animation-Sheet_9: 5105986113523094294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
