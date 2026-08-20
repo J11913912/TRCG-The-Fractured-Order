@@ -13,9 +13,9 @@ public class HealthbarManager : MonoBehaviour
    
    private bool _pullDelay = false;
    private float _wayToGo;
-   public int sliderIncrements = 1;
+   public float sliderIncrements = 0.5f;
    private float _time;
-   private float _timeToNext = 0.5f;
+   private float _timeToNext = 1f;
 
    private void Awake()
    {
@@ -79,7 +79,7 @@ public class HealthbarManager : MonoBehaviour
 
    private IEnumerator DelayedHealthBar()
    {
-      yield return new WaitForSeconds(1f);
+      yield return new WaitForSeconds(0.5f);
       _pullDelay = true;
       _wayToGo = delayedHealthBar.value - healthBar.value;
    }

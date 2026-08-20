@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 2303273576681475002}
   - component: {fileID: 572806055395931610}
   - component: {fileID: 4086487600288086821}
+  - component: {fileID: 6393989486590571990}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -243,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -320,6 +321,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6393989486590571990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4340936842063963093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392df1e65658c3046a8ee54e5f95293d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnButtonSelect
+  thisButton: {fileID: 572806055395931610}
+  shopInventory: {fileID: 0}
+  description: 
 --- !u!1 &5554736671843751302
 GameObject:
   m_ObjectHideFlags: 0

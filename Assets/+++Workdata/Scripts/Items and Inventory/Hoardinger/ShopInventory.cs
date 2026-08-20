@@ -76,24 +76,10 @@ public class ShopInventory : MonoBehaviour
         // disable
     }
 
-    public void SetHealthDesc()
+    public void SetDescription(string desc)
     {
-        description.SetText("Healf to go");
-    }
-    
-    public void SetManaDesc()
-    {
-        description.SetText("Magic to go");
-    }
-    
-    public void SetCostumisableDesc()
-    {
-        description.SetText("a new style");
-    }
-    
-    public void SetSpellDesc()
-    {
-        description.SetText("crystal shield spell");
+        description.SetText(desc);
+        description.SetText(desc);
     }
     
     

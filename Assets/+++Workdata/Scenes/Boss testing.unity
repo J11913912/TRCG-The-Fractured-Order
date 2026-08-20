@@ -1535,6 +1535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossAnimationEventManager
   bossCrushAbility: {fileID: 1082697138}
+  bossSpinAbility: {fileID: 1082697146}
 --- !u!1 &1018141518
 GameObject:
   m_ObjectHideFlags: 0

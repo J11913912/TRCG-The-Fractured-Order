@@ -13,9 +13,9 @@ public class ManabarManager : MonoBehaviour
    
     private bool _pullDelay = false;
     private float _wayToGo;
-    public int sliderIncrements = 1;
+    public float sliderIncrements = 10f;
     private float _time;
-    private float _timeToNext = 0.5f;
+    private float _timeToNext = 0.1f;
 
     private void Awake()
     {
@@ -49,6 +49,7 @@ public class ManabarManager : MonoBehaviour
                 }
             
                 delayedManaBar.value -= sliderIncrements;
+                _time = 0;
             }
         }
     }
@@ -79,7 +80,7 @@ public class ManabarManager : MonoBehaviour
 
     private IEnumerator DelayedHealthBar()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         _pullDelay = true;
         _wayToGo = delayedManaBar.value - manaBar.value;
     }
