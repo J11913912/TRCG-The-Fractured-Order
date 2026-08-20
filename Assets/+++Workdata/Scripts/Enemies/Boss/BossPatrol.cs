@@ -407,7 +407,7 @@ public class BossPatrol : MonoBehaviour
         animator.SetFloat(HashDirY, direction.y);
     }
 
-    private void SetAnimationAction(int actionId)
+    public void SetAnimationAction(int actionId)
     { 
         animator.SetTrigger(HashActionTrigger); 
         animator.SetInteger(HashActionID, actionId);
@@ -450,6 +450,8 @@ public class BossPatrol : MonoBehaviour
 
     public void ResumePatrolAfterAttack()
     {
+        //animator.SetBool("crushOn", false);
+        
         waypoints = oldWaypoints;
         waitDuration = oldWaitDuration;
         waitAtWaypoint = true;

@@ -19,6 +19,12 @@ public class BossCrushAbility : MonoBehaviour
     
     private BossPatrol _bossPatrol;
     
+    public Animator animator;
+
+    public GameObject dummyPrefab;
+    private GameObject _dummy;
+
+    
     private void Awake()
     {
         _bossPatrol = GetComponent<BossPatrol>();
@@ -39,7 +45,7 @@ public class BossCrushAbility : MonoBehaviour
 
         if (crush)
         {
-            Vector3 direction = _target.position - transform.position;
+            Vector3 direction = _dummy.transform.position - transform.position;
         
             _rb.linearVelocity = direction * moveSpeed;
         }
@@ -48,29 +54,41 @@ public class BossCrushAbility : MonoBehaviour
     public void HoverOver()
     {
         _target = _player.transform;
+
+        _dummy = Instantiate(dummyPrefab);
+        _dummy.transform.position = _target.position;
         
         crush = true;
-       
+        
+        _bossPatrol.SetAnimationAction(20);
     }
 
-    public void StopHover()
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PlayerDummy"))
+        {
+            Debug.Log("dummy stop");
+            StopHover();
+        }
+    }
+
+    private void StopHover()
     {
         if (!crush) return;
+        
+        _bossPatrol.SetAnimationAction(30);
         
         Debug.Log("CrushOff");
         crush = false;
         _rb.linearVelocity = Vector2.zero;
 
-        Crush();
+        //Crush();
     }
 
-    public void Crush()
+    public void Crush() // via animation event in slam_ease
     {
-        // animation
-        // if second phase also shockwave
-        // damage player
-        
         _bossPatrol.ResumePatrolAfterAttack();
+        Destroy(_dummy);
     }
 
     public void Shockwave()

@@ -9,6 +9,7 @@ TagManager:
   - GoDown
   - GoLeft
   - GoRight
+  - PlayerDummy
   layers:
   - Default
   - TransparentFX
