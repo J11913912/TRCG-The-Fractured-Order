@@ -1,6 +1,8 @@
 using System;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ShopInventory : MonoBehaviour
@@ -26,12 +28,17 @@ public class ShopInventory : MonoBehaviour
     public int prizeSpell;
 
 
-    private void Awake()
+    private void OnEnable()
     {
         button.Select();
         
         // TODO make it when talking to hoardinger only
         // TODO make sure the spell casting via arrow keys only happens when not in menus
+    }
+
+    public void Focus()
+    {
+        button.Select();
     }
 
     private void Update()

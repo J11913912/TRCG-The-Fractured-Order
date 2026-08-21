@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class SpellButtonSetter : MonoBehaviour
 {
+    public static Action<bool> SpellMenuToggle;
+    
     private Image _image;
     private string _spellName;
     private string _spellDescription;
@@ -17,6 +19,8 @@ public class SpellButtonSetter : MonoBehaviour
     
     private SpellEquipping _spellEquipping;
     public DisplaySpellInfos _displaySpellInfos;
+
+    public bool spellMenuOn = false;
     
 
     private void Awake()
@@ -32,13 +36,28 @@ public class SpellButtonSetter : MonoBehaviour
         _spellEquipping = GetComponent<SpellEquipping>();
     }
 
+    private void OnEnable()
+    {
+        SpellMenuToggle += SpellMenuToggled;
+    }
+
+    private void OnDisable()
+    {
+        SpellMenuToggle -= SpellMenuToggled;
+    }
+
+    public void SpellMenuToggled(bool value)
+    {
+        spellMenuOn = value;
+    }
     public void GetId() // on click
     {
       _spellEquipping.EnterAssginMode(_Id);
     }
-
     private void Update()
     {
+        if (!spellMenuOn) return;
+        
         GameObject currentSelect = EventSystem.current.currentSelectedGameObject;
 
         if (currentSelect == this.gameObject)

@@ -31,10 +31,7 @@ public class PauseMenuManager : MonoBehaviour
     private bool unlockQuestLog = false;
        
     public PlayerInput playerInput;
-       
-       
-       
-       
+    
        private void SetInputActions()
        {
            _inputActions = new InputSystem_Actions();
@@ -99,6 +96,7 @@ public class PauseMenuManager : MonoBehaviour
                if (_menuAlreadyOpen) return;
                
                playerInput.ToggleSpells(false);
+               SpellButtonSetter.SpellMenuToggle(true);
                
                _currentMenu.SetActive(false);
                spellMenuContainer.SetActive(true);
@@ -117,6 +115,7 @@ public class PauseMenuManager : MonoBehaviour
            else if (_isPaused)
            {
                playerInput.ToggleSpells(true);
+               SpellButtonSetter.SpellMenuToggle(false);
                
                spellMenuContainer.GetComponent<CanvasGroup>().alpha = 0;
                //hudContainer.SetActive(true);
@@ -148,6 +147,11 @@ public class PauseMenuManager : MonoBehaviour
                Time.timeScale = 0;
                _isPaused = true;
                _menuAlreadyOpen = true;
+               
+               if (_currentMenu == spellMenuContainer)
+               {
+                   spellMenuContainer.SetActive(true);
+               }
            
                _currentMenu = pauseMenuContainer;
            }
@@ -170,6 +174,11 @@ public class PauseMenuManager : MonoBehaviour
            
                _currentMenu.SetActive(false);
                optionsMenuContainer.SetActive(true);
+               
+               if (_currentMenu == spellMenuContainer)
+               {
+                   spellMenuContainer.SetActive(true);
+               } 
            
                _currentMenu = optionsMenuContainer;
                Time.timeScale = 0;
@@ -180,6 +189,11 @@ public class PauseMenuManager : MonoBehaviour
            _currentMenu.SetActive(false);
            gameOverMenuContainer.SetActive(true);
            
+           if (_currentMenu == spellMenuContainer)
+           {
+               spellMenuContainer.SetActive(true);
+           }
+           
            _currentMenu = gameOverMenuContainer;
            Time.timeScale = 0;
        }
@@ -188,6 +202,11 @@ public class PauseMenuManager : MonoBehaviour
        {
            _currentMenu.SetActive(false);
            winMenuContainer.SetActive(true);
+           
+           if (_currentMenu == spellMenuContainer)
+           {
+               spellMenuContainer.SetActive(true);
+           }
            
            _currentMenu = winMenuContainer;
            Time.timeScale = 0;
@@ -206,6 +225,11 @@ public class PauseMenuManager : MonoBehaviour
                Time.timeScale = 0;
                _isInventory = true;
                _menuAlreadyOpen = true;
+               
+               if (_currentMenu == spellMenuContainer)
+               {
+                   spellMenuContainer.SetActive(true);
+               }
 
                _currentMenu = inventoryMenuContainer;
            }

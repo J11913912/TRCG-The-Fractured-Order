@@ -1,5 +1,41 @@
 === Hoardinger === 
 
+= Hello
+Welcome to my wonderful wares.
+->END
+
+= BuyHealth
+buy health for PRIZE?
++[Yes]
+~ Event("BuyHealth")
+->END
++[No]
+->END
+
+= BuyMana
+buy mana for PRIZE?
++[Yes]
+~ Event("BuyMana")
+->END
++[No]
+->END
+
+= BuyHat
+buy hat for PRIZE?
++[Yes]
+~ Event("BuyHat")
+->END
++[No]
+-> END
+
+= BuySpell
+buy spell for PRIZE?
++[Yes]
+~ Event("BuySpell")
+->END
++[No]
+->END
+
 = FirstMeeting
 Eh?! Who are you?! What do you want?! I know I don't anything from you. ... Except perhaps those shiny shards of yours, hmm. Fine, fine, fine, we can trade if you insist.
 ->END
