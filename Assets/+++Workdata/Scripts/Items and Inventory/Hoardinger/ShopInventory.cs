@@ -38,11 +38,14 @@ public class ShopInventory : MonoBehaviour
 
     public void Focus()
     {
+        Debug.Log("selcted buttox9rafwrdfgijuhrde");
         button.Select();
     }
 
     private void Update()
     {
+        Debug.Log(EventSystem.current.currentSelectedGameObject);
+        
         healthPotionsText.SetText(healthPotionsAmount.ToString());
         manaPotionsText.SetText(manaPotionsAmount.ToString());
         costumisableText.SetText(_costumisableAmount.ToString());
