@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8ee8c1663d8236c48a1845712d187d8b
+guid: 9190210512248d14e98fb917364b4104
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4348763000683334507
-    second: Loch_0
+      213: -4280673000971271181
+    second: Loch 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,20 +116,45 @@ TextureImporter:
       name: Loch_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 57
-        width: 147
-        height: 133
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -35, y: 23}
+        - {x: -47, y: 9}
+        - {x: -35, y: -6}
+        - {x: -30, y: -26}
+        - {x: -24, y: -49}
+        - {x: -6, y: -41}
+        - {x: 3, y: -47}
+        - {x: 1, y: -39}
+        - {x: 13, y: -39}
+        - {x: 22, y: -50}
+        - {x: 27, y: -32}
+        - {x: 45, y: -30}
+        - {x: 31, y: -26}
+        - {x: 39, y: -18}
+        - {x: 40, y: -12}
+        - {x: 47, y: -2}
+        - {x: 36, y: -7}
+        - {x: 38, y: 11}
+        - {x: 51, y: 20}
+        - {x: 44, y: 32}
+        - {x: 38, y: 43}
+        - {x: 1, y: 19}
+        - {x: -20, y: 20}
+        - {x: -28, y: 23}
+        - {x: -37, y: 37}
+      tessellationDetail: 0
       bones: []
-      spriteID: b6b871c88e8e95c30800000000000000
-      internalID: 4348763000683334507
+      spriteID: 13424abb5a9388b478adb3eaf04e0ba8
+      internalID: -270490756
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 422d0e18f7692ff44a4eb96ea57d4379
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +171,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.15625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Loch_0: 4348763000683334507
+      Loch_0: -270490756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
