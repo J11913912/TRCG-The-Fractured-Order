@@ -1,0 +1,2980 @@
+fileFormatVersion: 2
+guid: bc02a6fc245342c4ea6e8cd885f3da6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3095908205389456405
+    second: Tumble Weed Guy Animations-Sheet_0
+  - first:
+      213: 4535463237874261818
+    second: Tumble Weed Guy Animations-Sheet_1
+  - first:
+      213: 5947681621319990653
+    second: Tumble Weed Guy Animations-Sheet_2
+  - first:
+      213: -18114623593311393
+    second: Tumble Weed Guy Animations-Sheet_3
+  - first:
+      213: -6734294068750023137
+    second: Tumble Weed Guy Animations-Sheet_4
+  - first:
+      213: 4889481101657267659
+    second: Tumble Weed Guy Animations-Sheet_5
+  - first:
+      213: 7820927232097182165
+    second: Tumble Weed Guy Animations-Sheet_6
+  - first:
+      213: 5408864839956153527
+    second: Tumble Weed Guy Animations-Sheet_7
+  - first:
+      213: 1625363512678370806
+    second: Tumble Weed Guy Animations-Sheet_8
+  - first:
+      213: 3951810026000025046
+    second: Tumble Weed Guy Animations-Sheet_9
+  - first:
+      213: 2130647882016347658
+    second: Tumble Weed Guy Animations-Sheet_10
+  - first:
+      213: -8195003021572932825
+    second: Tumble Weed Guy Animations-Sheet_11
+  - first:
+      213: 5528348168911601421
+    second: Tumble Weed Guy Animations-Sheet_12
+  - first:
+      213: -2489833679455095508
+    second: Tumble Weed Guy Animations-Sheet_13
+  - first:
+      213: -4103351116667362537
+    second: Tumble Weed Guy Animations-Sheet_14
+  - first:
+      213: -6733039702943315979
+    second: Tumble Weed Guy Animations-Sheet_15
+  - first:
+      213: 6123117196408400272
+    second: Tumble Weed Guy Animations-Sheet_16
+  - first:
+      213: -4467001849385620477
+    second: Tumble Weed Guy Animations-Sheet_17
+  - first:
+      213: 2600279547311688846
+    second: Tumble Weed Guy Animations-Sheet_18
+  - first:
+      213: -8993454260748562634
+    second: Tumble Weed Guy Animations-Sheet_19
+  - first:
+      213: 3046435165851499125
+    second: Tumble Weed Guy Animations-Sheet_20
+  - first:
+      213: -5387518411288773118
+    second: Tumble Weed Guy Animations-Sheet_21
+  - first:
+      213: 4637721854485836839
+    second: Tumble Weed Guy Animations-Sheet_22
+  - first:
+      213: 7644996799671854589
+    second: Tumble Weed Guy Animations-Sheet_23
+  - first:
+      213: -8308931990339149028
+    second: Tumble Weed Guy Animations-Sheet_24
+  - first:
+      213: -9088990767280277354
+    second: Tumble Weed Guy Animations-Sheet_25
+  - first:
+      213: -7603194167283474188
+    second: Tumble Weed Guy Animations-Sheet_26
+  - first:
+      213: -356537164107153173
+    second: Tumble Weed Guy Animations-Sheet_27
+  - first:
+      213: -2204866136952478528
+    second: Tumble Weed Guy Animations-Sheet_28
+  - first:
+      213: 1565475108063788060
+    second: Tumble Weed Guy Animations-Sheet_29
+  - first:
+      213: -4502337067910523690
+    second: Tumble Weed Guy Animations-Sheet_30
+  - first:
+      213: 4760555137842154818
+    second: Tumble Weed Guy Animations-Sheet_31
+  - first:
+      213: 4685258632450591907
+    second: Tumble Weed Guy Animations-Sheet_32
+  - first:
+      213: 4476312835043603773
+    second: Tumble Weed Guy Animations-Sheet_33
+  - first:
+      213: 4407865441479062460
+    second: Tumble Weed Guy Animations-Sheet_34
+  - first:
+      213: -3963758110592691906
+    second: Tumble Weed Guy Animations-Sheet_35
+  - first:
+      213: -7200429269264902630
+    second: Tumble Weed Guy Animations-Sheet_36
+  - first:
+      213: -4880687134403881645
+    second: Tumble Weed Guy Animations-Sheet_37
+  - first:
+      213: -5658216670695470327
+    second: Tumble Weed Guy Animations-Sheet_38
+  - first:
+      213: 1807106249911467670
+    second: Tumble Weed Guy Animations-Sheet_39
+  - first:
+      213: 3344831851035343136
+    second: Tumble Weed Guy Animations-Sheet_40
+  - first:
+      213: 3644114351170307400
+    second: Tumble Weed Guy Animations-Sheet_41
+  - first:
+      213: -7325953905237944560
+    second: Tumble Weed Guy Animations-Sheet_42
+  - first:
+      213: -4033229285482950795
+    second: Tumble Weed Guy Animations-Sheet_43
+  - first:
+      213: 3429689095154090716
+    second: Tumble Weed Guy Animations-Sheet_44
+  - first:
+      213: -1615813072291039122
+    second: Tumble Weed Guy Animations-Sheet_45
+  - first:
+      213: 1096599542191238566
+    second: Tumble Weed Guy Animations-Sheet_46
+  - first:
+      213: -5560097576899975929
+    second: Tumble Weed Guy Animations-Sheet_47
+  - first:
+      213: -1928035418763230642
+    second: Tumble Weed Guy Animations-Sheet_48
+  - first:
+      213: -8474456032741392677
+    second: Tumble Weed Guy Animations-Sheet_49
+  - first:
+      213: 1968947191216546436
+    second: Tumble Weed Guy Animations-Sheet_50
+  - first:
+      213: -351799937429927066
+    second: Tumble Weed Guy Animations-Sheet_51
+  - first:
+      213: 4213586164287438457
+    second: Tumble Weed Guy Animations-Sheet_52
+  - first:
+      213: 8067110800549926615
+    second: Tumble Weed Guy Animations-Sheet_53
+  - first:
+      213: 4235345018656651007
+    second: Tumble Weed Guy Animations-Sheet_54
+  - first:
+      213: 4201470324887343068
+    second: Tumble Weed Guy Animations-Sheet_55
+  - first:
+      213: -8514174243266455196
+    second: Tumble Weed Guy Animations-Sheet_56
+  - first:
+      213: 2503130053201345218
+    second: Tumble Weed Guy Animations-Sheet_57
+  - first:
+      213: 8580364866257893235
+    second: Tumble Weed Guy Animations-Sheet_58
+  - first:
+      213: -2359573105859788315
+    second: Tumble Weed Guy Animations-Sheet_59
+  - first:
+      213: -4689366655486535318
+    second: Tumble Weed Guy Animations-Sheet_60
+  - first:
+      213: -5283724298027056352
+    second: Tumble Weed Guy Animations-Sheet_61
+  - first:
+      213: -1011314018094802669
+    second: Tumble Weed Guy Animations-Sheet_62
+  - first:
+      213: -4496455566531167329
+    second: Tumble Weed Guy Animations-Sheet_63
+  - first:
+      213: -2502914889578423789
+    second: Tumble Weed Guy Animations-Sheet_64
+  - first:
+      213: -4599816891437310476
+    second: Tumble Weed Guy Animations-Sheet_65
+  - first:
+      213: 2247835655055712844
+    second: Tumble Weed Guy Animations-Sheet_66
+  - first:
+      213: -8194941198001378314
+    second: Tumble Weed Guy Animations-Sheet_67
+  - first:
+      213: -3653216437712995125
+    second: Tumble Weed Guy Animations-Sheet_68
+  - first:
+      213: 8070464395247596350
+    second: Tumble Weed Guy Animations-Sheet_69
+  - first:
+      213: 7652103421937268173
+    second: Tumble Weed Guy Animations-Sheet_70
+  - first:
+      213: -4038629945013326151
+    second: Tumble Weed Guy Animations-Sheet_71
+  - first:
+      213: 9188695121331698267
+    second: Tumble Weed Guy Animations-Sheet_72
+  - first:
+      213: -5757048003230558385
+    second: Tumble Weed Guy Animations-Sheet_73
+  - first:
+      213: -1911311857902130819
+    second: Tumble Weed Guy Animations-Sheet_74
+  - first:
+      213: -4657364370823255326
+    second: Tumble Weed Guy Animations-Sheet_75
+  - first:
+      213: 2702022116367035152
+    second: Tumble Weed Guy Animations-Sheet_76
+  - first:
+      213: 1995788279502068861
+    second: Tumble Weed Guy Animations-Sheet_77
+  - first:
+      213: 7443846130222522542
+    second: Tumble Weed Guy Animations-Sheet_78
+  - first:
+      213: -8762678265789274505
+    second: Tumble Weed Guy Animations-Sheet_79
+  - first:
+      213: 4784088193444414171
+    second: Tumble Weed Guy Animations-Sheet_80
+  - first:
+      213: -2945577056848165288
+    second: Tumble Weed Guy Animations-Sheet_81
+  - first:
+      213: 7464087372339502340
+    second: Tumble Weed Guy Animations-Sheet_82
+  - first:
+      213: -2417776477266019751
+    second: Tumble Weed Guy Animations-Sheet_83
+  - first:
+      213: 288234057209915635
+    second: Tumble Weed Guy Animations-Sheet_84
+  - first:
+      213: -7275490099321636693
+    second: Tumble Weed Guy Animations-Sheet_85
+  - first:
+      213: -3923359854537266323
+    second: Tumble Weed Guy Animations-Sheet_86
+  - first:
+      213: -1315903487634705161
+    second: Tumble Weed Guy Animations-Sheet_87
+  - first:
+      213: 2816566023176976193
+    second: Tumble Weed Guy Animations-Sheet_88
+  - first:
+      213: -3582525628141548989
+    second: Tumble Weed Guy Animations-Sheet_89
+  - first:
+      213: -8581285571671699307
+    second: Tumble Weed Guy Animations-Sheet_90
+  - first:
+      213: 4310461215442673216
+    second: Tumble Weed Guy Animations-Sheet_91
+  - first:
+      213: -5594784576791472768
+    second: Tumble Weed Guy Animations-Sheet_92
+  - first:
+      213: -8025527605295801175
+    second: Tumble Weed Guy Animations-Sheet_93
+  - first:
+      213: -3348213801797317132
+    second: Tumble Weed Guy Animations-Sheet_94
+  - first:
+      213: 9070295542211501144
+    second: Tumble Weed Guy Animations-Sheet_95
+  - first:
+      213: 5503016136278082001
+    second: Tumble Weed Guy Animations-Sheet_96
+  - first:
+      213: 4241651730406107197
+    second: Tumble Weed Guy Animations-Sheet_97
+  - first:
+      213: -3683507669593348502
+    second: Tumble Weed Guy Animations-Sheet_98
+  - first:
+      213: 3058743208403824289
+    second: Tumble Weed Guy Animations-Sheet_99
+  - first:
+      213: -2268504213343020449
+    second: Tumble Weed Guy Animations-Sheet_100
+  - first:
+      213: 1382482976748698520
+    second: Tumble Weed Guy Animations-Sheet_101
+  - first:
+      213: 5593613291726501861
+    second: Tumble Weed Guy Animations-Sheet_102
+  - first:
+      213: 5033517876195318657
+    second: Tumble Weed Guy Animations-Sheet_103
+  - first:
+      213: 2789159160061325601
+    second: Tumble Weed Guy Animations-Sheet_104
+  - first:
+      213: 2699500033860599315
+    second: Tumble Weed Guy Animations-Sheet_105
+  - first:
+      213: -220419519280873270
+    second: Tumble Weed Guy Animations-Sheet_106
+  - first:
+      213: -7287750981437798165
+    second: Tumble Weed Guy Animations-Sheet_107
+  - first:
+      213: 158239932120281191
+    second: Tumble Weed Guy Animations-Sheet_108
+  - first:
+      213: 6821601564562226357
+    second: Tumble Weed Guy Animations-Sheet_109
+  - first:
+      213: 4333951611938284925
+    second: Tumble Weed Guy Animations-Sheet_110
+  - first:
+      213: -7640789624344286859
+    second: Tumble Weed Guy Animations-Sheet_111
+  - first:
+      213: 9034240919792160525
+    second: Tumble Weed Guy Animations-Sheet_112
+  - first:
+      213: 6998962745600745108
+    second: Tumble Weed Guy Animations-Sheet_113
+  - first:
+      213: -7308649804155841886
+    second: Tumble Weed Guy Animations-Sheet_114
+  - first:
+      213: 2322773073525452908
+    second: Tumble Weed Guy Animations-Sheet_115
+  - first:
+      213: -3934692700027510573
+    second: Tumble Weed Guy Animations-Sheet_116
+  - first:
+      213: -1502700820256310259
+    second: Tumble Weed Guy Animations-Sheet_117
+  - first:
+      213: -6821250306256047763
+    second: Tumble Weed Guy Animations-Sheet_118
+  - first:
+      213: 1185346661164954258
+    second: Tumble Weed Guy Animations-Sheet_119
+  - first:
+      213: -7177857540562009939
+    second: Tumble Weed Guy Animations-Sheet_120
+  - first:
+      213: 3561881309953743579
+    second: Tumble Weed Guy Animations-Sheet_121
+  - first:
+      213: 6899402867998271667
+    second: Tumble Weed Guy Animations-Sheet_122
+  - first:
+      213: 2168117746064657324
+    second: Tumble Weed Guy Animations-Sheet_123
+  - first:
+      213: 7591344725643635686
+    second: Tumble Weed Guy Animations-Sheet_124
+  - first:
+      213: 7766422288608927886
+    second: Tumble Weed Guy Animations-Sheet_125
+  - first:
+      213: -5120975563162439432
+    second: Tumble Weed Guy Animations-Sheet_126
+  - first:
+      213: 1310265468814434065
+    second: Tumble Weed Guy Animations-Sheet_127
+  - first:
+      213: -4448077405696910993
+    second: Tumble Weed Guy Animations-Sheet_128
+  - first:
+      213: -6659075907081417914
+    second: Tumble Weed Guy Animations-Sheet_129
+  - first:
+      213: 745024044026763777
+    second: Tumble Weed Guy Animations-Sheet_130
+  - first:
+      213: 9062490723032536900
+    second: Tumble Weed Guy Animations-Sheet_131
+  - first:
+      213: 4374760622311127088
+    second: Tumble Weed Guy Animations-Sheet_132
+  - first:
+      213: 7438285447806850718
+    second: Tumble Weed Guy Animations-Sheet_133
+  - first:
+      213: 7863101664854413960
+    second: Tumble Weed Guy Animations-Sheet_134
+  - first:
+      213: 4441623490260814123
+    second: Tumble Weed Guy Animations-Sheet_135
+  - first:
+      213: -5694353265534194555
+    second: Tumble Weed Guy Animations-Sheet_136
+  - first:
+      213: 8025437264511770562
+    second: Tumble Weed Guy Animations-Sheet_137
+  - first:
+      213: 8440254229454597037
+    second: Tumble Weed Guy Animations-Sheet_138
+  - first:
+      213: -7552162253597563358
+    second: Tumble Weed Guy Animations-Sheet_139
+  - first:
+      213: 4667581203949116893
+    second: Tumble Weed Guy Animations-Sheet_140
+  - first:
+      213: -5778104214312505048
+    second: Tumble Weed Guy Animations-Sheet_141
+  - first:
+      213: -1687873580155504704
+    second: Tumble Weed Guy Animations-Sheet_142
+  - first:
+      213: 1826042218621197909
+    second: Tumble Weed Guy Animations-Sheet_143
+  - first:
+      213: 1848637748388407247
+    second: Tumble Weed Guy Animations-Sheet_144
+  - first:
+      213: -4307220481297907457
+    second: Tumble Weed Guy Animations-Sheet_145
+  - first:
+      213: -9054460742030874444
+    second: Tumble Weed Guy Animations-Sheet_146
+  - first:
+      213: 7055386826167333396
+    second: Tumble Weed Guy Animations-Sheet_147
+  - first:
+      213: -4684238814752098632
+    second: Tumble Weed Guy Animations-Sheet_148
+  - first:
+      213: 7397666475585607503
+    second: Tumble Weed Guy Animations-Sheet_149
+  - first:
+      213: 861885193999282192
+    second: Tumble Weed Guy Animations-Sheet_150
+  - first:
+      213: -7357813718622846358
+    second: Tumble Weed Guy Animations-Sheet_151
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb5b88d3ef1905d0800000000000000
+      internalID: -3095908205389456405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f9651f8c331fe30800000000000000
+      internalID: 4535463237874261818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7db5e32ce86a8250800000000000000
+      internalID: 5947681621319990653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f531b7788d4afbff0800000000000000
+      internalID: -18114623593311393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16822b693bfa82a0800000000000000
+      internalID: -6734294068750023137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd5448082dead340800000000000000
+      internalID: 4889481101657267659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1e45b61e3898c60800000000000000
+      internalID: 7820927232097182165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4cfaf1ae5201b40800000000000000
+      internalID: 5408864839956153527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd4314d0837e8610800000000000000
+      internalID: 1625363512678370806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d50f83f746a7d630800000000000000
+      internalID: 3951810026000025046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06d505c5f4919d10800000000000000
+      internalID: 2130647882016347658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b74edbb20854e80800000000000000
+      internalID: -8195003021572932825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f38a28e53a8bc40800000000000000
+      internalID: 5528348168911601421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c257642d575527dd0800000000000000
+      internalID: -2489833679455095508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713e65e56e7fd07c0800000000000000
+      internalID: -4103351116667362537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7467730107f82a0800000000000000
+      internalID: -6733039702943315979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099220206aea9f450800000000000000
+      internalID: 6123117196408400272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c6b543c750202c0800000000000000
+      internalID: -4467001849385620477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c0a3ea87c061420800000000000000
+      internalID: 2600279547311688846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fcb5ccff4d03380800000000000000
+      internalID: -8993454260748562634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a36d384ac174a20800000000000000
+      internalID: 3046435165851499125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e714a9c80bb35b0800000000000000
+      internalID: -5387518411288773118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724b1b7747f7c5040800000000000000
+      internalID: 4637721854485836839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df56079951c781a60800000000000000
+      internalID: 7644996799671854589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13a4fc906eb0bc80800000000000000
+      internalID: -8308931990339149028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698347d7d0b6dd180800000000000000
+      internalID: -9088990767280277354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f02fb430370c7690800000000000000
+      internalID: -7603194167283474188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be00b2896535d0bf0800000000000000
+      internalID: -356537164107153173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4e8a92eedb661e0800000000000000
+      internalID: -2204866136952478528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cbbd8015fa9b510800000000000000
+      internalID: 1565475108063788060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d49e188a4c7481c0800000000000000
+      internalID: -4502337067910523690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d0eb4eca3e01240800000000000000
+      internalID: 4760555137842154818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3accc0417e1650140800000000000000
+      internalID: 4685258632450591907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35bb449ece0f1e30800000000000000
+      internalID: 4476312835043603773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb37411e342eb2d30800000000000000
+      internalID: 4407865441479062460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e319c82dff6edf8c0800000000000000
+      internalID: -3963758110592691906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16d327aabfe21c90800000000000000
+      internalID: -7200429269264902630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355990609e0544cb0800000000000000
+      internalID: -4880687134403881645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bc001aae9f971b0800000000000000
+      internalID: -5658216670695470327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e7c515f81241910800000000000000
+      internalID: 1807106249911467670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029bf5ac8da3b6e20800000000000000
+      internalID: 3344831851035343136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845c86ee1be729230800000000000000
+      internalID: 3644114351170307400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017186ddcbbf45a90800000000000000
+      internalID: -7325953905237944560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f061575571708c0800000000000000
+      internalID: -4033229285482950795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2c0be8f04b89f20800000000000000
+      internalID: 3429689095154090716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68f8aa529a7399e0800000000000000
+      internalID: -1615813072291039122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad2a2d3977e73f00800000000000000
+      internalID: 1096599542191238566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705ed5466b096d2b0800000000000000
+      internalID: -5560097576899975929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e420f36700e3e35e0800000000000000
+      internalID: -1928035418763230642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde78c7432fa46a80800000000000000
+      internalID: -8474456032741392677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48227f9d90b135b10800000000000000
+      internalID: 1968947191216546436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b0c7122d72e1bf0800000000000000
+      internalID: -351799937429927066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e7ad8ba4aa97a30800000000000000
+      internalID: 4213586164287438457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6de7e188224ff60800000000000000
+      internalID: 8067110800549926615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6ff3acad7f6ca30800000000000000
+      internalID: 4235345018656651007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf4149000f9e4a30800000000000000
+      internalID: 4201470324887343068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4699252c2a397d980800000000000000
+      internalID: -8514174243266455196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cabbaf6587ecb220800000000000000
+      internalID: 2503130053201345218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3773b889264931770800000000000000
+      internalID: 8580364866257893235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e189a303cc114fd0800000000000000
+      internalID: -2359573105859788315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69d9264fd50ceeb0800000000000000
+      internalID: -4689366655486535318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0234ffcceb07ca6b0800000000000000
+      internalID: -5283724298027056352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319161b324717f1f0800000000000000
+      internalID: -1011314018094802669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bf4984c716991c0800000000000000
+      internalID: -4496455566531167329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a54af3b2cd34dd0800000000000000
+      internalID: -2502914889578423789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd990a78ea2a20c0800000000000000
+      internalID: -4599816891437310476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42ad056e9ae13f10800000000000000
+      internalID: 2247835655055712844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbe9e92668b54e80800000000000000
+      internalID: -8194941198001378314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccbf76610b2d4dc0800000000000000
+      internalID: -3653216437712995125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33bb2bbb9c000070800000000000000
+      internalID: 8070464395247596350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc53f19058bb13a60800000000000000
+      internalID: 7652103421937268173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bea93c6677e3f7c0800000000000000
+      internalID: -4038629945013326151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a3750778dc48f70800000000000000
+      internalID: 9188695121331698267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47129cd75bda10b0800000000000000
+      internalID: -5757048003230558385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7960c6edf7a975e0800000000000000
+      internalID: -1911311857902130819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eae48fc7c7bd5fb0800000000000000
+      internalID: -4657364370823255326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b6e458cc28f7520800000000000000
+      internalID: 2702022116367035152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cdb96bdd672bb10800000000000000
+      internalID: 1995788279502068861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea06492cd9add4760800000000000000
+      internalID: 7443846130222522542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776289e3b86b46680800000000000000
+      internalID: -8762678265789274505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd205606dde746240800000000000000
+      internalID: 4784088193444414171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856460ce5453f17d0800000000000000
+      internalID: -2945577056848165288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d56c03be3c59760800000000000000
+      internalID: 7464087372339502340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a73469a15527ed0800000000000000
+      internalID: -2417776477266019751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8aa201953000400800000000000000
+      internalID: 288234057209915635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8ff074d44480b90800000000000000
+      internalID: -7275490099321636693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b2748cffc6d89c0800000000000000
+      internalID: -3923359854537266323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4f5dcffb8fcbde0800000000000000
+      internalID: -1315903487634705161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147f5e110e3761720800000000000000
+      internalID: 2816566023176976193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ac3e71cef484ec0800000000000000
+      internalID: -3582525628141548989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590d258fc3629e880800000000000000
+      internalID: -8581285571671699307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e1f8c33a5d1db30800000000000000
+      internalID: 4310461215442673216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0859281e1155b52b0800000000000000
+      internalID: -5594784576791472768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac904ff9299f9090800000000000000
+      internalID: -8025527605295801175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd8fcf6941c881d0800000000000000
+      internalID: -3348213801797317132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c53593db920ed70800000000000000
+      internalID: 9070295542211501144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1091c0504ae5c40800000000000000
+      internalID: 5503016136278082001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38e6cb86cf5dda30800000000000000
+      internalID: 4241651730406107197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6626726a4d81ecc0800000000000000
+      internalID: -3683507669593348502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae6c0cfdb6d27a20800000000000000
+      internalID: 3058743208403824289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86854ad4ad38674180ef7c317d9b265
+      internalID: -2268504213343020449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcafdbbb527283247a0cb8c1ec3b5f55
+      internalID: 1382482976748698520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1aa65dbbe9b064f90464d4b16bab66
+      internalID: 5593613291726501861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tumble Weed Guy Animations-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591b257a40bd77b4caf924fe4b148035
+      internalID: 5033517876195318657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ca76051f40d468048b89775bb9c5bef7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.484375,"y":0.109375},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Tumble Weed Guy Animations-Sheet_0: -3095908205389456405
+      Tumble Weed Guy Animations-Sheet_1: 4535463237874261818
+      Tumble Weed Guy Animations-Sheet_10: 2130647882016347658
+      Tumble Weed Guy Animations-Sheet_100: -2268504213343020449
+      Tumble Weed Guy Animations-Sheet_101: 1382482976748698520
+      Tumble Weed Guy Animations-Sheet_102: 5593613291726501861
+      Tumble Weed Guy Animations-Sheet_103: 5033517876195318657
+      Tumble Weed Guy Animations-Sheet_11: -8195003021572932825
+      Tumble Weed Guy Animations-Sheet_12: 5528348168911601421
+      Tumble Weed Guy Animations-Sheet_13: -2489833679455095508
+      Tumble Weed Guy Animations-Sheet_14: -4103351116667362537
+      Tumble Weed Guy Animations-Sheet_15: -6733039702943315979
+      Tumble Weed Guy Animations-Sheet_16: 6123117196408400272
+      Tumble Weed Guy Animations-Sheet_17: -4467001849385620477
+      Tumble Weed Guy Animations-Sheet_18: 2600279547311688846
+      Tumble Weed Guy Animations-Sheet_19: -8993454260748562634
+      Tumble Weed Guy Animations-Sheet_2: 5947681621319990653
+      Tumble Weed Guy Animations-Sheet_20: 3046435165851499125
+      Tumble Weed Guy Animations-Sheet_21: -5387518411288773118
+      Tumble Weed Guy Animations-Sheet_22: 4637721854485836839
+      Tumble Weed Guy Animations-Sheet_23: 7644996799671854589
+      Tumble Weed Guy Animations-Sheet_24: -8308931990339149028
+      Tumble Weed Guy Animations-Sheet_25: -9088990767280277354
+      Tumble Weed Guy Animations-Sheet_26: -7603194167283474188
+      Tumble Weed Guy Animations-Sheet_27: -356537164107153173
+      Tumble Weed Guy Animations-Sheet_28: -2204866136952478528
+      Tumble Weed Guy Animations-Sheet_29: 1565475108063788060
+      Tumble Weed Guy Animations-Sheet_3: -18114623593311393
+      Tumble Weed Guy Animations-Sheet_30: -4502337067910523690
+      Tumble Weed Guy Animations-Sheet_31: 4760555137842154818
+      Tumble Weed Guy Animations-Sheet_32: 4685258632450591907
+      Tumble Weed Guy Animations-Sheet_33: 4476312835043603773
+      Tumble Weed Guy Animations-Sheet_34: 4407865441479062460
+      Tumble Weed Guy Animations-Sheet_35: -3963758110592691906
+      Tumble Weed Guy Animations-Sheet_36: -7200429269264902630
+      Tumble Weed Guy Animations-Sheet_37: -4880687134403881645
+      Tumble Weed Guy Animations-Sheet_38: -5658216670695470327
+      Tumble Weed Guy Animations-Sheet_39: 1807106249911467670
+      Tumble Weed Guy Animations-Sheet_4: -6734294068750023137
+      Tumble Weed Guy Animations-Sheet_40: 3344831851035343136
+      Tumble Weed Guy Animations-Sheet_41: 3644114351170307400
+      Tumble Weed Guy Animations-Sheet_42: -7325953905237944560
+      Tumble Weed Guy Animations-Sheet_43: -4033229285482950795
+      Tumble Weed Guy Animations-Sheet_44: 3429689095154090716
+      Tumble Weed Guy Animations-Sheet_45: -1615813072291039122
+      Tumble Weed Guy Animations-Sheet_46: 1096599542191238566
+      Tumble Weed Guy Animations-Sheet_47: -5560097576899975929
+      Tumble Weed Guy Animations-Sheet_48: -1928035418763230642
+      Tumble Weed Guy Animations-Sheet_49: -8474456032741392677
+      Tumble Weed Guy Animations-Sheet_5: 4889481101657267659
+      Tumble Weed Guy Animations-Sheet_50: 1968947191216546436
+      Tumble Weed Guy Animations-Sheet_51: -351799937429927066
+      Tumble Weed Guy Animations-Sheet_52: 4213586164287438457
+      Tumble Weed Guy Animations-Sheet_53: 8067110800549926615
+      Tumble Weed Guy Animations-Sheet_54: 4235345018656651007
+      Tumble Weed Guy Animations-Sheet_55: 4201470324887343068
+      Tumble Weed Guy Animations-Sheet_56: -8514174243266455196
+      Tumble Weed Guy Animations-Sheet_57: 2503130053201345218
+      Tumble Weed Guy Animations-Sheet_58: 8580364866257893235
+      Tumble Weed Guy Animations-Sheet_59: -2359573105859788315
+      Tumble Weed Guy Animations-Sheet_6: 7820927232097182165
+      Tumble Weed Guy Animations-Sheet_60: -4689366655486535318
+      Tumble Weed Guy Animations-Sheet_61: -5283724298027056352
+      Tumble Weed Guy Animations-Sheet_62: -1011314018094802669
+      Tumble Weed Guy Animations-Sheet_63: -4496455566531167329
+      Tumble Weed Guy Animations-Sheet_64: -2502914889578423789
+      Tumble Weed Guy Animations-Sheet_65: -4599816891437310476
+      Tumble Weed Guy Animations-Sheet_66: 2247835655055712844
+      Tumble Weed Guy Animations-Sheet_67: -8194941198001378314
+      Tumble Weed Guy Animations-Sheet_68: -3653216437712995125
+      Tumble Weed Guy Animations-Sheet_69: 8070464395247596350
+      Tumble Weed Guy Animations-Sheet_7: 5408864839956153527
+      Tumble Weed Guy Animations-Sheet_70: 7652103421937268173
+      Tumble Weed Guy Animations-Sheet_71: -4038629945013326151
+      Tumble Weed Guy Animations-Sheet_72: 9188695121331698267
+      Tumble Weed Guy Animations-Sheet_73: -5757048003230558385
+      Tumble Weed Guy Animations-Sheet_74: -1911311857902130819
+      Tumble Weed Guy Animations-Sheet_75: -4657364370823255326
+      Tumble Weed Guy Animations-Sheet_76: 2702022116367035152
+      Tumble Weed Guy Animations-Sheet_77: 1995788279502068861
+      Tumble Weed Guy Animations-Sheet_78: 7443846130222522542
+      Tumble Weed Guy Animations-Sheet_79: -8762678265789274505
+      Tumble Weed Guy Animations-Sheet_8: 1625363512678370806
+      Tumble Weed Guy Animations-Sheet_80: 4784088193444414171
+      Tumble Weed Guy Animations-Sheet_81: -2945577056848165288
+      Tumble Weed Guy Animations-Sheet_82: 7464087372339502340
+      Tumble Weed Guy Animations-Sheet_83: -2417776477266019751
+      Tumble Weed Guy Animations-Sheet_84: 288234057209915635
+      Tumble Weed Guy Animations-Sheet_85: -7275490099321636693
+      Tumble Weed Guy Animations-Sheet_86: -3923359854537266323
+      Tumble Weed Guy Animations-Sheet_87: -1315903487634705161
+      Tumble Weed Guy Animations-Sheet_88: 2816566023176976193
+      Tumble Weed Guy Animations-Sheet_89: -3582525628141548989
+      Tumble Weed Guy Animations-Sheet_9: 3951810026000025046
+      Tumble Weed Guy Animations-Sheet_90: -8581285571671699307
+      Tumble Weed Guy Animations-Sheet_91: 4310461215442673216
+      Tumble Weed Guy Animations-Sheet_92: -5594784576791472768
+      Tumble Weed Guy Animations-Sheet_93: -8025527605295801175
+      Tumble Weed Guy Animations-Sheet_94: -3348213801797317132
+      Tumble Weed Guy Animations-Sheet_95: 9070295542211501144
+      Tumble Weed Guy Animations-Sheet_96: 5503016136278082001
+      Tumble Weed Guy Animations-Sheet_97: 4241651730406107197
+      Tumble Weed Guy Animations-Sheet_98: -3683507669593348502
+      Tumble Weed Guy Animations-Sheet_99: 3058743208403824289
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
