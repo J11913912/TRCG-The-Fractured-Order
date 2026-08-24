@@ -12,10 +12,10 @@ using Random = UnityEngine.Random;
 public class EnemyNavMeshPatrol : MonoBehaviour
 {
     private int HashMovementValue = Animator.StringToHash("MovementValue");
-    private int HashDirX = Animator.StringToHash("dirX");
-    private int HashDirY = Animator.StringToHash("dirY");
+    private int HashDirX = Animator.StringToHash("XDirection");
+    private int HashDirY = Animator.StringToHash("YDirection");
     private int HashActionTrigger = Animator.StringToHash("ActionTrigger");
-    private int HashActionId = Animator.StringToHash("ActionId");
+    private int HashActionId = Animator.StringToHash("ActionID");
     
     
     #region Inspector
@@ -61,6 +61,8 @@ public class EnemyNavMeshPatrol : MonoBehaviour
     public bool _isAggroed = false;
     public bool _canAttack = false;
 
+    private bool _hitWall = false;
+
     public float _attackCooldownTimer;
     private float _lastNavmeshTime;
 
@@ -72,6 +74,8 @@ public class EnemyNavMeshPatrol : MonoBehaviour
 
     private Vector3 _targetBeyond;
 
+    private Rigidbody2D _rb;
+
     #endregion
     
     #region Unity Event Functions
@@ -81,6 +85,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         _agent = GetComponent<NavMeshAgent>();
         _player = FindFirstObjectByType<PlayerController>().transform;
         _agent.autoBraking = waitAtWaypoint;
+        _rb = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -103,6 +108,8 @@ public class EnemyNavMeshPatrol : MonoBehaviour
                 //SetAnimationAction(1);
             }
         }
+
+        if (_hitWall) return;
 
         if (!_agent.isStopped && enemyState != EnemyState.Chasing && enemyState != EnemyState.Attacking)
         {
@@ -139,7 +146,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
     private void LateUpdate()
     {
         UpdateFacing();
-        //UpdateAniamtor();
+        UpdateAniamtor();
     }
     
     #endregion
@@ -161,7 +168,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         }
 
         UpdateFacingDirection(_lookDirection);
-        RotateObj(_lookDirection);
+        //RotateObj(_lookDirection);
     }
 
     private void UpdateFacingDirection(Vector2 dir)
@@ -174,12 +181,12 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         {
             enemyFacingDirection = dir.y > 0 ? EnemyFacingDirection.Up : EnemyFacingDirection.Down;
         }
-        //SetAnimationDirection(new Vector2(dir.x, dir.y));
-        /*
+        SetAnimationDirection(new Vector2(dir.x, dir.y));
+        
         switch (enemyFacingDirection)
         {
             case EnemyFacingDirection.Up:
-
+                SetAnimationDirection(new Vector2(0, 1));
                 break;
             
             case EnemyFacingDirection.Down:
@@ -193,13 +200,11 @@ public class EnemyNavMeshPatrol : MonoBehaviour
             case EnemyFacingDirection.Right:
                 SetAnimationDirection(new Vector2(1, 0));
                 break;
-        }*/
+        }
     }
-    
+    /*
     private void RotateObj(Vector2 direction)
     {
-        /*
-        
         if (direction.x < 0)
         {
             animator.transform.rotation = Quaternion.Euler(0, startDirectionIsRight ? 180 : 0, 0);
@@ -208,9 +213,8 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         {
             animator.transform.rotation = Quaternion.Euler(0, startDirectionIsRight ? 0 : 180, 0);
         }
-        
-        */
     }
+    */
 
     public void StopPatrolForDialogue()
     {
@@ -295,26 +299,48 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         _isWaiting = false;
         SetNextWaypoint();
     }
+
+    public void HitWall()
+    {
+        Debug.Log("hit");
+        _hitWall = true;
+
+        // TODO get facing direction and put vecotr in opposite
+        // TODO make him charge through player somehoiw before rounding back on him
+        
+        _rb.linearVelocity = new Vector2(-1, 0) * 5;
+
+        //_rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
+        StartCoroutine(StunnedCountdown());
+    }
+
+    private IEnumerator StunnedCountdown()
+    {
+        yield return new WaitForSeconds(1f);
+        _hitWall = false;
+        _rb.linearVelocity = Vector2.zero;
+    }
     
     #endregion
 
     #region Animation
 
     private void UpdateAniamtor()
-    {
-     //   animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
+    { 
+        animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
     }
 
     private void SetAnimationDirection(Vector2 direction)
-    {
-     //   animator.SetFloat(HashDirX, direction.x);
-      //  animator.SetFloat(HashDirY, direction.y);
+    { 
+        animator.SetFloat(HashDirX, direction.x); 
+        animator.SetFloat(HashDirY, direction.y);
     }
 
-    private void SetAnimationAction(int actionId)
-    {
-       // animator.SetTrigger(HashActionTrigger);
-       // animator.SetInteger(HashActionId, actionId);
+    public void SetAnimationAction(int actionId)
+    { 
+        animator.SetTrigger(HashActionTrigger); 
+        animator.SetInteger(HashActionId, actionId);
     }
 
     #endregion
