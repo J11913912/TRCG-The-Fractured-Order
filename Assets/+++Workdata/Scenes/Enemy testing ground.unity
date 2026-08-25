@@ -625,7 +625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &325088872
 Rigidbody2D:
   serializedVersion: 5
@@ -2281,7 +2281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1067046547
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2887,7 +2887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1282554028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2911,7 +2911,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282554027}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -3138,6 +3138,7 @@ MonoBehaviour:
   waitDuration: {x: 1, y: 3}
   isTumbleweed: 0
   notCharging: 1
+  random: 0
   _isAggroed: 0
   _canAttack: 0
   _attackCooldownTimer: 0
@@ -3721,7 +3722,7 @@ Animator:
   m_GameObject: {fileID: 1631162486}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 262c9fc13ca882f4286aad2510b1cc8c, type: 2}
+  m_Controller: {fileID: 9100000, guid: ade3d4b40a39f9b498d6c8501334577d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3761,7 +3762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1639478179
 Transform:
   m_ObjectHideFlags: 0
@@ -3796,7 +3797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1641082433
 Transform:
   m_ObjectHideFlags: 0

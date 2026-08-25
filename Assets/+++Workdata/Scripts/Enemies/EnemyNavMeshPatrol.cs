@@ -145,7 +145,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
                 Debug.Log(_movingDirection);
                 enemyState = EnemyState.Attacking;
                 _rb.linearVelocity = _movingDirection * 7f;
-                StartCoroutine(StunnedCountdown(3f));
+                StartCoroutine(StunnedCountdown(1.5f));
             }
             //else
           //  {
@@ -191,9 +191,12 @@ public class EnemyNavMeshPatrol : MonoBehaviour
 
         if (enemyState == EnemyState.Attacking)
         {
-            UpdateFacingDirection(_;
+           UpdateFacingDirection(_lookDirection * -1);
         }
-        UpdateFacingDirection(_lookDirection);
+        else
+        {
+            UpdateFacingDirection(_lookDirection);
+        }
         //RotateObj(_lookDirection);
     }
 
