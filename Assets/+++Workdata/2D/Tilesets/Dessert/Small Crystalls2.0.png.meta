@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: f8b2b870b7ac9f74b8622e58bdae959f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 987372974872989639
+    second: Small Crystalls2.0_0
+  - first:
+      213: -5093644732007779051
+    second: Small Crystalls2.0_1
+  - first:
+      213: -6170706957723527433
+    second: Small Crystalls2.0_2
+  - first:
+      213: -5474067205460340470
+    second: Small Crystalls2.0_3
+  - first:
+      213: 6974523741300351266
+    second: Small Crystalls2.0_4
+  - first:
+      213: 613663601070863672
+    second: Small Crystalls2.0_5
+  - first:
+      213: -1418285406608518791
+    second: Small Crystalls2.0_6
+  - first:
+      213: -894780783557869792
+    second: Small Crystalls2.0_7
+  - first:
+      213: -505296895378370081
+    second: Small Crystalls2.0_8
+  - first:
+      213: -8548654502803544361
+    second: Small Crystalls2.0_9
+  - first:
+      213: 9135185389979248329
+    second: Small Crystalls2.0_10
+  - first:
+      213: 2479052843062337274
+    second: Small Crystalls2.0_11
+  - first:
+      213: 665544185466030084
+    second: Small Crystalls2.0_12
+  - first:
+      213: 2116490398652924861
+    second: Small Crystalls2.0_13
+  - first:
+      213: -7859071394543031558
+    second: Small Crystalls2.0_14
+  - first:
+      213: -1175086932669665632
+    second: Small Crystalls2.0_15
+  - first:
+      213: 3234669296933172742
+    second: Small Crystalls2.0_16
+  - first:
+      213: 3124190302938070861
+    second: Small Crystalls2.0_17
+  - first:
+      213: 1936012199560606558
+    second: Small Crystalls2.0_18
+  - first:
+      213: -6384650415306906957
+    second: Small Crystalls2.0_19
+  - first:
+      213: 8477768618146837458
+    second: Small Crystalls2.0_20
+  - first:
+      213: 2623483062815405687
+    second: Small Crystalls2.0_21
+  - first:
+      213: 5699094829592800806
+    second: Small Crystalls2.0_22
+  - first:
+      213: 4172287314946358732
+    second: Small Crystalls2.0_23
+  - first:
+      213: 3833877880742052053
+    second: Small Crystalls2.0_24
+  - first:
+      213: -2412120265783093841
+    second: Small Crystalls2.0_25
+  - first:
+      213: 6348515598297758201
+    second: Small Crystalls2.0_26
+  - first:
+      213: -1245999217999671208
+    second: Small Crystalls2.0_27
+  - first:
+      213: -685276548905111689
+    second: Small Crystalls2.0_28
+  - first:
+      213: -352565930126947394
+    second: Small Crystalls2.0_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Small Crystalls2.0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -31}
+        - {x: -8, y: -26}
+        - {x: 19, y: -26}
+        - {x: 9, y: -16}
+        - {x: -15, y: -19}
+        - {x: -22, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf00244d7ad3bd00800000000000000
+      internalID: 987372974872989639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -24, y: -24}
+        - {x: 20, y: -25}
+        - {x: 18, y: -15}
+        - {x: -21, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515f2a08a1dbf49b0800000000000000
+      internalID: -5093644732007779051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -21}
+        - {x: -3, y: -26}
+        - {x: 6, y: -24}
+        - {x: 2, y: -17}
+        - {x: -14, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f69bdb37be3d5aa0800000000000000
+      internalID: -6170706957723527433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -20}
+        - {x: -1, y: -24}
+        - {x: 11, y: -22}
+        - {x: 9, y: -10}
+        - {x: -3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01dbe521e43804b0800000000000000
+      internalID: -5474067205460340470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -19}
+        - {x: -8, y: -21}
+        - {x: -3, y: -19}
+        - {x: 4, y: -18}
+        - {x: 2, y: -13}
+        - {x: -12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216cbdd36c7ac060800000000000000
+      internalID: 6974523741300351266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -31}
+        - {x: -8, y: -26}
+        - {x: 19, y: -26}
+        - {x: 9, y: -16}
+        - {x: -15, y: -19}
+        - {x: -22, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8357a693bcb248800800000000000000
+      internalID: 613663601070863672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -24, y: -24}
+        - {x: 20, y: -25}
+        - {x: 18, y: -15}
+        - {x: -21, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9719af4efec315ce0800000000000000
+      internalID: -1418285406608518791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -21}
+        - {x: -3, y: -26}
+        - {x: 6, y: -24}
+        - {x: 2, y: -17}
+        - {x: -14, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fff2c3e991593f0800000000000000
+      internalID: -894780783557869792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -20}
+        - {x: -1, y: -24}
+        - {x: 11, y: -22}
+        - {x: 9, y: -10}
+        - {x: -3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd15ddc9623dcf8f0800000000000000
+      internalID: -505296895378370081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -19}
+        - {x: -8, y: -21}
+        - {x: -3, y: -19}
+        - {x: 4, y: -18}
+        - {x: 2, y: -13}
+        - {x: -12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6e9dcb5041d5980800000000000000
+      internalID: -8548654502803544361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -31}
+        - {x: -8, y: -26}
+        - {x: 19, y: -26}
+        - {x: 9, y: -16}
+        - {x: -15, y: -19}
+        - {x: -22, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c62d0f36b2b6ce70800000000000000
+      internalID: 9135185389979248329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -24, y: -24}
+        - {x: 20, y: -25}
+        - {x: 18, y: -15}
+        - {x: -21, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe172a1d6d576220800000000000000
+      internalID: 2479052843062337274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -21}
+        - {x: -3, y: -26}
+        - {x: 6, y: -24}
+        - {x: 2, y: -17}
+        - {x: -14, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408870519ec7c3900800000000000000
+      internalID: 665544185466030084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -20}
+        - {x: -1, y: -24}
+        - {x: 11, y: -22}
+        - {x: 9, y: -10}
+        - {x: -3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db38b3ecdc84f5d10800000000000000
+      internalID: 2116490398652924861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -19}
+        - {x: -8, y: -21}
+        - {x: -3, y: -19}
+        - {x: 4, y: -18}
+        - {x: 2, y: -13}
+        - {x: -12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa24dfa438fee290800000000000000
+      internalID: -7859071394543031558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -31}
+        - {x: -8, y: -26}
+        - {x: 19, y: -26}
+        - {x: 9, y: -16}
+        - {x: -15, y: -19}
+        - {x: -22, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae650e19a041bfe0800000000000000
+      internalID: -1175086932669665632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -24, y: -24}
+        - {x: 20, y: -25}
+        - {x: 18, y: -15}
+        - {x: -21, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6067099669ad3ec20800000000000000
+      internalID: 3234669296933172742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -21}
+        - {x: -3, y: -26}
+        - {x: 6, y: -24}
+        - {x: 2, y: -17}
+        - {x: -14, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ff751278a5b5b20800000000000000
+      internalID: 3124190302938070861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -20}
+        - {x: -1, y: -24}
+        - {x: 11, y: -22}
+        - {x: 9, y: -10}
+        - {x: -3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f1ab86d81eda10800000000000000
+      internalID: 1936012199560606558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -19}
+        - {x: -8, y: -21}
+        - {x: -3, y: -19}
+        - {x: 4, y: -18}
+        - {x: 2, y: -13}
+        - {x: -12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2e49c464a2567a0800000000000000
+      internalID: -6384650415306906957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -31}
+        - {x: -8, y: -26}
+        - {x: 19, y: -26}
+        - {x: 9, y: -16}
+        - {x: -15, y: -19}
+        - {x: -22, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3b89c14a517a570800000000000000
+      internalID: 8477768618146837458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -24, y: -24}
+        - {x: 20, y: -25}
+        - {x: 18, y: -15}
+        - {x: -21, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776bd5122fb786420800000000000000
+      internalID: 2623483062815405687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -21}
+        - {x: -3, y: -26}
+        - {x: 6, y: -24}
+        - {x: 2, y: -17}
+        - {x: -14, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ee42b6d80471f40800000000000000
+      internalID: 5699094829592800806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -20}
+        - {x: -1, y: -24}
+        - {x: 11, y: -22}
+        - {x: 9, y: -10}
+        - {x: -3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdfe3c0531f6e930800000000000000
+      internalID: 4172287314946358732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -19}
+        - {x: -8, y: -21}
+        - {x: -3, y: -19}
+        - {x: 4, y: -18}
+        - {x: 2, y: -13}
+        - {x: -12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d08bd9ae9ba43530800000000000000
+      internalID: 3833877880742052053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -31}
+        - {x: -8, y: -26}
+        - {x: 19, y: -26}
+        - {x: 9, y: -16}
+        - {x: -15, y: -19}
+        - {x: -22, y: -27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa55a72f56d668ed0800000000000000
+      internalID: -2412120265783093841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -24, y: -24}
+        - {x: 20, y: -25}
+        - {x: 18, y: -15}
+        - {x: -21, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9709ffc457a1850800000000000000
+      internalID: 6348515598297758201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -21}
+        - {x: -3, y: -26}
+        - {x: 6, y: -24}
+        - {x: 2, y: -17}
+        - {x: -14, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85017b4105255bee0800000000000000
+      internalID: -1245999217999671208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -20}
+        - {x: -1, y: -24}
+        - {x: 11, y: -22}
+        - {x: 9, y: -10}
+        - {x: -3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fea990c986d76f0800000000000000
+      internalID: -685276548905111689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Crystalls2.0_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.140625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -19}
+        - {x: -8, y: -21}
+        - {x: -3, y: -19}
+        - {x: 4, y: -18}
+        - {x: 2, y: -13}
+        - {x: -12, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbc0ee872f6b1bf0800000000000000
+      internalID: -352565930126947394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bd55d201c303fb342a01dd864838ca23
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.140625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Small Crystalls2.0_0: 987372974872989639
+      Small Crystalls2.0_1: -5093644732007779051
+      Small Crystalls2.0_10: 9135185389979248329
+      Small Crystalls2.0_11: 2479052843062337274
+      Small Crystalls2.0_12: 665544185466030084
+      Small Crystalls2.0_13: 2116490398652924861
+      Small Crystalls2.0_14: -7859071394543031558
+      Small Crystalls2.0_15: -1175086932669665632
+      Small Crystalls2.0_16: 3234669296933172742
+      Small Crystalls2.0_17: 3124190302938070861
+      Small Crystalls2.0_18: 1936012199560606558
+      Small Crystalls2.0_19: -6384650415306906957
+      Small Crystalls2.0_2: -6170706957723527433
+      Small Crystalls2.0_20: 8477768618146837458
+      Small Crystalls2.0_21: 2623483062815405687
+      Small Crystalls2.0_22: 5699094829592800806
+      Small Crystalls2.0_23: 4172287314946358732
+      Small Crystalls2.0_24: 3833877880742052053
+      Small Crystalls2.0_25: -2412120265783093841
+      Small Crystalls2.0_26: 6348515598297758201
+      Small Crystalls2.0_27: -1245999217999671208
+      Small Crystalls2.0_28: -685276548905111689
+      Small Crystalls2.0_29: -352565930126947394
+      Small Crystalls2.0_3: -5474067205460340470
+      Small Crystalls2.0_4: 6974523741300351266
+      Small Crystalls2.0_5: 613663601070863672
+      Small Crystalls2.0_6: -1418285406608518791
+      Small Crystalls2.0_7: -894780783557869792
+      Small Crystalls2.0_8: -505296895378370081
+      Small Crystalls2.0_9: -8548654502803544361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1370 @@
+fileFormatVersion: 2
+guid: caa7b682453cf1d4093998aac96a8776
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7687958714243929870
+    second: Klein Stone2.0_0
+  - first:
+      213: 4550626081719498867
+    second: Klein Stone2.0_1
+  - first:
+      213: -7409875951858726196
+    second: Klein Stone2.0_2
+  - first:
+      213: 4009323029390894788
+    second: Klein Stone2.0_3
+  - first:
+      213: -7785360470969597068
+    second: Klein Stone2.0_4
+  - first:
+      213: 9187299959482808509
+    second: Klein Stone2.0_5
+  - first:
+      213: -1728585982212593297
+    second: Klein Stone2.0_6
+  - first:
+      213: -1230780038095316203
+    second: Klein Stone2.0_7
+  - first:
+      213: -2330725792505801572
+    second: Klein Stone2.0_8
+  - first:
+      213: -5759978061531524125
+    second: Klein Stone2.0_9
+  - first:
+      213: -7213351784586401848
+    second: Klein Stone2.0_10
+  - first:
+      213: 2701092881395586401
+    second: Klein Stone2.0_11
+  - first:
+      213: 369303522445624832
+    second: Klein Stone2.0_12
+  - first:
+      213: -7670933347634785836
+    second: Klein Stone2.0_13
+  - first:
+      213: -5529921496072629403
+    second: Klein Stone2.0_14
+  - first:
+      213: -8918423295156903367
+    second: Klein Stone2.0_15
+  - first:
+      213: 8081221891150052755
+    second: Klein Stone2.0_16
+  - first:
+      213: 750379896180568624
+    second: Klein Stone2.0_17
+  - first:
+      213: -2848163735111338947
+    second: Klein Stone2.0_18
+  - first:
+      213: 6397589662059382783
+    second: Klein Stone2.0_19
+  - first:
+      213: 4371340246462182158
+    second: Klein Stone2.0_20
+  - first:
+      213: -1864656667270135825
+    second: Klein Stone2.0_21
+  - first:
+      213: 1361380493991901391
+    second: Klein Stone2.0_22
+  - first:
+      213: 7527309243860835903
+    second: Klein Stone2.0_23
+  - first:
+      213: 8579750242553315984
+    second: Klein Stone2.0_24
+  - first:
+      213: -4772745875682251338
+    second: Klein Stone2.0_25
+  - first:
+      213: -3055984159127248797
+    second: Klein Stone2.0_26
+  - first:
+      213: 8049400336209950557
+    second: Klein Stone2.0_27
+  - first:
+      213: -1358181434640975017
+    second: Klein Stone2.0_28
+  - first:
+      213: 347698147375607418
+    second: Klein Stone2.0_29
+  - first:
+      213: 3831302005213776017
+    second: Klein Stone2.0_30
+  - first:
+      213: 2536290663976541066
+    second: Klein Stone2.0_31
+  - first:
+      213: 1206715140583264725
+    second: Klein Stone2.0_32
+  - first:
+      213: -4578418997043272325
+    second: Klein Stone2.0_33
+  - first:
+      213: -5576872189449959856
+    second: Klein Stone2.0_34
+  - first:
+      213: 4535934217927403792
+    second: Klein Stone2.0_35
+  - first:
+      213: -1386915288944363549
+    second: Klein Stone2.0_36
+  - first:
+      213: -8824410380176139597
+    second: Klein Stone2.0_37
+  - first:
+      213: 8982146607480669038
+    second: Klein Stone2.0_38
+  - first:
+      213: 6018098885484807058
+    second: Klein Stone2.0_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Klein Stone2.0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -9}
+        - {x: 14, y: -11}
+        - {x: 14, y: -5}
+        - {x: -21, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07d062d7bd11ba60800000000000000
+      internalID: 7687958714243929870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -9}
+        - {x: 14, y: -11}
+        - {x: 14, y: -5}
+        - {x: -21, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378b482af42172f30800000000000000
+      internalID: 4550626081719498867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -13}
+        - {x: 12, y: -13}
+        - {x: 15, y: -8}
+        - {x: 2, y: -4}
+        - {x: -11, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca40cbb415da2990800000000000000
+      internalID: -7409875951858726196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -13}
+        - {x: 12, y: -13}
+        - {x: 15, y: -8}
+        - {x: 2, y: -4}
+        - {x: -11, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c623ac8d0af3a730800000000000000
+      internalID: 4009323029390894788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.421875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -3}
+        - {x: 0, y: -7}
+        - {x: 11, y: 0}
+        - {x: 4, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4734d7776e7d4f390800000000000000
+      internalID: -7785360470969597068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -6}
+        - {x: 1, y: -5}
+        - {x: 1, y: -11}
+        - {x: 7, y: -13}
+        - {x: 7, y: -6}
+        - {x: 15, y: -4}
+        - {x: 9, y: 3}
+        - {x: -2, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8fee103a8df7f70800000000000000
+      internalID: 9187299959482808509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -17}
+        - {x: 17, y: -10}
+        - {x: 22, y: -4}
+        - {x: 13, y: -2}
+        - {x: -21, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69af762534d208e0800000000000000
+      internalID: -1728585982212593297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -17}
+        - {x: 17, y: -10}
+        - {x: 22, y: -4}
+        - {x: 13, y: -2}
+        - {x: -21, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bdfa883146beee0800000000000000
+      internalID: -1230780038095316203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -9}
+        - {x: -2, y: -14}
+        - {x: 7, y: -11}
+        - {x: 7, y: -4}
+        - {x: -11, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94d9dc8d3997afd0800000000000000
+      internalID: -2330725792505801572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -9}
+        - {x: -2, y: -14}
+        - {x: 7, y: -11}
+        - {x: 7, y: -4}
+        - {x: -11, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3de5088727010b0800000000000000
+      internalID: -5759978061531524125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -6}
+        - {x: 2, y: -4}
+        - {x: 13, y: -7}
+        - {x: 12, y: 0}
+        - {x: -10, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c72cc715c605eb90800000000000000
+      internalID: -7213351784586401848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1659be42aa53c7520800000000000000
+      internalID: 2701092881395586401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -8}
+        - {x: 17, y: -8}
+        - {x: 15, y: -2}
+        - {x: -8, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0060ca5d897002500800000000000000
+      internalID: 369303522445624832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: 1, y: -8}
+        - {x: 8, y: -6}
+        - {x: 11, y: -4}
+        - {x: -2, y: -1}
+        - {x: -12, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1d78e33ce5b8590800000000000000
+      internalID: -7670933347634785836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: 1, y: -8}
+        - {x: 8, y: -6}
+        - {x: 11, y: -4}
+        - {x: -2, y: -1}
+        - {x: -12, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5635bc6b2b5c143b0800000000000000
+      internalID: -5529921496072629403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -14}
+        - {x: 12, y: -15}
+        - {x: 16, y: -12}
+        - {x: 15, y: -6}
+        - {x: -9, y: -8}
+        - {x: -12, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932aa9fc3456b3480800000000000000
+      internalID: -8918423295156903367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -14}
+        - {x: 12, y: -15}
+        - {x: 16, y: -12}
+        - {x: 15, y: -6}
+        - {x: -9, y: -8}
+        - {x: -12, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dfb1d6e74462070800000000000000
+      internalID: 8081221891150052755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -9}
+        - {x: 14, y: -11}
+        - {x: 14, y: -5}
+        - {x: -21, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032ff663a82e96a00800000000000000
+      internalID: 750379896180568624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -9}
+        - {x: 14, y: -11}
+        - {x: 14, y: -5}
+        - {x: -21, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f9825c2a4978d0800000000000000
+      internalID: -2848163735111338947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -13}
+        - {x: 12, y: -13}
+        - {x: 15, y: -8}
+        - {x: 2, y: -4}
+        - {x: -11, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7c2c9d6edc8c850800000000000000
+      internalID: 6397589662059382783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -13}
+        - {x: 12, y: -13}
+        - {x: 15, y: -8}
+        - {x: 2, y: -4}
+        - {x: -11, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e033fb63bce1aac30800000000000000
+      internalID: 4371340246462182158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.421875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -3}
+        - {x: 0, y: -7}
+        - {x: 11, y: 0}
+        - {x: 4, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefbc47f3a86f16e0800000000000000
+      internalID: -1864656667270135825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.484375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -6}
+        - {x: 1, y: -5}
+        - {x: 1, y: -11}
+        - {x: 7, y: -13}
+        - {x: 7, y: -6}
+        - {x: 15, y: -4}
+        - {x: 9, y: 3}
+        - {x: -2, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8788ca85894e210800000000000000
+      internalID: 1361380493991901391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -17}
+        - {x: 17, y: -10}
+        - {x: 22, y: -4}
+        - {x: 13, y: -2}
+        - {x: -21, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ed6da30ef567860800000000000000
+      internalID: 7527309243860835903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -17, y: -17}
+        - {x: 17, y: -10}
+        - {x: 22, y: -4}
+        - {x: 13, y: -2}
+        - {x: -21, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09246fc5365611770800000000000000
+      internalID: 8579750242553315984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -9}
+        - {x: -2, y: -14}
+        - {x: 7, y: -11}
+        - {x: 7, y: -4}
+        - {x: -11, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdafb4c9ecc3cdb0800000000000000
+      internalID: -4772745875682251338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -9}
+        - {x: -2, y: -14}
+        - {x: 7, y: -11}
+        - {x: 7, y: -4}
+        - {x: -11, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360effb3996f695d0800000000000000
+      internalID: -3055984159127248797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -6}
+        - {x: 2, y: -4}
+        - {x: 13, y: -7}
+        - {x: 12, y: 0}
+        - {x: -10, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5734be45f635bf60800000000000000
+      internalID: 8049400336209950557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 95
+        width: 33
+        height: 33
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.42424244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bb1bf5e25c62de0800000000000000
+      internalID: -1358181434640975017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -8}
+        - {x: 17, y: -8}
+        - {x: 15, y: -2}
+        - {x: -8, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e62637f9543d400800000000000000
+      internalID: 347698147375607418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: 1, y: -8}
+        - {x: 8, y: -6}
+        - {x: 11, y: -4}
+        - {x: -2, y: -1}
+        - {x: -12, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1984208efd48b2530800000000000000
+      internalID: 3831302005213776017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -7}
+        - {x: 1, y: -8}
+        - {x: 8, y: -6}
+        - {x: 11, y: -4}
+        - {x: -2, y: -1}
+        - {x: -12, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b1679cbe6b23320800000000000000
+      internalID: 2536290663976541066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -14}
+        - {x: 12, y: -15}
+        - {x: 16, y: -12}
+        - {x: 15, y: -6}
+        - {x: -9, y: -8}
+        - {x: -12, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d11d83e60d1fb010800000000000000
+      internalID: 1206715140583264725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -14}
+        - {x: 12, y: -15}
+        - {x: 16, y: -12}
+        - {x: 15, y: -6}
+        - {x: -9, y: -8}
+        - {x: -12, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75e5500e203670c0800000000000000
+      internalID: -4578418997043272325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad5eef65012ce1419f31eef5bf49dcc
+      internalID: -5576872189449959856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47fb3e05049f8e48a6c8b0e0bfe5da9
+      internalID: 4535934217927403792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.4375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a756b654c65b1474193d81381329b73b
+      internalID: -1386915288944363549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_37
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 95
+        width: 31
+        height: 33
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.42424244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b0e606c9cf83d4f8ee032eaa24c14d
+      internalID: -8824410380176139597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f1f89dc8b938542b51bec44705f318
+      internalID: 8982146607480669038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Klein Stone2.0_39
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 64
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0.41935483, y: 0.4516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -4}
+        - {x: 6, y: -4}
+        - {x: 4, y: 1}
+        - {x: -6, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c1b1c8156c7214280234682036fe5a
+      internalID: 6018098885484807058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4188207d517862f4aad1914f572f8337
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.3125},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Klein Stone2.0_0: 7687958714243929870
+      Klein Stone2.0_1: 4550626081719498867
+      Klein Stone2.0_10: -7213351784586401848
+      Klein Stone2.0_11: 2701092881395586401
+      Klein Stone2.0_12: 369303522445624832
+      Klein Stone2.0_13: -7670933347634785836
+      Klein Stone2.0_14: -5529921496072629403
+      Klein Stone2.0_15: -8918423295156903367
+      Klein Stone2.0_16: 8081221891150052755
+      Klein Stone2.0_17: 750379896180568624
+      Klein Stone2.0_18: -2848163735111338947
+      Klein Stone2.0_19: 6397589662059382783
+      Klein Stone2.0_2: -7409875951858726196
+      Klein Stone2.0_20: 4371340246462182158
+      Klein Stone2.0_21: -1864656667270135825
+      Klein Stone2.0_22: 1361380493991901391
+      Klein Stone2.0_23: 7527309243860835903
+      Klein Stone2.0_24: 8579750242553315984
+      Klein Stone2.0_25: -4772745875682251338
+      Klein Stone2.0_26: -3055984159127248797
+      Klein Stone2.0_27: 8049400336209950557
+      Klein Stone2.0_28: -1358181434640975017
+      Klein Stone2.0_29: 347698147375607418
+      Klein Stone2.0_3: 4009323029390894788
+      Klein Stone2.0_30: 3831302005213776017
+      Klein Stone2.0_31: 2536290663976541066
+      Klein Stone2.0_32: 1206715140583264725
+      Klein Stone2.0_33: -4578418997043272325
+      Klein Stone2.0_34: -5576872189449959856
+      Klein Stone2.0_35: 4535934217927403792
+      Klein Stone2.0_36: -1386915288944363549
+      Klein Stone2.0_37: -8824410380176139597
+      Klein Stone2.0_38: 8982146607480669038
+      Klein Stone2.0_39: 6018098885484807058
+      Klein Stone2.0_4: -7785360470969597068
+      Klein Stone2.0_5: 9187299959482808509
+      Klein Stone2.0_6: -1728585982212593297
+      Klein Stone2.0_7: -1230780038095316203
+      Klein Stone2.0_8: -2330725792505801572
+      Klein Stone2.0_9: -5759978061531524125
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

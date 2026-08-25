@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: f0fa793b5f1c19b4b85b4143b3c2a7f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3651890505495534174
+    second: Cactuses Shadow_0
+  - first:
+      213: 2482625273491313073
+    second: Cactuses Shadow_1
+  - first:
+      213: -4799851493299051564
+    second: Cactuses Shadow_2
+  - first:
+      213: -5702670654642797096
+    second: Cactuses Shadow_3
+  - first:
+      213: 6991107605742694830
+    second: Cactuses Shadow_4
+  - first:
+      213: 2447860045328675977
+    second: Cactuses Shadow_5
+  - first:
+      213: 2575147865509814161
+    second: Cactuses Shadow_6
+  - first:
+      213: -1486991936679290536
+    second: Cactuses Shadow_7
+  - first:
+      213: -8086035041621615561
+    second: Cactuses Shadow_8
+  - first:
+      213: -2303192755235315458
+    second: Cactuses Shadow_9
+  - first:
+      213: -6339742123313306012
+    second: Cactuses Shadow_10
+  - first:
+      213: 2943633804565364420
+    second: Cactuses Shadow_11
+  - first:
+      213: 266263006246104257
+    second: Cactuses Shadow_12
+  - first:
+      213: 8458891155374663137
+    second: Cactuses Shadow_13
+  - first:
+      213: 573252062729442013
+    second: Cactuses Shadow_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cactuses Shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.390625, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -22}
+        - {x: -9, y: -25}
+        - {x: -1, y: -28}
+        - {x: 3, y: -25}
+        - {x: 3, y: -22}
+        - {x: -10, y: -17}
+        - {x: -14, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5215d0fe0e15dc0800000000000000
+      internalID: -3651890505495534174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -20}
+        - {x: -5, y: -25}
+        - {x: 7, y: -26}
+        - {x: 13, y: -20}
+        - {x: 10, y: -16}
+        - {x: -6, y: -13}
+        - {x: -12, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b15bd0688e047220800000000000000
+      internalID: 2482625273491313073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -23}
+        - {x: 1, y: -28}
+        - {x: 9, y: -22}
+        - {x: 8, y: -18}
+        - {x: -10, y: -16}
+        - {x: -14, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3284f5f70836db0800000000000000
+      internalID: -4799851493299051564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -21}
+        - {x: -4, y: -23}
+        - {x: 7, y: -23}
+        - {x: 13, y: -19}
+        - {x: 12, y: -14}
+        - {x: -2, y: -13}
+        - {x: -6, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5c8fee04b0cd0b0800000000000000
+      internalID: -5702670654642797096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -22}
+        - {x: -7, y: -28}
+        - {x: 2, y: -28}
+        - {x: 8, y: -23}
+        - {x: 8, y: -18}
+        - {x: -3, y: -13}
+        - {x: -15, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea133d2b357650160800000000000000
+      internalID: 6991107605742694830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.390625, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -22}
+        - {x: -9, y: -25}
+        - {x: -1, y: -28}
+        - {x: 3, y: -25}
+        - {x: 3, y: -22}
+        - {x: -10, y: -17}
+        - {x: -14, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ffadedbb88f120800000000000000
+      internalID: 2447860045328675977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -20}
+        - {x: -5, y: -25}
+        - {x: 7, y: -26}
+        - {x: 13, y: -20}
+        - {x: 10, y: -16}
+        - {x: -6, y: -13}
+        - {x: -12, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f51d70753ccb320800000000000000
+      internalID: 2575147865509814161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -23}
+        - {x: 1, y: -28}
+        - {x: 9, y: -22}
+        - {x: 8, y: -18}
+        - {x: -10, y: -16}
+        - {x: -14, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8595c5646b42d5be0800000000000000
+      internalID: -1486991936679290536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -21}
+        - {x: -4, y: -23}
+        - {x: 7, y: -23}
+        - {x: 13, y: -19}
+        - {x: 12, y: -14}
+        - {x: -2, y: -13}
+        - {x: -6, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c58c6a8f1a8cf80800000000000000
+      internalID: -8086035041621615561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -22}
+        - {x: -7, y: -28}
+        - {x: 2, y: -28}
+        - {x: 8, y: -23}
+        - {x: 8, y: -18}
+        - {x: -3, y: -13}
+        - {x: -15, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef022f6546a6900e0800000000000000
+      internalID: -2303192755235315458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.390625, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -22}
+        - {x: -9, y: -25}
+        - {x: -1, y: -28}
+        - {x: 3, y: -25}
+        - {x: 3, y: -22}
+        - {x: -10, y: -17}
+        - {x: -14, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4666454d026b408a0800000000000000
+      internalID: -6339742123313306012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -20}
+        - {x: -5, y: -25}
+        - {x: 7, y: -26}
+        - {x: 13, y: -20}
+        - {x: 10, y: -16}
+        - {x: -6, y: -13}
+        - {x: -12, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce33f56953e9d820800000000000000
+      internalID: 2943633804565364420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -23}
+        - {x: 1, y: -28}
+        - {x: 9, y: -22}
+        - {x: 8, y: -18}
+        - {x: -10, y: -16}
+        - {x: -14, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc60202bc4f1b300800000000000000
+      internalID: 266263006246104257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -21}
+        - {x: -4, y: -23}
+        - {x: 7, y: -23}
+        - {x: 13, y: -19}
+        - {x: 12, y: -14}
+        - {x: -2, y: -13}
+        - {x: -6, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5eccd40b4046570800000000000000
+      internalID: 8458891155374663137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cactuses Shadow_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -15, y: -22}
+        - {x: -7, y: -28}
+        - {x: 2, y: -28}
+        - {x: 8, y: -23}
+        - {x: 8, y: -18}
+        - {x: -3, y: -13}
+        - {x: -15, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd29fbdb6b994f700800000000000000
+      internalID: 573252062729442013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 668a70c751d64614994e303e77a60c26
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.109375},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Cactuses Shadow_0: -3651890505495534174
+      Cactuses Shadow_1: 2482625273491313073
+      Cactuses Shadow_10: -6339742123313306012
+      Cactuses Shadow_11: 2943633804565364420
+      Cactuses Shadow_12: 266263006246104257
+      Cactuses Shadow_13: 8458891155374663137
+      Cactuses Shadow_14: 573252062729442013
+      Cactuses Shadow_2: -4799851493299051564
+      Cactuses Shadow_3: -5702670654642797096
+      Cactuses Shadow_4: 6991107605742694830
+      Cactuses Shadow_5: 2447860045328675977
+      Cactuses Shadow_6: 2575147865509814161
+      Cactuses Shadow_7: -1486991936679290536
+      Cactuses Shadow_8: -8086035041621615561
+      Cactuses Shadow_9: -2303192755235315458
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

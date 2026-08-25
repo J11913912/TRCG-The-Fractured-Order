@@ -1,0 +1,890 @@
+fileFormatVersion: 2
+guid: 34f41d482a682154dbb62c6387317e30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5167201001861191175
+    second: Big Stone3.0_0
+  - first:
+      213: -4589710260117113912
+    second: Big Stone3.0_1
+  - first:
+      213: -4002844243100149767
+    second: Big Stone3.0_2
+  - first:
+      213: -8347321193235508579
+    second: Big Stone3.0_3
+  - first:
+      213: 5113412573812507650
+    second: Big Stone3.0_4
+  - first:
+      213: -2294816812805241172
+    second: Big Stone3.0_5
+  - first:
+      213: 5105286985382252376
+    second: Big Stone3.0_6
+  - first:
+      213: 821000892983952197
+    second: Big Stone3.0_7
+  - first:
+      213: 4998429225709311169
+    second: Big Stone3.0_8
+  - first:
+      213: 5373105438338343461
+    second: Big Stone3.0_9
+  - first:
+      213: -4130807454785933535
+    second: Big Stone3.0_10
+  - first:
+      213: 605811405449340842
+    second: Big Stone3.0_11
+  - first:
+      213: 3857522365975228827
+    second: Big Stone3.0_12
+  - first:
+      213: -4270856422959951582
+    second: Big Stone3.0_13
+  - first:
+      213: 8606010186956334885
+    second: Big Stone3.0_14
+  - first:
+      213: 5141219770765304052
+    second: Big Stone3.0_15
+  - first:
+      213: 375780649489072997
+    second: Big Stone3.0_16
+  - first:
+      213: -1228609441422570904
+    second: Big Stone3.0_17
+  - first:
+      213: 313228801633553675
+    second: Big Stone3.0_18
+  - first:
+      213: -5714204678490721306
+    second: Big Stone3.0_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Stone3.0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -39, y: -41}
+        - {x: -26, y: -48}
+        - {x: -17, y: -54}
+        - {x: -8, y: -51}
+        - {x: 2, y: -56}
+        - {x: 15, y: -53}
+        - {x: 32, y: -53}
+        - {x: 47, y: -47}
+        - {x: 53, y: -33}
+        - {x: 51, y: -26}
+        - {x: 24, y: -22}
+        - {x: -16, y: -30}
+        - {x: -38, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f96509d01a6a48b0800000000000000
+      internalID: -5167201001861191175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -39, y: -41}
+        - {x: -26, y: -48}
+        - {x: -17, y: -54}
+        - {x: -8, y: -51}
+        - {x: 2, y: -56}
+        - {x: 15, y: -53}
+        - {x: 32, y: -53}
+        - {x: 47, y: -47}
+        - {x: 53, y: -33}
+        - {x: 51, y: -26}
+        - {x: 24, y: -22}
+        - {x: -16, y: -30}
+        - {x: -38, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3f0c3f5d21e40c0800000000000000
+      internalID: -4589710260117113912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 196
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -86, y: -68}
+        - {x: -72, y: -79}
+        - {x: -57, y: -80}
+        - {x: -40, y: -88}
+        - {x: -23, y: -85}
+        - {x: -1, y: -92}
+        - {x: 20, y: -85}
+        - {x: 69, y: -81}
+        - {x: 65, y: -64}
+        - {x: 19, y: -64}
+        - {x: -71, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f75cce6e5a0378c0800000000000000
+      internalID: -4002844243100149767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 192
+        width: 188
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -64}
+        - {x: -10, y: -75}
+        - {x: 24, y: -89}
+        - {x: 30, y: -84}
+        - {x: 38, y: -89}
+        - {x: 49, y: -93}
+        - {x: 60, y: -89}
+        - {x: 69, y: -82}
+        - {x: 62, y: -71}
+        - {x: 32, y: -53}
+        - {x: -25, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2044c14d4ad76f640800000000000000
+      internalID: 5113412573812507650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -39, y: -41}
+        - {x: -26, y: -48}
+        - {x: -17, y: -54}
+        - {x: -8, y: -51}
+        - {x: 2, y: -56}
+        - {x: 15, y: -53}
+        - {x: 32, y: -53}
+        - {x: 47, y: -47}
+        - {x: 53, y: -33}
+        - {x: 51, y: -26}
+        - {x: 24, y: -22}
+        - {x: -16, y: -30}
+        - {x: -38, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca64628644c2720e0800000000000000
+      internalID: -2294816812805241172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -39, y: -41}
+        - {x: -26, y: -48}
+        - {x: -17, y: -54}
+        - {x: -8, y: -51}
+        - {x: 2, y: -56}
+        - {x: 15, y: -53}
+        - {x: 32, y: -53}
+        - {x: 47, y: -47}
+        - {x: 53, y: -33}
+        - {x: 51, y: -26}
+        - {x: 24, y: -22}
+        - {x: -16, y: -30}
+        - {x: -38, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f4228d67f99d640800000000000000
+      internalID: 5105286985382252376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 190
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -86, y: -68}
+        - {x: -72, y: -79}
+        - {x: -57, y: -80}
+        - {x: -40, y: -88}
+        - {x: -23, y: -85}
+        - {x: -1, y: -92}
+        - {x: 20, y: -85}
+        - {x: 69, y: -81}
+        - {x: 65, y: -64}
+        - {x: 19, y: -64}
+        - {x: -71, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543469a56f7c46b00800000000000000
+      internalID: 821000892983952197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_9
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 192
+        width: 194
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -64}
+        - {x: -10, y: -75}
+        - {x: 24, y: -89}
+        - {x: 30, y: -84}
+        - {x: 38, y: -89}
+        - {x: 49, y: -93}
+        - {x: 60, y: -89}
+        - {x: 69, y: -82}
+        - {x: 62, y: -71}
+        - {x: 32, y: -53}
+        - {x: -25, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52260e0adea119a40800000000000000
+      internalID: 5373105438338343461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -37, y: -34}
+        - {x: -30, y: -41}
+        - {x: -16, y: -51}
+        - {x: -4, y: -56}
+        - {x: 17, y: -48}
+        - {x: 30, y: -38}
+        - {x: 29, y: -27}
+        - {x: -4, y: -23}
+        - {x: -35, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fe2fd718c6ca6c0800000000000000
+      internalID: -4130807454785933535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -37, y: -34}
+        - {x: -30, y: -41}
+        - {x: -16, y: -51}
+        - {x: -4, y: -56}
+        - {x: 17, y: -48}
+        - {x: 30, y: -38}
+        - {x: 29, y: -27}
+        - {x: -4, y: -23}
+        - {x: -35, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa720b67346486800800000000000000
+      internalID: 605811405449340842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -37, y: -34}
+        - {x: -30, y: -41}
+        - {x: -16, y: -51}
+        - {x: -4, y: -56}
+        - {x: 17, y: -48}
+        - {x: 30, y: -38}
+        - {x: 29, y: -27}
+        - {x: -4, y: -23}
+        - {x: -35, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f06ea46428495740800000000000000
+      internalID: 5141219770765304052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -37, y: -34}
+        - {x: -30, y: -41}
+        - {x: -16, y: -51}
+        - {x: -4, y: -56}
+        - {x: 17, y: -48}
+        - {x: 30, y: -38}
+        - {x: 29, y: -27}
+        - {x: -4, y: -23}
+        - {x: -35, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563034e728a073500800000000000000
+      internalID: 375780649489072997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -46, y: -43}
+        - {x: -31, y: -52}
+        - {x: -21, y: -58}
+        - {x: -3, y: -53}
+        - {x: 5, y: -60}
+        - {x: 17, y: -52}
+        - {x: 33, y: -54}
+        - {x: 47, y: -42}
+        - {x: 40, y: -32}
+        - {x: 9, y: -30}
+        - {x: -13, y: -39}
+        - {x: -25, y: -31}
+        - {x: -38, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2717e52c28eaa343ba692e9f5343a86
+      internalID: 933993944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -46, y: -43}
+        - {x: -31, y: -52}
+        - {x: -21, y: -58}
+        - {x: -3, y: -53}
+        - {x: 5, y: -60}
+        - {x: 17, y: -52}
+        - {x: 33, y: -54}
+        - {x: 47, y: -42}
+        - {x: 40, y: -32}
+        - {x: 9, y: -30}
+        - {x: -13, y: -39}
+        - {x: -25, y: -31}
+        - {x: -38, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62b056e2ed6bab4a9ebebcaa6fd613f
+      internalID: -1981523066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 196
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -86, y: -68}
+        - {x: -72, y: -79}
+        - {x: -57, y: -80}
+        - {x: -40, y: -88}
+        - {x: -23, y: -85}
+        - {x: -1, y: -92}
+        - {x: 20, y: -85}
+        - {x: 69, y: -81}
+        - {x: 65, y: -64}
+        - {x: 19, y: -64}
+        - {x: -71, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60117958b4f691b4db2eb6b561ab1561
+      internalID: 1619590234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_24
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 188
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -64}
+        - {x: -10, y: -75}
+        - {x: 24, y: -89}
+        - {x: 30, y: -84}
+        - {x: 38, y: -89}
+        - {x: 49, y: -93}
+        - {x: 60, y: -89}
+        - {x: 69, y: -82}
+        - {x: 62, y: -71}
+        - {x: 32, y: -53}
+        - {x: -25, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d700ebe5edb31e24e83f2a9402bfdf11
+      internalID: -394592783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -46, y: -43}
+        - {x: -31, y: -52}
+        - {x: -21, y: -58}
+        - {x: -3, y: -53}
+        - {x: 5, y: -60}
+        - {x: 17, y: -52}
+        - {x: 33, y: -54}
+        - {x: 47, y: -42}
+        - {x: 40, y: -32}
+        - {x: 9, y: -30}
+        - {x: -13, y: -39}
+        - {x: -25, y: -31}
+        - {x: -38, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1417972eaf1d924992487018efa7de0
+      internalID: 719000252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -46, y: -43}
+        - {x: -31, y: -52}
+        - {x: -21, y: -58}
+        - {x: -3, y: -53}
+        - {x: 5, y: -60}
+        - {x: 17, y: -52}
+        - {x: 33, y: -54}
+        - {x: 47, y: -42}
+        - {x: 40, y: -32}
+        - {x: 9, y: -30}
+        - {x: -13, y: -39}
+        - {x: -25, y: -31}
+        - {x: -38, y: -28}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cc0eca487f2f64fa61d3e4859ecc0c
+      internalID: 290229752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 190
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -86, y: -68}
+        - {x: -72, y: -79}
+        - {x: -57, y: -80}
+        - {x: -40, y: -88}
+        - {x: -23, y: -85}
+        - {x: -1, y: -92}
+        - {x: 20, y: -85}
+        - {x: 69, y: -81}
+        - {x: 65, y: -64}
+        - {x: 19, y: -64}
+        - {x: -71, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dac3c05872f4241bfc5164a67100d2
+      internalID: 202549117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Stone3.0_29
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 194
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14583333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -64}
+        - {x: -10, y: -75}
+        - {x: 24, y: -89}
+        - {x: 30, y: -84}
+        - {x: 38, y: -89}
+        - {x: 49, y: -93}
+        - {x: 60, y: -89}
+        - {x: 69, y: -82}
+        - {x: 62, y: -71}
+        - {x: 32, y: -53}
+        - {x: -25, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7b93a909f1d964a95a2adf26172285
+      internalID: 546770890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c6d5b21407aadc1499eee28905f8d3b5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Big Stone3.0_0: -5167201001861191175
+      Big Stone3.0_1: -4589710260117113912
+      Big Stone3.0_10: -4130807454785933535
+      Big Stone3.0_11: 605811405449340842
+      Big Stone3.0_12: 3857522365975228827
+      Big Stone3.0_13: -4270856422959951582
+      Big Stone3.0_14: 8606010186956334885
+      Big Stone3.0_15: 5141219770765304052
+      Big Stone3.0_16: 375780649489072997
+      Big Stone3.0_17: -1228609441422570904
+      Big Stone3.0_18: 313228801633553675
+      Big Stone3.0_19: -5714204678490721306
+      Big Stone3.0_2: -4002844243100149767
+      Big Stone3.0_20: 933993944
+      Big Stone3.0_21: -1981523066
+      Big Stone3.0_22: 1619590234
+      Big Stone3.0_23: -214085331
+      Big Stone3.0_24: -394592783
+      Big Stone3.0_25: 719000252
+      Big Stone3.0_26: 290229752
+      Big Stone3.0_27: 202549117
+      Big Stone3.0_28: 1026031622
+      Big Stone3.0_29: 546770890
+      Big Stone3.0_3: -8347321193235508579
+      Big Stone3.0_4: 5113412573812507650
+      Big Stone3.0_5: -2294816812805241172
+      Big Stone3.0_6: 5105286985382252376
+      Big Stone3.0_7: 821000892983952197
+      Big Stone3.0_8: 4998429225709311169
+      Big Stone3.0_9: 5373105438338343461
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

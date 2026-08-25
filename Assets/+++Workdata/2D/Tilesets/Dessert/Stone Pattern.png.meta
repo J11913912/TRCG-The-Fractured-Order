@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: 3ecdc081e82e6354b8df9437457c2c0a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1975294807003571306
+    second: Stone Pattern_0
+  - first:
+      213: 1112844676026734828
+    second: Stone Pattern_1
+  - first:
+      213: -444851478326187243
+    second: Stone Pattern_2
+  - first:
+      213: -5158973215413439354
+    second: Stone Pattern_3
+  - first:
+      213: -5037266962877121547
+    second: Stone Pattern_4
+  - first:
+      213: -1293178562911837553
+    second: Stone Pattern_5
+  - first:
+      213: 1753183313085960399
+    second: Stone Pattern_6
+  - first:
+      213: -4269990153415327388
+    second: Stone Pattern_7
+  - first:
+      213: 8613434865591550134
+    second: Stone Pattern_8
+  - first:
+      213: 5679806325354373092
+    second: Stone Pattern_9
+  - first:
+      213: -5612792397837253441
+    second: Stone Pattern_10
+  - first:
+      213: 1883935028886920082
+    second: Stone Pattern_11
+  - first:
+      213: -165052322336664420
+    second: Stone Pattern_12
+  - first:
+      213: -7094152780387692908
+    second: Stone Pattern_13
+  - first:
+      213: -6775789062733335060
+    second: Stone Pattern_14
+  - first:
+      213: 6208500077784608718
+    second: Stone Pattern_15
+  - first:
+      213: 4460878155188156207
+    second: Stone Pattern_16
+  - first:
+      213: -4681898997748913632
+    second: Stone Pattern_17
+  - first:
+      213: 6463378419289681557
+    second: Stone Pattern_18
+  - first:
+      213: 6293975626557977131
+    second: Stone Pattern_19
+  - first:
+      213: -3566562401618799699
+    second: Stone Pattern_20
+  - first:
+      213: 7736341493556803850
+    second: Stone Pattern_21
+  - first:
+      213: 1258121710573241863
+    second: Stone Pattern_22
+  - first:
+      213: -6280702616988309746
+    second: Stone Pattern_23
+  - first:
+      213: -5636709642631283414
+    second: Stone Pattern_24
+  - first:
+      213: 8835336397338317769
+    second: Stone Pattern_25
+  - first:
+      213: -1302919563394236316
+    second: Stone Pattern_26
+  - first:
+      213: 1441746937430317532
+    second: Stone Pattern_27
+  - first:
+      213: -1347423551043640628
+    second: Stone Pattern_28
+  - first:
+      213: 7920011777980762290
+    second: Stone Pattern_29
+  - first:
+      213: -7324500828137030545
+    second: Stone Pattern_30
+  - first:
+      213: -8493979461262977683
+    second: Stone Pattern_31
+  - first:
+      213: -758220291118534194
+    second: Stone Pattern_32
+  - first:
+      213: -1294614705893017956
+    second: Stone Pattern_33
+  - first:
+      213: 786803125500942502
+    second: Stone Pattern_34
+  - first:
+      213: -5529720028062687519
+    second: Stone Pattern_35
+  - first:
+      213: 5569215614397283673
+    second: Stone Pattern_36
+  - first:
+      213: 7905401557291918979
+    second: Stone Pattern_37
+  - first:
+      213: -5805012335188091477
+    second: Stone Pattern_38
+  - first:
+      213: 5436347400291983138
+    second: Stone Pattern_39
+  - first:
+      213: -2064468512554307717
+    second: Stone Pattern_40
+  - first:
+      213: 8052376352787101412
+    second: Stone Pattern_41
+  - first:
+      213: 2128352565165656316
+    second: Stone Pattern_42
+  - first:
+      213: -1187187557447745251
+    second: Stone Pattern_43
+  - first:
+      213: 3995308845258277147
+    second: Stone Pattern_44
+  - first:
+      213: -1575958227105340778
+    second: Stone Pattern_45
+  - first:
+      213: -6948429055671303588
+    second: Stone Pattern_46
+  - first:
+      213: 6942740151598758144
+    second: Stone Pattern_47
+  - first:
+      213: -8568672132341034654
+    second: Stone Pattern_48
+  - first:
+      213: 7342632842817775824
+    second: Stone Pattern_49
+  - first:
+      213: -8122190196993461420
+    second: Stone Pattern_50
+  - first:
+      213: -1992043478887286456
+    second: Stone Pattern_51
+  - first:
+      213: -114356159016507634
+    second: Stone Pattern_52
+  - first:
+      213: 9035730197534596557
+    second: Stone Pattern_53
+  - first:
+      213: 80111787970669262
+    second: Stone Pattern_54
+  - first:
+      213: -3546092501605898933
+    second: Stone Pattern_55
+  - first:
+      213: -5927395074164868761
+    second: Stone Pattern_56
+  - first:
+      213: -5374383821033582298
+    second: Stone Pattern_57
+  - first:
+      213: 7883915542632757398
+    second: Stone Pattern_58
+  - first:
+      213: 8589833484778561938
+    second: Stone Pattern_59
+  - first:
+      213: 3265385518850139197
+    second: Stone Pattern_60
+  - first:
+      213: -1730796339456185276
+    second: Stone Pattern_61
+  - first:
+      213: 431882701006796517
+    second: Stone Pattern_62
+  - first:
+      213: 2070571146436237129
+    second: Stone Pattern_63
+  - first:
+      213: 2886012255903107194
+    second: Stone Pattern_64
+  - first:
+      213: -6570095057091957284
+    second: Stone Pattern_65
+  - first:
+      213: -1041717752247646860
+    second: Stone Pattern_66
+  - first:
+      213: -1260321762352165712
+    second: Stone Pattern_67
+  - first:
+      213: -6678624514873477765
+    second: Stone Pattern_68
+  - first:
+      213: 1907182389566572604
+    second: Stone Pattern_69
+  - first:
+      213: -7806971632328591448
+    second: Stone Pattern_70
+  - first:
+      213: 6895924301845819273
+    second: Stone Pattern_71
+  - first:
+      213: -8740103782851532572
+    second: Stone Pattern_72
+  - first:
+      213: 4735643608188041681
+    second: Stone Pattern_73
+  - first:
+      213: 1523555407084753875
+    second: Stone Pattern_74
+  - first:
+      213: 963031363301136013
+    second: Stone Pattern_75
+  - first:
+      213: -4411344380177909288
+    second: Stone Pattern_76
+  - first:
+      213: 1789351896046454680
+    second: Stone Pattern_77
+  - first:
+      213: 3403755328312006845
+    second: Stone Pattern_78
+  - first:
+      213: -2988297981389190092
+    second: Stone Pattern_79
+  - first:
+      213: 1765622843294535379
+    second: Stone Pattern_80
+  - first:
+      213: -722570368045734923
+    second: Stone Pattern_81
+  - first:
+      213: -2441772581235951207
+    second: Stone Pattern_82
+  - first:
+      213: 946675193700611383
+    second: Stone Pattern_83
+  - first:
+      213: 7799126172594267247
+    second: Stone Pattern_84
+  - first:
+      213: 351340283597453669
+    second: Stone Pattern_85
+  - first:
+      213: -1618130704605453633
+    second: Stone Pattern_86
+  - first:
+      213: -7212855851753308795
+    second: Stone Pattern_87
+  - first:
+      213: 4094246008844217164
+    second: Stone Pattern_88
+  - first:
+      213: -7626688759519820159
+    second: Stone Pattern_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stone Pattern_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a642f125928a96b10800000000000000
+      internalID: 1975294807003571306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce812c4365e917f00800000000000000
+      internalID: 1112844676026734828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b6f88ffe193d9f0800000000000000
+      internalID: -444851478326187243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684f689a135a768b0800000000000000
+      internalID: -5158973215413439354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbf5e6c268081ab0800000000000000
+      internalID: -5037266962877121547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f826d76d2f4bd0ee0800000000000000
+      internalID: -1293178562911837553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc091aa3fee845810800000000000000
+      internalID: 1753183313085960399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461834f2492fdb4c0800000000000000
+      internalID: -4269990153415327388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b08c83df51198770800000000000000
+      internalID: 8613434865591550134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef93cf82c9b2de40800000000000000
+      internalID: 5679806325354373092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c5e05d0b5b12b0800000000000000
+      internalID: -5612792397837253441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b58b06de4152a10800000000000000
+      internalID: 1883935028886920082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9415cd89cd95bdf0800000000000000
+      internalID: -165052322336664420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e44a6f1a18c8d90800000000000000
+      internalID: -7094152780387692908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce57dc24fbf87f1a0800000000000000
+      internalID: -6775789062733335060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf265c3de5092650800000000000000
+      internalID: 6208500077784608718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f273a422c0938ed30800000000000000
+      internalID: 4460878155188156207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Pattern_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a2be4daad860fb0800000000000000
+      internalID: -4681898997748913632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8f8fa3ce7bc85974ab93d3034657fa7c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Stone Pattern_0: 1975294807003571306
+      Stone Pattern_1: 1112844676026734828
+      Stone Pattern_10: -5612792397837253441
+      Stone Pattern_11: 1883935028886920082
+      Stone Pattern_12: -165052322336664420
+      Stone Pattern_13: -7094152780387692908
+      Stone Pattern_14: -6775789062733335060
+      Stone Pattern_15: 6208500077784608718
+      Stone Pattern_16: 4460878155188156207
+      Stone Pattern_17: -4681898997748913632
+      Stone Pattern_2: -444851478326187243
+      Stone Pattern_3: -5158973215413439354
+      Stone Pattern_4: -5037266962877121547
+      Stone Pattern_5: -1293178562911837553
+      Stone Pattern_6: 1753183313085960399
+      Stone Pattern_7: -4269990153415327388
+      Stone Pattern_8: 8613434865591550134
+      Stone Pattern_9: 5679806325354373092
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
