@@ -262,6 +262,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17ef6c4dcfb5b54ca4c0b65ed16314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndOfActionManager
+--- !u!1 &5493527498365593411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 142498313820644309}
+  - component: {fileID: 808884518338991092}
+  m_Layer: 4
+  m_Name: Special Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &142498313820644309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5493527498365593411}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6513679979285681003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &808884518338991092
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5493527498365593411}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.005580902, y: 0.5833893}
+  m_Size: {x: 0.6898117, y: 1.2177124}
+  m_Direction: 0
 --- !u!1 &5750016407163372012
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +426,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8245893557734287466}
+  - {fileID: 142498313820644309}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &8713017274847927168
@@ -437,6 +507,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   walkingSpeed: 5
   acceleration: 10
+  bossPushBackForce: 20
+  normalPushBackForce: 10
+  dashForce: 10
   _isRolling: 0
   _pushedBack: 0
 --- !u!114 &8711114055122832588
@@ -544,6 +617,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DashAbility
   actionId: 10
   rollForce: 5
+  inTeleportZone: 0
+  whereDoWeWantToGo: {x: 0, y: 0}
+  _isTeleporting: 0
 --- !u!114 &4889857719390999303
 MonoBehaviour:
   m_ObjectHideFlags: 0

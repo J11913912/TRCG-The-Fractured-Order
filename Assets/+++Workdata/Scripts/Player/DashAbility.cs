@@ -111,22 +111,22 @@ public class DashAbility : MonoBehaviour
                
             if (whereDoWeWantToGo == Vector2.left)
             {
-                pos.x -= 5;
+                pos.x -= 3;
                 gameObject.transform.position = pos;
             }
             else if (whereDoWeWantToGo == Vector2.right)
             {
-                pos.x += 5;
+                pos.x += 3;
                 gameObject.transform.position = pos;
             }
             else if (whereDoWeWantToGo == Vector2.up)
             {
-                pos.y += 5;
+                pos.y += 3;
                 gameObject.transform.position = pos;
             }
             else if (whereDoWeWantToGo == Vector2.down)
             {
-                pos.y -= 5;
+                pos.y -= 3;
                 gameObject.transform.position = pos;
             }
 
