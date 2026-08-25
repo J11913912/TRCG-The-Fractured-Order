@@ -76,6 +76,10 @@ public class EnemyNavMeshPatrol : MonoBehaviour
 
     private Rigidbody2D _rb;
 
+    private Vector3 _firstPos;
+    private Vector3 _secondPos;
+    private Vector3 _movingDirection;
+
     #endregion
     
     #region Unity Event Functions
@@ -119,16 +123,34 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         {
             float distance = Vector2.Distance(transform.position, _target.position);
 
+            if (distance <= 1)
+            {
+               _movingDirection = (transform.position - _firstPos).normalized;
+            }
+            
+            _firstPos =  transform.position;
+            
             if (distance > _agent.stoppingDistance + 0.01f)
             {
-                if (_lastNavmeshTime + navmeshPathTimer < Time.time)
+                if (_lastNavmeshTime + navmeshPathTimer < Time.time && enemyState != EnemyState.Attacking)
                 {
+                    Debug.Log("nearer than 0.01");
                     _agent.SetDestination(_target.position);
                     _lastNavmeshTime = Time.time; 
                 }
             }
-            else
+            else if (distance < _agent.stoppingDistance + 0.01f)
             {
+                Debug.Log("pushback");
+                Debug.Log(_movingDirection);
+                enemyState = EnemyState.Attacking;
+                _rb.linearVelocity = _movingDirection * 7f;
+                StartCoroutine(StunnedCountdown(3f));
+            }
+            //else
+          //  {
+                /*
+                Debug.Log("went into else");
                 _targetBeyond = _target.position + new Vector3(_lookDirection.x, _lookDirection.y, 0) * 5f;
                 
                 if (isTumbleweed)
@@ -138,7 +160,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
                 }
                 
                 _agent.ResetPath();
-            }
+            } */
         }
     }
 
@@ -161,12 +183,16 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         {
             _lookDirection = velocity.normalized;
         }
-        else if(enemyState == EnemyState.Chasing || enemyState == EnemyState.Attacking)
+        else if(enemyState == EnemyState.Chasing)
         {
             Vector2 toPlayer = _player.position - transform.position;
             _lookDirection = toPlayer.normalized;
         }
 
+        if (enemyState == EnemyState.Attacking)
+        {
+            UpdateFacingDirection(_;
+        }
         UpdateFacingDirection(_lookDirection);
         //RotateObj(_lookDirection);
     }
@@ -307,17 +333,38 @@ public class EnemyNavMeshPatrol : MonoBehaviour
 
         // TODO get facing direction and put vecotr in opposite
         // TODO make him charge through player somehoiw before rounding back on him
+
+        Vector2 pushBack = Vector2.left;
         
-        _rb.linearVelocity = new Vector2(-1, 0) * 5;
+        switch (enemyFacingDirection)
+        {
+            case EnemyFacingDirection.Up:
+                pushBack = Vector2.down;
+                break;
+            
+            case EnemyFacingDirection.Down:
+                pushBack = Vector2.up;
+                break;
+            
+            case EnemyFacingDirection.Left:
+                pushBack = Vector2.right;
+                break;
+            
+            case EnemyFacingDirection.Right:
+                pushBack = Vector2.left;
+                break;
+        }
+        
+        _rb.linearVelocity = pushBack * 5;
 
         //_rb.constraints = RigidbodyConstraints2D.FreezeAll;
 
-        StartCoroutine(StunnedCountdown());
+        StartCoroutine(StunnedCountdown(1f));
     }
 
-    private IEnumerator StunnedCountdown()
+    private IEnumerator StunnedCountdown(float time)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(time);
         _hitWall = false;
         _rb.linearVelocity = Vector2.zero;
     }
@@ -349,6 +396,8 @@ public class EnemyNavMeshPatrol : MonoBehaviour
 
     public void EnterAggroDistance()
     {
+        if (enemyState == EnemyState.Attacking) return;
+        
         enemyState = EnemyState.Chasing;
         _target = _player;
         if(_aggroCoroutine != null)
@@ -363,7 +412,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
 
     public void ExitAggroDistance()
     {
-        enemyState = EnemyState.Chasing;
+        //enemyState = EnemyState.Chasing;
         _aggroCoroutine = StartCoroutine(InitiateAggroTimer());
     }
 
@@ -392,14 +441,14 @@ public class EnemyNavMeshPatrol : MonoBehaviour
     public void ExitAttackDistance()
     {
         _canAttack = false;
-        enemyState = EnemyState.Chasing;
+       // enemyState = EnemyState.Chasing;
         _agent.isStopped = false;
     }
 
     public void EndAttack()
     {
         _attackCooldownTimer = 0;
-        enemyState = EnemyState.Chasing;
+       // enemyState = EnemyState.Chasing;
         _agent.isStopped = false;
     }
     
