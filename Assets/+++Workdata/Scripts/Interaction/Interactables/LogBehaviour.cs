@@ -8,7 +8,7 @@ public class LogBehaviour : MonoBehaviour
     private BoxCollider2D _boxCollider;
     public Transform target;
 
-    private float _moveSpeed = 5f;
+    private float _moveSpeed = 3f;
 
     private void Awake()
     {
