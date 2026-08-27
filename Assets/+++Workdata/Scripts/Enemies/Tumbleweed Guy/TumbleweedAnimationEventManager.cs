@@ -10,6 +10,6 @@ public class TumbleweedAnimationEventManager : MonoBehaviour
     {
       //  enemyNavMeshPatrol.HitWall();
 
-      tumbleweedRolling.FreezeGuy();
+      //tumbleweedRolling.FreezeGuy();
     }
 }
