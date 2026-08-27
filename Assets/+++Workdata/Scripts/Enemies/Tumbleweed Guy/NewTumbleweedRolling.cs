@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 
@@ -21,6 +23,7 @@ public class NewTumbleweedRolling : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField] private float _moveSpeed = 5f;
+    private float _defaultMoveSpeed;
     [SerializeField] private Vector2 _startDirection = Vector2.right;
     [SerializeField] private float _stopDuration = 1.5f;
     [SerializeField, Range(0f, 80f)] private float _maxBounceAngle = 35f;
@@ -44,6 +47,13 @@ public class NewTumbleweedRolling : MonoBehaviour
     [SerializeField] private int _bounceActionId = 10;
     [SerializeField] private EnemyFacingDirection _facingDirection = EnemyFacingDirection.Right;
 
+    [Header("Chasing")] 
+    public bool canChase = true;
+    public bool isChasing = false;
+    [FormerlySerializedAs("rolledOver")] public bool isNextToPlayer = false;
+
+    public GameObject player;
+
     private Rigidbody2D _rb;
     private Animator _animator;
 
@@ -62,9 +72,11 @@ public class NewTumbleweedRolling : MonoBehaviour
     public bool IsStopped => _state == RollState.Stopped;
 
     public EnemyFacingDirection FacingDirection => _facingDirection;
-
+    
     private void Awake()
     {
+        _defaultMoveSpeed = _moveSpeed;
+        
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponentInChildren<Animator>();
 
@@ -116,9 +128,36 @@ public class NewTumbleweedRolling : MonoBehaviour
             }
         }
 
-        _rb.linearVelocity = _direction * _moveSpeed;
+        if (isChasing)
+        {
+            _moveSpeed = _defaultMoveSpeed + 0.1f;
+            
+            //GetComponentInChildren<SpriteRenderer>().color = Color.red;
+           // float distance = Vector3.Distance(player.transform.position, transform.position);
+            
+            if (isNextToPlayer)
+            {
+                Debug.Log("rolled over player");
+                isNextToPlayer = true;
+                isChasing = false;
+                _moveSpeed = _defaultMoveSpeed + 0.5f;
+                // GetComponentInChildren<SpriteRenderer>().color = Color.yellow;
+            }
+            else
+            {
+                _moveSpeed = _defaultMoveSpeed + 0.1f;
+                _direction = (player.transform.position - transform.position).normalized;
+            }
+
+            _rb.linearVelocity = _direction * (_moveSpeed);
+        }
+        else
+        {
+            _rb.linearVelocity = _direction * _moveSpeed;
+        }
     }
 
+   
     private void Update()
     {
         //UpdateVisualSpin();
@@ -138,6 +177,11 @@ public class NewTumbleweedRolling : MonoBehaviour
         Bounce(GetAveragedNormal(collision));
     }
 
+    public void IsNextToPlayer(bool value)
+    {
+        isNextToPlayer = value;
+    }
+    
     public void HitWall()
     {
         if (_state != RollState.Rolling) return;
@@ -181,15 +225,19 @@ public class NewTumbleweedRolling : MonoBehaviour
 
     protected virtual void OnHitObstacle(Vector2 normal, Vector2 newDirection)
     {
+        
     }
 
     protected virtual void OnStopBegin()
     {
+        canChase = false;
     }
 
     protected virtual void OnRollBegin()
     {
-        
+        _moveSpeed = _defaultMoveSpeed;
+        canChase = true;
+        isChasing = false;
     }
 
     private void Bounce(Vector2 normal)
@@ -278,6 +326,14 @@ public class NewTumbleweedRolling : MonoBehaviour
         return new Vector2(vector.x * cos - vector.y * sin, vector.x * sin + vector.y * cos);
     }
 
+    public void SetChase(bool value)
+    {
+        if (!canChase) return;
+        
+        isChasing = value;
+    }
+    
+    #region Animation
     private void UpdateFacing()
     {
         if (_state != RollState.Rolling || _isPaused) return;
@@ -342,6 +398,7 @@ public class NewTumbleweedRolling : MonoBehaviour
 
         _visualRoot.Rotate(0f, 0f, sign * _rollDegreesPerSecond * normalizedSpeed * Time.deltaTime);
     }
+    #endregion
 
     private void OnDrawGizmosSelected()
     {
