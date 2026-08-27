@@ -56,6 +56,9 @@ public class NewTumbleweedRolling : MonoBehaviour
 
     private Rigidbody2D _rb;
     private Animator _animator;
+    public Animator _animatorClouds;
+    public SpriteRenderer clouds;
+    private Color _cloudSprites;
 
     private Vector2 _direction;
     private Vector2 _pendingDirection;
@@ -72,9 +75,13 @@ public class NewTumbleweedRolling : MonoBehaviour
     public bool IsStopped => _state == RollState.Stopped;
 
     public EnemyFacingDirection FacingDirection => _facingDirection;
+
+    public bool _actionTriggered = false;
     
     private void Awake()
     {
+        _cloudSprites = clouds.color;
+        
         _defaultMoveSpeed = _moveSpeed;
         
         _rb = GetComponent<Rigidbody2D>();
@@ -99,6 +106,7 @@ public class NewTumbleweedRolling : MonoBehaviour
         if (_isPaused)
         {
             _rb.linearVelocity = Vector2.zero;
+            _cloudSprites.a = 0;
             return;
         }
 
@@ -132,6 +140,8 @@ public class NewTumbleweedRolling : MonoBehaviour
         {
             _moveSpeed = _defaultMoveSpeed + 0.1f;
             
+            _cloudSprites.a = 1;
+            
             //GetComponentInChildren<SpriteRenderer>().color = Color.red;
            // float distance = Vector3.Distance(player.transform.position, transform.position);
             
@@ -152,9 +162,11 @@ public class NewTumbleweedRolling : MonoBehaviour
             _rb.linearVelocity = _direction * (_moveSpeed);
         }
         else
-        {
+        { 
             _rb.linearVelocity = _direction * _moveSpeed;
         }
+
+        clouds.color = _cloudSprites;
     }
 
    
@@ -218,9 +230,19 @@ public class NewTumbleweedRolling : MonoBehaviour
     public void SetAnimationAction(int actionId)
     {
         if (_animator == null) return;
-
+        
         _animator.SetInteger(HashActionId, actionId);
         _animator.SetTrigger(HashActionTrigger);
+    }
+
+    public void StartAction()
+    {
+        _actionTriggered = true;
+    }
+
+    public void StopAction()
+    {
+        _actionTriggered = false;
     }
 
     protected virtual void OnHitObstacle(Vector2 normal, Vector2 newDirection)
@@ -230,6 +252,7 @@ public class NewTumbleweedRolling : MonoBehaviour
 
     protected virtual void OnStopBegin()
     {
+        _cloudSprites.a = 0;
         canChase = false;
     }
 
@@ -379,14 +402,19 @@ public class NewTumbleweedRolling : MonoBehaviour
         if (_animator == null) return;
 
         _animator.SetFloat(HashDirX, direction.x);
+        _animatorClouds.SetFloat(HashDirX, direction.x);
         _animator.SetFloat(HashDirY, direction.y);
+        _animatorClouds.SetFloat(HashDirY, direction.y);
     }
 
     private void UpdateAnimator()
     {
         if (_animator == null) return;
+        
+        _animatorClouds.SetBool("actionTriggered", _actionTriggered);
 
         _animator.SetFloat(HashMovementValue, _rb.linearVelocity.magnitude);
+        _animatorClouds.SetFloat(HashMovementValue, _rb.linearVelocity.magnitude);
     }
 
     private void UpdateVisualSpin()
