@@ -114,6 +114,8 @@ public class ShopInventory : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log(EventSystem.current.currentSelectedGameObject);
+        
         if (isActive)
         {
              GameObject currentSelectedGameObject = EventSystem.current.currentSelectedGameObject;
@@ -140,7 +142,7 @@ public class ShopInventory : MonoBehaviour
                             
                             if (_spellAmount <= 0)
                             {
-                                Close();
+                               // Close();
                             }
                         }
                     }
@@ -269,7 +271,10 @@ public class ShopInventory : MonoBehaviour
 
     public void GoBackToShop()
     {
+        isActive = true;
         OnBackToShop?.Invoke();
+        
+        Debug.Log("went back ");
     }
 
     public void SetDescription(string desc)

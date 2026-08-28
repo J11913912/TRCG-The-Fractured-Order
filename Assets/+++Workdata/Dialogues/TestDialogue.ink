@@ -20,35 +20,40 @@ Hoardinger: Oh, I'm so sorry, the prizes have gone up today due to... inflation,
 buy health for PRIZE?
 +[Yes]
 ~ Event("BuyHealth")
-->END
+->Else
 +[No]
 ~ Event("BackToShop")
-->END
+->Else
 
 = BuyMana
 buy mana for PRIZE?
 +[Yes]
 ~ Event("BuyMana")
-->END
+->Else
 +[No]
 ~ Event("BackToShop")
-->END
+->Else
 
 = BuyHat
 buy hat for PRIZE?
 +[Yes]
-->END
+~ Event("BuyHat")
+->Else
 +[No]
 ~ Event("BackToShop")
--> END
+-> Else
 
 = BuySpell
 buy spell for PRIZE?
 +[Yes]
 ~ Event("BuySpell")
-->END
+->Else
 +[No]
 ~ Event("BackToShop")
+->Else
+
+= Else
+Hoardinger: Anything else you want?
 ->END
 
 = FirstMeeting
