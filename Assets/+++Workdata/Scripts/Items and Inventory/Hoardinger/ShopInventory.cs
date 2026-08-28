@@ -200,6 +200,7 @@ public class ShopInventory : MonoBehaviour
         {
             ChangeHealthPotions(-1);
             MoneyManager.OnMoneyDecrease?.Invoke(prizeHealthPotions);
+            MoneyManager.OnHealthPotion?.Invoke(1);
         }
     }
 
@@ -209,6 +210,7 @@ public class ShopInventory : MonoBehaviour
         {
             ChangeManaPotions(-1);
             MoneyManager.OnMoneyDecrease?.Invoke(prizeManaPotions);
+            MoneyManager.OnManaPotion?.Invoke(1);
         }
     }
 
