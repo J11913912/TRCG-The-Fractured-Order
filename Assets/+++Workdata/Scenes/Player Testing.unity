@@ -6256,6 +6256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 648065056}
   - component: {fileID: 648065057}
+  - component: {fileID: 648065058}
   m_Layer: 0
   m_Name: Money Manager
   m_TagString: Untagged
@@ -6298,6 +6299,21 @@ MonoBehaviour:
   moneyText: {fileID: 1982265496}
   healthText: {fileID: 759597139}
   manaText: {fileID: 1984509571}
+--- !u!114 &648065058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648065055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae0d569ff4650f4b880eb4401a0f86a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PotionInput
+  heallingPower: 20
+  manaPower: 10
+  player: {fileID: 1776460275}
 --- !u!1001 &649679665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16384,7 +16400,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -174.348, y: -160.211}
+  m_AnchoredPosition: {x: -174.34766, y: -160.21094}
   m_SizeDelta: {x: 1989.552, y: 1075.6172}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1767220600

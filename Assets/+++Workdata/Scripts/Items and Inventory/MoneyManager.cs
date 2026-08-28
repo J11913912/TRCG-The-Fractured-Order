@@ -96,4 +96,14 @@ public class MoneyManager : MonoBehaviour
     {
         return money;
     }
+
+    public int ReturnHealthPotions()
+    {
+        return healthPotions;
+    }
+
+    public int ReturnManaPotions()
+    {
+        return manaPotions;
+    }
 }
