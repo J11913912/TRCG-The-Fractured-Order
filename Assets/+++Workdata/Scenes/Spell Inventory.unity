@@ -822,6 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7351b7b8a5d676340becfe2307c38bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PauseMenuManager
+  spellMenuContainer: {fileID: 0}
   pauseMenuContainer: {fileID: 578476910}
   inventoryMenuContainer: {fileID: 0}
   optionsMenuContainer: {fileID: 0}
@@ -829,6 +830,8 @@ MonoBehaviour:
   winMenuContainer: {fileID: 0}
   hudContainer: {fileID: 0}
   questLogContainer: {fileID: 0}
+  spellTutorialManager: {fileID: 0}
+  playerInput: {fileID: 0}
 --- !u!1 &178280332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,7 +3357,7 @@ Transform:
   m_GameObject: {fileID: 950718373}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.2, y: 15.02, z: -10}
+  m_LocalPosition: {x: -10.059, y: 15.02, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4012,7 +4015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6513679979285681003, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.2
+      value: -10.059
       objectReference: {fileID: 0}
     - target: {fileID: 6513679979285681003, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6345,6 +6348,10 @@ MonoBehaviour:
   rightImage: {fileID: 1699940408}
   upImage: {fileID: 612106229}
   downImage: {fileID: 1491760904}
+  leftImageHUD: {fileID: 0}
+  rightImageHUD: {fileID: 0}
+  upImageHUD: {fileID: 0}
+  downImageHUD: {fileID: 0}
   arrowPressed: 4
   allSpells:
   - {fileID: 11400000, guid: 111ffdc7d7ea0aa4fb0aea671fd566bb, type: 2}
@@ -8835,7 +8842,7 @@ Transform:
   m_GameObject: {fileID: 2060262966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.2, y: 15.02, z: -10}
+  m_LocalPosition: {x: -10.059, y: 15.02, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
