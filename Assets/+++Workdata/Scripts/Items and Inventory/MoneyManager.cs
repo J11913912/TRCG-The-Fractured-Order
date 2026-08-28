@@ -5,19 +5,26 @@ public class MoneyManager : MonoBehaviour
 {
     public static Action<int> OnMoneyIncrease;
     public static Action<int> OnMoneyDecrease;
+
+    public static Action<int> CurrentPrize;
     
     public int money;
+    public int currentPrize;
+    
+    public DialogueController dialogueController;
 
     private void OnEnable()
     {
         OnMoneyIncrease += MoreMoney;
         OnMoneyDecrease += LessMoney;
+        CurrentPrize += SetCurrentPrize;
     }
 
     private void OnDisable()
     {
         OnMoneyIncrease -= MoreMoney;
         OnMoneyDecrease -= LessMoney;
+        CurrentPrize -= SetCurrentPrize;
     }
 
     private void MoreMoney(int amount)
@@ -33,6 +40,12 @@ public class MoneyManager : MonoBehaviour
         {
             money = 0;
         }
+    }
+
+    private void SetCurrentPrize(int prize)
+    {
+        currentPrize = prize;
+        dialogueController.SetCurrentPrize(currentPrize);
     }
 
     public int ReturnMoney()

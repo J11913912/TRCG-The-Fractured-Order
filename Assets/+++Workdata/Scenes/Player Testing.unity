@@ -2512,6 +2512,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnClose:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 938172601}
+        m_TargetAssemblyTypeName: DialogueBox, Assembly-CSharp
+        m_MethodName: SetContinueOn
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1308866171}
+        m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+        m_MethodName: ContinueDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnEmpty:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7710520141245902137}
+        m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
+        m_MethodName: SetInteractionIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnHighPrizes:
     m_PersistentCalls:
       m_Calls:
@@ -6116,6 +6158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoneyManager
   money: 100
+  currentPrize: 0
+  dialogueController: {fileID: 1308866171}
 --- !u!1001 &649679665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12005,6 +12049,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291125388}
   m_CullTransparentMesh: 1
+--- !u!114 &1308866171 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5037349842770547758, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
+  m_PrefabInstance: {fileID: 449014060}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26b07f293881b040a75f3b0db893bc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueController
 --- !u!1001 &1312156861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19286,30 +19341,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 249700133}
-          m_TargetAssemblyTypeName: ShopInventory, Assembly-CSharp
-          m_MethodName: ToggleActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 938172601}
-          m_TargetAssemblyTypeName: DialogueBox, Assembly-CSharp
-          m_MethodName: SetContinueOn
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
   - name: BuyMana
     onEvent:
       m_PersistentCalls:
@@ -19318,18 +19349,6 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: ShopInventory, Assembly-CSharp
           m_MethodName: CheckMana
           m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 249700133}
-          m_TargetAssemblyTypeName: ShopInventory, Assembly-CSharp
-          m_MethodName: ToggleActive
-          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -19354,18 +19373,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 249700133}
-          m_TargetAssemblyTypeName: ShopInventory, Assembly-CSharp
-          m_MethodName: ToggleActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
   - name: BuySpell
     onEvent:
       m_PersistentCalls:
@@ -19374,18 +19381,6 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: ShopInventory, Assembly-CSharp
           m_MethodName: CheckSpell
           m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 249700133}
-          m_TargetAssemblyTypeName: ShopInventory, Assembly-CSharp
-          m_MethodName: ToggleActive
-          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -19616,6 +19611,23 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: Hoardinger.FirstMeeting
             m_BoolArgument: 1
+          m_CallState: 2
+    nextInteraction: 2
+  - interactionName: 3 Empty
+    onInteracted:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1460619637991900882}
+          m_TargetAssemblyTypeName: InkDialogue, Assembly-CSharp
+          m_MethodName: StartDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Hoardinger.Empty
+            m_BoolArgument: 0
           m_CallState: 2
     nextInteraction: 2
   interactionIndex: 0

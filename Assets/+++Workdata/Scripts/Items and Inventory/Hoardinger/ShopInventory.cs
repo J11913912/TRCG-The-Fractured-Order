@@ -16,6 +16,8 @@ public class ShopInventory : MonoBehaviour
     public UnityEvent OnSpellAttempt;
 
     public UnityEvent OnBackToShop;
+    public UnityEvent OnClose;
+    public UnityEvent OnEmpty;
 
     public UnityEvent OnHighPrizes;
     public UnityEvent OnLowPrizes;
@@ -51,6 +53,7 @@ public class ShopInventory : MonoBehaviour
     private int _defaultPrizeSpell;
 
     public bool isActive = false;
+    private bool _isEmpty = false;
 
     private CanvasGroup _canvasGroup;
 
@@ -86,6 +89,7 @@ public class ShopInventory : MonoBehaviour
     {
         _canvasGroup.alpha = 0;
         isActive = false;
+        OnClose?.Invoke();
     }
 
     public void RollForHigherPrizes()
@@ -125,7 +129,7 @@ public class ShopInventory : MonoBehaviour
                 button1.Select();
                 currentSelectedGameObject = button1.gameObject;
 
-                if (healthPotionsAmount <= 0)
+               if (healthPotionsAmount <= 0)
                 {
                     button2.Select();
                     currentSelectedGameObject = button2.gameObject;
@@ -142,11 +146,13 @@ public class ShopInventory : MonoBehaviour
                             
                             if (_spellAmount <= 0)
                             {
-                               // Close();
+                               Close();
+                               _isEmpty = true;
+                               OnEmpty?.Invoke();
                             }
                         }
-                    }
-                }
+                    } 
+                } 
             }
         }
         
@@ -168,24 +174,28 @@ public class ShopInventory : MonoBehaviour
 
     public void TryHealth()
     {
+        MoneyManager.CurrentPrize?.Invoke(prizeHealthPotions);
         OnHealthAttempt?.Invoke();
         OnHealthAttempt?.Invoke();
     }
 
     public void TryMana()
     {
+        MoneyManager.CurrentPrize?.Invoke(prizeManaPotions);
         OnManaAttempt?.Invoke();
         OnManaAttempt?.Invoke();
     }
 
     public void TryHat()
     {
+        MoneyManager.CurrentPrize?.Invoke(prizeCostumisable);
         OnHatAttempt?.Invoke();
         OnHatAttempt?.Invoke();
     }
 
     public void TrySpell()
     {
+        MoneyManager.CurrentPrize?.Invoke(prizeSpell);
         OnSpellAttempt?.Invoke();
         OnSpellAttempt?.Invoke();
     }

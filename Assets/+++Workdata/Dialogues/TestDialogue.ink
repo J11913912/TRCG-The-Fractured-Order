@@ -20,6 +20,7 @@ Hoardinger: Oh, I'm so sorry, the prizes have gone up today due to... inflation,
 buy health for PRIZE?
 +[Yes]
 ~ Event("BuyHealth")
+~ Event("BackToShop")
 ->Else
 +[No]
 ~ Event("BackToShop")
@@ -29,6 +30,7 @@ buy health for PRIZE?
 buy mana for PRIZE?
 +[Yes]
 ~ Event("BuyMana")
+~ Event("BackToShop")
 ->Else
 +[No]
 ~ Event("BackToShop")
@@ -38,6 +40,7 @@ buy mana for PRIZE?
 buy hat for PRIZE?
 +[Yes]
 ~ Event("BuyHat")
+~ Event("BackToShop")
 ->Else
 +[No]
 ~ Event("BackToShop")
@@ -47,6 +50,7 @@ buy hat for PRIZE?
 buy spell for PRIZE?
 +[Yes]
 ~ Event("BuySpell")
+~ Event("BackToShop")
 ->Else
 +[No]
 ~ Event("BackToShop")
@@ -54,6 +58,10 @@ buy spell for PRIZE?
 
 = Else
 Hoardinger: Anything else you want?
+->END
+
+= Empty
+Hoardinger: Alright, that's it. You've stolen enough of my treasures for today. Go away.
 ->END
 
 = FirstMeeting
