@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1158578619
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4931010075314490978, guid: 8f18631c12677fc42a669a14baa5ab9c, type: 3}
@@ -143,8 +143,6 @@ MonoBehaviour:
   isOpposite: 0
   beam: {fileID: 6384182420330920093}
   newBeam: {fileID: 0}
-  lightOn: {fileID: 0}
-  lightOff: {fileID: 0}
   toggledObject: {fileID: 0}
 --- !u!114 &3219309337331803263
 MonoBehaviour:
@@ -568,8 +566,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1158578619
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -339956051184563833, guid: 8f18631c12677fc42a669a14baa5ab9c, type: 3}

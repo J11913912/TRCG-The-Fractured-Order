@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1970105947187398337}
   - component: {fileID: 5037349842770547758}
+  - component: {fileID: 2011171920999891986}
   m_Layer: 5
   m_Name: DialogueUI
   m_TagString: Untagged
@@ -159,6 +160,29 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5037349842770547758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581485803076861481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26b07f293881b040a75f3b0db893bc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueController
+  inkAssets:
+  - {fileID: 4900000, guid: 56b2498d1680c7646b052d25378f84bc, type: 3}
+  languageIndex: 0
+  dialogueBox: {fileID: 1651734150111200073}
+  onDialogueStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  avatars: []
+--- !u!114 &2011171920999891986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

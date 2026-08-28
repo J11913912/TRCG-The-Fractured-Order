@@ -145,7 +145,7 @@ public class EnemyNavMeshPatrol : MonoBehaviour
                 Debug.Log(_movingDirection);
                 enemyState = EnemyState.Attacking;
                 _rb.linearVelocity = _movingDirection * 7f;
-                StartCoroutine(StunnedCountdown(1.5f));
+                StartCoroutine(StunnedCountdown(3f));
             }
             //else
           //  {
@@ -191,12 +191,9 @@ public class EnemyNavMeshPatrol : MonoBehaviour
 
         if (enemyState == EnemyState.Attacking)
         {
-           UpdateFacingDirection(_lookDirection * -1);
+            UpdateFacingDirection(_;
         }
-        else
-        {
-            UpdateFacingDirection(_lookDirection);
-        }
+        UpdateFacingDirection(_lookDirection);
         //RotateObj(_lookDirection);
     }
 
@@ -333,37 +330,32 @@ public class EnemyNavMeshPatrol : MonoBehaviour
     {
         Debug.Log("hit");
         _hitWall = true;
-        _agent.isStopped = true;
+
         // TODO get facing direction and put vecotr in opposite
         // TODO make him charge through player somehoiw before rounding back on him
 
-        Vector2 pushBack = _rb.linearVelocity;
+        Vector2 pushBack = Vector2.left;
         
         switch (enemyFacingDirection)
         {
             case EnemyFacingDirection.Up:
-
-                pushBack.x *= -1;
+                pushBack = Vector2.down;
                 break;
             
             case EnemyFacingDirection.Down:
-                //pushBack = Vector2.up;
-                pushBack.x *= -1;
+                pushBack = Vector2.up;
                 break;
             
             case EnemyFacingDirection.Left:
-                //pushBack = Vector2.right;
-                pushBack.y *= -1;
+                pushBack = Vector2.right;
                 break;
             
             case EnemyFacingDirection.Right:
-                //pushBack = Vector2.left;
-                pushBack.y *= -1;
+                pushBack = Vector2.left;
                 break;
         }
         
-        
-        _rb.AddForce(pushBack * 5);
+        _rb.linearVelocity = pushBack * 5;
 
         //_rb.constraints = RigidbodyConstraints2D.FreezeAll;
 
@@ -375,7 +367,6 @@ public class EnemyNavMeshPatrol : MonoBehaviour
         yield return new WaitForSeconds(time);
         _hitWall = false;
         _rb.linearVelocity = Vector2.zero;
-        _agent.isStopped = false;
     }
     
     #endregion

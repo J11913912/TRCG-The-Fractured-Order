@@ -19,7 +19,6 @@ public class DialogueBox : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
 
     [SerializeField] private Button continueButton;
-    public bool continueOn = true;
 
     [SerializeField] private GameObject avatarContainer;
     [SerializeField] private Image avatarImage;
@@ -56,11 +55,6 @@ public class DialogueBox : MonoBehaviour
     }
 
     #endregion
-
-    public void SetContinueOn(bool value)
-    {
-        continueOn = value;
-    }
 
     public void DisplayText(DialogueLine line)
     {
@@ -113,11 +107,7 @@ public class DialogueBox : MonoBehaviour
             newSelection = choiceButtons[0];
         }
 
-        if (continueOn)
-        {
-            StartCoroutine(DelayedSelect(newSelection));
-        }
-
+        StartCoroutine(DelayedSelect(newSelection));
     }
 
     private IEnumerator DelayedSelect(Selectable newSelection)

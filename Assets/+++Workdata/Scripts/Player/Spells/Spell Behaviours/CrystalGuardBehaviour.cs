@@ -36,11 +36,6 @@ public class CrystalGuardBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)                                                                     // destroy on contact
     {
-        if (other.CompareTag("Light"))
-        {
-            return;
-        }
-        
         _animator.SetTrigger(Hash_ActionTrigger);
         _animator.SetInteger(Hash_ActionID, 100);
     }

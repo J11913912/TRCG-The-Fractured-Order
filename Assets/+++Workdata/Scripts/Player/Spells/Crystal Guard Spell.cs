@@ -37,33 +37,12 @@ public class CrystalGuardSpell : MonoBehaviour
 
     public SpellDefinition spell;
 
-    private bool _nearSeedbed = false;
-    private GameObject _currentSeedbed;
-
     private void Awake()
     {
         _playerAnimation = GetComponent<PlayerAnimation>();
         _playerInput = GetComponent<PlayerInput>();
         _playerState =  GetComponent<PlayerStates>();
         _manaManager = GetComponent<ManaManager>();
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.GetComponent<ToggleWall>())
-        {
-            _nearSeedbed = true;
-            _currentSeedbed = other.gameObject;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.GetComponent<ToggleWall>())
-        {
-            _nearSeedbed = false;
-            _currentSeedbed = null;
-        }
     }
 
     private void OnEnable()
@@ -82,15 +61,8 @@ public class CrystalGuardSpell : MonoBehaviour
         OnCooledDown -= EndCooldown;
     }
 
-    private void PuzzleWall()
-    {
-        if (!_nearSeedbed) return;
-        
-        _currentSeedbed.GetComponent<ToggleWall>().Toggle();
-    }
-
     private void Cast()                                                                                                 // on input
-    {
+    { 
         if (_bubbleOn) return;
         
         if (_isCooling) return;
@@ -104,14 +76,6 @@ public class CrystalGuardSpell : MonoBehaviour
 
     public void SpawnBubble()                                                                                           // triggered via animation event
     {
-        if (_nearSeedbed)
-        {
-            PuzzleWall();
-            _isCooling = true;
-            SpellCooldownManager.OnStartCooldown?.Invoke(spell);
-            return;
-        }
-        
         if (!_isActive) return;
 
         if (_shield != null)

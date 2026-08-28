@@ -3,18 +3,18 @@ using UnityEngine;
 
 public class WallManager : MonoBehaviour
 {
-    //public static Action SetWallOff;
+    public static Action SetWallOff;
     public static Action SetWallOn;
 
     private void OnEnable()
     {
-       // SetWallOff += WallOff;
+        SetWallOff += WallOff;
         SetWallOn += WallOn;
     }
 
     private void OnDisable()
     {
-       // SetWallOff -= WallOff;
+        SetWallOff -= WallOff;
         SetWallOn -= WallOn;
     }
 

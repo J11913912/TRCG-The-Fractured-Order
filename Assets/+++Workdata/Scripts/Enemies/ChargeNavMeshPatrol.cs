@@ -49,7 +49,6 @@ public class ChargeNavMeshPatrol : MonoBehaviour
     public bool isTumbleweed = false;
     
     public bool notCharging = true;
-    public int random;
     
     #endregion
     
@@ -70,7 +69,6 @@ public class ChargeNavMeshPatrol : MonoBehaviour
 
     private Coroutine _attackCoroutine;
     private Coroutine _aggroCoroutine;
-    private Coroutine _chargingCoroutine;
     private Coroutine _newWaitpoint;
 
     private Vector2 _lookDirection;
@@ -101,7 +99,6 @@ public class ChargeNavMeshPatrol : MonoBehaviour
         yield return new WaitForSeconds(chargeCooldown);
         notCharging = true;
         OnAttack?.Invoke();
-        ResumePatrol();
     }
 
     private void Update()
@@ -110,15 +107,14 @@ public class ChargeNavMeshPatrol : MonoBehaviour
         {
             if (notCharging)
             {
-                if (_chargingCoroutine != null) return;
-                _chargingCoroutine = StartCoroutine(DecideToCharge());
+                notCharging = false;
+                StartCoroutine(Charge());
             }
         }
 
         if (!_agent.isStopped && enemyState != EnemyState.Chasing && enemyState != EnemyState.Attacking)
         {
             CheckIfWaypointIsReached();
-            StopCoroutine(DecideToCharge());
         }
         else if (!_agent.isStopped && enemyState == EnemyState.Chasing)
         {
@@ -284,7 +280,6 @@ public class ChargeNavMeshPatrol : MonoBehaviour
 
     private void CheckIfWaypointIsReached()
     {
-        if (!notCharging) return;
         if (_isWaiting) return;
         if (_agent.pathPending) return;
 
@@ -337,7 +332,9 @@ public class ChargeNavMeshPatrol : MonoBehaviour
     public void EnterAggroDistance()
     {
         _canAttack  = true;
-       // StopPatrol();
+        
+        StopPatrol();
+        
     }
 
     public void ExitAggroDistance()
@@ -345,28 +342,6 @@ public class ChargeNavMeshPatrol : MonoBehaviour
         _canAttack = false;
         StopCoroutine(Charge());
         ResumePatrol();
-    }
-
-    private IEnumerator DecideToCharge()
-    {
-        yield return new WaitForSeconds(3f);
-        
-        random = Random.Range(0, 4);
-        Debug.Log(random);
-        if (random == 0)
-        {
-            notCharging = false;
-            StopPatrol();
-            StartCoroutine(Charge());
-        }
-        else
-        {
-            ResumePatrol();
-            notCharging = true;
-        }
-        
-        _chargingCoroutine = null;
-
     }
 
     #endregion
