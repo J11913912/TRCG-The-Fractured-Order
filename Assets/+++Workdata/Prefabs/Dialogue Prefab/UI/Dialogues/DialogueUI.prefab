@@ -1084,10 +1084,11 @@ MonoBehaviour:
   dialogueSpeaker: {fileID: 3019389494374653113}
   dialogueText: {fileID: 8810099341096493347}
   continueButton: {fileID: 7891727869785155778}
+  continueOn: 0
   avatarContainer: {fileID: 1770006074643102108}
   avatarImage: {fileID: 822292285844576981}
   choicesContainer: {fileID: 7485599463725279289}
-  choiceButtonPrefab: {fileID: 19742906497832027}
+  choiceButtonPrefab: {fileID: 752370701486354290, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}
 --- !u!1001 &736005640742402857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1233,17 +1234,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}
---- !u!114 &19742906497832027 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 752370701486354290, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}
-  m_PrefabInstance: {fileID: 736005640742402857}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &2091093181369905852 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1671925147753843093, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}

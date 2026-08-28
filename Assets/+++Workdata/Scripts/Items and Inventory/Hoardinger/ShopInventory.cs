@@ -1,12 +1,25 @@
 using System;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class ShopInventory : MonoBehaviour
 {
+    public UnityEvent OnHealthAttempt;
+    public UnityEvent OnManaAttempt;
+    public UnityEvent OnHatAttempt;
+    public UnityEvent OnSpellAttempt;
+
+    public UnityEvent OnBackToShop;
+
+    public UnityEvent OnHighPrizes;
+    public UnityEvent OnLowPrizes;
+    
     public int healthPotionsAmount;
     public int manaPotionsAmount;
 
@@ -20,31 +33,120 @@ public class ShopInventory : MonoBehaviour
     
     public TextMeshProUGUI description;
 
-    public Button button;
+    public Button button1;
+    public Button button2;
+    public Button button3;
+    public Button button4;
 
+    public MoneyManager moneyManager;
+    
     public int prizeHealthPotions;
     public int prizeManaPotions;
     public int prizeCostumisable;
     public int prizeSpell;
 
+    private int _defaultPrizeHealth;
+    private int _defaultPrizeMana;
+    private int _defaultPrizeHat;
+    private int _defaultPrizeSpell;
+
+    public bool isActive = false;
+
+    private CanvasGroup _canvasGroup;
+
+    private void Awake()
+    {
+        _canvasGroup = GetComponent<CanvasGroup>();
+
+        _defaultPrizeHealth = prizeHealthPotions;
+        _defaultPrizeMana = prizeManaPotions;
+        _defaultPrizeHat = prizeCostumisable;
+        _defaultPrizeSpell = prizeSpell;
+    }
+
 
     private void OnEnable()
     {
-        button.Select();
-        
         // TODO make it when talking to hoardinger only
         // TODO make sure the spell casting via arrow keys only happens when not in menus
     }
 
     public void Focus()
     {
-        Debug.Log("selcted buttox9rafwrdfgijuhrde");
-        button.Select();
+        button1.Select();
+    }
+
+    public void PopUp()
+    {
+        _canvasGroup.alpha = 1;
+        isActive = true;
+    }
+
+    public void Close()
+    {
+        _canvasGroup.alpha = 0;
+        isActive = false;
+    }
+
+    public void RollForHigherPrizes()
+    {
+        prizeHealthPotions = _defaultPrizeHealth;
+        prizeManaPotions = _defaultPrizeMana;
+        prizeCostumisable = _defaultPrizeHat;
+        prizeSpell = _defaultPrizeSpell;
+        
+        int random = Random.Range(0, 5);
+
+        if (random == 1)
+        {
+            prizeHealthPotions = 10;
+            prizeManaPotions = 14;
+            prizeCostumisable = 30;
+            prizeSpell = 50;
+            
+            OnHighPrizes?.Invoke();
+        }
+        else
+        {
+            OnLowPrizes?.Invoke();
+        }
     }
 
     private void Update()
     {
-        Debug.Log(EventSystem.current.currentSelectedGameObject);
+        if (isActive)
+        {
+             GameObject currentSelectedGameObject = EventSystem.current.currentSelectedGameObject;
+            
+            if (currentSelectedGameObject != button2.gameObject && currentSelectedGameObject != button3.gameObject && currentSelectedGameObject != button4.gameObject)
+            {
+                button1.Select();
+                currentSelectedGameObject = button1.gameObject;
+
+                if (healthPotionsAmount <= 0)
+                {
+                    button2.Select();
+                    currentSelectedGameObject = button2.gameObject;
+                    
+                    if (manaPotionsAmount <= 0)
+                    {
+                        button3.Select();
+                        currentSelectedGameObject = button3.gameObject;
+                        
+                        if (_costumisableAmount <= 0)
+                        {
+                            button4.Select();
+                            currentSelectedGameObject = button4.gameObject;
+                            
+                            if (_spellAmount <= 0)
+                            {
+                                Close();
+                            }
+                        }
+                    }
+                }
+            }
+        }
         
         healthPotionsText.SetText(healthPotionsAmount.ToString());
         manaPotionsText.SetText(manaPotionsAmount.ToString());
@@ -52,38 +154,122 @@ public class ShopInventory : MonoBehaviour
         spellText.SetText(_spellAmount.ToString());
     }
 
+    public void ToggleActive(bool value)
+    {
+        isActive = false;
+    }
+
+    public void ToggleActiveON()
+    {
+        isActive = true;
+    }
+
+    public void TryHealth()
+    {
+        OnHealthAttempt?.Invoke();
+        OnHealthAttempt?.Invoke();
+    }
+
+    public void TryMana()
+    {
+        OnManaAttempt?.Invoke();
+        OnManaAttempt?.Invoke();
+    }
+
+    public void TryHat()
+    {
+        OnHatAttempt?.Invoke();
+        OnHatAttempt?.Invoke();
+    }
+
+    public void TrySpell()
+    {
+        OnSpellAttempt?.Invoke();
+        OnSpellAttempt?.Invoke();
+    }
+
+    public void CheckHealth()
+    {
+        if (moneyManager.ReturnMoney() >= prizeHealthPotions)
+        {
+            ChangeHealthPotions(-1);
+            MoneyManager.OnMoneyDecrease?.Invoke(prizeHealthPotions);
+        }
+    }
+
+    public void CheckMana()
+    {
+        if (moneyManager.ReturnMoney() >= prizeManaPotions)
+        {
+            ChangeManaPotions(-1);
+            MoneyManager.OnMoneyDecrease?.Invoke(prizeManaPotions);
+        }
+    }
+
+    public void CheckHat()
+    {
+        if (moneyManager.ReturnMoney() >= prizeCostumisable)
+        {
+            BoughtCostumisable();
+            MoneyManager.OnMoneyDecrease?.Invoke(prizeCostumisable);
+        }
+    }
+
+    public void CheckSpell()
+    {
+        if (moneyManager.ReturnMoney() >= prizeSpell)
+        {
+            BoughtSpell();
+            MoneyManager.OnMoneyDecrease?.Invoke(prizeSpell);
+        }
+    }
+    
     public void ChangeHealthPotions(int amount)
     {
         healthPotionsAmount += amount;
+        
+        GoBackToShop();
 
-        if (healthPotionsAmount >= 0)
+        if (healthPotionsAmount <= 0)
         {
-            // disable
+            button1.interactable = false;
         }
+        
     }
 
     public void ChangeManaPotions(int amount)
     {
         manaPotionsAmount += amount;
-        
-        if (manaPotionsAmount >= 0)
+
+        if (manaPotionsAmount <= 0)
         {
-            // disable
+            button2.interactable = false;
         }
+        
+        GoBackToShop();
     }
 
     public void BoughtCostumisable()
     {
         _costumisableAmount = 0;
+
+        button3.interactable = false;
         
-        // disable
+        GoBackToShop();
     }
 
     public void BoughtSpell()
     {
         _spellAmount = 0;
+
+        button4.interactable = false;
         
-        // disable
+        GoBackToShop();
+    }
+
+    public void GoBackToShop()
+    {
+        OnBackToShop?.Invoke();
     }
 
     public void SetDescription(string desc)
