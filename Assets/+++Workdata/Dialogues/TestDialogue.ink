@@ -60,6 +60,10 @@ buy spell for PRIZE?
 Hoardinger: Anything else you want?
 ->END
 
+= Bye
+Hoardinger: Hope your not coming back too soon!
+->END 
+
 = Empty
 Hoardinger: Alright, that's it. You've stolen enough of my treasures for today. Go away.
 ->END

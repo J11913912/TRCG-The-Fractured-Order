@@ -49,6 +49,14 @@ public class SpellButtonSetter : MonoBehaviour
     public void SpellMenuToggled(bool value)
     {
         spellMenuOn = value;
+        if (value)
+        {
+            SpellEquipping.OnMenuActive?.Invoke(true);
+        }
+        else
+        {
+            SpellEquipping.OnMenuActive?.Invoke(false);
+        }
     }
     public void GetId() // on click
     {

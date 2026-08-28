@@ -39,6 +39,7 @@ public class ShopInventory : MonoBehaviour
     public Button button2;
     public Button button3;
     public Button button4;
+    public Button backButton;
 
     public MoneyManager moneyManager;
     
@@ -65,13 +66,6 @@ public class ShopInventory : MonoBehaviour
         _defaultPrizeMana = prizeManaPotions;
         _defaultPrizeHat = prizeCostumisable;
         _defaultPrizeSpell = prizeSpell;
-    }
-
-
-    private void OnEnable()
-    {
-        // TODO make it when talking to hoardinger only
-        // TODO make sure the spell casting via arrow keys only happens when not in menus
     }
 
     public void Focus()
@@ -124,7 +118,7 @@ public class ShopInventory : MonoBehaviour
         {
              GameObject currentSelectedGameObject = EventSystem.current.currentSelectedGameObject;
             
-            if (currentSelectedGameObject != button2.gameObject && currentSelectedGameObject != button3.gameObject && currentSelectedGameObject != button4.gameObject)
+            if (currentSelectedGameObject != button2.gameObject && currentSelectedGameObject != button3.gameObject && currentSelectedGameObject != button4.gameObject &&  currentSelectedGameObject != backButton.gameObject)
             {
                 button1.Select();
                 currentSelectedGameObject = button1.gameObject;

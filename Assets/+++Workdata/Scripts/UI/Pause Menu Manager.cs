@@ -110,6 +110,8 @@ public class PauseMenuManager : MonoBehaviour
                _menuAlreadyOpen = true;
            
                _currentMenu = spellMenuContainer;
+               
+               SpellEquipping.OnMenuActive?.Invoke(true);
            }
            
            else if (_isPaused)
@@ -122,6 +124,8 @@ public class PauseMenuManager : MonoBehaviour
                Time.timeScale = 1;
                _isPaused = false;
                _menuAlreadyOpen = false;
+               
+               SpellEquipping.OnMenuActive?.Invoke(false);
            }
        }
        
