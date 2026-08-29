@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: d268242c2471071418beda3c2e85b088
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5363117312583489105
+    second: Player Animations Projectile Base Customizable-Sheet_0
+  - first:
+      213: -6475860917597002051
+    second: Player Animations Projectile Base Customizable-Sheet_1
+  - first:
+      213: 4134288048285427961
+    second: Player Animations Projectile Base Customizable-Sheet_2
+  - first:
+      213: -9150639388877078242
+    second: Player Animations Projectile Base Customizable-Sheet_3
+  - first:
+      213: -8270451150551215311
+    second: Player Animations Projectile Base Customizable-Sheet_4
+  - first:
+      213: -3058899722729462830
+    second: Player Animations Projectile Base Customizable-Sheet_5
+  - first:
+      213: -7759242942719026253
+    second: Player Animations Projectile Base Customizable-Sheet_6
+  - first:
+      213: 6017580129928020617
+    second: Player Animations Projectile Base Customizable-Sheet_7
+  - first:
+      213: 6189977876860626415
+    second: Player Animations Projectile Base Customizable-Sheet_8
+  - first:
+      213: 1587487037477627263
+    second: Player Animations Projectile Base Customizable-Sheet_9
+  - first:
+      213: -8890870075975662589
+    second: Player Animations Projectile Base Customizable-Sheet_10
+  - first:
+      213: -5425038875761414314
+    second: Player Animations Projectile Base Customizable-Sheet_11
+  - first:
+      213: -4725487986562147042
+    second: Player Animations Projectile Base Customizable-Sheet_12
+  - first:
+      213: -576033221963140210
+    second: Player Animations Projectile Base Customizable-Sheet_13
+  - first:
+      213: -1275771664346497051
+    second: Player Animations Projectile Base Customizable-Sheet_14
+  - first:
+      213: -7543422007478737830
+    second: Player Animations Projectile Base Customizable-Sheet_15
+  - first:
+      213: 4628077239511075401
+    second: Player Animations Projectile Base Customizable-Sheet_16
+  - first:
+      213: -6345756053437446012
+    second: Player Animations Projectile Base Customizable-Sheet_17
+  - first:
+      213: 3282119871694374718
+    second: Player Animations Projectile Base Customizable-Sheet_18
+  - first:
+      213: 8544209764742754408
+    second: Player Animations Projectile Base Customizable-Sheet_19
+  - first:
+      213: 351926275375301935
+    second: Player Animations Projectile Base Customizable-Sheet_20
+  - first:
+      213: -5978404609198056760
+    second: Player Animations Projectile Base Customizable-Sheet_21
+  - first:
+      213: 8042000908515401107
+    second: Player Animations Projectile Base Customizable-Sheet_22
+  - first:
+      213: -6468748552712388345
+    second: Player Animations Projectile Base Customizable-Sheet_23
+  - first:
+      213: -885438935067576748
+    second: Player Animations Projectile Base Customizable-Sheet_24
+  - first:
+      213: -2318451814266570203
+    second: Player Animations Projectile Base Customizable-Sheet_25
+  - first:
+      213: 8722330247731435755
+    second: Player Animations Projectile Base Customizable-Sheet_26
+  - first:
+      213: 5534223771815542567
+    second: Player Animations Projectile Base Customizable-Sheet_27
+  - first:
+      213: 7837044987372411570
+    second: Player Animations Projectile Base Customizable-Sheet_28
+  - first:
+      213: -6289997049531501740
+    second: Player Animations Projectile Base Customizable-Sheet_29
+  - first:
+      213: -1483375256993753813
+    second: Player Animations Projectile Base Customizable-Sheet_30
+  - first:
+      213: 3047887399436470018
+    second: Player Animations Projectile Base Customizable-Sheet_31
+  - first:
+      213: 1222952916223859823
+    second: Player Animations Projectile Base Customizable-Sheet_32
+  - first:
+      213: 5678290403298581741
+    second: Player Animations Projectile Base Customizable-Sheet_33
+  - first:
+      213: -4483812571151670560
+    second: Player Animations Projectile Base Customizable-Sheet_34
+  - first:
+      213: -3757407319636967921
+    second: Player Animations Projectile Base Customizable-Sheet_35
+  - first:
+      213: 634977827292466804
+    second: Player Animations Projectile Base Customizable-Sheet_36
+  - first:
+      213: 9120679708689758656
+    second: Player Animations Projectile Base Customizable-Sheet_37
+  - first:
+      213: 8954667229579945450
+    second: Player Animations Projectile Base Customizable-Sheet_38
+  - first:
+      213: 7770229264163919866
+    second: Player Animations Projectile Base Customizable-Sheet_39
+  - first:
+      213: -342570193298884748
+    second: Player Animations Projectile Base Customizable-Sheet_40
+  - first:
+      213: 4996202650059354445
+    second: Player Animations Projectile Base Customizable-Sheet_41
+  - first:
+      213: -6687275125973525549
+    second: Player Animations Projectile Base Customizable-Sheet_42
+  - first:
+      213: 8849562869991632655
+    second: Player Animations Projectile Base Customizable-Sheet_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1565941e7ce9d6a40800000000000000
+      internalID: 5363117312583489105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6abc75ece1126a0800000000000000
+      internalID: -6475860917597002051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f822355311ff5930800000000000000
+      internalID: 4134288048285427961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11c84e35f5620180800000000000000
+      internalID: -9150639388877078242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1339c2f4f74793d80800000000000000
+      internalID: -8270451150551215311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d36b2fa8ea9c85d0800000000000000
+      internalID: -3058899722729462830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb964167a1a15490800000000000000
+      internalID: -7759242942719026253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9820fc3ee3db28350800000000000000
+      internalID: 6017580129928020617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5edc5451837e550800000000000000
+      internalID: 6189977876860626415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75246abc03e70610800000000000000
+      internalID: 1587487037477627263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304025195c84d9480800000000000000
+      internalID: -8890870075975662589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f6e85b2e366b4b0800000000000000
+      internalID: -5425038875761414314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d569286b1bb6eb0800000000000000
+      internalID: -4725487986562147042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83301a26d48108f0800000000000000
+      internalID: -576033221963140210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef3e1c3e6c8b4ee0800000000000000
+      internalID: -1275771664346497051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54ad55a6a1605790800000000000000
+      internalID: -7543422007478737830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ac02e8abb3a3040800000000000000
+      internalID: 4628077239511075401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488839b9d785fe7a0800000000000000
+      internalID: -6345756053437446012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37089642ae6c8d20800000000000000
+      internalID: 3282119871694374718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8607ae90381239670800000000000000
+      internalID: 8544209764742754408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f250fd6351b42e400800000000000000
+      internalID: 351926275375301935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca1131dea0780da0800000000000000
+      internalID: -5978404609198056760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ddd6bc73dea9f60800000000000000
+      internalID: 8042000908515401107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7018146d6736a36a0800000000000000
+      internalID: -6468748552712388345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4563ff4daf946b3f0800000000000000
+      internalID: -885438935067576748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52af7cdcb5433dfd0800000000000000
+      internalID: -2318451814266570203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be85dadb521fb0970800000000000000
+      internalID: 8722330247731435755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f769ae2338dcc40800000000000000
+      internalID: 5534223771815542567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba9611c4e6c2cc60800000000000000
+      internalID: 7837044987372411570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4537b60620175b8a0800000000000000
+      internalID: -6289997049531501740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b259842201ef96be0800000000000000
+      internalID: -1483375256993753813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207cccef0754c4a20800000000000000
+      internalID: 3047887399436470018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c1d84a23dc8f010800000000000000
+      internalID: 1222952916223859823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1f1479075dce40800000000000000
+      internalID: 5678290403298581741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2e219093c46c1c0800000000000000
+      internalID: -4483812571151670560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ef59c43f10bdbc0800000000000000
+      internalID: -3757407319636967921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e440c38f4efc800800000000000000
+      internalID: 634977827292466804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9f0922fd9239e70800000000000000
+      internalID: 9120679708689758656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5a1f4c66e554c70800000000000000
+      internalID: 8954667229579945450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7d5d9e85665db60800000000000000
+      internalID: 7770229264163919866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47778c56932fe3bf0800000000000000
+      internalID: -342570193298884748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4137a6d6d3165540800000000000000
+      internalID: 4996202650059354445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbda0124b60233a0800000000000000
+      internalID: -6687275125973525549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Projectile Base Customizable-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f66531b86ffca70800000000000000
+      internalID: 8849562869991632655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 84bc2ef181564b549a5fdb30974c31c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4921875,"y":0.1640625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player Animations Projectile Base Customizable-Sheet_0: 5363117312583489105
+      Player Animations Projectile Base Customizable-Sheet_1: -6475860917597002051
+      Player Animations Projectile Base Customizable-Sheet_10: -8890870075975662589
+      Player Animations Projectile Base Customizable-Sheet_11: -5425038875761414314
+      Player Animations Projectile Base Customizable-Sheet_12: -4725487986562147042
+      Player Animations Projectile Base Customizable-Sheet_13: -576033221963140210
+      Player Animations Projectile Base Customizable-Sheet_14: -1275771664346497051
+      Player Animations Projectile Base Customizable-Sheet_15: -7543422007478737830
+      Player Animations Projectile Base Customizable-Sheet_16: 4628077239511075401
+      Player Animations Projectile Base Customizable-Sheet_17: -6345756053437446012
+      Player Animations Projectile Base Customizable-Sheet_18: 3282119871694374718
+      Player Animations Projectile Base Customizable-Sheet_19: 8544209764742754408
+      Player Animations Projectile Base Customizable-Sheet_2: 4134288048285427961
+      Player Animations Projectile Base Customizable-Sheet_20: 351926275375301935
+      Player Animations Projectile Base Customizable-Sheet_21: -5978404609198056760
+      Player Animations Projectile Base Customizable-Sheet_22: 8042000908515401107
+      Player Animations Projectile Base Customizable-Sheet_23: -6468748552712388345
+      Player Animations Projectile Base Customizable-Sheet_24: -885438935067576748
+      Player Animations Projectile Base Customizable-Sheet_25: -2318451814266570203
+      Player Animations Projectile Base Customizable-Sheet_26: 8722330247731435755
+      Player Animations Projectile Base Customizable-Sheet_27: 5534223771815542567
+      Player Animations Projectile Base Customizable-Sheet_28: 7837044987372411570
+      Player Animations Projectile Base Customizable-Sheet_29: -6289997049531501740
+      Player Animations Projectile Base Customizable-Sheet_3: -9150639388877078242
+      Player Animations Projectile Base Customizable-Sheet_30: -1483375256993753813
+      Player Animations Projectile Base Customizable-Sheet_31: 3047887399436470018
+      Player Animations Projectile Base Customizable-Sheet_32: 1222952916223859823
+      Player Animations Projectile Base Customizable-Sheet_33: 5678290403298581741
+      Player Animations Projectile Base Customizable-Sheet_34: -4483812571151670560
+      Player Animations Projectile Base Customizable-Sheet_35: -3757407319636967921
+      Player Animations Projectile Base Customizable-Sheet_36: 634977827292466804
+      Player Animations Projectile Base Customizable-Sheet_37: 9120679708689758656
+      Player Animations Projectile Base Customizable-Sheet_38: 8954667229579945450
+      Player Animations Projectile Base Customizable-Sheet_39: 7770229264163919866
+      Player Animations Projectile Base Customizable-Sheet_4: -8270451150551215311
+      Player Animations Projectile Base Customizable-Sheet_40: -342570193298884748
+      Player Animations Projectile Base Customizable-Sheet_41: 4996202650059354445
+      Player Animations Projectile Base Customizable-Sheet_42: -6687275125973525549
+      Player Animations Projectile Base Customizable-Sheet_43: 8849562869991632655
+      Player Animations Projectile Base Customizable-Sheet_5: -3058899722729462830
+      Player Animations Projectile Base Customizable-Sheet_6: -7759242942719026253
+      Player Animations Projectile Base Customizable-Sheet_7: 6017580129928020617
+      Player Animations Projectile Base Customizable-Sheet_8: 6189977876860626415
+      Player Animations Projectile Base Customizable-Sheet_9: 1587487037477627263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

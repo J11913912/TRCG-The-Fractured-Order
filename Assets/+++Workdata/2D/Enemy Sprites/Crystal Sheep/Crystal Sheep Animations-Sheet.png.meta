@@ -1,0 +1,2996 @@
+fileFormatVersion: 2
+guid: f6007849261c14b4ea1a877cefe40573
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4631245431989132650
+    second: Crystal Sheep Animations-Sheet_0
+  - first:
+      213: -8465576320467838894
+    second: Crystal Sheep Animations-Sheet_1
+  - first:
+      213: -7145973451902648159
+    second: Crystal Sheep Animations-Sheet_2
+  - first:
+      213: -4932252758503890399
+    second: Crystal Sheep Animations-Sheet_3
+  - first:
+      213: -1705574708279222173
+    second: Crystal Sheep Animations-Sheet_4
+  - first:
+      213: -4038602226634378402
+    second: Crystal Sheep Animations-Sheet_5
+  - first:
+      213: 3389616664489108096
+    second: Crystal Sheep Animations-Sheet_6
+  - first:
+      213: 7359934050459831696
+    second: Crystal Sheep Animations-Sheet_7
+  - first:
+      213: 3678448626612343643
+    second: Crystal Sheep Animations-Sheet_8
+  - first:
+      213: 6942294322965605742
+    second: Crystal Sheep Animations-Sheet_9
+  - first:
+      213: 6163699969478755257
+    second: Crystal Sheep Animations-Sheet_10
+  - first:
+      213: -1479511956425742866
+    second: Crystal Sheep Animations-Sheet_11
+  - first:
+      213: 8894108841193741115
+    second: Crystal Sheep Animations-Sheet_12
+  - first:
+      213: 3550707498307011368
+    second: Crystal Sheep Animations-Sheet_13
+  - first:
+      213: 1861404701544324978
+    second: Crystal Sheep Animations-Sheet_14
+  - first:
+      213: -602256728470450564
+    second: Crystal Sheep Animations-Sheet_15
+  - first:
+      213: 4639775652932219138
+    second: Crystal Sheep Animations-Sheet_16
+  - first:
+      213: -6668079020379036560
+    second: Crystal Sheep Animations-Sheet_17
+  - first:
+      213: -2460007270802508126
+    second: Crystal Sheep Animations-Sheet_18
+  - first:
+      213: 6150577165568572065
+    second: Crystal Sheep Animations-Sheet_19
+  - first:
+      213: 8867947974833522253
+    second: Crystal Sheep Animations-Sheet_20
+  - first:
+      213: 8677711568053910389
+    second: Crystal Sheep Animations-Sheet_21
+  - first:
+      213: 7668266953063163147
+    second: Crystal Sheep Animations-Sheet_22
+  - first:
+      213: -2763674994686290969
+    second: Crystal Sheep Animations-Sheet_23
+  - first:
+      213: -6336630526505856558
+    second: Crystal Sheep Animations-Sheet_24
+  - first:
+      213: 771455642770312114
+    second: Crystal Sheep Animations-Sheet_25
+  - first:
+      213: -4891445580347964408
+    second: Crystal Sheep Animations-Sheet_26
+  - first:
+      213: -7976408239805349199
+    second: Crystal Sheep Animations-Sheet_27
+  - first:
+      213: -7809432606395020800
+    second: Crystal Sheep Animations-Sheet_28
+  - first:
+      213: 8800067233510831693
+    second: Crystal Sheep Animations-Sheet_29
+  - first:
+      213: -5480154998340050250
+    second: Crystal Sheep Animations-Sheet_30
+  - first:
+      213: -5209578108738558759
+    second: Crystal Sheep Animations-Sheet_31
+  - first:
+      213: 4502159085178875646
+    second: Crystal Sheep Animations-Sheet_32
+  - first:
+      213: 970679027399950937
+    second: Crystal Sheep Animations-Sheet_33
+  - first:
+      213: -5250213934921172869
+    second: Crystal Sheep Animations-Sheet_34
+  - first:
+      213: -7599241678700672705
+    second: Crystal Sheep Animations-Sheet_35
+  - first:
+      213: -6137150917805383137
+    second: Crystal Sheep Animations-Sheet_36
+  - first:
+      213: 3464608991667050409
+    second: Crystal Sheep Animations-Sheet_37
+  - first:
+      213: 2773384986791597530
+    second: Crystal Sheep Animations-Sheet_38
+  - first:
+      213: 7089651615377997698
+    second: Crystal Sheep Animations-Sheet_39
+  - first:
+      213: 4873654655640418286
+    second: Crystal Sheep Animations-Sheet_40
+  - first:
+      213: 8781919391166057667
+    second: Crystal Sheep Animations-Sheet_41
+  - first:
+      213: -2852495350689490708
+    second: Crystal Sheep Animations-Sheet_42
+  - first:
+      213: -5131323417414905313
+    second: Crystal Sheep Animations-Sheet_43
+  - first:
+      213: -9205655694348236812
+    second: Crystal Sheep Animations-Sheet_44
+  - first:
+      213: 2038055922447651979
+    second: Crystal Sheep Animations-Sheet_45
+  - first:
+      213: 6523512272071317905
+    second: Crystal Sheep Animations-Sheet_46
+  - first:
+      213: -1626538119280703301
+    second: Crystal Sheep Animations-Sheet_47
+  - first:
+      213: -7211542409815707388
+    second: Crystal Sheep Animations-Sheet_48
+  - first:
+      213: -7566531088897520051
+    second: Crystal Sheep Animations-Sheet_49
+  - first:
+      213: 139157623577257864
+    second: Crystal Sheep Animations-Sheet_50
+  - first:
+      213: 4312229805022599639
+    second: Crystal Sheep Animations-Sheet_51
+  - first:
+      213: -8193327935582694466
+    second: Crystal Sheep Animations-Sheet_52
+  - first:
+      213: 6082235982738388702
+    second: Crystal Sheep Animations-Sheet_53
+  - first:
+      213: -3101563472683728987
+    second: Crystal Sheep Animations-Sheet_54
+  - first:
+      213: -5001573340562774925
+    second: Crystal Sheep Animations-Sheet_55
+  - first:
+      213: -3675187157255027764
+    second: Crystal Sheep Animations-Sheet_56
+  - first:
+      213: 2256851052532208044
+    second: Crystal Sheep Animations-Sheet_57
+  - first:
+      213: -7609050991807711747
+    second: Crystal Sheep Animations-Sheet_58
+  - first:
+      213: 1253949567682503901
+    second: Crystal Sheep Animations-Sheet_59
+  - first:
+      213: 4974272214042743681
+    second: Crystal Sheep Animations-Sheet_60
+  - first:
+      213: 8474723024522892827
+    second: Crystal Sheep Animations-Sheet_61
+  - first:
+      213: -4581127602772109636
+    second: Crystal Sheep Animations-Sheet_62
+  - first:
+      213: -492794303121412403
+    second: Crystal Sheep Animations-Sheet_63
+  - first:
+      213: -5296945054272349281
+    second: Crystal Sheep Animations-Sheet_64
+  - first:
+      213: 4243293575066351482
+    second: Crystal Sheep Animations-Sheet_65
+  - first:
+      213: 6162368350109628382
+    second: Crystal Sheep Animations-Sheet_66
+  - first:
+      213: -233758543641256492
+    second: Crystal Sheep Animations-Sheet_67
+  - first:
+      213: 1912723496742190358
+    second: Crystal Sheep Animations-Sheet_68
+  - first:
+      213: 1213692831418745171
+    second: Crystal Sheep Animations-Sheet_69
+  - first:
+      213: 7770428131858770251
+    second: Crystal Sheep Animations-Sheet_70
+  - first:
+      213: -1903264696830580858
+    second: Crystal Sheep Animations-Sheet_71
+  - first:
+      213: -1436837845804400979
+    second: Crystal Sheep Animations-Sheet_72
+  - first:
+      213: -882988045983587370
+    second: Crystal Sheep Animations-Sheet_73
+  - first:
+      213: 5321417993044719256
+    second: Crystal Sheep Animations-Sheet_74
+  - first:
+      213: -9220289182910374792
+    second: Crystal Sheep Animations-Sheet_75
+  - first:
+      213: -2348626209265667763
+    second: Crystal Sheep Animations-Sheet_76
+  - first:
+      213: 4273186876858707113
+    second: Crystal Sheep Animations-Sheet_77
+  - first:
+      213: 4793649972469748088
+    second: Crystal Sheep Animations-Sheet_78
+  - first:
+      213: 1315227530757461107
+    second: Crystal Sheep Animations-Sheet_79
+  - first:
+      213: 1245478595465744504
+    second: Crystal Sheep Animations-Sheet_80
+  - first:
+      213: 4285861597970643687
+    second: Crystal Sheep Animations-Sheet_81
+  - first:
+      213: 3693146006336854435
+    second: Crystal Sheep Animations-Sheet_82
+  - first:
+      213: -4459749046513231186
+    second: Crystal Sheep Animations-Sheet_83
+  - first:
+      213: 7887036790785279076
+    second: Crystal Sheep Animations-Sheet_84
+  - first:
+      213: 5338295331642294730
+    second: Crystal Sheep Animations-Sheet_85
+  - first:
+      213: -5200923915608031478
+    second: Crystal Sheep Animations-Sheet_86
+  - first:
+      213: 7442021105892781898
+    second: Crystal Sheep Animations-Sheet_87
+  - first:
+      213: -2284447975533069654
+    second: Crystal Sheep Animations-Sheet_88
+  - first:
+      213: 5828951776137875345
+    second: Crystal Sheep Animations-Sheet_89
+  - first:
+      213: -1017092479262851267
+    second: Crystal Sheep Animations-Sheet_90
+  - first:
+      213: -7668883383131480501
+    second: Crystal Sheep Animations-Sheet_91
+  - first:
+      213: 710917547525061431
+    second: Crystal Sheep Animations-Sheet_92
+  - first:
+      213: 4977733535961963613
+    second: Crystal Sheep Animations-Sheet_93
+  - first:
+      213: -6286624556203644169
+    second: Crystal Sheep Animations-Sheet_94
+  - first:
+      213: -2894735512543411113
+    second: Crystal Sheep Animations-Sheet_95
+  - first:
+      213: -3233649026573592488
+    second: Crystal Sheep Animations-Sheet_96
+  - first:
+      213: 6062738666445682338
+    second: Crystal Sheep Animations-Sheet_97
+  - first:
+      213: 8579651143183884243
+    second: Crystal Sheep Animations-Sheet_98
+  - first:
+      213: -1997265163778791530
+    second: Crystal Sheep Animations-Sheet_99
+  - first:
+      213: 5845452352168722848
+    second: Crystal Sheep Animations-Sheet_100
+  - first:
+      213: 7516374722326052049
+    second: Crystal Sheep Animations-Sheet_101
+  - first:
+      213: 2905125261970420635
+    second: Crystal Sheep Animations-Sheet_102
+  - first:
+      213: -7700848086233227253
+    second: Crystal Sheep Animations-Sheet_103
+  - first:
+      213: -8111200598975331984
+    second: Crystal Sheep Animations-Sheet_104
+  - first:
+      213: -1896503330443583799
+    second: Crystal Sheep Animations-Sheet_105
+  - first:
+      213: -7890756204361481575
+    second: Crystal Sheep Animations-Sheet_106
+  - first:
+      213: -7273920243381653364
+    second: Crystal Sheep Animations-Sheet_107
+  - first:
+      213: -980046806582613107
+    second: Crystal Sheep Animations-Sheet_108
+  - first:
+      213: -7452827421115680828
+    second: Crystal Sheep Animations-Sheet_109
+  - first:
+      213: -2850703347045972191
+    second: Crystal Sheep Animations-Sheet_110
+  - first:
+      213: 6182022898354424101
+    second: Crystal Sheep Animations-Sheet_111
+  - first:
+      213: -4411120149538142542
+    second: Crystal Sheep Animations-Sheet_112
+  - first:
+      213: -6005276336392776327
+    second: Crystal Sheep Animations-Sheet_113
+  - first:
+      213: -898990118050613073
+    second: Crystal Sheep Animations-Sheet_114
+  - first:
+      213: 248818599525369900
+    second: Crystal Sheep Animations-Sheet_115
+  - first:
+      213: 3090584954513134183
+    second: Crystal Sheep Animations-Sheet_116
+  - first:
+      213: 1895769874163279174
+    second: Crystal Sheep Animations-Sheet_117
+  - first:
+      213: 3016733100123286171
+    second: Crystal Sheep Animations-Sheet_118
+  - first:
+      213: 2561310228014232810
+    second: Crystal Sheep Animations-Sheet_119
+  - first:
+      213: -2403420451934932944
+    second: Crystal Sheep Animations-Sheet_120
+  - first:
+      213: 1766769496555690380
+    second: Crystal Sheep Animations-Sheet_121
+  - first:
+      213: -833906651206161925
+    second: Crystal Sheep Animations-Sheet_122
+  - first:
+      213: -2139838223808433775
+    second: Crystal Sheep Animations-Sheet_123
+  - first:
+      213: -6788692417140319523
+    second: Crystal Sheep Animations-Sheet_124
+  - first:
+      213: 6646096088666948136
+    second: Crystal Sheep Animations-Sheet_125
+  - first:
+      213: 8660742583951232700
+    second: Crystal Sheep Animations-Sheet_126
+  - first:
+      213: -7824311674333646097
+    second: Crystal Sheep Animations-Sheet_127
+  - first:
+      213: -2525875193481779487
+    second: Crystal Sheep Animations-Sheet_128
+  - first:
+      213: -2967392023381583421
+    second: Crystal Sheep Animations-Sheet_129
+  - first:
+      213: -1842459298682064916
+    second: Crystal Sheep Animations-Sheet_130
+  - first:
+      213: 4492993440989697069
+    second: Crystal Sheep Animations-Sheet_131
+  - first:
+      213: 3650994146951779058
+    second: Crystal Sheep Animations-Sheet_132
+  - first:
+      213: 2797300416816189671
+    second: Crystal Sheep Animations-Sheet_133
+  - first:
+      213: -628890822321914442
+    second: Crystal Sheep Animations-Sheet_134
+  - first:
+      213: -279464032636053105
+    second: Crystal Sheep Animations-Sheet_135
+  - first:
+      213: -2105100885470208481
+    second: Crystal Sheep Animations-Sheet_136
+  - first:
+      213: -5605627707691187148
+    second: Crystal Sheep Animations-Sheet_137
+  - first:
+      213: 5585790411512046667
+    second: Crystal Sheep Animations-Sheet_138
+  - first:
+      213: -2441657495606798007
+    second: Crystal Sheep Animations-Sheet_139
+  - first:
+      213: 5750968027451419228
+    second: Crystal Sheep Animations-Sheet_140
+  - first:
+      213: 2596442817011081261
+    second: Crystal Sheep Animations-Sheet_141
+  - first:
+      213: 2979124393960851337
+    second: Crystal Sheep Animations-Sheet_142
+  - first:
+      213: -6373793475223355493
+    second: Crystal Sheep Animations-Sheet_143
+  - first:
+      213: -1518135697836010732
+    second: Crystal Sheep Animations-Sheet_144
+  - first:
+      213: 1695970751934736596
+    second: Crystal Sheep Animations-Sheet_145
+  - first:
+      213: 512539670556984760
+    second: Crystal Sheep Animations-Sheet_146
+  - first:
+      213: -6458183590688081548
+    second: Crystal Sheep Animations-Sheet_147
+  - first:
+      213: -4480530800586118157
+    second: Crystal Sheep Animations-Sheet_148
+  - first:
+      213: 2925278505646676928
+    second: Crystal Sheep Animations-Sheet_149
+  - first:
+      213: -2743488197417553404
+    second: Crystal Sheep Animations-Sheet_150
+  - first:
+      213: -2631542286771266487
+    second: Crystal Sheep Animations-Sheet_151
+  - first:
+      213: -5022460740543363476
+    second: Crystal Sheep Animations-Sheet_152
+  - first:
+      213: 2108635967081023897
+    second: Crystal Sheep Animations-Sheet_153
+  - first:
+      213: -8089059691014258737
+    second: Crystal Sheep Animations-Sheet_154
+  - first:
+      213: -4728634622811816710
+    second: Crystal Sheep Animations-Sheet_155
+  - first:
+      213: -1367901766631693195
+    second: Crystal Sheep Animations-Sheet_156
+  - first:
+      213: 5785381066776518040
+    second: Crystal Sheep Animations-Sheet_157
+  - first:
+      213: 1552249367172832760
+    second: Crystal Sheep Animations-Sheet_158
+  - first:
+      213: -2756159628842960032
+    second: Crystal Sheep Animations-Sheet_159
+  - first:
+      213: -5434662789719782154
+    second: Crystal Sheep Animations-Sheet_160
+  - first:
+      213: -1678337784563314705
+    second: Crystal Sheep Animations-Sheet_161
+  - first:
+      213: -7426949845887586945
+    second: Crystal Sheep Animations-Sheet_162
+  - first:
+      213: 4500237501673637508
+    second: Crystal Sheep Animations-Sheet_163
+  - first:
+      213: 2838297646373156208
+    second: Crystal Sheep Animations-Sheet_164
+  - first:
+      213: -2177823484161449324
+    second: Crystal Sheep Animations-Sheet_165
+  - first:
+      213: 9023375910889441135
+    second: Crystal Sheep Animations-Sheet_166
+  - first:
+      213: -2981099579897184678
+    second: Crystal Sheep Animations-Sheet_167
+  - first:
+      213: -2317956951030058892
+    second: Crystal Sheep Animations-Sheet_168
+  - first:
+      213: 3195760821389197045
+    second: Crystal Sheep Animations-Sheet_169
+  - first:
+      213: 2111973674989298576
+    second: Crystal Sheep Animations-Sheet_170
+  - first:
+      213: 7601497417294793247
+    second: Crystal Sheep Animations-Sheet_171
+  - first:
+      213: -7799415831154447809
+    second: Crystal Sheep Animations-Sheet_172
+  - first:
+      213: -2520326779582749437
+    second: Crystal Sheep Animations-Sheet_173
+  - first:
+      213: -1028428080687119599
+    second: Crystal Sheep Animations-Sheet_174
+  - first:
+      213: -3145653434205051494
+    second: Crystal Sheep Animations-Sheet_175
+  - first:
+      213: -2713866077056406090
+    second: Crystal Sheep Animations-Sheet_176
+  - first:
+      213: 1272123884281974684
+    second: Crystal Sheep Animations-Sheet_177
+  - first:
+      213: -9054703405596980773
+    second: Crystal Sheep Animations-Sheet_178
+  - first:
+      213: -2321365114777379445
+    second: Crystal Sheep Animations-Sheet_179
+  - first:
+      213: 4319701016752150772
+    second: Crystal Sheep Animations-Sheet_180
+  - first:
+      213: 5072821756044967460
+    second: Crystal Sheep Animations-Sheet_181
+  - first:
+      213: -2544444721894406933
+    second: Crystal Sheep Animations-Sheet_182
+  - first:
+      213: -2387818275023852007
+    second: Crystal Sheep Animations-Sheet_183
+  - first:
+      213: 9078911712120353355
+    second: Crystal Sheep Animations-Sheet_184
+  - first:
+      213: -6243262602248371528
+    second: Crystal Sheep Animations-Sheet_185
+  - first:
+      213: -7602214512919148751
+    second: Crystal Sheep Animations-Sheet_186
+  - first:
+      213: -6446867423324993430
+    second: Crystal Sheep Animations-Sheet_187
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ddc59de2d754040800000000000000
+      internalID: 4631245431989132650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3072
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2585e87603b348a80800000000000000
+      internalID: -8465576320467838894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3072
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a088f8a10764dc90800000000000000
+      internalID: -7145973451902648159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3072
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1226fe29f3e1d8bb0800000000000000
+      internalID: -4932252758503890399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2944
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360602fd6d49458e0800000000000000
+      internalID: -1705574708279222173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2944
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e533b5c1ca004f7c0800000000000000
+      internalID: -4038602226634378402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2944
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0822e9bb5665a0f20800000000000000
+      internalID: 3389616664489108096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2944
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dc5f7360db32660800000000000000
+      internalID: 7359934050459831696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5390c169897c0330800000000000000
+      internalID: 3678448626612343643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2816
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d6396a7ebf75060800000000000000
+      internalID: 6942294322965605742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2816
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b30ede277cd98550800000000000000
+      internalID: 6163699969478755257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2816
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5ec44e6b7b77be0800000000000000
+      internalID: -1479511956425742866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b93093ed83e6b70800000000000000
+      internalID: 8894108841193741115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2688
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823c7e148a5a64130800000000000000
+      internalID: 3550707498307011368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2688
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f9ac2c6b905d910800000000000000
+      internalID: 1861404701544324978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2688
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e0ee342ba54a7f0800000000000000
+      internalID: -602256728470450564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201f78eaf5bc36040800000000000000
+      internalID: 4639775652932219138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074a210c5793673a0800000000000000
+      internalID: -6668079020379036560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a630febb6c4cddd0800000000000000
+      internalID: -2460007270802508126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2560
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaf75d485d3b5550800000000000000
+      internalID: 6150577165568572065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46c89ed2b7411b70800000000000000
+      internalID: 8867947974833522253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bb625d1bc6d6870800000000000000
+      internalID: 8677711568053910389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0562346a282b6a60800000000000000
+      internalID: 7668266953063163147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2432
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e318132c3475a9d0800000000000000
+      internalID: -2763674994686290969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1d8baeb14cf08a0800000000000000
+      internalID: -6336630526505856558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb8b4bd1d2c4ba00800000000000000
+      internalID: 771455642770312114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804843129281e1cb0800000000000000
+      internalID: -4891445580347964408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b247ea77fa1e4190800000000000000
+      internalID: -7976408239805349199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ac87eab625f9390800000000000000
+      internalID: -7809432606395020800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46b7fc268e102a70800000000000000
+      internalID: 8800067233510831693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2176
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b22cd9601492f3b0800000000000000
+      internalID: -5480154998340050250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4acf6cf4cd3b7b0800000000000000
+      internalID: -5209578108738558759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe6262a5d1ea7e30800000000000000
+      internalID: 4502159085178875646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952881bbe6b887d00800000000000000
+      internalID: 970679027399950937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2048
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78b7363e3e7327b0800000000000000
+      internalID: -5250213934921172869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3904baa4f11a8690800000000000000
+      internalID: -7599241678700672705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f126f3b91c574daa0800000000000000
+      internalID: -6137150917805383137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a750f98583c41030800000000000000
+      internalID: 3464608991667050409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad55d1393fa0d7620800000000000000
+      internalID: 2773384986791597530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f31e3e490836260800000000000000
+      internalID: 7089651615377997698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7306b6613b2a340800000000000000
+      internalID: 4873654655640418286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc419c5825afd970800000000000000
+      internalID: 8781919391166057667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce813ba7796e968d0800000000000000
+      internalID: -2852495350689490708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12575de980e9c8b0800000000000000
+      internalID: -5131323417414905313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f742dd6be0fe3080800000000000000
+      internalID: -9205655694348236812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b849fd93011a84c10800000000000000
+      internalID: 2038055922447651979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19956b039db288a50800000000000000
+      internalID: 6523512272071317905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb844a2c2306d69e0800000000000000
+      internalID: -1626538119280703301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401354cf2647beb90800000000000000
+      internalID: -7211542409815707388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e405850184ef690800000000000000
+      internalID: -7566531088897520051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8872c111f136ee100800000000000000
+      internalID: 139157623577257864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d95936192e18db30800000000000000
+      internalID: 4312229805022599639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb31f4717a37b4e80800000000000000
+      internalID: -8193327935582694466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed67837b661786450800000000000000
+      internalID: 6082235982738388702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5affb52547805f4d0800000000000000
+      internalID: -3101563472683728987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37421b5db87d69ab0800000000000000
+      internalID: -5001573340562774925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc38cb0a0cc1ffcc0800000000000000
+      internalID: -3675187157255027764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca116213312f15f10800000000000000
+      internalID: 2256851052532208044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5b77bff68376690800000000000000
+      internalID: -7609050991807711747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd468f3fc7ce66110800000000000000
+      internalID: 1253949567682503901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1831d1e493a280540800000000000000
+      internalID: 4974272214042743681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16d28690b34c9570800000000000000
+      internalID: 8474723024522892827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6180697b09c60c0800000000000000
+      internalID: -4581127602772109636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dceac17313e3929f0800000000000000
+      internalID: -492794303121412403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b955d99887d76b0800000000000000
+      internalID: -5296945054272349281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77f68b460533ea30800000000000000
+      internalID: 4243293575066351482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7f4636d51258550800000000000000
+      internalID: 6162368350109628382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dddc03d7d581ccf0800000000000000
+      internalID: -233758543641256492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d7cd0e2eb5b8a10800000000000000
+      internalID: 1912723496742190358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35107232337e7d010800000000000000
+      internalID: 1213692831418745171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49e428673b16db60800000000000000
+      internalID: 7770428131858770251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6872fd797de3695e0800000000000000
+      internalID: -1903264696830580858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daebdf887935f0ce0800000000000000
+      internalID: -1436837845804400979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d36b3aec0ffeb3f0800000000000000
+      internalID: -882988045983587370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8967dc8787979d940800000000000000
+      internalID: 5321417993044719256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c104ed6d3fa0080800000000000000
+      internalID: -9220289182910374792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d413c8ef7e0086fd0800000000000000
+      internalID: -2348626209265667763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac260ef2d86d4b30800000000000000
+      internalID: 4273186876858707113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871de9a8047768240800000000000000
+      internalID: 4793649972469748088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374dc998870a04210800000000000000
+      internalID: 1315227530757461107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870961a0f24d84110800000000000000
+      internalID: 1245478595465744504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea37877a607a7b30800000000000000
+      internalID: 4285861597970643687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a95c53c9b0b04330800000000000000
+      internalID: 3693146006336854435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa1137fed9cb12c0800000000000000
+      internalID: -4459749046513231186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46481358c22647d60800000000000000
+      internalID: 7887036790785279076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac14aa4125f651a40800000000000000
+      internalID: 5338295331642294730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f7952214b92d7b0800000000000000
+      internalID: -5200923915608031478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fe2bb24ce574760800000000000000
+      internalID: 7442021105892781898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaabd767ba20c40e0800000000000000
+      internalID: -2284447975533069654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f849dd1c894e050800000000000000
+      internalID: 5828951776137875345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ff0d567cf82e1f0800000000000000
+      internalID: -1017092479262851267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e5d8cc137a29590800000000000000
+      internalID: -7668883383131480501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bb2dc2ebfadd900800000000000000
+      internalID: 710917547525061431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cdf8d1746741540800000000000000
+      internalID: 4977733535961963613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faeb3b264c61c8a0800000000000000
+      internalID: -6286624556203644169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75444286365d3d7d0800000000000000
+      internalID: -2894735512543411113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb2d00223be7b4e8558093cdabf104
+      internalID: 1898656982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21732af6a210e2945bf38f8c27ddb2ce
+      internalID: 254707971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5ee9a7f5e44864f82f8720d0c15d3e
+      internalID: 449930430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal Sheep Animations-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.2109375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c0fc4fd49e0d443ba1790ba3d251e8
+      internalID: -1598109755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 754d1a27384e9d14d8504dbcd21cc208
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.46875,"y":0.2109375},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Crystal Sheep Animations-Sheet_0: 4631245431989132650
+      Crystal Sheep Animations-Sheet_1: -8465576320467838894
+      Crystal Sheep Animations-Sheet_10: 6163699969478755257
+      Crystal Sheep Animations-Sheet_11: -1479511956425742866
+      Crystal Sheep Animations-Sheet_12: 8894108841193741115
+      Crystal Sheep Animations-Sheet_13: 3550707498307011368
+      Crystal Sheep Animations-Sheet_14: 1861404701544324978
+      Crystal Sheep Animations-Sheet_15: -602256728470450564
+      Crystal Sheep Animations-Sheet_16: 4639775652932219138
+      Crystal Sheep Animations-Sheet_17: -6668079020379036560
+      Crystal Sheep Animations-Sheet_18: -2460007270802508126
+      Crystal Sheep Animations-Sheet_19: 6150577165568572065
+      Crystal Sheep Animations-Sheet_2: -7145973451902648159
+      Crystal Sheep Animations-Sheet_20: 8867947974833522253
+      Crystal Sheep Animations-Sheet_21: 8677711568053910389
+      Crystal Sheep Animations-Sheet_22: 7668266953063163147
+      Crystal Sheep Animations-Sheet_23: -2763674994686290969
+      Crystal Sheep Animations-Sheet_24: -6336630526505856558
+      Crystal Sheep Animations-Sheet_25: 771455642770312114
+      Crystal Sheep Animations-Sheet_26: -4891445580347964408
+      Crystal Sheep Animations-Sheet_27: -7976408239805349199
+      Crystal Sheep Animations-Sheet_28: -7809432606395020800
+      Crystal Sheep Animations-Sheet_29: 8800067233510831693
+      Crystal Sheep Animations-Sheet_3: -4932252758503890399
+      Crystal Sheep Animations-Sheet_30: -5480154998340050250
+      Crystal Sheep Animations-Sheet_31: -5209578108738558759
+      Crystal Sheep Animations-Sheet_32: 4502159085178875646
+      Crystal Sheep Animations-Sheet_33: 970679027399950937
+      Crystal Sheep Animations-Sheet_34: -5250213934921172869
+      Crystal Sheep Animations-Sheet_35: -7599241678700672705
+      Crystal Sheep Animations-Sheet_36: -6137150917805383137
+      Crystal Sheep Animations-Sheet_37: 3464608991667050409
+      Crystal Sheep Animations-Sheet_38: 2773384986791597530
+      Crystal Sheep Animations-Sheet_39: 7089651615377997698
+      Crystal Sheep Animations-Sheet_4: -1705574708279222173
+      Crystal Sheep Animations-Sheet_40: 4873654655640418286
+      Crystal Sheep Animations-Sheet_41: 8781919391166057667
+      Crystal Sheep Animations-Sheet_42: -2852495350689490708
+      Crystal Sheep Animations-Sheet_43: -5131323417414905313
+      Crystal Sheep Animations-Sheet_44: -9205655694348236812
+      Crystal Sheep Animations-Sheet_45: 2038055922447651979
+      Crystal Sheep Animations-Sheet_46: 6523512272071317905
+      Crystal Sheep Animations-Sheet_47: -1626538119280703301
+      Crystal Sheep Animations-Sheet_48: -7211542409815707388
+      Crystal Sheep Animations-Sheet_49: -7566531088897520051
+      Crystal Sheep Animations-Sheet_5: -4038602226634378402
+      Crystal Sheep Animations-Sheet_50: 139157623577257864
+      Crystal Sheep Animations-Sheet_51: 4312229805022599639
+      Crystal Sheep Animations-Sheet_52: -8193327935582694466
+      Crystal Sheep Animations-Sheet_53: 6082235982738388702
+      Crystal Sheep Animations-Sheet_54: -3101563472683728987
+      Crystal Sheep Animations-Sheet_55: -5001573340562774925
+      Crystal Sheep Animations-Sheet_56: -3675187157255027764
+      Crystal Sheep Animations-Sheet_57: 2256851052532208044
+      Crystal Sheep Animations-Sheet_58: -7609050991807711747
+      Crystal Sheep Animations-Sheet_59: 1253949567682503901
+      Crystal Sheep Animations-Sheet_6: 3389616664489108096
+      Crystal Sheep Animations-Sheet_60: 4974272214042743681
+      Crystal Sheep Animations-Sheet_61: 8474723024522892827
+      Crystal Sheep Animations-Sheet_62: -4581127602772109636
+      Crystal Sheep Animations-Sheet_63: -492794303121412403
+      Crystal Sheep Animations-Sheet_64: -5296945054272349281
+      Crystal Sheep Animations-Sheet_65: 4243293575066351482
+      Crystal Sheep Animations-Sheet_66: 6162368350109628382
+      Crystal Sheep Animations-Sheet_67: -233758543641256492
+      Crystal Sheep Animations-Sheet_68: 1912723496742190358
+      Crystal Sheep Animations-Sheet_69: 1213692831418745171
+      Crystal Sheep Animations-Sheet_7: 7359934050459831696
+      Crystal Sheep Animations-Sheet_70: 7770428131858770251
+      Crystal Sheep Animations-Sheet_71: -1903264696830580858
+      Crystal Sheep Animations-Sheet_72: -1436837845804400979
+      Crystal Sheep Animations-Sheet_73: -882988045983587370
+      Crystal Sheep Animations-Sheet_74: 5321417993044719256
+      Crystal Sheep Animations-Sheet_75: -9220289182910374792
+      Crystal Sheep Animations-Sheet_76: -2348626209265667763
+      Crystal Sheep Animations-Sheet_77: 4273186876858707113
+      Crystal Sheep Animations-Sheet_78: 4793649972469748088
+      Crystal Sheep Animations-Sheet_79: 1315227530757461107
+      Crystal Sheep Animations-Sheet_8: 3678448626612343643
+      Crystal Sheep Animations-Sheet_80: 1245478595465744504
+      Crystal Sheep Animations-Sheet_81: 4285861597970643687
+      Crystal Sheep Animations-Sheet_82: 3693146006336854435
+      Crystal Sheep Animations-Sheet_83: -4459749046513231186
+      Crystal Sheep Animations-Sheet_84: 7887036790785279076
+      Crystal Sheep Animations-Sheet_85: 5338295331642294730
+      Crystal Sheep Animations-Sheet_86: -5200923915608031478
+      Crystal Sheep Animations-Sheet_87: 7442021105892781898
+      Crystal Sheep Animations-Sheet_88: -2284447975533069654
+      Crystal Sheep Animations-Sheet_89: 5828951776137875345
+      Crystal Sheep Animations-Sheet_9: 6942294322965605742
+      Crystal Sheep Animations-Sheet_90: -1017092479262851267
+      Crystal Sheep Animations-Sheet_91: -7668883383131480501
+      Crystal Sheep Animations-Sheet_92: 710917547525061431
+      Crystal Sheep Animations-Sheet_93: 4977733535961963613
+      Crystal Sheep Animations-Sheet_94: -6286624556203644169
+      Crystal Sheep Animations-Sheet_95: -2894735512543411113
+      Crystal Sheep Animations-Sheet_96: 1898656982
+      Crystal Sheep Animations-Sheet_97: 254707971
+      Crystal Sheep Animations-Sheet_98: 449930430
+      Crystal Sheep Animations-Sheet_99: -1598109755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
