@@ -998,10 +998,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639235368133395021
+  lastModified: 639236262403545329
   FileSizes:
   - Name: Desktop
-    Value: 29222176
+    Value: 29222304
   Exists: 1
 --- !u!114 &-5298238180413181079
 MonoBehaviour:
@@ -1126,10 +1126,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639235367993096015
+  lastModified: 639236145971824935
   FileSizes:
   - Name: Desktop
-    Value: 4946
+    Value: 5046
   Exists: 1
 --- !u!114 &-4913627603613090259
 MonoBehaviour:
@@ -1648,10 +1648,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639235368145061340
+  lastModified: 639236263833184405
   FileSizes:
   - Name: Desktop
-    Value: 3348256
+    Value: 3431456
   Exists: 1
 --- !u!114 &-2296739541312110154
 MonoBehaviour:
@@ -2495,13 +2495,15 @@ MonoBehaviour:
   - {fileID: -1875754145558837276}
   - {fileID: 5526364266144642516}
   - {fileID: -5498484186819246795}
+  - {fileID: 3172639797854625173}
+  - {fileID: 878511397798893811}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3080098449500791953}
   StringsBanks:
   - {fileID: -5108059633577533923}
   cacheVersion: 131859
-  cacheTime: 639235368146141230
+  cacheTime: 639236263833184405
   SerializableEventsDict:
   - key: event:/Music/Desert Music
     index: 0
@@ -2651,6 +2653,10 @@ MonoBehaviour:
     index: 72
   - key: event:/UI/Decline
     index: 73
+  - key: event:/Enviroment/Desert/Log Roll
+    index: 74
+  - key: event:/Enviroment/Desert/Log Crash
+    index: 75
 --- !u!114 &156739824289005170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2726,7 +2732,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -2305346541914429183}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -2867,6 +2873,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1899
+--- !u!114 &878511397798893811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enviroment/Desert/Log Crash
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Enviroment/Desert/Log Crash
+  Guid:
+    Data1: 366146764
+    Data2: 1196149369
+    Data3: 872729767
+    Data4: -1437710023
+  Banks:
+  - {fileID: -2305346541914429183}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1920
 --- !u!114 &891605602868565523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3595,7 +3628,7 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639235367993074408
+  lastModified: 639236145971814837
   FileSizes:
   - Name: Desktop
     Value: 2108
@@ -3681,6 +3714,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1507
+--- !u!114 &3172639797854625173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enviroment/Desert/Log Roll
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Enviroment/Desert/Log Roll
+  Guid:
+    Data1: -537856244
+    Data2: 1123511773
+    Data3: -390623342
+    Data4: -1280418209
+  Banks:
+  - {fileID: -2305346541914429183}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1171
 --- !u!114 &3246743333231806021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4545,7 +4605,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -2305346541914429183}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1

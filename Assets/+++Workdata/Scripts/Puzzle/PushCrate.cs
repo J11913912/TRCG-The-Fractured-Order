@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using FMODUnity;
 using UnityEngine;
 // using FMODUnity;
 
@@ -154,6 +155,7 @@ public class PushCrate : MonoBehaviour
 
    private void PlayPush()
    {
+      RuntimeManager.PlayOneShot("event:/Puzzle/Block Push");
       //RuntimeManager.PlayOneShot("event:/SFX/CratePush", transform.position);
    }
    
