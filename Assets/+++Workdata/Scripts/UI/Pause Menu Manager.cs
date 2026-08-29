@@ -120,6 +120,7 @@ public class PauseMenuManager : MonoBehaviour
               // spellMenuButton.Select();
                
                SpellEquipping.OnMenuActive?.Invoke(true);
+               SwitchButtonCorners.OnOpenMenu?.Invoke(true);
            }
            
            else if (_isPaused)
@@ -134,6 +135,7 @@ public class PauseMenuManager : MonoBehaviour
                _menuAlreadyOpen = false;
                
                SpellEquipping.OnMenuActive?.Invoke(false);
+               SwitchButtonCorners.OnOpenMenu?.Invoke(false);
            }
        }
        

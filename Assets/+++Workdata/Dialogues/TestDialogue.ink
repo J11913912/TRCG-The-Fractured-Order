@@ -99,7 +99,7 @@ Oh, I'm so sorry, the prizes have gone up today due to... inflation, yes, yes, a
 
 NOoOo!!! You can't take my thingy like this, nonono, you mustn't take it, no... What? You have more shinies for me? ... hmmmm... I don't know... Alright, shiny is shiny, gimme, gimme!
 
-= Bye
+= Byeold
 Alright, there you go. Thanks for the shards and so on. Now, please leave.
 ->END
 
@@ -111,7 +111,29 @@ Alright, that's it. You've stolen enough of my treasures for today. Go away.
 
 No? No more shinies? Then I won't give you anything anymore!
 
+=== CrystalGuard ===
 
+= CantGetIn1
+Bart the Guard green
+Gart the Barb blue
+Lart the Mart red
+Cart the Shard crystal
+
+-> END
+
+= CantGetIn2
+Cart the Shard: Still no entry.
+-> END
+
+= Vanish
+Cart the Shard: entry.
+~Event("Vanish")
+-> END
+
+= PopUp
+Cart the Shard: hello there.
+~Event("VanishAgain")
+-> END
 
 
 

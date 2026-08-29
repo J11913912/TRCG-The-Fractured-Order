@@ -111,6 +111,8 @@ public class DialogueBox : MonoBehaviour
             ShowContinueButton(false);
             ShowChoices(true);
             newSelection = choiceButtons[0];
+            StartCoroutine(DelayedSelect(newSelection));
+            return;
         }
 
         if (continueOn)
