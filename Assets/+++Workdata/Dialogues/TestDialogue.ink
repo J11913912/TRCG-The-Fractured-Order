@@ -1,39 +1,71 @@
 === Hoardinger === 
 
-= Hello
-Welcome to my wonderful wares.
+= FirstHello
+Hoardinger: Eh?! Who are you?! What do you want?! I know I don't anything from you. ... Except perhaps those shiny shards of yours, hmm. Fine, fine, fine, we can trade if you insist.
+
+Hoardinger: Well then, welcome to Hoardinger's Hoards, only looking, no touchy-touchy!
+->END
+
+= HelloLowPrizes
+Hoardinger: Welcome to Hoardinger's Hoards, only looking, no touchy-touchy!
+->END
+
+= HelloHighPrizes
+Hoardinger: Welcome to Hoardinger's Hoards, only looking, no touchy-touchy!
+
+Hoardinger: Oh, I'm so sorry, the prizes have gone up today due to... inflation, yes, yes, and the shippping via donkey express has enourmous prizes nowadays, you have no idea, I'm actually doing you favour here, risking my own finacial stance for the likes of you, and then there are all those dreadful tariffs and don't get me started on the waylaying pixies and scoundrels, always targetting poor, poor Hoardinger and -- well, the prizes have gone up, deal with it.
 ->END
 
 = BuyHealth
 buy health for PRIZE?
 +[Yes]
 ~ Event("BuyHealth")
-->END
+~ Event("BackToShop")
+->Else
 +[No]
-->END
+~ Event("BackToShop")
+->Else
 
 = BuyMana
 buy mana for PRIZE?
 +[Yes]
 ~ Event("BuyMana")
-->END
+~ Event("BackToShop")
+->Else
 +[No]
-->END
+~ Event("BackToShop")
+->Else
 
 = BuyHat
 buy hat for PRIZE?
 +[Yes]
 ~ Event("BuyHat")
-->END
+~ Event("BackToShop")
+->Else
 +[No]
--> END
+~ Event("BackToShop")
+-> Else
 
 = BuySpell
 buy spell for PRIZE?
 +[Yes]
 ~ Event("BuySpell")
-->END
+~ Event("BackToShop")
+->Else
 +[No]
+~ Event("BackToShop")
+->Else
+
+= Else
+Hoardinger: Anything else you want?
+->END
+
+= Bye
+Hoardinger: Hope your not coming back too soon!
+->END 
+
+= Empty
+Hoardinger: Alright, that's it. You've stolen enough of my treasures for today. Go away.
 ->END
 
 = FirstMeeting

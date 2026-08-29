@@ -185,6 +185,24 @@
                     "processors": "",
                     "interactions": "Hold(duration=30,pressPoint=0.5)",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "HealthPotion",
+                    "type": "Button",
+                    "id": "0e4ba6ff-2351-4c95-9e42-0dbae36c40ed",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ManaPotion",
+                    "type": "Button",
+                    "id": "bb0e97f0-6b45-4545-880f-6a8258b0e4f3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -591,6 +609,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd5cdf86-bbf7-4ab5-a2f3-5921d1653d31",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -1076,6 +1105,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "BaseProjectile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5fe07684-7cab-457e-bffb-ac3fae573062",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "HealthPotion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "915b11c3-b40c-49cf-a92a-c400b1aad892",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "ManaPotion",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -21,6 +21,8 @@ public class DialogueController : MonoBehaviour
     private const string EscapedColonPlaceholder = "§";
     private const string FlowerCounter = "FlowerCounter";
 
+    private int _currentPrize;
+
     private int _counter;
     //public QuestItems questItems;
     
@@ -137,7 +139,7 @@ public class DialogueController : MonoBehaviour
         onDialogueEnd?.Invoke();
     }
 
-    private void ContinueDialogue()
+    public void ContinueDialogue()
     {
         if (IsAtEnd())
         {
@@ -208,6 +210,8 @@ public class DialogueController : MonoBehaviour
         
         DialogueLine line = new DialogueLine();
                                 // ::          ->    ยง
+        inkLine = inkLine.Replace("PRIZE", _currentPrize.ToString());
+        
         inkLine = inkLine.Replace(EscapedColon, EscapedColonPlaceholder);
         
         inkLine = inkLine.Replace(FlowerCounter, _counter.ToString());
@@ -318,6 +322,11 @@ public class DialogueController : MonoBehaviour
     }
 
     #endregion
+    
+    public void SetCurrentPrize(int prize)
+    {
+        _currentPrize = prize;
+    }
 }
 
 public struct DialogueLine

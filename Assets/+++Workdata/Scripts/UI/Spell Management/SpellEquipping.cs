@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class SpellEquipping : MonoBehaviour
 {
    public static Action OnFocusShift;
+   public static Action<bool> OnMenuActive;
    
    private InputSystem_Actions _inputActions;
    private InputAction _arrowAction;
@@ -30,6 +31,8 @@ public class SpellEquipping : MonoBehaviour
 
    private InputActionReference _oldInput;
 
+   public bool _isActive = false;
+
    private void Awake()
    {
       _inputActions = new InputSystem_Actions();
@@ -48,6 +51,8 @@ public class SpellEquipping : MonoBehaviour
       _focusAction.performed += Focus;
 
       OnFocusShift += TurnOffAssign;
+      
+      OnMenuActive += MenuActive;
    }
 
    private void OnDisable()
@@ -59,6 +64,12 @@ public class SpellEquipping : MonoBehaviour
       
       OnFocusShift -= TurnOffAssign;
 
+      OnMenuActive -= MenuActive;
+   }
+
+   private void MenuActive(bool value)
+   {
+      _isActive = value;
    }
 
    private void Select(InputAction.CallbackContext ctx)
@@ -97,6 +108,8 @@ public class SpellEquipping : MonoBehaviour
 
    public void EnterAssginMode(string Id)
    {
+      if (!_isActive) return;
+      
       if (assignMode)
       {
          TurnOffAssign();

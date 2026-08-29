@@ -8,6 +8,8 @@ public class OnButtonSelect : MonoBehaviour
     public ShopInventory shopInventory;
 
     public string description;
+
+    public bool isInventorySlot = false;
     
     private void Update()
     {
@@ -22,6 +24,11 @@ public class OnButtonSelect : MonoBehaviour
 
     private void OnSelect()
     {
+        if (isInventorySlot)
+        {
+            
+        }
+        
         shopInventory.SetDescription(description);
     }
 }
