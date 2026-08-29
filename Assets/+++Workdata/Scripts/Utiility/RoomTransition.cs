@@ -1,10 +1,14 @@
+using System;
 using System.Collections;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class RoomTransition : MonoBehaviour
 {
+    public UnityEvent SceneChange;
+    
     public GameObject player;
     public GameObject targetPos;
 
@@ -22,11 +26,19 @@ public class RoomTransition : MonoBehaviour
     private SetLevelConfiner _setLevelConfiner;
     public Collider2D confiner;
     public bool hasConfiner = false;
+    
+    private bool _changeScene = false;
 
     private void Awake()
     { 
         _setLevelConfiner = GetComponent<SetLevelConfiner>();
     }
+
+    public void SetSceneChange(bool value)
+    {
+        _changeScene = value;
+    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -91,5 +103,10 @@ public class RoomTransition : MonoBehaviour
     {
         StartCoroutine(Fade(1f, 0f));
         player.GetComponent<PlayerInput>().EnableInput();
+        
+        if (_changeScene)
+        {
+            SceneChange?.Invoke();
+        }
     }
 }

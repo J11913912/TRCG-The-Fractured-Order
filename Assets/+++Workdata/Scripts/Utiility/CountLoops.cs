@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -23,8 +24,15 @@ public class CountLoops : MonoBehaviour
             if (loopsWent >= loopsToGo)
             {
                 loopsWent = 0;
+                //StartCoroutine(WaitBeforeTurnOff());
                 OnEnoughLoops?.Invoke();
             }
         }
+    }
+
+    private IEnumerator WaitBeforeTurnOff()
+    {
+        yield return new WaitForSeconds(2f);
+        OnEnoughLoops?.Invoke();
     }
 }
