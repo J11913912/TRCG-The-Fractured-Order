@@ -47,7 +47,7 @@ public class PotionInput : MonoBehaviour
         _inputActions.Disable();
     }
 
-    private void UseHealthPotion(InputAction.CallbackContext ctx)
+    public void UseHealthPotion(InputAction.CallbackContext ctx)
     {
         if (_moneyManager.ReturnHealthPotions() <= 0) return;
         
@@ -55,7 +55,7 @@ public class PotionInput : MonoBehaviour
         PlayerInformation.OnHealthUp?.Invoke(heallingPower);
     }
 
-    private void UseManaPotion(InputAction.CallbackContext ctx)
+    public void UseManaPotion(InputAction.CallbackContext ctx)
     {
         if (_moneyManager.ReturnManaPotions() <= 0) return;
         

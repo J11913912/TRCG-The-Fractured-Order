@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PauseMenuManager : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class PauseMenuManager : MonoBehaviour
     public GameObject winMenuContainer; 
     public GameObject hudContainer;
     public GameObject questLogContainer;
+
+    public Button pauseButton;
+    public Button inventoryButton;
+    public Button optionsButton;
+    public Button gameOverButton;
+    public Button spellMenuButton;
 
     public SpellTutorialManager spellTutorialManager;
        
@@ -110,6 +117,7 @@ public class PauseMenuManager : MonoBehaviour
                _menuAlreadyOpen = true;
            
                _currentMenu = spellMenuContainer;
+              // spellMenuButton.Select();
                
                SpellEquipping.OnMenuActive?.Invoke(true);
            }
@@ -152,6 +160,8 @@ public class PauseMenuManager : MonoBehaviour
                _isPaused = true;
                _menuAlreadyOpen = true;
                
+               pauseButton.Select();
+               
                if (_currentMenu == spellMenuContainer)
                {
                    spellMenuContainer.SetActive(true);
@@ -179,6 +189,8 @@ public class PauseMenuManager : MonoBehaviour
                _currentMenu.SetActive(false);
                optionsMenuContainer.SetActive(true);
                
+               optionsButton.Select();
+               
                if (_currentMenu == spellMenuContainer)
                {
                    spellMenuContainer.SetActive(true);
@@ -192,6 +204,8 @@ public class PauseMenuManager : MonoBehaviour
        {
            _currentMenu.SetActive(false);
            gameOverMenuContainer.SetActive(true);
+           
+           gameOverButton.Select();
            
            if (_currentMenu == spellMenuContainer)
            {
@@ -229,6 +243,8 @@ public class PauseMenuManager : MonoBehaviour
                Time.timeScale = 0;
                _isInventory = true;
                _menuAlreadyOpen = true;
+               
+               inventoryButton.Select();
                
                if (_currentMenu == spellMenuContainer)
                {
