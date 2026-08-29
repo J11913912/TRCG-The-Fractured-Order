@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 0610d17b5cf7b344382b7192bac5aa66
+guid: f318684774571fa44810326f4a0a846e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6316484214903321033
-    second: Hoardinger_Animations-Sheet_0
+      213: -7853279940216088303
+    second: Hoardinger_Animations-Sheet_Darker_Shadow_2_0
   - first:
-      213: 6848399035480502707
-    second: Hoardinger_Animations-Sheet_1
+      213: -1715132368867122661
+    second: Hoardinger_Animations-Sheet_Darker_Shadow_2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hoardinger_Animations-Sheet_0
+      name: RealHoardinger_Animations-Sheet_Darker_Shadow_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -129,16 +129,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73e435d92175758a0800000000000000
-      internalID: -6316484214903321033
+      spriteID: e37b6e5b92ecb4940ad19a3926f20c85
+      internalID: 1266675301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoardinger_Animations-Sheet_1
+      name: RealHoardinger_Animations-Sheet_Darker_Shadow_2_1
       rect:
         serializedVersion: 2
         x: 128
@@ -151,10 +151,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b171fd63a66a0f50800000000000000
-      internalID: 6848399035480502707
+      spriteID: 083780f4aabff86419df8ee4f9ec75d1
+      internalID: 525021448
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 50d5b974f27d6654891c04c01dae4b20
+    spriteID: 6c69d90208654404f8287929a2078a39
     internalID: 0
     vertices: []
     indices: 
@@ -175,8 +175,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.484375,"y":0.1015625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Hoardinger_Animations-Sheet_0: -6316484214903321033
-      Hoardinger_Animations-Sheet_1: 6848399035480502707
+      RealHoardinger_Animations-Sheet_Darker_Shadow_2_0: 1266675301
+      RealHoardinger_Animations-Sheet_Darker_Shadow_2_1: 525021448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

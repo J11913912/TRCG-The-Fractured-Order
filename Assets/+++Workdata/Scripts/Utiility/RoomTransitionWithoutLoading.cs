@@ -3,13 +3,12 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RoomTransition : MonoBehaviour
+public class RoomTransitionWithoutLoading : MonoBehaviour
 {
     public GameObject player;
     public GameObject targetPos;
 
     public Image fade;
-    public CanvasGroup fade2;
     
     public CinemachineCamera playerCam;
     
@@ -17,15 +16,12 @@ public class RoomTransition : MonoBehaviour
     
     private Vector3 _oldPos;
     
-    public LoadingScreenSetter _loadingScreenSetter; 
-    
     private SetLevelConfiner _setLevelConfiner;
     public Collider2D confiner;
-    public bool hasConfiner = false;
 
     private void Awake()
-    { 
-        _setLevelConfiner = GetComponent<SetLevelConfiner>();
+    {
+       // _setLevelConfiner = GetComponent<SetLevelConfiner>();
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -36,17 +32,12 @@ public class RoomTransition : MonoBehaviour
             player.GetComponent<PlayerInput>().DisableInput();
                 
             StartCoroutine(Teleport(other.gameObject));
-           
         }
     }
 
     IEnumerator Teleport(GameObject _player)
     {
         yield return StartCoroutine(Fade(0f, 1f));
-        
-        player.GetComponent<PlayerInput>().DisableInput();
-        
-        _loadingScreenSetter.StartThingy();
         
         _oldPos = _player.transform.position;
                 
@@ -60,36 +51,30 @@ public class RoomTransition : MonoBehaviour
                 
         Debug.Log("Teleport");
 
+        yield return StartCoroutine(Fade(1f, 0f));
     }
     
     IEnumerator Fade(float _startAlpha, float _endAlpha)
-    { 
-        _startAlpha = fade2.alpha;
-        
-        LoadingScreenSetter.onTransition?.Invoke(this);
-        
-       // fadeDuration = _loadingScreenSetter.StartThingy();
+    {
+        _startAlpha = fade.color.a;
        
+        Color color = fade.color;
+
         float time = 0;
 
         while (time < fadeDuration)
         { 
             time += Time.deltaTime; 
-            fade2.alpha = Mathf.Lerp(_startAlpha, _endAlpha, time / fadeDuration);
-            
+            color.a = Mathf.Lerp(_startAlpha, _endAlpha, time / fadeDuration);
+           
+            fade.color = color;
             yield return null;
 
         }
-
-        if (hasConfiner)
-        {
-            _setLevelConfiner.SetNewConfiner(confiner);
-        }
-    }
-
-    public void EndTransition()
-    {
-        StartCoroutine(Fade(1f, 0f));
+        color.a = _endAlpha;
+        fade.color = color;
+       
         player.GetComponent<PlayerInput>().EnableInput();
+       // _setLevelConfiner.SetNewConfiner(confiner);
     }
 }

@@ -8,6 +8,8 @@ using Random = UnityEngine.Random;
 
 public class LoadingScreenSetter : MonoBehaviour
 {
+    public static Action<RoomTransition> onTransition;
+    
     public bool start = false;
     public bool special = false;
 
@@ -25,6 +27,21 @@ public class LoadingScreenSetter : MonoBehaviour
     private void Awake()
     {
         animator = slider.GetComponentInChildren<Animator>();
+    }
+
+    private void OnEnable()
+    {
+        onTransition += StartTransition;
+    }
+
+    private void OnDisable()
+    {
+        onTransition -= StartTransition;
+    }
+
+    private void StartTransition(RoomTransition transition)
+    {
+        roomTransition = transition;
     }
 
     private void Update()
