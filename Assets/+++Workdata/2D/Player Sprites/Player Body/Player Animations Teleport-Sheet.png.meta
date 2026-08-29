@@ -1,0 +1,1449 @@
+fileFormatVersion: 2
+guid: e08fbdfcd6c2a9640bfd253a2032264e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5769906182482428032
+    second: Player Animations Teleport-Sheet_0
+  - first:
+      213: 9131609162159566981
+    second: Player Animations Teleport-Sheet_1
+  - first:
+      213: 454339699017372451
+    second: Player Animations Teleport-Sheet_2
+  - first:
+      213: -4156383431958052965
+    second: Player Animations Teleport-Sheet_3
+  - first:
+      213: -7845790402405222934
+    second: Player Animations Teleport-Sheet_4
+  - first:
+      213: -5132778893800662211
+    second: Player Animations Teleport-Sheet_5
+  - first:
+      213: -3475572682526769957
+    second: Player Animations Teleport-Sheet_6
+  - first:
+      213: -2288213394421388553
+    second: Player Animations Teleport-Sheet_7
+  - first:
+      213: 6166738816722214765
+    second: Player Animations Teleport-Sheet_8
+  - first:
+      213: -212612281901519904
+    second: Player Animations Teleport-Sheet_9
+  - first:
+      213: -7112634875827937739
+    second: Player Animations Teleport-Sheet_10
+  - first:
+      213: 7766408710783661688
+    second: Player Animations Teleport-Sheet_11
+  - first:
+      213: 7359148201273411804
+    second: Player Animations Teleport-Sheet_12
+  - first:
+      213: 5017283208443809637
+    second: Player Animations Teleport-Sheet_13
+  - first:
+      213: 4679373965277007314
+    second: Player Animations Teleport-Sheet_14
+  - first:
+      213: -6249175212004145996
+    second: Player Animations Teleport-Sheet_15
+  - first:
+      213: 3668001990247205139
+    second: Player Animations Teleport-Sheet_16
+  - first:
+      213: -4694868682384307229
+    second: Player Animations Teleport-Sheet_17
+  - first:
+      213: 2604211498415607537
+    second: Player Animations Teleport-Sheet_18
+  - first:
+      213: 7191806822885450251
+    second: Player Animations Teleport-Sheet_19
+  - first:
+      213: -20390481177674144
+    second: Player Animations Teleport-Sheet_20
+  - first:
+      213: 664492276639116358
+    second: Player Animations Teleport-Sheet_21
+  - first:
+      213: -884290000820865721
+    second: Player Animations Teleport-Sheet_22
+  - first:
+      213: 9130048928566636824
+    second: Player Animations Teleport-Sheet_23
+  - first:
+      213: -2127650288214712265
+    second: Player Animations Teleport-Sheet_24
+  - first:
+      213: 1537504012169545630
+    second: Player Animations Teleport-Sheet_25
+  - first:
+      213: -8069311561521848935
+    second: Player Animations Teleport-Sheet_26
+  - first:
+      213: -8350722887649880650
+    second: Player Animations Teleport-Sheet_27
+  - first:
+      213: 5314790101923967749
+    second: Player Animations Teleport-Sheet_28
+  - first:
+      213: -6392573938309941171
+    second: Player Animations Teleport-Sheet_29
+  - first:
+      213: -8215003111329768449
+    second: Player Animations Teleport-Sheet_30
+  - first:
+      213: 5249960342976493609
+    second: Player Animations Teleport-Sheet_31
+  - first:
+      213: 4539002445931161075
+    second: Player Animations Teleport-Sheet_32
+  - first:
+      213: 7863986118783795049
+    second: Player Animations Teleport-Sheet_33
+  - first:
+      213: 3623712276067827495
+    second: Player Animations Teleport-Sheet_34
+  - first:
+      213: 1977510790462600268
+    second: Player Animations Teleport-Sheet_35
+  - first:
+      213: -9125867680852270614
+    second: Player Animations Teleport-Sheet_36
+  - first:
+      213: 2873116701387612714
+    second: Player Animations Teleport-Sheet_37
+  - first:
+      213: 3653697358382052870
+    second: Player Animations Teleport-Sheet_38
+  - first:
+      213: -1865412178443786909
+    second: Player Animations Teleport-Sheet_39
+  - first:
+      213: -6723122871331756562
+    second: Player Animations Teleport-Sheet_40
+  - first:
+      213: 874199152489778673
+    second: Player Animations Teleport-Sheet_41
+  - first:
+      213: 8911964304127498012
+    second: Player Animations Teleport-Sheet_42
+  - first:
+      213: 7575351533203649995
+    second: Player Animations Teleport-Sheet_43
+  - first:
+      213: -1370279970288905261
+    second: Player Animations Teleport-Sheet_44
+  - first:
+      213: 8430266323616189164
+    second: Player Animations Teleport-Sheet_45
+  - first:
+      213: -1916938075691369368
+    second: Player Animations Teleport-Sheet_46
+  - first:
+      213: -6059847909822305555
+    second: Player Animations Teleport-Sheet_47
+  - first:
+      213: 4167157099048695684
+    second: Player Animations Teleport-Sheet_48
+  - first:
+      213: 9011303598263761703
+    second: Player Animations Teleport-Sheet_49
+  - first:
+      213: -9158944226325542300
+    second: Player Animations Teleport-Sheet_50
+  - first:
+      213: -3786205619688904477
+    second: Player Animations Teleport-Sheet_51
+  - first:
+      213: 6962250894611448445
+    second: Player Animations Teleport-Sheet_52
+  - first:
+      213: 8110646491791082650
+    second: Player Animations Teleport-Sheet_53
+  - first:
+      213: -6446791167680334826
+    second: Player Animations Teleport-Sheet_54
+  - first:
+      213: -6413788403408077964
+    second: Player Animations Teleport-Sheet_55
+  - first:
+      213: -2804010192416252216
+    second: Player Animations Teleport-Sheet_56
+  - first:
+      213: -2629167284355566615
+    second: Player Animations Teleport-Sheet_57
+  - first:
+      213: -613623304169666583
+    second: Player Animations Teleport-Sheet_58
+  - first:
+      213: 5235374251806269343
+    second: Player Animations Teleport-Sheet_59
+  - first:
+      213: -8763674252165348160
+    second: Player Animations Teleport-Sheet_60
+  - first:
+      213: 6430227575997885329
+    second: Player Animations Teleport-Sheet_61
+  - first:
+      213: 3659512348683845852
+    second: Player Animations Teleport-Sheet_62
+  - first:
+      213: 4135230274064984856
+    second: Player Animations Teleport-Sheet_63
+  - first:
+      213: 1450082363995749485
+    second: Player Animations Teleport-Sheet_64
+  - first:
+      213: -295287500763137863
+    second: Player Animations Teleport-Sheet_65
+  - first:
+      213: -8034703410835572719
+    second: Player Animations Teleport-Sheet_66
+  - first:
+      213: -3325568739941593008
+    second: Player Animations Teleport-Sheet_67
+  - first:
+      213: -4935943863602815709
+    second: Player Animations Teleport-Sheet_68
+  - first:
+      213: 962468001131224523
+    second: Player Animations Teleport-Sheet_69
+  - first:
+      213: 7864355731669628487
+    second: Player Animations Teleport-Sheet_70
+  - first:
+      213: -7881276683979545380
+    second: Player Animations Teleport-Sheet_71
+  - first:
+      213: 5240475055139805384
+    second: Player Animations Teleport-Sheet_72
+  - first:
+      213: -2980828534224647623
+    second: Player Animations Teleport-Sheet_73
+  - first:
+      213: 5960732032286900246
+    second: Player Animations Teleport-Sheet_74
+  - first:
+      213: -2260172508704196281
+    second: Player Animations Teleport-Sheet_75
+  - first:
+      213: -5006692790985896461
+    second: Player Animations Teleport-Sheet_76
+  - first:
+      213: -7208503519439421574
+    second: Player Animations Teleport-Sheet_77
+  - first:
+      213: 8222706724257540376
+    second: Player Animations Teleport-Sheet_78
+  - first:
+      213: 6640663173047385430
+    second: Player Animations Teleport-Sheet_79
+  - first:
+      213: 6537912658616331131
+    second: Player Animations Teleport-Sheet_80
+  - first:
+      213: 3755712006638853466
+    second: Player Animations Teleport-Sheet_81
+  - first:
+      213: 5967550195437841613
+    second: Player Animations Teleport-Sheet_82
+  - first:
+      213: 8040901694084579072
+    second: Player Animations Teleport-Sheet_83
+  - first:
+      213: 9092287634893749775
+    second: Player Animations Teleport-Sheet_84
+  - first:
+      213: 6822855587989201295
+    second: Player Animations Teleport-Sheet_85
+  - first:
+      213: -1029108848473770701
+    second: Player Animations Teleport-Sheet_86
+  - first:
+      213: 7974141579008107121
+    second: Player Animations Teleport-Sheet_87
+  - first:
+      213: -6869556323113321906
+    second: Player Animations Teleport-Sheet_88
+  - first:
+      213: -6966000624044531398
+    second: Player Animations Teleport-Sheet_89
+  - first:
+      213: 3383326703615712793
+    second: Player Animations Teleport-Sheet_90
+  - first:
+      213: 8137719575048306460
+    second: Player Animations Teleport-Sheet_91
+  - first:
+      213: 8730053462655115142
+    second: Player Animations Teleport-Sheet_92
+  - first:
+      213: 465479754759552346
+    second: Player Animations Teleport-Sheet_93
+  - first:
+      213: 4023516861711511384
+    second: Player Animations Teleport-Sheet_94
+  - first:
+      213: -3499093322049969630
+    second: Player Animations Teleport-Sheet_95
+  - first:
+      213: -505698720048733284
+    second: Player Animations Teleport-Sheet_96
+  - first:
+      213: -3839274339425593947
+    second: Player Animations Teleport-Sheet_97
+  - first:
+      213: 560784412160240181
+    second: Player Animations Teleport-Sheet_98
+  - first:
+      213: -3945163422955111974
+    second: Player Animations Teleport-Sheet_99
+  - first:
+      213: -1456762142732476308
+    second: Player Animations Teleport-Sheet_100
+  - first:
+      213: -8647856626755667923
+    second: Player Animations Teleport-Sheet_101
+  - first:
+      213: -4697803481842987589
+    second: Player Animations Teleport-Sheet_102
+  - first:
+      213: -1710298412331137031
+    second: Player Animations Teleport-Sheet_103
+  - first:
+      213: 6726356707596041219
+    second: Player Animations Teleport-Sheet_104
+  - first:
+      213: -6397217082675044040
+    second: Player Animations Teleport-Sheet_105
+  - first:
+      213: -8457245270731908971
+    second: Player Animations Teleport-Sheet_106
+  - first:
+      213: -344873207298871111
+    second: Player Animations Teleport-Sheet_107
+  - first:
+      213: 7743417638703770222
+    second: Player Animations Teleport-Sheet_108
+  - first:
+      213: 65223325574267142
+    second: Player Animations Teleport-Sheet_109
+  - first:
+      213: -3903643857067131414
+    second: Player Animations Teleport-Sheet_110
+  - first:
+      213: 5784942153474569599
+    second: Player Animations Teleport-Sheet_111
+  - first:
+      213: 4314973732028443588
+    second: Player Animations Teleport-Sheet_112
+  - first:
+      213: 2089021096207712959
+    second: Player Animations Teleport-Sheet_113
+  - first:
+      213: -8046579933213216527
+    second: Player Animations Teleport-Sheet_114
+  - first:
+      213: 5503855813029583170
+    second: Player Animations Teleport-Sheet_115
+  - first:
+      213: -5472446489640273412
+    second: Player Animations Teleport-Sheet_116
+  - first:
+      213: 5233984360819186650
+    second: Player Animations Teleport-Sheet_117
+  - first:
+      213: -2785715995413691581
+    second: Player Animations Teleport-Sheet_118
+  - first:
+      213: 8395005060473903729
+    second: Player Animations Teleport-Sheet_119
+  - first:
+      213: -4479737488538812171
+    second: Player Animations Teleport-Sheet_120
+  - first:
+      213: -2206274738495797877
+    second: Player Animations Teleport-Sheet_121
+  - first:
+      213: 7747931150516249784
+    second: Player Animations Teleport-Sheet_122
+  - first:
+      213: 1556446993467547619
+    second: Player Animations Teleport-Sheet_123
+  - first:
+      213: 17558089565772838
+    second: Player Animations Teleport-Sheet_124
+  - first:
+      213: 8745355306113495943
+    second: Player Animations Teleport-Sheet_125
+  - first:
+      213: 5106159738774736556
+    second: Player Animations Teleport-Sheet_126
+  - first:
+      213: 6354260162961679508
+    second: Player Animations Teleport-Sheet_127
+  - first:
+      213: -145418752097005665
+    second: Player Animations Teleport-Sheet_128
+  - first:
+      213: -1907445717097188341
+    second: Player Animations Teleport-Sheet_129
+  - first:
+      213: 1610041890488583911
+    second: Player Animations Teleport-Sheet_130
+  - first:
+      213: -2932459657938475801
+    second: Player Animations Teleport-Sheet_131
+  - first:
+      213: 4768109646691610121
+    second: Player Animations Teleport-Sheet_132
+  - first:
+      213: 4075865984341328366
+    second: Player Animations Teleport-Sheet_133
+  - first:
+      213: -8521810244927939838
+    second: Player Animations Teleport-Sheet_134
+  - first:
+      213: -750465349704353080
+    second: Player Animations Teleport-Sheet_135
+  - first:
+      213: 6205097708527650318
+    second: Player Animations Teleport-Sheet_136
+  - first:
+      213: 5483400161220466392
+    second: Player Animations Teleport-Sheet_137
+  - first:
+      213: -5011503698252729653
+    second: Player Animations Teleport-Sheet_138
+  - first:
+      213: 4244152900086713006
+    second: Player Animations Teleport-Sheet_139
+  - first:
+      213: -6711945550556137730
+    second: Player Animations Teleport-Sheet_140
+  - first:
+      213: 6105275053399556612
+    second: Player Animations Teleport-Sheet_141
+  - first:
+      213: -4369706974754516984
+    second: Player Animations Teleport-Sheet_142
+  - first:
+      213: 1434851749762564648
+    second: Player Animations Teleport-Sheet_143
+  - first:
+      213: 7150213049353250638
+    second: Player Animations Teleport-Sheet_144
+  - first:
+      213: 8268860726454418842
+    second: Player Animations Teleport-Sheet_145
+  - first:
+      213: -9072439626393484747
+    second: Player Animations Teleport-Sheet_146
+  - first:
+      213: -7859932934351903424
+    second: Player Animations Teleport-Sheet_147
+  - first:
+      213: 6735859896422859994
+    second: Player Animations Teleport-Sheet_148
+  - first:
+      213: -1537397309905843669
+    second: Player Animations Teleport-Sheet_149
+  - first:
+      213: 6226752986380071868
+    second: Player Animations Teleport-Sheet_150
+  - first:
+      213: 5856649100959576742
+    second: Player Animations Teleport-Sheet_151
+  - first:
+      213: 6022283611895676760
+    second: Player Animations Teleport-Sheet_152
+  - first:
+      213: -6963336714790859321
+    second: Player Animations Teleport-Sheet_153
+  - first:
+      213: -5014778419746390549
+    second: Player Animations Teleport-Sheet_154
+  - first:
+      213: 8610680695043219426
+    second: Player Animations Teleport-Sheet_155
+  - first:
+      213: 7135043110461932986
+    second: Player Animations Teleport-Sheet_156
+  - first:
+      213: -7438331453014931624
+    second: Player Animations Teleport-Sheet_157
+  - first:
+      213: -6740700508123209674
+    second: Player Animations Teleport-Sheet_158
+  - first:
+      213: -8945079208543881355
+    second: Player Animations Teleport-Sheet_159
+  - first:
+      213: -6746007562036616643
+    second: Player Animations Teleport-Sheet_160
+  - first:
+      213: -1023240712892623620
+    second: Player Animations Teleport-Sheet_161
+  - first:
+      213: 5461636756494727310
+    second: Player Animations Teleport-Sheet_162
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ffdc5b5ec2defa0800000000000000
+      internalID: -5769906182482428032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5803932d62ef9be70800000000000000
+      internalID: 9131609162159566981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323d94f8c832e4600800000000000000
+      internalID: 454339699017372451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f32d34a4f8156c0800000000000000
+      internalID: -4156383431958052965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5b772a2372e1390800000000000000
+      internalID: -7845790402405222934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b936c6ac4b4c8b0800000000000000
+      internalID: -5132778893800662211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcb0f24f0944cfc0800000000000000
+      internalID: -3475572682526769957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fae83f8a02ae30e0800000000000000
+      internalID: -2288213394421388553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f1751f748a49550800000000000000
+      internalID: 6166738816722214765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebef5e8146ac0df0800000000000000
+      internalID: -212612281901519904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e9839c348da4d90800000000000000
+      internalID: -7112634875827937739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87672c20393d7cb60800000000000000
+      internalID: 7766408710783661688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd84b527c42f02660800000000000000
+      internalID: 7359148201273411804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f43d0de78f0a540800000000000000
+      internalID: 5017283208443809637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd0c8b34d970f040800000000000000
+      internalID: 4679373965277007314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4015511487649a0800000000000000
+      internalID: -6249175212004145996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3194c10506c57e230800000000000000
+      internalID: 3668001990247205139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb806fcec978deb0800000000000000
+      internalID: -4694868682384307229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fecc036f84042420800000000000000
+      internalID: 2604211498415607537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02615b933e6ec360800000000000000
+      internalID: 7191806822885450251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06efa9427fe87bff0800000000000000
+      internalID: -20390481177674144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ca0197430c83900800000000000000
+      internalID: 664492276639116358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74574aeedee5ab3f0800000000000000
+      internalID: -884290000820865721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8117621a02374be70800000000000000
+      internalID: 9130048928566636824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73064bce5511972e0800000000000000
+      internalID: -2127650288214712265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e978a16c0cf465510800000000000000
+      internalID: 1537504012169545630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d998943eb040090800000000000000
+      internalID: -8069311561521848935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b597e717c54c1c80800000000000000
+      internalID: -8350722887649880650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503b0f0507de1c940800000000000000
+      internalID: 5314790101923967749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48bd965fd30947a0800000000000000
+      internalID: -6392573938309941171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbd578f1327efd80800000000000000
+      internalID: -8215003111329768449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9287000dd1b9bd840800000000000000
+      internalID: 5249960342976493609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f52b580da6cdfe30800000000000000
+      internalID: 4539002445931161075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ff5b8b5bd722d60800000000000000
+      internalID: 7863986118783795049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fbe37ad130a4230800000000000000
+      internalID: 3623712276067827495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Animations Teleport-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.1640625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44760d2697817b10800000000000000
+      internalID: 1977510790462600268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e3556f3a30a49449abe1224570d8633
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4921875,"y":0.1640625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Player Animations Teleport-Sheet_0: -5769906182482428032
+      Player Animations Teleport-Sheet_1: 9131609162159566981
+      Player Animations Teleport-Sheet_10: -7112634875827937739
+      Player Animations Teleport-Sheet_11: 7766408710783661688
+      Player Animations Teleport-Sheet_12: 7359148201273411804
+      Player Animations Teleport-Sheet_13: 5017283208443809637
+      Player Animations Teleport-Sheet_14: 4679373965277007314
+      Player Animations Teleport-Sheet_15: -6249175212004145996
+      Player Animations Teleport-Sheet_16: 3668001990247205139
+      Player Animations Teleport-Sheet_17: -4694868682384307229
+      Player Animations Teleport-Sheet_18: 2604211498415607537
+      Player Animations Teleport-Sheet_19: 7191806822885450251
+      Player Animations Teleport-Sheet_2: 454339699017372451
+      Player Animations Teleport-Sheet_20: -20390481177674144
+      Player Animations Teleport-Sheet_21: 664492276639116358
+      Player Animations Teleport-Sheet_22: -884290000820865721
+      Player Animations Teleport-Sheet_23: 9130048928566636824
+      Player Animations Teleport-Sheet_24: -2127650288214712265
+      Player Animations Teleport-Sheet_25: 1537504012169545630
+      Player Animations Teleport-Sheet_26: -8069311561521848935
+      Player Animations Teleport-Sheet_27: -8350722887649880650
+      Player Animations Teleport-Sheet_28: 5314790101923967749
+      Player Animations Teleport-Sheet_29: -6392573938309941171
+      Player Animations Teleport-Sheet_3: -4156383431958052965
+      Player Animations Teleport-Sheet_30: -8215003111329768449
+      Player Animations Teleport-Sheet_31: 5249960342976493609
+      Player Animations Teleport-Sheet_32: 4539002445931161075
+      Player Animations Teleport-Sheet_33: 7863986118783795049
+      Player Animations Teleport-Sheet_34: 3623712276067827495
+      Player Animations Teleport-Sheet_35: 1977510790462600268
+      Player Animations Teleport-Sheet_4: -7845790402405222934
+      Player Animations Teleport-Sheet_5: -5132778893800662211
+      Player Animations Teleport-Sheet_6: -3475572682526769957
+      Player Animations Teleport-Sheet_7: -2288213394421388553
+      Player Animations Teleport-Sheet_8: 6166738816722214765
+      Player Animations Teleport-Sheet_9: -212612281901519904
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
