@@ -11,10 +11,10 @@ using Random = UnityEngine.Random;
 public class SheepPatrol : MonoBehaviour
 {
     private int HashMovementValue = Animator.StringToHash("MovementValue");
-    private int HashDirX = Animator.StringToHash("dirX");
-    private int HashDirY = Animator.StringToHash("dirY");
+    private int HashDirX = Animator.StringToHash("XDirection");
+    private int HashDirY = Animator.StringToHash("YDirection");
     private int HashActionTrigger = Animator.StringToHash("ActionTrigger");
-    private int HashActionId = Animator.StringToHash("ActionId");
+    private int HashActionId = Animator.StringToHash("ActionID");
     
     
     #region Inspector
@@ -97,6 +97,11 @@ public class SheepPatrol : MonoBehaviour
 
     private void Update()
     {
+        if (enemyState == EnemyState.AttackIdle || enemyState == EnemyState.Attacking)
+        {
+            LookAtPlayer();
+        }
+        
         _sheepBehaviour.SetEnemyState(enemyState);
         
         if (_canAttack && enemyState != EnemyState.Attacking)
@@ -106,7 +111,7 @@ public class SheepPatrol : MonoBehaviour
             {
                 _canAttack = false;
                 _sheepBehaviour.Attack();
-                //SetAnimationAction(1);
+                SetAnimationAction(10);
             }
         }
 
@@ -153,7 +158,7 @@ public class SheepPatrol : MonoBehaviour
     private void LateUpdate()
     {
         UpdateFacing();
-        //UpdateAniamtor();
+        UpdateAniamtor();
     }
     
     #endregion
@@ -175,7 +180,7 @@ public class SheepPatrol : MonoBehaviour
         }
 
         UpdateFacingDirection(_lookDirection);
-        RotateObj(_lookDirection);
+        //RotateObj(_lookDirection);
     }
 
     private void UpdateFacingDirection(Vector2 dir)
@@ -188,12 +193,12 @@ public class SheepPatrol : MonoBehaviour
         {
             enemyFacingDirection = dir.y > 0 ? EnemyFacingDirection.Up : EnemyFacingDirection.Down;
         }
-        //SetAnimationDirection(new Vector2(dir.x, dir.y));
-        /*
+        SetAnimationDirection(new Vector2(dir.x, dir.y));
+        
         switch (enemyFacingDirection)
         {
             case EnemyFacingDirection.Up:
-
+                SetAnimationDirection(new Vector2(0, 1));
                 break;
             
             case EnemyFacingDirection.Down:
@@ -207,7 +212,41 @@ public class SheepPatrol : MonoBehaviour
             case EnemyFacingDirection.Right:
                 SetAnimationDirection(new Vector2(1, 0));
                 break;
-        }*/
+        }
+    }
+    
+    private void LookAtPlayer()
+    {
+        Vector2 direction = _player.position - transform.position;
+        
+        if(Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            enemyFacingDirection = direction.x > 0 ? EnemyFacingDirection.Right : EnemyFacingDirection.Left;
+        }
+        else
+        {
+            enemyFacingDirection = direction.y > 0 ? EnemyFacingDirection.Up : EnemyFacingDirection.Down;
+        }
+        SetAnimationDirection(new Vector2(direction.x, direction.y));
+
+        switch (enemyFacingDirection)
+        {
+            case EnemyFacingDirection.Up:
+                SetAnimationDirection(new Vector2(0, 1));
+                break;
+
+            case EnemyFacingDirection.Down:
+                SetAnimationDirection(new Vector2(0, -1));
+                break;
+
+            case EnemyFacingDirection.Left:
+                SetAnimationDirection(new Vector2(-1, 0));
+                break;
+
+            case EnemyFacingDirection.Right:
+                SetAnimationDirection(new Vector2(1, 0));
+                break;
+        }
     }
     
     private void RotateObj(Vector2 direction)
@@ -292,16 +331,16 @@ public class SheepPatrol : MonoBehaviour
 
             do
             {
-                newWaypointIndex = Random.Range(0, waypoints.Count);
+                newWaypointIndex = Random.Range(0, attackIdleWaypoints.Count);
             } while (newWaypointIndex == _currentWaypointIndex);
 
             _currentWaypointIndex = newWaypointIndex;
         }
         else
         {
-            _currentWaypointIndex = (_currentWaypointIndex + 1) % waypoints.Count;
+            _currentWaypointIndex = (_currentWaypointIndex + 1) % attackIdleWaypoints.Count;
         }
-
+        
         _target = attackIdleWaypoints[_currentWaypointIndex];
         _agent.SetDestination(_target.position);
     }
@@ -349,8 +388,6 @@ public class SheepPatrol : MonoBehaviour
         if (_isWaiting) return;
         if (_agent.pathPending) return;
         
-        Debug.Log(_agent.remainingDistance);
-
         if (_agent.remainingDistance <= _agent.stoppingDistance + 0.01f)
         {
             if (waitAtWaypoint)
@@ -369,20 +406,20 @@ public class SheepPatrol : MonoBehaviour
     #region Animation
 
     private void UpdateAniamtor()
-    {
-     //   animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
+    { 
+        animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
     }
 
     private void SetAnimationDirection(Vector2 direction)
-    {
-     //   animator.SetFloat(HashDirX, direction.x);
-      //  animator.SetFloat(HashDirY, direction.y);
+    { 
+        animator.SetFloat(HashDirX, direction.x); 
+        animator.SetFloat(HashDirY, direction.y);
     }
 
     private void SetAnimationAction(int actionId)
-    {
-       // animator.SetTrigger(HashActionTrigger);
-       // animator.SetInteger(HashActionId, actionId);
+    { 
+        animator.SetTrigger(HashActionTrigger);
+        animator.SetInteger(HashActionId, actionId);
     }
 
     #endregion
