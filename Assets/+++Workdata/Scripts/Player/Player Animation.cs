@@ -51,11 +51,11 @@ public class PlayerAnimation : MonoBehaviour
 
     private void PutOnCustom()
     {
-        _animators.RemoveAt(0);
-        _animators.RemoveAt(1);
+       // _animators.RemoveAt(0);
+        //_animators.RemoveAt(1);
         
-        _animators.Add(_bodyCustom);
-        _animators.Add(_hatCustom);
+        //_animators.Add(_bodyCustom);
+        //_animators.Add(_hatCustom);
         
         _bodyCustom.gameObject.GetComponent<SpriteRenderer>().enabled = true;
         _hatCustom.gameObject.GetComponent<SpriteRenderer>().enabled = true;
@@ -66,11 +66,11 @@ public class PlayerAnimation : MonoBehaviour
 
     private void PutOnNormal()
     {
-        _animators.RemoveAt(0);
-        _animators.RemoveAt(1);
+       // _animators.RemoveAt(0);
+        //_animators.RemoveAt(1);
         
-        _animators.Add(_body);
-        _animators.Add(_hat);
+        //_animators.Add(_body);
+        //_animators.Add(_hat);
         
         _bodyCustom.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         _hatCustom.gameObject.GetComponent<SpriteRenderer>().enabled = false;
@@ -83,6 +83,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         foreach (var _animator in _animators)
         {
+            Debug.Log(_animator);
             _animator.SetFloat(Hash_MovementValue, Mathf.Abs(_playerController.Rb.linearVelocity.magnitude));
 
             if (_playerController.MoveInput.x == 0 && _playerController.MoveInput.y == 0) continue;
