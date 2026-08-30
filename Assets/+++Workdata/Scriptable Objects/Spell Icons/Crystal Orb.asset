@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
   index: 5
   Id: spell_cr_orb
-  sprite: {fileID: -2263798618699758672, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
+  sprite: {fileID: 867903333782336370, guid: 683765668dff9af4987a3305ed97baf1, type: 3}
   displayName: Crystal Pillar
   description: 12
   cooldownState: 0

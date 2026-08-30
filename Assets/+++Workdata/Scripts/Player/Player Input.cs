@@ -124,11 +124,17 @@ public class PlayerInput : MonoBehaviour
         public void EnableInput()
         {
             _inputActions.Enable();
+           // _inputActions.Player.Move.Enable();
+          //  _inputActions.Player.MoveForTarget.Enable();
+          //  _inputActions.UI.OnlyWASD.Enable();
         }
         
         public void DisableInput()
         {
             _inputActions.Disable();
+          //  _inputActions.Player.Move.Disable();
+          //  _inputActions.Player.MoveForTarget.Disable();
+          //  _inputActions.UI.OnlyWASD.Disable();
         }
 
         public void ToggleMovement(bool value)

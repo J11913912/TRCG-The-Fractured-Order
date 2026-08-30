@@ -17,24 +17,24 @@ public class PotionInput : MonoBehaviour
     private void Awake()
     {
         _inputActions = new InputSystem_Actions();
-        _healthAction = _inputActions.Player.HealthPotion;
-        _manaAction = _inputActions.Player.ManaPotion;
+        //_healthAction = _inputActions.Player.HealthPotion;
+        //_manaAction = _inputActions.Player.ManaPotion;
         
-        _moneyManager = GetComponent<MoneyManager>();
+        _moneyManager = FindAnyObjectByType<MoneyManager>();
     }
 
     private void OnEnable()
     {
         EnableInput();
-        _healthAction.performed += UseHealthPotion;
-        _manaAction.performed += UseManaPotion;
+        //_healthAction.performed += UseHealthPotion;
+        //_manaAction.performed += UseManaPotion;
     }
 
     private void OnDisable()
     {
         DisableInput();
-        _healthAction.performed -= UseHealthPotion;
-        _manaAction.performed -= UseManaPotion;
+       // _healthAction.performed -= UseHealthPotion;
+        //_manaAction.performed -= UseManaPotion;
     }
 
     public void EnableInput()
@@ -47,7 +47,7 @@ public class PotionInput : MonoBehaviour
         _inputActions.Disable();
     }
 
-    public void UseHealthPotion(InputAction.CallbackContext ctx)
+    public void UseHealthPotion()
     {
         if (_moneyManager.ReturnHealthPotions() <= 0) return;
         
@@ -55,7 +55,7 @@ public class PotionInput : MonoBehaviour
         PlayerInformation.OnHealthUp?.Invoke(heallingPower);
     }
 
-    public void UseManaPotion(InputAction.CallbackContext ctx)
+    public void UseManaPotion()
     {
         if (_moneyManager.ReturnManaPotions() <= 0) return;
         

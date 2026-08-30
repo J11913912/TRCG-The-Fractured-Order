@@ -13,6 +13,7 @@ public class CountLoops : MonoBehaviour
     public void SetLoopsToGo(int loops)
     {
         loopsToGo = loops + 1;
+        loopsWent = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

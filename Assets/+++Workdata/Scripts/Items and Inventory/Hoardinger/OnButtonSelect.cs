@@ -8,6 +8,7 @@ public class OnButtonSelect : MonoBehaviour
     public ShopInventory shopInventory;
 
     public string description;
+    public string header;
 
     public bool isInventorySlot = false;
     
@@ -26,9 +27,12 @@ public class OnButtonSelect : MonoBehaviour
     {
         if (isInventorySlot)
         {
-            
+            LittleInventory.SetDescription?.Invoke(description);
+            LittleInventory.SetHeader?.Invoke(header);
+            return;
         }
         
         shopInventory.SetDescription(description);
+        shopInventory.SetHead(header);
     }
 }

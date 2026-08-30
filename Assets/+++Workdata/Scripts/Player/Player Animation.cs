@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
+    public static Action CustomOn;
+    public static Action CustomOff;
+    
     public static int Hash_MovementValue = Animator.StringToHash("MovementValue");
     public static int Hash_XDirection = Animator.StringToHash("XDirection");
     public static int Hash_YDirection = Animator.StringToHash("YDirection");
@@ -14,17 +17,24 @@ public class PlayerAnimation : MonoBehaviour
     public static Action<int> OnAnimationAction;
 
     public List<Animator> _animators = new List<Animator>();
+    
+    public Animator _hatCustom;
+    public Animator _hat;
+    public Animator _bodyCustom;
+    public Animator _body;
 
     private PlayerController _playerController;
 
     private void Awake()
     {
-        _playerController = GetComponent<PlayerController>();
+        _playerController = GetComponent<PlayerController>(); 
     }
 
     private void OnEnable()
     {
         OnAnimationAction += AnimationSetAction;
+        CustomOn += PutOnCustom;
+        CustomOff += PutOnNormal;
     }
 
     private void LateUpdate()
@@ -35,6 +45,38 @@ public class PlayerAnimation : MonoBehaviour
     private void OnDisable()
     {
         OnAnimationAction -= AnimationSetAction;
+        CustomOn -= PutOnCustom;
+        CustomOff -= PutOnNormal;
+    }
+
+    private void PutOnCustom()
+    {
+        _animators.RemoveAt(0);
+        _animators.RemoveAt(1);
+        
+        _animators.Add(_bodyCustom);
+        _animators.Add(_hatCustom);
+        
+        _bodyCustom.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        _hatCustom.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        
+        _body.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        _hat.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+    }
+
+    private void PutOnNormal()
+    {
+        _animators.RemoveAt(0);
+        _animators.RemoveAt(1);
+        
+        _animators.Add(_body);
+        _animators.Add(_hat);
+        
+        _bodyCustom.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        _hatCustom.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        
+        _body.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        _hat.gameObject.GetComponent<SpriteRenderer>().enabled = true;
     }
 
     private void SetMovementAnimationValues()

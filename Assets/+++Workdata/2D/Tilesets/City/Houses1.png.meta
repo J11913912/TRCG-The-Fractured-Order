@@ -125,12 +125,12 @@ TextureImporter:
       name: Houses1_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 260
-        width: 260
-        height: 252
+        x: 61
+        y: 261
+        width: 258
+        height: 250
       alignment: 9
-      pivot: {x: 0.5, y: 0.18650794}
+      pivot: {x: 0.5, y: 0.192}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: Houses1_1
       rect:
         serializedVersion: 2
-        x: 375
-        y: 259
-        width: 260
-        height: 251
+        x: 376
+        y: 260
+        width: 258
+        height: 249
       alignment: 9
-      pivot: {x: 0.5, y: 0.187251}
+      pivot: {x: 0.5, y: 0.19277108}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: Houses1_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 2
-        width: 260
-        height: 252
+        x: 61
+        y: 3
+        width: 258
+        height: 250
       alignment: 9
-      pivot: {x: 0.5, y: 0.18650794}
+      pivot: {x: 0.5, y: 0.192}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: Houses1_3
       rect:
         serializedVersion: 2
-        x: 369
-        y: 3
-        width: 260
-        height: 253
+        x: 370
+        y: 4
+        width: 258
+        height: 251
       alignment: 9
-      pivot: {x: 0.5, y: 0.18577075}
+      pivot: {x: 0.5, y: 0.19123507}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,7 +253,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":705.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.18297871947288514,"y":0.09375},"pivotPixels":{"x":129.0,"y":48.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Houses1_0: -471636104099138396
       Houses1_1: 595456064071064694

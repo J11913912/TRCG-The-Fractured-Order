@@ -271,24 +271,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": ""Hold(duration=30,pressPoint=0.5)"",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""HealthPotion"",
-                    ""type"": ""Button"",
-                    ""id"": ""0e4ba6ff-2351-4c95-9e42-0dbae36c40ed"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""ManaPotion"",
-                    ""type"": ""Button"",
-                    ""id"": ""bb0e97f0-6b45-4545-880f-6a8258b0e4f3"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -1193,28 +1175,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""BaseProjectile"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""5fe07684-7cab-457e-bffb-ac3fae573062"",
-                    ""path"": ""<Keyboard>/q"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""HealthPotion"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""915b11c3-b40c-49cf-a92a-c400b1aad892"",
-                    ""path"": ""<Keyboard>/r"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""ManaPotion"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -1361,6 +1321,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""name"": ""Spells"",
                     ""type"": ""Button"",
                     ""id"": ""5ed187b3-2e71-4ace-8831-e34398de5a62"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Inventory"",
+                    ""type"": ""Button"",
+                    ""id"": ""e13b8c51-f9f4-4245-adbf-0a6b82a2edd6"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -2159,6 +2128,17 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""action"": ""Spells"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""73514b8d-1f17-49e7-81b8-c59f4e759451"",
+                    ""path"": ""<Keyboard>/i"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Inventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -2248,8 +2228,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_Player_CrystalAoE = m_Player.FindAction("CrystalAoE", throwIfNotFound: true);
         m_Player_CrystalShield = m_Player.FindAction("CrystalShield", throwIfNotFound: true);
         m_Player_CrystalHealing = m_Player.FindAction("CrystalHealing", throwIfNotFound: true);
-        m_Player_HealthPotion = m_Player.FindAction("HealthPotion", throwIfNotFound: true);
-        m_Player_ManaPotion = m_Player.FindAction("ManaPotion", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -2268,6 +2246,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_UI_EquippingFocus = m_UI.FindAction("EquippingFocus", throwIfNotFound: true);
         m_UI_Pause = m_UI.FindAction("Pause", throwIfNotFound: true);
         m_UI_Spells = m_UI.FindAction("Spells", throwIfNotFound: true);
+        m_UI_Inventory = m_UI.FindAction("Inventory", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -2369,8 +2348,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_CrystalAoE;
     private readonly InputAction m_Player_CrystalShield;
     private readonly InputAction m_Player_CrystalHealing;
-    private readonly InputAction m_Player_HealthPotion;
-    private readonly InputAction m_Player_ManaPotion;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -2463,14 +2440,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @CrystalHealing => m_Wrapper.m_Player_CrystalHealing;
         /// <summary>
-        /// Provides access to the underlying input action "Player/HealthPotion".
-        /// </summary>
-        public InputAction @HealthPotion => m_Wrapper.m_Player_HealthPotion;
-        /// <summary>
-        /// Provides access to the underlying input action "Player/ManaPotion".
-        /// </summary>
-        public InputAction @ManaPotion => m_Wrapper.m_Player_ManaPotion;
-        /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
         public InputActionMap Get() { return m_Wrapper.m_Player; }
@@ -2556,12 +2525,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @CrystalHealing.started += instance.OnCrystalHealing;
             @CrystalHealing.performed += instance.OnCrystalHealing;
             @CrystalHealing.canceled += instance.OnCrystalHealing;
-            @HealthPotion.started += instance.OnHealthPotion;
-            @HealthPotion.performed += instance.OnHealthPotion;
-            @HealthPotion.canceled += instance.OnHealthPotion;
-            @ManaPotion.started += instance.OnManaPotion;
-            @ManaPotion.performed += instance.OnManaPotion;
-            @ManaPotion.canceled += instance.OnManaPotion;
         }
 
         /// <summary>
@@ -2633,12 +2596,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @CrystalHealing.started -= instance.OnCrystalHealing;
             @CrystalHealing.performed -= instance.OnCrystalHealing;
             @CrystalHealing.canceled -= instance.OnCrystalHealing;
-            @HealthPotion.started -= instance.OnHealthPotion;
-            @HealthPotion.performed -= instance.OnHealthPotion;
-            @HealthPotion.canceled -= instance.OnHealthPotion;
-            @ManaPotion.started -= instance.OnManaPotion;
-            @ManaPotion.performed -= instance.OnManaPotion;
-            @ManaPotion.canceled -= instance.OnManaPotion;
         }
 
         /// <summary>
@@ -2692,6 +2649,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_EquippingFocus;
     private readonly InputAction m_UI_Pause;
     private readonly InputAction m_UI_Spells;
+    private readonly InputAction m_UI_Inventory;
     /// <summary>
     /// Provides access to input actions defined in input action map "UI".
     /// </summary>
@@ -2768,6 +2726,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Spells => m_Wrapper.m_UI_Spells;
         /// <summary>
+        /// Provides access to the underlying input action "UI/Inventory".
+        /// </summary>
+        public InputAction @Inventory => m_Wrapper.m_UI_Inventory;
+        /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
         public InputActionMap Get() { return m_Wrapper.m_UI; }
@@ -2841,6 +2803,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Spells.started += instance.OnSpells;
             @Spells.performed += instance.OnSpells;
             @Spells.canceled += instance.OnSpells;
+            @Inventory.started += instance.OnInventory;
+            @Inventory.performed += instance.OnInventory;
+            @Inventory.canceled += instance.OnInventory;
         }
 
         /// <summary>
@@ -2900,6 +2865,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Spells.started -= instance.OnSpells;
             @Spells.performed -= instance.OnSpells;
             @Spells.canceled -= instance.OnSpells;
+            @Inventory.started -= instance.OnInventory;
+            @Inventory.performed -= instance.OnInventory;
+            @Inventory.canceled -= instance.OnInventory;
         }
 
         /// <summary>
@@ -3145,20 +3113,6 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnCrystalHealing(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "HealthPotion" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnHealthPotion(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "ManaPotion" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnManaPotion(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.
@@ -3279,5 +3233,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSpells(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Inventory" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnInventory(InputAction.CallbackContext context);
     }
 }

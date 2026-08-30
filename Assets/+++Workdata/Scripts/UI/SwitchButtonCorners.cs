@@ -12,6 +12,7 @@ public class SwitchButtonCorners : MonoBehaviour
 {
     public static Action<Vector2> OnNavigate;
     public static Action OnFocus;
+    public static Action<bool> OnOpenMenu;
 
     public GameObject currentSelectedGameObject;
     public GameObject focusButton;
@@ -27,6 +28,7 @@ public class SwitchButtonCorners : MonoBehaviour
     public bool justPressed = false;
     public bool focusOn = false;
     public bool justPressedFocus = false;
+    public bool areWeAllowed = false;
 
     private void Awake()
     {
@@ -39,17 +41,25 @@ public class SwitchButtonCorners : MonoBehaviour
     {
         OnNavigate += CornerChange;
         OnFocus += EquippingFocusOn;
+        OnOpenMenu += SetAreWeAllowed;
     }
 
     private void OnDisable()
     {
         OnNavigate -= CornerChange;
         OnFocus -= EquippingFocusOn;
+        OnOpenMenu -= SetAreWeAllowed;
+    }
+
+    private void SetAreWeAllowed(bool value)
+    {
+        areWeAllowed = value;
     }
     
 
     public void CornerChange(Vector2 input)
     {
+        if (!areWeAllowed) return;
         if (justPressed) return;
         if (focusOn) return;
         justPressed = true;

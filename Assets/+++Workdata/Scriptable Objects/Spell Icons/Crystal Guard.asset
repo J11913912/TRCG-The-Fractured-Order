@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
   index: 6
   Id: spell_cr_guard
-  sprite: {fileID: -7857360106432412321, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
+  sprite: {fileID: -8197427923511851060, guid: a36d11df761df1441add209c292ce566, type: 3}
   displayName: Crystal Wall
   description: 10
   cooldownState: 0

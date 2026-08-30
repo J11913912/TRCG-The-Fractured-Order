@@ -34,6 +34,7 @@ public class ShopInventory : MonoBehaviour
     public TextMeshProUGUI spellText;
     
     public TextMeshProUGUI description;
+    public TextMeshProUGUI header;
 
     public Button button1;
     public Button button2;
@@ -42,6 +43,7 @@ public class ShopInventory : MonoBehaviour
     public Button backButton;
 
     public MoneyManager moneyManager;
+    public PutOnHat _putOnHat;
     
     public int prizeHealthPotions;
     public int prizeManaPotions;
@@ -70,6 +72,7 @@ public class ShopInventory : MonoBehaviour
 
     public void Focus()
     {
+        if (!isActive) return;
         button1.Select();
     }
 
@@ -150,8 +153,8 @@ public class ShopInventory : MonoBehaviour
             }
         }
         
-        healthPotionsText.SetText(healthPotionsAmount.ToString());
-        manaPotionsText.SetText(manaPotionsAmount.ToString());
+        //healthPotionsText.SetText(healthPotionsAmount.ToString());
+        //manaPotionsText.SetText(manaPotionsAmount.ToString());
         costumisableText.SetText(_costumisableAmount.ToString());
         spellText.SetText(_spellAmount.ToString());
     }
@@ -198,7 +201,7 @@ public class ShopInventory : MonoBehaviour
     {
         if (moneyManager.ReturnMoney() >= prizeHealthPotions)
         {
-            ChangeHealthPotions(-1);
+            //ChangeHealthPotions(-1);
             MoneyManager.OnMoneyDecrease?.Invoke(prizeHealthPotions);
             MoneyManager.OnHealthPotion?.Invoke(1);
         }
@@ -208,7 +211,7 @@ public class ShopInventory : MonoBehaviour
     {
         if (moneyManager.ReturnMoney() >= prizeManaPotions)
         {
-            ChangeManaPotions(-1);
+           // ChangeManaPotions(-1);
             MoneyManager.OnMoneyDecrease?.Invoke(prizeManaPotions);
             MoneyManager.OnManaPotion?.Invoke(1);
         }
@@ -263,6 +266,8 @@ public class ShopInventory : MonoBehaviour
 
         button3.interactable = false;
         
+        _putOnHat.HatUnlock();
+        
         GoBackToShop();
     }
 
@@ -288,6 +293,12 @@ public class ShopInventory : MonoBehaviour
         description.SetText(desc);
         description.SetText(desc);
     }
+
+    public void SetHead(string heading)
+    {
+        header.SetText(heading);
+    }
+    
     
     
 }
