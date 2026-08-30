@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using FMODUnity;
 
 public class BasicProjectileSpell : MonoBehaviour
 {
@@ -88,6 +89,8 @@ public class BasicProjectileSpell : MonoBehaviour
         
         GameObject projectile = Instantiate(projectilePrefab);
         projectile.transform.position = _spawnPosition;
+        
+        RuntimeManager.PlayOneShot("event:/Player/Standard/Dart Release");
         
         _projectileBehaviour = projectile.GetComponent<BaseProjectileBehaviour>();
         

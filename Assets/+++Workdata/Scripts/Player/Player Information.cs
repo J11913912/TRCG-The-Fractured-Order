@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using FMODUnity;
 
 public class PlayerInformation : MonoBehaviour
 {
@@ -83,6 +84,7 @@ public class PlayerInformation : MonoBehaviour
         inIFrames = true;
         canTakeDamage = false;
         currentHealth -= damage;
+        RuntimeManager.PlayOneShot("event:/Player/Player Hit");
 
         SetIFrames(howManyIFrames);
         
@@ -96,6 +98,7 @@ public class PlayerInformation : MonoBehaviour
          
             playerAnimation.AnimationSetAction(100);
             PlayerStates.OnChangeAction?.Invoke(PlayerAction.Dead);
+            RuntimeManager.PlayOneShot("event:/Misc/Game Over");
             
             HealthbarManager.OnHealthDecrease(damage);
         }

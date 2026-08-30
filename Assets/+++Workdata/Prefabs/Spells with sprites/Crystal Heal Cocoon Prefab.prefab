@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2332717570248016616}
   - component: {fileID: 1622483588295830718}
   - component: {fileID: 4234596031773722384}
+  - component: {fileID: -4764681872325233576}
   m_Layer: 0
   m_Name: Crystal Heal Cocoon Prefab
   m_TagString: Untagged
@@ -80,9 +81,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1158578619
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8794872475706080139, guid: 2c04504b4f4d5914ea0be417163f4de5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.74509805}
@@ -142,3 +143,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpriteColorChanger
   colorSprite: {r: 1, g: 1, b: 1, a: 0.8627451}
   colorTime: 0.5
+--- !u!114 &-4764681872325233576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326835886221984847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent

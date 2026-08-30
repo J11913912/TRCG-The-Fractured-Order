@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using FMODUnity;
 
 public class BasicHealingSpell : MonoBehaviour
 {
@@ -55,6 +56,8 @@ public class BasicHealingSpell : MonoBehaviour
         _isActive = true;
         
         _canHeal = false;
+        
+        RuntimeManager.PlayOneShot("event:/Player/Standard/Respite");
         
         _playerAnimation.AnimationSetAction(40);
         _playerInput.ToggleMovement(false);

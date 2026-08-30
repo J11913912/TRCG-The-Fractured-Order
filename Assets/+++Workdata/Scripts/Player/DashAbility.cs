@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using FMODUnity;
 
 public class DashAbility : MonoBehaviour
 {
@@ -66,6 +67,8 @@ public class DashAbility : MonoBehaviour
         //if (_playerState.GetPlayerAction() != PlayerAction.Default) return;
     
       //  RuntimeManager.PlayOneShot("event:/SFX/Charakter/Rolling");
+      
+      RuntimeManager.PlayOneShot("event:/Player/Player Teleport");
         
         PlayerStates.OnChangeAction?.Invoke(PlayerAction.Roll);
        // PlayerAnimation.OnAnimationAction?.Invoke(actionId);

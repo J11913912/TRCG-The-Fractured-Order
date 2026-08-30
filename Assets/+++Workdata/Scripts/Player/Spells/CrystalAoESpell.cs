@@ -5,6 +5,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Debug = UnityEngine.Debug;
+using UnityEngine.Events;
 
 public class CrystalAoESpell : MonoBehaviour
 {
@@ -43,6 +44,9 @@ public class CrystalAoESpell : MonoBehaviour
     public CinemachineCamera playerCamera;
 
     public float howFarFromPlayer;
+    
+    public UnityEvent ChargeStart;
+    public UnityEvent ChargeStop;
 
     // TODO player has to really charge like with basic aoe??????
     
@@ -115,6 +119,7 @@ public class CrystalAoESpell : MonoBehaviour
             
             _playerAnimation.AnimationSetAction(20);
             _playerAnimation.AnimationSetBool("isCharging", true);
+            ChargeStart?.Invoke();                                                                                  
             
             _casting = true;
             _castStarted = true;
@@ -169,6 +174,8 @@ public class CrystalAoESpell : MonoBehaviour
     public void Attack2()                                                                                               // triggered via animations event
     {
         if (!_isActive) return;
+        
+        ChargeStop?.Invoke();                                                                                       
         
         _pillar = Instantiate(attackPillarPrefab);                                                                      // pillar damage
         _pillar.transform.position = _target.transform.position;

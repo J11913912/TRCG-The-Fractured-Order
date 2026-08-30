@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using FMODUnity;
 
 public class CrystalProjectileSpell : MonoBehaviour
 {
@@ -100,6 +101,8 @@ public class CrystalProjectileSpell : MonoBehaviour
         
         GameObject projectile = Instantiate(projectilePrefab);
         projectile.transform.position = _spawnPosition;
+        
+        RuntimeManager.PlayOneShot("event:/Player/Crystal/Crystal Dart Cast");
         
         _projectileBehaviour = projectile.GetComponent<BaseProjectileBehaviour>();
         

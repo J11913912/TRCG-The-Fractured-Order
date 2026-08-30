@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 725419989980143621}
   - component: {fileID: 5348931408967948815}
   - component: {fileID: 5533044254911379515}
+  - component: {fileID: -2430188821337779686}
   m_Layer: 0
   m_Name: Crystal Projectile Prefab
   m_TagString: Untagged
@@ -81,8 +82,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1158578619
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4042180626183743812, guid: 1b7bd13561eed7440a285079dda84d72, type: 3}
@@ -194,3 +195,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseProjectileBehaviour
   timeToSelfDestruct: 10
   moveSpeed: 15
+  isAoE: 0
+--- !u!114 &-2430188821337779686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928591610570380805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent

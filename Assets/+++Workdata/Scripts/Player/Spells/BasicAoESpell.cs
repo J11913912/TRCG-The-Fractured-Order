@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
+using FMODUnity;
 
 public class BasicAoESpell : MonoBehaviour
 {
@@ -29,6 +31,9 @@ public class BasicAoESpell : MonoBehaviour
     public SpellDefinition spell;
 
     private bool _isCooling = false;
+    
+    public UnityEvent ChargeStart;
+    public UnityEvent ChargeStop;
     
     private void Awake()
     {
@@ -75,6 +80,7 @@ public class BasicAoESpell : MonoBehaviour
         
         _playerAnimation.AnimationSetAction(20);
         _playerAnimation.AnimationSetBool("isCharging", true);                                                          // hold key to start charge (via interaction hold in inputmap)
+        ChargeStart?.Invoke();                                                                                       
         
         _canAttack = false;
     }
@@ -119,11 +125,15 @@ public class BasicAoESpell : MonoBehaviour
         GameObject projectile = Instantiate(projectilePrefab);
         projectile.transform.position = _spawnPosition;
         
+        RuntimeManager.PlayOneShot("event:/Player/Standard/Orb Release");
+        
         _projectileBehaviour = projectile.GetComponent<BaseProjectileBehaviour>();
         
         _projectileBehaviour.Shoot(_direction);
         
         _playerInput.ToggleMovement(true);
+        
+        ChargeStop?.Invoke();
     }
 
     public void EndAttack()                                                                                             // after attack aniamtion
@@ -141,6 +151,8 @@ public class BasicAoESpell : MonoBehaviour
 
     private void CancelAttack()                                                                                         // cancel attack before charged up
     {
+        ChargeStop?.Invoke();
+        
         Debug.Log("CANCEL");
         
         _playerAnimation.AnimationSetBool("secondPress", true);
@@ -153,6 +165,7 @@ public class BasicAoESpell : MonoBehaviour
         
         _currentlyActive = false;
         _canAttack = true;
+        
     }
 
     private IEnumerator ResetCharge()

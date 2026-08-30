@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 4474689304367631854}
   - component: {fileID: 2874083355405610181}
   - component: {fileID: 1411788606652100118}
+  - component: {fileID: 722377502128780487}
   m_Layer: 3
   m_Name: Player Body Shadow
   m_TagString: Untagged
@@ -262,6 +263,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a17ef6c4dcfb5b54ca4c0b65ed16314c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndOfActionManager
+--- !u!114 &722377502128780487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362013670515121856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
 --- !u!1 &5078388519060807937
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,8 +650,8 @@ SortingGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5750016407163372012}
   m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1158578619
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
@@ -669,7 +682,10 @@ GameObject:
   - component: {fileID: 1920033775742012589}
   - component: {fileID: 4382461020824544556}
   - component: {fileID: 7660072762119870192}
-  m_Layer: 3
+  - component: {fileID: 6576133443044099003}
+  - component: {fileID: 8386624435062714239}
+  - component: {fileID: 7425593122059779046}
+  m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -920,6 +936,36 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1050587239907258890, guid: 8ac48cdc77ca1dc40a1a1a2c9bc18b03, type: 3}
   ySpawnOffset: 0
   spell: {fileID: 11400000, guid: 36e58c9bf60680c448a08b0f94e577d8, type: 2}
+  ChargeStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8386624435062714239}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ChargeStop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8386624435062714239}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6823101444443523382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,6 +985,36 @@ MonoBehaviour:
   spell: {fileID: 11400000, guid: b0126853edcba1243a61ca025c66177f, type: 2}
   playerCamera: {fileID: 0}
   howFarFromPlayer: 0
+  ChargeStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8386624435062714239}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ChargeStop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8386624435062714239}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8001303803466474047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1019,3 +1095,80 @@ MonoBehaviour:
   manaCost: 20
   spell: {fileID: 11400000, guid: 90c1901905fe62343a326826f6c4380e, type: 2}
   timeToNextHeal: 1.5
+--- !u!114 &6576133443044099003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1858318795
+      Data2: 1097405702
+      Data3: 1345097612
+      Data4: -304962721
+    Path: event:/Footsteps/Player/Fts Player
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params:
+  - Name: surface
+    Value: 3
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &8386624435062714239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 430452669
+      Data2: 1270275485
+      Data3: 807757987
+      Data4: 1590810452
+    Path: event:/Player/Charge Up
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &7425593122059779046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719532005816098622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3093ec8e144f6e742b015aa4da537efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootstepSound
+  foostepTime: 0.25

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using FMODUnity;
 
 public class BasicBubbleSpell : MonoBehaviour
 {
@@ -82,6 +83,8 @@ public class BasicBubbleSpell : MonoBehaviour
         bubble =  Instantiate(bubblePrefab);
         bubble.transform.position = _spawnPosition;
         
+        RuntimeManager.PlayOneShot("event:/Player/Standard/Shield Activation");
+        
         _isCooling = true;
         SpellCooldownManager.OnStartCooldown?.Invoke(spell);
     }
@@ -101,6 +104,7 @@ public class BasicBubbleSpell : MonoBehaviour
         _isActive = false;
         
         PlayerInformation.ShieldOn?.Invoke("Basic", false);
+        RuntimeManager.PlayOneShot("event:/Player/Standard/Shield Pop");
     }
 
     private void EndCooldown()

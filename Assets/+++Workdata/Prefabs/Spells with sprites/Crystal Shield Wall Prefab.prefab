@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 4098184329958680164}
   - component: {fileID: 6040336544667622673}
   - component: {fileID: 5469061343211970562}
+  - component: {fileID: -7674663704786157725}
   m_Layer: 0
   m_Name: Crystal Shield Wall Prefab
   m_TagString: Untagged
@@ -237,3 +238,15 @@ CapsuleCollider2D:
   m_Offset: {x: 0.030621542, y: 0.08232697}
   m_Size: {x: 1.0712491, y: 0.22020516}
   m_Direction: 1
+--- !u!114 &-7674663704786157725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899792797028155889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent

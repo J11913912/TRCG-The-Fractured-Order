@@ -104,6 +104,8 @@ public class CrystalGuardSpell : MonoBehaviour
 
     public void SpawnBubble()                                                                                           // triggered via animation event
     {
+        if (!_isActive) return;
+        
         if (_nearSeedbed)
         {
             PuzzleWall();
@@ -112,8 +114,6 @@ public class CrystalGuardSpell : MonoBehaviour
             return;
         }
         
-        if (!_isActive) return;
-
         if (_shield != null)
         {
             _shield.GetComponent<CrystalGuardBehaviour>().SetAnimation(100);
