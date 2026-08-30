@@ -114,28 +114,51 @@ No? No more shinies? Then I won't give you anything anymore!
 === CrystalGuard ===
 
 = CantGetIn1
-Bart the Guard green
-Gart the Barb blue
-Lart the Mart red
-Cart the Shard crystal
-
+Cart the Shard: I was told to not let anyone get into the desert beyond. So I won't, not even you.
 -> END
 
 = CantGetIn2
-Cart the Shard: Still no entry.
+Cart the Shard: I stand by my orders. You're not passing.
 -> END
 
 = Vanish
-Cart the Shard: entry.
+Cart the Shard: ... Oh well, screw my orders. Do whatever you like.
 ~Event("Vanish")
 -> END
 
 = PopUp
-Cart the Shard: hello there.
+Cart the Shard: Hello there. Just so you know, you've left your oven on.
 ~Event("VanishAgain")
 -> END
 
+=== PuristGuard ===
 
+= CantGetIn1
+Bart the Guard: I'm afraid I can't let you pass.
+->END
 
+= CantGetIn2
+Bart the Guard: YOU SHALL NOT PASS!
+->END
+
+=== CultistGuard ===
+
+= CantGetIn1
+Lart the Mart: Sorry mate, no getting through here today.
+->END
+
+= CantGetIn2
+Lart the Mart: I'm serious, mate. You don't want to meet the guys beyond this gate, they're insane.
+->END
+
+=== TechnoGuard ===
+
+= CantGetIn1
+Gart the Barb: Nope, here's nothing to see at all.
+->END
+
+= CantGetIn2
+Gart the Barb: No groove, no move.
+->END
 
 
