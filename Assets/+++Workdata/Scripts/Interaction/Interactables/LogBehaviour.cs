@@ -1,5 +1,7 @@
 using System;
+using FMODUnity;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LogBehaviour : MonoBehaviour
 {
@@ -7,6 +9,8 @@ public class LogBehaviour : MonoBehaviour
     private Animator _animator;
     private BoxCollider2D _boxCollider;
     public Transform target;
+    public UnityEvent LogRollStart;
+    public UnityEvent LogRollStop;
 
     private float _moveSpeed = 3f;
 
@@ -21,6 +25,8 @@ public class LogBehaviour : MonoBehaviour
     {
         if (other.CompareTag("StopLog"))
         {
+            LogRollStop?.Invoke();
+            RuntimeManager.PlayOneShot("event:/Enviroment/Desert/Log Crash");
             _rb.linearVelocity = Vector2.zero;
             _animator.SetBool("RollSide", false);
             _animator.SetBool("Roll", false); 
@@ -30,6 +36,7 @@ public class LogBehaviour : MonoBehaviour
 
     public void RollDown()
     {
+        LogRollStart?.Invoke();
         _rb.linearVelocity = Vector2.down * _moveSpeed;
         _animator.SetBool("Roll", true);
     }
@@ -42,6 +49,7 @@ public class LogBehaviour : MonoBehaviour
     
     public void RollLeft()
     {
+        LogRollStart?.Invoke();
         Vector2 direction = target.position - transform.position;
         _rb.linearVelocity = direction * _moveSpeed;
         _animator.SetBool("RollSide", true);
