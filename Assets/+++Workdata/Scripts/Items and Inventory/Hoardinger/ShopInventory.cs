@@ -34,6 +34,7 @@ public class ShopInventory : MonoBehaviour
     public TextMeshProUGUI spellText;
     
     public TextMeshProUGUI description;
+    public TextMeshProUGUI header;
 
     public Button button1;
     public Button button2;
@@ -70,6 +71,7 @@ public class ShopInventory : MonoBehaviour
 
     public void Focus()
     {
+        if (!isActive) return;
         button1.Select();
     }
 
@@ -288,6 +290,12 @@ public class ShopInventory : MonoBehaviour
         description.SetText(desc);
         description.SetText(desc);
     }
+
+    public void SetHead(string heading)
+    {
+        header.SetText(heading);
+    }
+    
     
     
 }

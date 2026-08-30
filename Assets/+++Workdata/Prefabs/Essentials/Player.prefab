@@ -279,7 +279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5100976915537704758
 Transform:
   m_ObjectHideFlags: 0
@@ -303,7 +303,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5078388519060807937}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -340,9 +340,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -1158578619
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6703246736201522061, guid: f9c91f977d2d6514daa1742ecd54aebc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -395,7 +395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2494850764292343674
 Transform:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5097122106218725457}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -456,8 +456,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1158578619
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6703246736201522061, guid: b5f52c525b4e0af4288f8be2cfba2591, type: 3}
@@ -504,14 +504,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee312bda85a56334aa9f380759396d1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimationEventManager
-  crystalAoESpell: {fileID: 0}
-  baseBubbleSpell: {fileID: 0}
-  baseHealingSpell: {fileID: 0}
-  crystalGuardSpell: {fileID: 0}
-  crystalHealingSpell: {fileID: 0}
-  baseAoESpell: {fileID: 0}
-  baseProjectileSpell: {fileID: 0}
-  crystalProjectileSpell: {fileID: 0}
+  crystalAoESpell: {fileID: 6823101444443523382}
+  baseBubbleSpell: {fileID: 1979724783844789743}
+  baseHealingSpell: {fileID: 1920033775742012589}
+  crystalGuardSpell: {fileID: 4382461020824544556}
+  crystalHealingSpell: {fileID: 7660072762119870192}
+  baseAoESpell: {fileID: 7714341567131980322}
+  baseProjectileSpell: {fileID: 4889857719390999303}
+  crystalProjectileSpell: {fileID: 8001303803466474047}
 --- !u!114 &7815607788550625772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,6 +867,12 @@ MonoBehaviour:
   _animators:
   - {fileID: 3064352249455391785}
   - {fileID: 4474689304367631854}
+  - {fileID: 5837006316155978012}
+  - {fileID: 5434909772178329080}
+  _hatCustom: {fileID: 5434909772178329080}
+  _hat: {fileID: 3064352249455391785}
+  _bodyCustom: {fileID: 5837006316155978012}
+  _body: {fileID: 4474689304367631854}
 --- !u!114 &2144096356729650436
 MonoBehaviour:
   m_ObjectHideFlags: 0

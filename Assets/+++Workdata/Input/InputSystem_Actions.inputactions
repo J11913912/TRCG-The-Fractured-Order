@@ -185,24 +185,6 @@
                     "processors": "",
                     "interactions": "Hold(duration=30,pressPoint=0.5)",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "HealthPotion",
-                    "type": "Button",
-                    "id": "0e4ba6ff-2351-4c95-9e42-0dbae36c40ed",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "ManaPotion",
-                    "type": "Button",
-                    "id": "bb0e97f0-6b45-4545-880f-6a8258b0e4f3",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1107,28 +1089,6 @@
                     "action": "BaseProjectile",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "5fe07684-7cab-457e-bffb-ac3fae573062",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "HealthPotion",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "915b11c3-b40c-49cf-a92a-c400b1aad892",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "ManaPotion",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -1275,6 +1235,15 @@
                     "name": "Spells",
                     "type": "Button",
                     "id": "5ed187b3-2e71-4ace-8831-e34398de5a62",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Button",
+                    "id": "e13b8c51-f9f4-4245-adbf-0a6b82a2edd6",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -2071,6 +2040,17 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Spells",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73514b8d-1f17-49e7-81b8-c59f4e759451",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Inventory",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

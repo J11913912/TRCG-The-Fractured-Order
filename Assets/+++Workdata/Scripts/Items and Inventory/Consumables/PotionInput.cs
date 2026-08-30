@@ -17,8 +17,8 @@ public class PotionInput : MonoBehaviour
     private void Awake()
     {
         _inputActions = new InputSystem_Actions();
-        _healthAction = _inputActions.Player.HealthPotion;
-        _manaAction = _inputActions.Player.ManaPotion;
+        //_healthAction = _inputActions.Player.HealthPotion;
+        //_manaAction = _inputActions.Player.ManaPotion;
         
         _moneyManager = GetComponent<MoneyManager>();
     }
