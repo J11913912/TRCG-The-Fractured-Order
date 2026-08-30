@@ -21,6 +21,8 @@ public class ShopInventory : MonoBehaviour
 
     public UnityEvent OnHighPrizes;
     public UnityEvent OnLowPrizes;
+
+    public UnityEvent UnlockCrystalHealing;
     
     public int healthPotionsAmount;
     public int manaPotionsAmount;
@@ -276,6 +278,8 @@ public class ShopInventory : MonoBehaviour
         _spellAmount = 0;
 
         button4.interactable = false;
+        
+        UnlockCrystalHealing?.Invoke();
         
         GoBackToShop();
     }

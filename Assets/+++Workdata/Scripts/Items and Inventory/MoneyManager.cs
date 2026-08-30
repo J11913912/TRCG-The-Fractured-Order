@@ -72,7 +72,7 @@ public class MoneyManager : MonoBehaviour
         dialogueController.SetCurrentPrize(currentPrize);
     }
 
-    private void ChangeHealthPotion(int amount)
+    public void ChangeHealthPotion(int amount)
     {
         healthPotions += amount;
 
@@ -82,7 +82,7 @@ public class MoneyManager : MonoBehaviour
         }
     }
 
-    private void ChangeManaPotion(int amount)
+    public void ChangeManaPotion(int amount)
     {
         manaPotions += amount;
         

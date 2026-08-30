@@ -162,3 +162,9 @@ Gart the Barb: No groove, no move.
 ->END
 
 
+=== UI ===
+
+= GetPotion
+You found a health potion - Hooray!
+->END
+

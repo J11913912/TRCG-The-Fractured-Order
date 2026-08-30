@@ -65,28 +65,28 @@ public class DisplaySpellInfos : MonoBehaviour
                 descriptions[0].SetActive(true);
                 texts = descriptions[0].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
                 texts[0].text = "";
-                texts[1].text = "Spell not unlocked, not even in the game yet!";
+                texts[1].text = "Spell not unlocked, go find it!";
                 break;
             
             case Corner.upRright:
                 descriptions[1].SetActive(true);
                 texts = descriptions[1].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
                 texts[0].text = "";
-                texts[1].text = "Spell not unlocked, not even in the game yet!";
+                texts[1].text = "Spell not unlocked, go find it!";
                 break;
             
             case Corner.downRight:
                 descriptions[2].SetActive(true);
                 texts = descriptions[2].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
                 texts[0].text = "";
-                texts[1].text = "Spell not unlocked, not even in the game yet!";
+                texts[1].text = "Spell not unlocked, go find it!";
                 break;
             
             case Corner.downLeft:
                 descriptions[3].SetActive(true);
                 texts = descriptions[3].GetComponentsInChildren<TMPro.TextMeshProUGUI>();
                 texts[0].text = "";
-                texts[1].text = "Spell not unlocked, not even in the game yet!";
+                texts[1].text = "Spell not unlocked, go find it!";
                 break;
         }
     }
