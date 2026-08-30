@@ -124,7 +124,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -162,7 +162,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -203,12 +203,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 205
-        width: 19
-        height: 37
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_1
       rect:
         serializedVersion: 2
-        x: 87
-        y: 205
-        width: 19
-        height: 37
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 205
-        width: 19
-        height: 37
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_3
       rect:
         serializedVersion: 2
-        x: 215
-        y: 205
-        width: 19
-        height: 37
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 141
-        width: 33
-        height: 37
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_5
       rect:
         serializedVersion: 2
-        x: 77
-        y: 159
-        width: 39
-        height: 26
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 141
-        width: 16
-        height: 14
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_7
       rect:
         serializedVersion: 2
-        x: 89
-        y: 155
-        width: 7
-        height: 11
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -379,12 +379,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_8
       rect:
         serializedVersion: 2
-        x: 91
-        y: 164
-        width: 8
-        height: 10
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -401,12 +401,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_9
       rect:
         serializedVersion: 2
-        x: 91
-        y: 131
-        width: 27
-        height: 19
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -423,12 +423,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_10
       rect:
         serializedVersion: 2
-        x: 96
-        y: 149
-        width: 9
-        height: 7
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_11
       rect:
         serializedVersion: 2
-        x: 97
-        y: 156
-        width: 6
-        height: 12
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_12
       rect:
         serializedVersion: 2
-        x: 135
-        y: 134
-        width: 52
-        height: 55
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -489,12 +489,12 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_13
       rect:
         serializedVersion: 2
-        x: 155
-        y: 166
-        width: 6
-        height: 8
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -511,350 +511,20 @@ TextureImporter:
       name: Crystal_Sheep_Projectile_Animations-Sheet_14
       rect:
         serializedVersion: 2
-        x: 161
-        y: 157
-        width: 6
-        height: 11
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b2b4148cabe66b110800000000000000
+      spriteID: 8cf17972166bfdc40a11f33bac5205aa
       internalID: 1276329292908809003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 141
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43429bb8695c5fb50800000000000000
-      internalID: 6626419677125485620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 87
-        width: 38
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62a5a1a961aaa76b0800000000000000
-      internalID: -5297734997596546522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 87
-        width: 38
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4ae71e375c136050800000000000000
-      internalID: 5792504706758077002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_18
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 87
-        width: 38
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1db74c2c26650b740800000000000000
-      internalID: 5165723754768399313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_19
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 87
-        width: 38
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e94023ce796c1470800000000000000
-      internalID: 8366678200908007911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_20
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 19
-        width: 47
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3f450cadb64553f0800000000000000
-      internalID: -912745569023865029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_21
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 26
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3afb4141017812760800000000000000
-      internalID: 7431369363264159651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_22
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 12
-        width: 17
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69a7778d472a7bb00800000000000000
-      internalID: 844322077886872214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 30
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4a04ec7ded1633a0800000000000000
-      internalID: -6686123690945148338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_24
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 34
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cabe8f114f2148350800000000000000
-      internalID: 6017955841556671404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_25
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 24
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13085996051472ff0800000000000000
-      internalID: -61008256321617871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_26
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 31
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 366de965669124660800000000000000
-      internalID: 7368479867662161507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_27
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 26
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b665911aae7c2dcb0800000000000000
-      internalID: -4840586838930794901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_28
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 13
-        width: 23
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59cb101aa56d5a650800000000000000
-      internalID: 6243632143155707029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Crystal_Sheep_Projectile_Animations-Sheet_29
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 7
-        width: 59
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e37f6c394208dc00800000000000000
-      internalID: 925492236994442215
       vertices: []
       indices: 
       edges: []
@@ -863,7 +533,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: efc0f21ca6f03de4f8ea58d40673ad5e
     internalID: 0
     vertices: []
     indices: 
@@ -871,7 +541,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Crystal_Sheep_Projectile_Animations-Sheet_0: 5543504473810431678
       Crystal_Sheep_Projectile_Animations-Sheet_1: -2435711935475788564
@@ -880,22 +552,7 @@ TextureImporter:
       Crystal_Sheep_Projectile_Animations-Sheet_12: 1155150485248578465
       Crystal_Sheep_Projectile_Animations-Sheet_13: 8987998506926968425
       Crystal_Sheep_Projectile_Animations-Sheet_14: 1276329292908809003
-      Crystal_Sheep_Projectile_Animations-Sheet_15: 6626419677125485620
-      Crystal_Sheep_Projectile_Animations-Sheet_16: -5297734997596546522
-      Crystal_Sheep_Projectile_Animations-Sheet_17: 5792504706758077002
-      Crystal_Sheep_Projectile_Animations-Sheet_18: 5165723754768399313
-      Crystal_Sheep_Projectile_Animations-Sheet_19: 8366678200908007911
       Crystal_Sheep_Projectile_Animations-Sheet_2: -6353020757749988853
-      Crystal_Sheep_Projectile_Animations-Sheet_20: -912745569023865029
-      Crystal_Sheep_Projectile_Animations-Sheet_21: 7431369363264159651
-      Crystal_Sheep_Projectile_Animations-Sheet_22: 844322077886872214
-      Crystal_Sheep_Projectile_Animations-Sheet_23: -6686123690945148338
-      Crystal_Sheep_Projectile_Animations-Sheet_24: 6017955841556671404
-      Crystal_Sheep_Projectile_Animations-Sheet_25: -61008256321617871
-      Crystal_Sheep_Projectile_Animations-Sheet_26: 7368479867662161507
-      Crystal_Sheep_Projectile_Animations-Sheet_27: -4840586838930794901
-      Crystal_Sheep_Projectile_Animations-Sheet_28: 6243632143155707029
-      Crystal_Sheep_Projectile_Animations-Sheet_29: 925492236994442215
       Crystal_Sheep_Projectile_Animations-Sheet_3: 3423380363074557719
       Crystal_Sheep_Projectile_Animations-Sheet_4: -8805350111375064811
       Crystal_Sheep_Projectile_Animations-Sheet_5: -4859225701108442195

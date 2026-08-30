@@ -27,7 +27,7 @@ public class RoomTransition : MonoBehaviour
     public Collider2D confiner;
     public bool hasConfiner = false;
     
-    private bool _changeScene = false;
+    public bool _changeScene = false;
 
     private void Awake()
     { 
@@ -48,6 +48,8 @@ public class RoomTransition : MonoBehaviour
             player.GetComponent<PlayerInput>().DisableInput();
                 
             StartCoroutine(Teleport(other.gameObject));
+            
+            SafeManager.OnAreaChange?.Invoke(targetPos.transform);
            
         }
     }

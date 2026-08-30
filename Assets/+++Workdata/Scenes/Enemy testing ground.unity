@@ -1605,7 +1605,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558130672}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3816,63 +3816,6 @@ MonoBehaviour:
   _isAggroed: 0
   _canAttack: 0
   _attackCooldownTimer: 10
---- !u!1001 &1093314141
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.56091
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.70857
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1140584372569343569, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7825054619124680251, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
-      propertyPath: m_Name
-      value: Crystal Projectile
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ab5c74d698df9484f91813c2b4806218, type: 3}
 --- !u!1 &1146911728
 GameObject:
   m_ObjectHideFlags: 0
@@ -7484,4 +7427,3 @@ SceneRoots:
   - {fileID: 768118676}
   - {fileID: 666067757}
   - {fileID: 1392212239}
-  - {fileID: 1093314141}

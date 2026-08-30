@@ -33,6 +33,11 @@ public class MainMenu_UiManager : MonoBehaviour
         loadMenuContainer.SetActive(true);
         
         _currentMenu = loadMenuContainer;
+        
+        PlayerPrefs.SetInt("UnlockedCrystalHealing", 0);
+        PlayerPrefs.SetInt("UnlockedCrystalAoE", 0);
+        PlayerPrefs.SetInt("UnlockedCrystalProjectile", 0);
+        PlayerPrefs.SetInt("UnlockedCrystalGuard", 0);    
     }
     
     public void OpenCreditsMenu()

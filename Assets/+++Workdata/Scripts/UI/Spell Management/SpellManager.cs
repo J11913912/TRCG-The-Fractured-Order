@@ -228,7 +228,7 @@ public class SpellManager : MonoBehaviour
         }
         
         
-        playerInput.ChangeBinding(spell, path, oldSpell);
+                playerInput.ChangeBinding(spell, path, oldSpell);
     }
 
     public SpellDefinition ReturnSpell(ArrowPressed key)

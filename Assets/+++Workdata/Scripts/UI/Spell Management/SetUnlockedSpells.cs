@@ -10,6 +10,26 @@ public class SetUnlockedSpells : MonoBehaviour
 
    private void Update()
    {
+      if (PlayerPrefs.GetInt("UnlockedCrystalHealing") == 1)
+      {
+         unlockedStates[9] = true;
+      }
+
+      if (PlayerPrefs.GetInt("UnlockedCrystalAoE") == 1)
+      {
+         unlockedStates[13] = true;
+      }
+
+      if (PlayerPrefs.GetInt("UnlockedCrystalProjectile") == 1)
+      {
+         unlockedStates[1] = true;
+      }
+
+      if (PlayerPrefs.GetInt("UnlockedCrystalGuard") == 1)
+      {
+         unlockedStates[5] = true;
+      }
+      
       int index = 0;
       
       foreach (var var in unlockedStates)
@@ -26,5 +46,25 @@ public class SetUnlockedSpells : MonoBehaviour
    public void UnlockSpell(int index)
    {
       unlockedStates[index] = true;
+
+      if (index == 9)
+      {
+         PlayerPrefs.SetInt("UnlockedCrystalHealing", 1);
+      }
+
+      if (index == 13)
+      {
+         PlayerPrefs.SetInt("UnlockedCrystalAoE", 1);
+      }
+
+      if (index == 1)
+      {
+         PlayerPrefs.SetInt("UnlockedCrystalProjectile", 1);
+      }
+
+      if (index == 5)
+      {
+         PlayerPrefs.SetInt("UnlockedCrystalGuard", 1);
+      }
    }
 }

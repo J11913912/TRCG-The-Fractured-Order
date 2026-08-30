@@ -217,6 +217,12 @@ public class PauseMenuManager : MonoBehaviour
            _currentMenu = gameOverMenuContainer;
            Time.timeScale = 0;
        }
+
+       public void CloseGameOverMenu()
+       {
+           _currentMenu.SetActive(false);
+           Time.timeScale = 1;
+       }
    
        public void OpenWinMenu()
        {
