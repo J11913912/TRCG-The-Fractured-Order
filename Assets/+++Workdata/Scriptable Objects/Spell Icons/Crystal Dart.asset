@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
   index: 4
   Id: spell_cr_dart
-  sprite: {fileID: 6978772477503892763, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
+  sprite: {fileID: -2757594801081891318, guid: a38ed606787c2f84195bb5370a6de40d, type: 3}
   displayName: Crystal Shard
   description: 9
+  cooldownState: 0
+  spellScript: 
+  cooldownTime: 0

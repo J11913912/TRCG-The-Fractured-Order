@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
   index: 3
   Id: spell_healing
-  sprite: {fileID: -3197776979573447734, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
+  sprite: {fileID: 7033268232438392466, guid: a7e740a9c56d97d42aa97e2facde05f2, type: 3}
   displayName: Respite
   description: 3
   cooldownState: 0

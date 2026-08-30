@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
   index: 7
   Id: spell_cr_healing
-  sprite: {fileID: -3530282895980023148, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
+  sprite: {fileID: -805271208889596536, guid: 1f4d71dab74f3b1438000f640bcb535b, type: 3}
   displayName: Crystal Cocoon
   description: 11
   cooldownState: 0

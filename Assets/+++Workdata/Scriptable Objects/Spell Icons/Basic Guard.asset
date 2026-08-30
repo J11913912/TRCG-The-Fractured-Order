@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellDefinition
   index: 2
   Id: spell_guard
-  sprite: {fileID: 224610634760335010, guid: 8c2ef6fa183a4b640abf1ec53e90b478, type: 3}
+  sprite: {fileID: 9100731244305434460, guid: 29cb1df7ea5aad64b8fe656a21d7eed2, type: 3}
   displayName: Bubble
   description: 2
-  cooldownState: 1
+  cooldownState: 0
   spellScript: 
   cooldownTime: 3
