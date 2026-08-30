@@ -998,10 +998,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639236262403545329
+  lastModified: 639237013654382693
   FileSizes:
   - Name: Desktop
-    Value: 29222304
+    Value: 29457728
   Exists: 1
 --- !u!114 &-5298238180413181079
 MonoBehaviour:
@@ -1648,7 +1648,7 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639236263833184405
+  lastModified: 639237007086241212
   FileSizes:
   - Name: Desktop
     Value: 3431456
@@ -2503,7 +2503,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -5108059633577533923}
   cacheVersion: 131859
-  cacheTime: 639236263833184405
+  cacheTime: 639237013654382693
   SerializableEventsDict:
   - key: event:/Music/Desert Music
     index: 0
@@ -4546,7 +4546,7 @@ MonoBehaviour:
   Name: Music Tone City
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 2922972974
@@ -4556,6 +4556,7 @@ MonoBehaviour:
   Labels:
   - Relaxed
   - Exploration
+  - Silence
   Exists: 1
 --- !u!114 &6846146788201608316
 MonoBehaviour:
@@ -4847,8 +4848,8 @@ MonoBehaviour:
   Name: Music Tone Desert
   StudioPath: 
   Min: 0
-  Max: 3
-  Default: 0
+  Max: 4
+  Default: 1
   ID:
     data1: 2137703300
     data2: 486663031
@@ -4859,6 +4860,7 @@ MonoBehaviour:
   - Exploration
   - Puzzle
   - Boss
+  - Silence
   Exists: 1
 --- !u!114 &8871802343858865276
 MonoBehaviour:
