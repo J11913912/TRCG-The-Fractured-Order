@@ -9,11 +9,6 @@ public class LittleInventory : MonoBehaviour
     public TextMeshProUGUI description;
     public TextMeshProUGUI header;
 
-    private void Awake()
-    {
-        
-    }
-
     private void OnEnable()
     {
         SetDescription += DisplayDesc;

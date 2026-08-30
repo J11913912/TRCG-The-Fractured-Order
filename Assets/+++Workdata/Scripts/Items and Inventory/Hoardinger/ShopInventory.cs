@@ -43,6 +43,7 @@ public class ShopInventory : MonoBehaviour
     public Button backButton;
 
     public MoneyManager moneyManager;
+    public PutOnHat _putOnHat;
     
     public int prizeHealthPotions;
     public int prizeManaPotions;
@@ -264,6 +265,8 @@ public class ShopInventory : MonoBehaviour
         _costumisableAmount = 0;
 
         button3.interactable = false;
+        
+        _putOnHat.HatUnlock();
         
         GoBackToShop();
     }

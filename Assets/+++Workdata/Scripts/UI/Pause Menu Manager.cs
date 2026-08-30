@@ -44,7 +44,7 @@ public class PauseMenuManager : MonoBehaviour
            _inputActions = new InputSystem_Actions();
            _pauseAction = _inputActions.UI.Pause;
            _spellAction = _inputActions.UI.Spells;
-           //_inventoryAction = _inputActions.UI.Inventory;
+           _inventoryAction = _inputActions.UI.Inventory;
            //_questLogAction = _inputActions.UI.QuestLog;
 
        }
@@ -59,7 +59,7 @@ public class PauseMenuManager : MonoBehaviour
            _inputActions.Enable();
            _pauseAction.performed += Pause;
            _spellAction.performed += SpellMenu;
-           //_inventoryAction.performed += Inventory;
+           _inventoryAction.performed += Inventory;
            //_questLogAction.performed += QuestLog;
            
            //OnGameOver += OpenGameOverMenu;
@@ -70,7 +70,7 @@ public class PauseMenuManager : MonoBehaviour
            _inputActions.Disable();
            _pauseAction.performed -= Pause;
            _spellAction.performed -= SpellMenu;
-            //_inventoryAction.performed -= Inventory;
+            _inventoryAction.performed -= Inventory;
             //_questLogAction.performed -= QuestLog;
             
             //OnGameOver -= OpenGameOverMenu;
@@ -86,12 +86,12 @@ public class PauseMenuManager : MonoBehaviour
            OpenSpellMenu();
        }
        
-       /*private void Inventory(InputAction.CallbackContext context)
+       private void Inventory(InputAction.CallbackContext context)
        {
            OpenInventoryMenu();
        }
        
-       private void QuestLog(InputAction.CallbackContext context)
+       /*private void QuestLog(InputAction.CallbackContext context)
        {
            OpenQuestLogMenu();
        }*/
@@ -241,7 +241,6 @@ public class PauseMenuManager : MonoBehaviour
            {
                _currentMenu.SetActive(false);
                inventoryMenuContainer.SetActive(true);
-               hudContainer.SetActive(false);
                Time.timeScale = 0;
                _isInventory = true;
                _menuAlreadyOpen = true;
@@ -259,7 +258,6 @@ public class PauseMenuManager : MonoBehaviour
            else if (_isInventory && _menuAlreadyOpen)
            {
                inventoryMenuContainer.SetActive(false);
-               hudContainer.SetActive(true);
                Time.timeScale = 1;
                _isInventory = false;
                _menuAlreadyOpen = false;

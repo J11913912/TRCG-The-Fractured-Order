@@ -8975,7 +8975,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
   m_PrefabInstance: {fileID: 265307474}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1442187964}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -14439,18 +14439,18 @@ PrefabInstance:
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1442187969}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TryHat
+      value: ToggleHat
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ShopInventory, Assembly-CSharp
+      value: PutOnHat, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -14575,7 +14575,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4340936842063963093, guid: 579114137c930454897592778bc129da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1442187969}
   m_SourcePrefab: {fileID: 100100000, guid: 579114137c930454897592778bc129da, type: 3}
 --- !u!1 &265409953
 GameObject:
@@ -15674,18 +15677,18 @@ PrefabInstance:
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1584497403}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TryMana
+      value: UseManaPotion
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ShopInventory, Assembly-CSharp
+      value: PotionInput, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -15814,7 +15817,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4340936842063963093, guid: 579114137c930454897592778bc129da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584497403}
   m_SourcePrefab: {fileID: 100100000, guid: 579114137c930454897592778bc129da, type: 3}
 --- !u!1 &338074465
 GameObject:
@@ -16781,6 +16787,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &366651862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4340936842063963093, guid: 579114137c930454897592778bc129da, type: 3}
+  m_PrefabInstance: {fileID: 505238497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &387875542
 GameObject:
   m_ObjectHideFlags: 0
@@ -18698,6 +18709,7 @@ MonoBehaviour:
   button4: {fileID: 352992787}
   backButton: {fileID: 1242352146}
   moneyManager: {fileID: 917345570}
+  _putOnHat: {fileID: 1442187969}
   prizeHealthPotions: 3
   prizeManaPotions: 5
   prizeCostumisable: 10
@@ -19581,10 +19593,10 @@ PrefabInstance:
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1013332426}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TryHealth
+      value: UseHealthPotion
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -19592,7 +19604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ShopInventory, Assembly-CSharp
+      value: PotionInput, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -19729,7 +19741,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4340936842063963093, guid: 579114137c930454897592778bc129da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1013332426}
   m_SourcePrefab: {fileID: 100100000, guid: 579114137c930454897592778bc129da, type: 3}
 --- !u!1 &514143507
 GameObject:
@@ -22851,7 +22866,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
   m_PrefabInstance: {fileID: 333491622}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1584497398}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -30181,7 +30196,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 572806055395931610, guid: 579114137c930454897592778bc129da, type: 3}
   m_PrefabInstance: {fileID: 505238497}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 366651862}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -30192,6 +30207,21 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6671363135388232733, guid: 579114137c930454897592778bc129da, type: 3}
   m_PrefabInstance: {fileID: 505238497}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1013332426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366651862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae0d569ff4650f4b880eb4401a0f86a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PotionInput
+  heallingPower: 20
+  manaPower: 10
+  player: {fileID: 554458526}
 --- !u!224 &1028118717 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8246613980598799444, guid: 708d443c9ac54b341a2d04174b440d9f, type: 3}
@@ -43258,6 +43288,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434233030}
   m_CullTransparentMesh: 1
+--- !u!1 &1442187964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4340936842063963093, guid: 579114137c930454897592778bc129da, type: 3}
+  m_PrefabInstance: {fileID: 265307474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1442187969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442187964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f79d92dbb25c84ea4ecb68ca6c0d80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PutOnHat
+  _hatOn: 0
+  _hatUnlocked: 0
 --- !u!114 &1457443513 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6029388816241375227, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
@@ -64676,6 +64725,26 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1584497398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4340936842063963093, guid: 579114137c930454897592778bc129da, type: 3}
+  m_PrefabInstance: {fileID: 333491622}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584497403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584497398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae0d569ff4650f4b880eb4401a0f86a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PotionInput
+  heallingPower: 20
+  manaPower: 10
+  player: {fileID: 554458526}
 --- !u!1 &1597796026
 GameObject:
   m_ObjectHideFlags: 0
