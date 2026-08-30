@@ -153,8 +153,8 @@ public class ShopInventory : MonoBehaviour
             }
         }
         
-        healthPotionsText.SetText(healthPotionsAmount.ToString());
-        manaPotionsText.SetText(manaPotionsAmount.ToString());
+        //healthPotionsText.SetText(healthPotionsAmount.ToString());
+        //manaPotionsText.SetText(manaPotionsAmount.ToString());
         costumisableText.SetText(_costumisableAmount.ToString());
         spellText.SetText(_spellAmount.ToString());
     }
@@ -201,7 +201,7 @@ public class ShopInventory : MonoBehaviour
     {
         if (moneyManager.ReturnMoney() >= prizeHealthPotions)
         {
-            ChangeHealthPotions(-1);
+            //ChangeHealthPotions(-1);
             MoneyManager.OnMoneyDecrease?.Invoke(prizeHealthPotions);
             MoneyManager.OnHealthPotion?.Invoke(1);
         }
@@ -211,7 +211,7 @@ public class ShopInventory : MonoBehaviour
     {
         if (moneyManager.ReturnMoney() >= prizeManaPotions)
         {
-            ChangeManaPotions(-1);
+           // ChangeManaPotions(-1);
             MoneyManager.OnMoneyDecrease?.Invoke(prizeManaPotions);
             MoneyManager.OnManaPotion?.Invoke(1);
         }
