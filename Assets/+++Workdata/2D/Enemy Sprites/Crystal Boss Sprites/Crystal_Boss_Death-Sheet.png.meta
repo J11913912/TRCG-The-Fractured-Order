@@ -1,0 +1,617 @@
+fileFormatVersion: 2
+guid: 75b88db05f950e44394af2d74bda1a12
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5445291670527835584
+    second: Crystal_Boss_Death-Sheet_0
+  - first:
+      213: 8814904120479690782
+    second: Crystal_Boss_Death-Sheet_1
+  - first:
+      213: 2502690559039194644
+    second: Crystal_Boss_Death-Sheet_2
+  - first:
+      213: 7590968939267017693
+    second: Crystal_Boss_Death-Sheet_3
+  - first:
+      213: -8435127939040857418
+    second: Crystal_Boss_Death-Sheet_4
+  - first:
+      213: -7627721745811619463
+    second: Crystal_Boss_Death-Sheet_5
+  - first:
+      213: -1497260006951501466
+    second: Crystal_Boss_Death-Sheet_6
+  - first:
+      213: 6344317455006196035
+    second: Crystal_Boss_Death-Sheet_7
+  - first:
+      213: -8573735674044804082
+    second: Crystal_Boss_Death-Sheet_8
+  - first:
+      213: -2342950347116214033
+    second: Crystal_Boss_Death-Sheet_9
+  - first:
+      213: -3991876865787886428
+    second: Crystal_Boss_Death-Sheet_10
+  - first:
+      213: -4988096831630032730
+    second: Crystal_Boss_Death-Sheet_11
+  - first:
+      213: 5494159386751625317
+    second: Crystal_Boss_Death-Sheet_12
+  - first:
+      213: -9094230167902334151
+    second: Crystal_Boss_Death-Sheet_13
+  - first:
+      213: 3647308060822696793
+    second: Crystal_Boss_Death-Sheet_14
+  - first:
+      213: 1038990031876009091
+    second: Crystal_Boss_Death-Sheet_15
+  - first:
+      213: 79563546923207596
+    second: Crystal_Boss_Death-Sheet_16
+  - first:
+      213: 5071851509052220960
+    second: Crystal_Boss_Death-Sheet_17
+  - first:
+      213: -7722161057706773009
+    second: Crystal_Boss_Death-Sheet_18
+  - first:
+      213: 3887344691368016472
+    second: Crystal_Boss_Death-Sheet_19
+  - first:
+      213: 3780438866429923922
+    second: Crystal_Boss_Death-Sheet_20
+  - first:
+      213: -658584493153344279
+    second: Crystal_Boss_Death-Sheet_21
+  - first:
+      213: 7608422062986801169
+    second: Crystal_Boss_Death-Sheet_22
+  - first:
+      213: 3429220159080794043
+    second: Crystal_Boss_Death-Sheet_23
+  - first:
+      213: -9048933608072154676
+    second: Crystal_Boss_Death-Sheet_24
+  - first:
+      213: 5815907303927294791
+    second: Crystal_Boss_Death-Sheet_25
+  - first:
+      213: -300960470231719636
+    second: Crystal_Boss_Death-Sheet_26
+  - first:
+      213: -2344196796220450168
+    second: Crystal_Boss_Death-Sheet_27
+  - first:
+      213: 2109845712965787644
+    second: Crystal_Boss_Death-Sheet_28
+  - first:
+      213: 6035422371339297846
+    second: Crystal_Boss_Death-Sheet_29
+  - first:
+      213: -5790040926882940979
+    second: Crystal_Boss_Death-Sheet_30
+  - first:
+      213: 929810492785864648
+    second: Crystal_Boss_Death-Sheet_31
+  - first:
+      213: -8175432949541858502
+    second: Crystal_Boss_Death-Sheet_32
+  - first:
+      213: 3519025627859121504
+    second: Crystal_Boss_Death-Sheet_33
+  - first:
+      213: -2522128193401187918
+    second: Crystal_Boss_Death-Sheet_34
+  - first:
+      213: -4202058309286126323
+    second: Crystal_Boss_Death-Sheet_35
+  - first:
+      213: -523093310627752814
+    second: Crystal_Boss_Death-Sheet_36
+  - first:
+      213: -3513007204907980846
+    second: Crystal_Boss_Death-Sheet_37
+  - first:
+      213: 6766644901361195488
+    second: Crystal_Boss_Death-Sheet_38
+  - first:
+      213: -1734540010700841857
+    second: Crystal_Boss_Death-Sheet_39
+  - first:
+      213: 149058798754848649
+    second: Crystal_Boss_Death-Sheet_40
+  - first:
+      213: -8729779607871535101
+    second: Crystal_Boss_Death-Sheet_41
+  - first:
+      213: -6189231847511089053
+    second: Crystal_Boss_Death-Sheet_42
+  - first:
+      213: -967063528320083373
+    second: Crystal_Boss_Death-Sheet_43
+  - first:
+      213: 6075645091992606566
+    second: Crystal_Boss_Death-Sheet_44
+  - first:
+      213: 3940793892029218064
+    second: Crystal_Boss_Death-Sheet_45
+  - first:
+      213: 468243768657043289
+    second: Crystal_Boss_Death-Sheet_46
+  - first:
+      213: 6269707807532624698
+    second: Crystal_Boss_Death-Sheet_47
+  - first:
+      213: 9170067435179289003
+    second: Crystal_Boss_Death-Sheet_48
+  - first:
+      213: -3677571676646897558
+    second: Crystal_Boss_Death-Sheet_49
+  - first:
+      213: -8609195689060654023
+    second: Crystal_Boss_Death-Sheet_50
+  - first:
+      213: 7763845790813985099
+    second: Crystal_Boss_Death-Sheet_51
+  - first:
+      213: 5149681102107491875
+    second: Crystal_Boss_Death-Sheet_52
+  - first:
+      213: 2428687577823653620
+    second: Crystal_Boss_Death-Sheet_53
+  - first:
+      213: -4730943838964691134
+    second: Crystal_Boss_Death-Sheet_54
+  - first:
+      213: 1248474597464772016
+    second: Crystal_Boss_Death-Sheet_55
+  - first:
+      213: 1833783778782073563
+    second: Crystal_Boss_Death-Sheet_56
+  - first:
+      213: 332956362331761559
+    second: Crystal_Boss_Death-Sheet_57
+  - first:
+      213: -5970785078855245991
+    second: Crystal_Boss_Death-Sheet_58
+  - first:
+      213: 5284159731238691127
+    second: Crystal_Boss_Death-Sheet_59
+  - first:
+      213: 6473173391759848809
+    second: Crystal_Boss_Death-Sheet_60
+  - first:
+      213: -293615705463563878
+    second: Crystal_Boss_Death-Sheet_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd74388cef819b40800000000000000
+      internalID: 5445291670527835584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10b15e1894d45a70800000000000000
+      internalID: 8814904120479690782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416414abdc75bb220800000000000000
+      internalID: 2502690559039194644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbc806180a885960800000000000000
+      internalID: 7590968939267017693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b23f76a4d760fa80800000000000000
+      internalID: -8435127939040857418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971406f4c73e42690800000000000000
+      internalID: -7627721745811619463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661c14dd4f9a83be0800000000000000
+      internalID: -1497260006951501466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34164f79c1b8b0850800000000000000
+      internalID: 6344317455006196035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04177e74d8f30980800000000000000
+      internalID: -8573735674044804082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe882c1a21b2c7fd0800000000000000
+      internalID: -2342950347116214033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a40d93f3210a98c0800000000000000
+      internalID: -3991876865787886428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0c0751c58b6cab0800000000000000
+      internalID: -4988096831630032730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_Death-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56865ba5adc2f3c40800000000000000
+      internalID: 5494159386751625317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: de3c0128f1cddaa478470e4962dc91f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4950000047683716,"y":0.10666666924953461},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Crystal_Boss_Death-Sheet_0: 5445291670527835584
+      Crystal_Boss_Death-Sheet_1: 8814904120479690782
+      Crystal_Boss_Death-Sheet_10: -3991876865787886428
+      Crystal_Boss_Death-Sheet_11: -4988096831630032730
+      Crystal_Boss_Death-Sheet_12: 5494159386751625317
+      Crystal_Boss_Death-Sheet_2: 2502690559039194644
+      Crystal_Boss_Death-Sheet_3: 7590968939267017693
+      Crystal_Boss_Death-Sheet_4: -8435127939040857418
+      Crystal_Boss_Death-Sheet_5: -7627721745811619463
+      Crystal_Boss_Death-Sheet_6: -1497260006951501466
+      Crystal_Boss_Death-Sheet_7: 6344317455006196035
+      Crystal_Boss_Death-Sheet_8: -8573735674044804082
+      Crystal_Boss_Death-Sheet_9: -2342950347116214033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

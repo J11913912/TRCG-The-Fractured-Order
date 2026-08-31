@@ -17,6 +17,8 @@ public class HealthbarManager : MonoBehaviour
    private float _time;
    private float _timeToNext = 0.04f;
 
+   public bool isBoss = false;
+
    private void Awake()
    {
       healthBar.value = healthBar.maxValue;
@@ -25,12 +27,16 @@ public class HealthbarManager : MonoBehaviour
 
    private void OnEnable()
    {
+      if (isBoss) return;
+      
       OnHealthDecrease += SetSliderDown;
       OnHealthIncrease += SetSliderUp;
    }
 
    private void OnDisable()
    {
+      if (isBoss) return;
+      
       OnHealthDecrease -= SetSliderDown;
       OnHealthIncrease -= SetSliderUp;
    }
@@ -53,7 +59,7 @@ public class HealthbarManager : MonoBehaviour
       }
    }
 
-   private void SetSliderDown(int amount)
+   public void SetSliderDown(int amount)
    {
       healthBar.value -= amount;
 
@@ -65,7 +71,7 @@ public class HealthbarManager : MonoBehaviour
       }
    }
 
-   private void SetSliderUp(int amount)
+   public void SetSliderUp(int amount)
    {
       healthBar.value += amount;
       

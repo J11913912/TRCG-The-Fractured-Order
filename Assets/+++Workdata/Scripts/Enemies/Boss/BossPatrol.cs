@@ -422,7 +422,7 @@ public class BossPatrol : MonoBehaviour
     {
         StopPatrol();
         
-        attackRandom =  Random.Range(0, 3);
+        attackRandom =  Random.Range(0, 2); // 0, 3 für mit projectile aber nicht im game
 
         switch (attackRandom)
         {
@@ -442,7 +442,7 @@ public class BossPatrol : MonoBehaviour
             
             case 2:
                 StopPatrol();
-                _crownAbility.Attack();
+               // _crownAbility.Attack();
                 Debug.Log("Crown Ability");
                 break;
         }
