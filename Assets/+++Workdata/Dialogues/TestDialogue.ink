@@ -161,7 +161,6 @@ Gart the Barb: Nope, here's nothing to see at all.
 Gart the Barb: No groove, no move.
 ->END
 
-
 === UI ===
 
 = GetPotion
@@ -186,5 +185,25 @@ You found the Crystal Shard Spell - Check it out in the Spell Menu!
 
 = GetTeleport
 You found the Teleport Spell!
+->END
+
+=== Council ===
+
+= Talk1
+Council: Oh hey, it's you. Haven't seen you in a while.
+
+Council: What? The crystal shattered?! And you think the root of this evil lies in the desert south-east from here? Well, you saw it, you fix it. Here's a permit to leave town, just show it to the guard and you'll be able to pass.
+
+~Event("GuardGone")
+
+Council: Now, off you go, we've got cards to play.
+->END
+
+= Talk2
+Council: Wait, you are saying that one of our council brothers brought this upon us? How will we ever find the imposter, it's impossible!
+->END
+
+= Talk3
+Council: You're still here? Don't you need to save the world or something?
 ->END
 
