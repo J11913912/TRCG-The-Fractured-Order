@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using FMODUnity;
 
 public class BossCrushAbility : MonoBehaviour
 {
@@ -81,6 +82,8 @@ public class BossCrushAbility : MonoBehaviour
         if (!crush) return;
         
         _bossPatrol.SetAnimationAction(30);
+        
+        RuntimeManager.PlayOneShot("event:/Enemies/Crystal/Boss/Boss Crash");
         
         
         Debug.Log("CrushOff");

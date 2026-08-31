@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using FMODUnity;
 
 public class MoneyShard : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class MoneyShard : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             MoneyManager.OnMoneyIncrease?.Invoke(1);
+            RuntimeManager.PlayOneShot("event:/Misc/Shard Collect");
             Destroy(gameObject);
         }
     }
