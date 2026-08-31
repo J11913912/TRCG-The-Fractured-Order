@@ -4,6 +4,7 @@ using Unity.Mathematics.Geometry;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using Plane = Unity.Mathematics.Geometry.Plane;
 using Random = UnityEngine.Random;
 
 public class LoadingScreenSetter : MonoBehaviour
@@ -23,6 +24,8 @@ public class LoadingScreenSetter : MonoBehaviour
     public float time;
     
     public RoomTransition roomTransition;
+    public PlayerInput playerInput;
+    public PauseMenuManager pauseMenuManager;
 
     private void Awake()
     {
@@ -48,6 +51,9 @@ public class LoadingScreenSetter : MonoBehaviour
     {
         if (start)
         { 
+            playerInput.DisableInput();
+            pauseMenuManager.DisableInput();
+            
             time += Time.deltaTime;
             
             animator.SetBool("isLoading", true);
@@ -57,6 +63,8 @@ public class LoadingScreenSetter : MonoBehaviour
             if (slider.value >= 0.80f)
             {
                 roomTransition.EndTransition();
+                playerInput.EnableInput();
+                pauseMenuManager.EnableInput();
             }
             
             if (slider.value >= 1)

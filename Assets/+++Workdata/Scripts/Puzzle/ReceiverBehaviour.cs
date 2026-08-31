@@ -44,6 +44,7 @@ public class ReceiverBehaviour : MonoBehaviour
             }
             else
             {
+
                 toggledObject.SetActive(!_receiverOn);
             }
         }

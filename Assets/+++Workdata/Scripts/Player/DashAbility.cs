@@ -6,23 +6,26 @@ using FMODUnity;
 
 public class DashAbility : MonoBehaviour
 {
-    public static Action OnDashInput;
+    public static Action<Vector2> OnDashInput;
     public int actionId = 10;
     public float rollForce = 5f;
     private PlayerStates _playerState;
     private PlayerDirection _playerDirection;
     private PlayerController _playerController;
+    private PlayerAnimation _playerAnimation;
 
     public bool inTeleportZone = false;
     public Vector2 whereDoWeWantToGo;
     private Vector2 _direction;
 
     public bool _isTeleporting = false;
+    public bool unlockedTeleport = false;
     
     private void Awake()
     {
         _playerState = GetComponent<PlayerStates>();
         _playerController = GetComponent<PlayerController>();
+        _playerAnimation = GetComponent<PlayerAnimation>();
     }
 
     private void OnEnable()
@@ -33,6 +36,11 @@ public class DashAbility : MonoBehaviour
     private void OnDisable()
     {
         OnDashInput -= Dash;
+    }
+
+    public void UnlockTeleport()
+    {
+        unlockedTeleport = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -62,8 +70,10 @@ public class DashAbility : MonoBehaviour
         inTeleportZone = false;
     }
 
-    void Dash()
+    void Dash(Vector2 input)
     {
+        if (!unlockedTeleport) return;
+        
         //if (_playerState.GetPlayerAction() != PlayerAction.Default) return;
     
       //  RuntimeManager.PlayOneShot("event:/SFX/Charakter/Rolling");
@@ -74,23 +84,8 @@ public class DashAbility : MonoBehaviour
        // PlayerAnimation.OnAnimationAction?.Invoke(actionId);
        
        _playerDirection = _playerState.GetPlayerDirection();
-        
-       if (_playerDirection == PlayerDirection.Left)                                                                   // spawn in position and direction according to playerDirection
-       {
-           _direction = Vector2.left;
-       }
-       else if (_playerDirection == PlayerDirection.Right)
-       {
-           _direction = Vector2.right;
-       }
-       else if (_playerDirection == PlayerDirection.Up)
-       {
-           _direction = Vector2.up;
-       }
-       else if (_playerDirection == PlayerDirection.Down)
-       {
-           _direction = Vector2.down;
-       }
+
+       _direction = input.normalized;
 
        if (inTeleportZone)
        {
@@ -102,6 +97,8 @@ public class DashAbility : MonoBehaviour
        {
            _playerController.ApplyDash(_direction);
        }
+       
+       _playerAnimation.AnimationSetAction(70);
     }
 
     private IEnumerator Teleport()

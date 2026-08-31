@@ -168,3 +168,23 @@ Gart the Barb: No groove, no move.
 You found a health potion - Hooray!
 ->END
 
+= GetCrystalWall
+You found the Crystal Wall Spell - Check it out in the Spell Menu!
+->END
+
+= GetCrystalAoE
+You found the Crystal Pillar Spell - Check it out in the Spell Menu!
+->END
+
+= GetCrystalHealing
+You found the Crystal Cocoon Spell - Check it out in the Spell Menu!
+->END
+
+= GetCrystalDart
+You found the Crystal Shard Spell - Check it out in the Spell Menu!
+->END
+
+= GetTeleport
+You found the Teleport Spell!
+->END
+

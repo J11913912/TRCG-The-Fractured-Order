@@ -717,7 +717,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a40c2220-f6c5-4481-ad3f-d4593b3144da"",
-                    ""path"": ""<Keyboard>/v"",
+                    ""path"": ""<Keyboard>/shift"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",

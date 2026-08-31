@@ -29,6 +29,7 @@ public class BeamBehaviour : MonoBehaviour
     public bool isShort;
     public bool isAskew;
 
+    public bool isSpecialPatient = false;
     private void Awake()
     {
         normalLength = beamLength.transform.lossyScale; 
@@ -44,6 +45,11 @@ public class BeamBehaviour : MonoBehaviour
 
     private void Update()
     {
+        if (isSpecialPatient)
+        {
+            SetIsSHort();
+        }
+        
         raycastPos = target.position;
         raycastEnd = raycastEndTarget.position;
         
@@ -99,9 +105,10 @@ public class BeamBehaviour : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawLine(raycastPos, raycastEnd * 10000000000f);
     }
-    
-    
-    
-    /// FUCKING RAYCAST WONT CHANGE WITH ROTATIONNNNNNNNNNNNNNNNN FIX IT FOR EMITTERS!!!!!!!!!!!!!!!!!!!!!!!!!
-    /// AND FIX THAT BEAMS COMES FUCKING ALONNNNNNGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    public void SetIsSHort()
+    {
+        isShort = false;
+        isShort = true;
+    }
 }
