@@ -18,6 +18,7 @@ public class DashAbility : MonoBehaviour
     private Vector2 _direction;
 
     public bool _isTeleporting = false;
+    public bool unlockedTeleport = false;
     
     private void Awake()
     {
@@ -33,6 +34,11 @@ public class DashAbility : MonoBehaviour
     private void OnDisable()
     {
         OnDashInput -= Dash;
+    }
+
+    public void UnlockTeleport()
+    {
+        unlockedTeleport = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -64,6 +70,8 @@ public class DashAbility : MonoBehaviour
 
     void Dash()
     {
+        if (!unlockedTeleport) return;
+        
         //if (_playerState.GetPlayerAction() != PlayerAction.Default) return;
     
       //  RuntimeManager.PlayOneShot("event:/SFX/Charakter/Rolling");
