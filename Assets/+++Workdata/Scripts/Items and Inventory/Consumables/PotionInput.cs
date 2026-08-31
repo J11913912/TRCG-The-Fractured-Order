@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using FMODUnity;
 
 public class PotionInput : MonoBehaviour
 {
@@ -53,6 +54,7 @@ public class PotionInput : MonoBehaviour
         
         MoneyManager.OnHealthPotion?.Invoke(-1);
         PlayerInformation.OnHealthUp?.Invoke(heallingPower);
+        RuntimeManager.PlayOneShot("event:/Misc/Health Potion");
     }
 
     public void UseManaPotion()
@@ -61,5 +63,6 @@ public class PotionInput : MonoBehaviour
         
         MoneyManager.OnManaPotion?.Invoke(-1);
         player.GetComponent<ManaManager>().IncreaseMana(manaPower);
+        RuntimeManager.PlayOneShot("event:/Misc/Mana Potion");
     }
 }

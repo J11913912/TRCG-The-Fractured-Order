@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using FMODUnity;
+using UnityEngine.Events;
 
 public class BossSpinAbility : MonoBehaviour
 {
@@ -15,6 +17,9 @@ public class BossSpinAbility : MonoBehaviour
     public float spintime;
     
     private BossPatrol _bossPatrol;
+    
+    public UnityEvent BossSpinStart;
+    public UnityEvent BossSpinStop;
 
     private void Awake()
     {
@@ -23,6 +28,7 @@ public class BossSpinAbility : MonoBehaviour
     
     public void StartSpin()
     {
+        BossSpinStart?.Invoke();
         Debug.Log("StartSpin");
         start = true;
         StartCoroutine(SpinTimer());
@@ -37,6 +43,7 @@ public class BossSpinAbility : MonoBehaviour
     {
         yield return new WaitForSeconds(spintime);
         start = false;
+        BossSpinStop?.Invoke();
         Debug.Log("StopSpin");
         spinCollider.SetActive(false);
         _bossPatrol.ResumePatrolAfterAttack();
