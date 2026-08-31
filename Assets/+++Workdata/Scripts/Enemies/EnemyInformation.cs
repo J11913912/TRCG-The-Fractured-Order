@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using FMODUnity;
 
 public class EnemyInformation : MonoBehaviour
 {
@@ -97,6 +98,8 @@ public class EnemyInformation : MonoBehaviour
             bossHealthBar.SetActive(false);
             return;
         }
+        
+        RuntimeManager.PlayOneShot("event:/Enemies/Crystal/Death Enemy Crystal");
         
         Destroy(this.gameObject);
         
