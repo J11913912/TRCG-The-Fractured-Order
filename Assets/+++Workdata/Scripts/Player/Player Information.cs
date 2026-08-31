@@ -35,6 +35,7 @@ public class PlayerInformation : MonoBehaviour
     private void Awake()
     {
         currentHealth = maxHealth;
+        playerAnimation = GetComponent<PlayerAnimation>();
     }
 
     private void OnEnable()
@@ -83,6 +84,8 @@ public class PlayerInformation : MonoBehaviour
         }
 
         if (inIFrames) return;
+        
+        playerAnimation.AnimationSetAction(90);
 
         inIFrames = true;
         canTakeDamage = false;

@@ -36,19 +36,22 @@ public class VomitAbility : MonoBehaviour
     {
         if (!canVomit) return;
         
-        SpawnVomit();
+       // SpawnVomit();
         
-        SetSpawnPosition();
+       // SetSpawnPosition();
     }
 
     public void SpawnVomit()
     {
         canVomit = false;
         
-        _counter += Time.deltaTime;
+        _spawnPosition.x = transform.position.x;
+        _spawnPosition.y = transform.position.y - 0.5f;
+        
+       // _counter += Time.deltaTime;
 
-        if (_counter > vomitTime)
-        {
+       // if (_counter > vomitTime)
+       // {
             _counter = 0;
             GameObject newVomit = Instantiate(vomitPrefab);
             newVomit.transform.position = _spawnPosition;
@@ -56,16 +59,13 @@ public class VomitAbility : MonoBehaviour
             vomitSpawned.Add(newVomit);
 
             vomitsSpawned++;
-        }
-        
-        _slurpEnemyPatrol.ResumePatrol(); 
-        _slurpEnemyPatrol.EnterAggroDistance();
+     //   }
     }
 
     public void SetSpawnPosition()
     {
         _spawnPosition.x = transform.position.x;
-        _spawnPosition.y = transform.position.y - 1;
+        _spawnPosition.y = transform.position.y - 0.5f;
     }
 
     public void ResetVomits()

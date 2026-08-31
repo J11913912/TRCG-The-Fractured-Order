@@ -12,8 +12,7 @@ public class VomitBehaviour : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // TODO player health reduzieren
-            Debug.Log("player damaged");
+            other.GetComponent<PlayerInformation>().SetDamage(damage);
             StartCoroutine(DestroyItself());
         }
     }
