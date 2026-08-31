@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5348931408967948815}
   - component: {fileID: 5533044254911379515}
   - component: {fileID: -2430188821337779686}
+  - component: {fileID: 1451562136039095778}
   m_Layer: 0
   m_Name: Crystal Projectile Prefab
   m_TagString: Untagged
@@ -208,3 +209,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
+--- !u!114 &1451562136039095778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928591610570380805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9dd1a834c8dc44e9794e83cf8208a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageEnemies
+  damage: 5

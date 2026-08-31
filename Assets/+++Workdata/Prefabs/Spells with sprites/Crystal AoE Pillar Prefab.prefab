@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 833318360045696998}
   - component: {fileID: 6963762952796041751}
   - component: {fileID: 1891834849583066404}
+  - component: {fileID: 5224755293150570255}
+  - component: {fileID: 3369016646908420544}
   m_Layer: 0
   m_Name: Crystal AoE Pillar Prefab
   m_TagString: Untagged
@@ -179,3 +181,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
+--- !u!114 &5224755293150570255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7315864855031046300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9dd1a834c8dc44e9794e83cf8208a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageEnemies
+  damage: 5
+--- !u!58 &3369016646908420544
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7315864855031046300}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.59375}
+  m_Radius: 1

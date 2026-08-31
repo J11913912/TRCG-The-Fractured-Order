@@ -59,7 +59,7 @@ public class MoneyManager : MonoBehaviour
         manaPotions = PlayerPrefs.GetInt("ManaPotions");
     }
 
-    private void MoreMoney(int amount)
+    public void MoreMoney(int amount)
     {
         money += amount;
         

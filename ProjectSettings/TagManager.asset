@@ -12,6 +12,7 @@ TagManager:
   - PlayerDummy
   - StopLog
   - TumbleweedGuy
+  - Enemy
   layers:
   - Default
   - TransparentFX

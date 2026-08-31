@@ -11,10 +11,10 @@ using Random = UnityEngine.Random;
 public class SlurpEnemyPatrol : MonoBehaviour
 {
     private int HashMovementValue = Animator.StringToHash("MovementValue");
-    private int HashDirX = Animator.StringToHash("dirX");
-    private int HashDirY = Animator.StringToHash("dirY");
+    private int HashDirX = Animator.StringToHash("XDirection");
+    private int HashDirY = Animator.StringToHash("YDirection");
     private int HashActionTrigger = Animator.StringToHash("ActionTrigger");
-    private int HashActionId = Animator.StringToHash("ActionId");
+    private int HashActionId = Animator.StringToHash("ActionID");
     
     
     #region Inspector
@@ -102,12 +102,14 @@ public class SlurpEnemyPatrol : MonoBehaviour
             if (_attackCooldownTimer > attackCooldown)
             {
                 enemyState = EnemyState.Attacking;
+                _canAttack = false;
                 Debug.Log("Vomit guy attacks");
-                //SetAnimationAction(1);
+                _vomitAbility.ToggleVomit(true);
+                _vomitAbility.SpawnVomit();
             }
         }
 
-        if (enemyState == EnemyState.Chasing)
+      /*  if (enemyState == EnemyState.Chasing)
         {
            StartCoroutine(WaitForNewVomit());
 
@@ -118,7 +120,7 @@ public class SlurpEnemyPatrol : MonoBehaviour
                 enemyState = EnemyState.Chasing;
             }
 
-        }
+        }*/
 
         if (!_agent.isStopped && enemyState != EnemyState.Chasing && enemyState != EnemyState.Attacking)
         {
@@ -155,7 +157,7 @@ public class SlurpEnemyPatrol : MonoBehaviour
     private void LateUpdate()
     {
         UpdateFacing();
-        //UpdateAniamtor();
+        UpdateAniamtor();
     }
     
     #endregion
@@ -190,12 +192,12 @@ public class SlurpEnemyPatrol : MonoBehaviour
         {
             enemyFacingDirection = dir.y > 0 ? EnemyFacingDirection.Up : EnemyFacingDirection.Down;
         }
-        //SetAnimationDirection(new Vector2(dir.x, dir.y));
-        /*
+        SetAnimationDirection(new Vector2(dir.x, dir.y));
+        
         switch (enemyFacingDirection)
         {
             case EnemyFacingDirection.Up:
-
+                SetAnimationDirection(new Vector2(0, 1));
                 break;
             
             case EnemyFacingDirection.Down:
@@ -209,7 +211,7 @@ public class SlurpEnemyPatrol : MonoBehaviour
             case EnemyFacingDirection.Right:
                 SetAnimationDirection(new Vector2(1, 0));
                 break;
-        }*/
+        }
     }
     
     private void RotateObj(Vector2 direction)
@@ -317,20 +319,20 @@ public class SlurpEnemyPatrol : MonoBehaviour
     #region Animation
 
     private void UpdateAniamtor()
-    {
-     //   animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
+    { 
+        animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
     }
 
     private void SetAnimationDirection(Vector2 direction)
-    {
-     //   animator.SetFloat(HashDirX, direction.x);
-      //  animator.SetFloat(HashDirY, direction.y);
+    { 
+        animator.SetFloat(HashDirX, direction.x); 
+        animator.SetFloat(HashDirY, direction.y);
     }
 
     private void SetAnimationAction(int actionId)
-    {
-       // animator.SetTrigger(HashActionTrigger);
-       // animator.SetInteger(HashActionId, actionId);
+    { 
+        animator.SetTrigger(HashActionTrigger); 
+        animator.SetInteger(HashActionId, actionId);
     }
 
     #endregion
@@ -380,6 +382,7 @@ public class SlurpEnemyPatrol : MonoBehaviour
     {
         _canAttack = true;
         _agent.isStopped = true;
+        SetAnimationAction(10);
     }
 
     public void ExitAttackDistance()
@@ -394,6 +397,7 @@ public class SlurpEnemyPatrol : MonoBehaviour
         _attackCooldownTimer = 0;
         enemyState = EnemyState.Chasing;
         _agent.isStopped = false;
+        _vomitAbility.ToggleVomit(false);
     }
     
     #endregion

@@ -14,7 +14,7 @@ public class EnemyContactDamage : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // TODO player health reduzieren
+            other.GetComponent<PlayerInformation>().SetDamage(damage);
             Debug.Log("found player");
             OnDamage?.Invoke();
         }
