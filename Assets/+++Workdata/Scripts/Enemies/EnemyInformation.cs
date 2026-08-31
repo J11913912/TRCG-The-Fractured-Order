@@ -24,6 +24,13 @@ public class EnemyInformation : MonoBehaviour
     private float time = 1f;
     
     private bool _dropped = false;
+    
+    public bool isBoss = false;
+    public GameObject crystalPrefab;
+    private GameObject crystal;
+    
+    public GameObject bossHealthBar;
+    public SpriteColorChanger spriteColorChanger;
 
     private void Awake()
     {
@@ -59,9 +66,18 @@ public class EnemyInformation : MonoBehaviour
         currentHealth -= damage;
         SetAnimation(90);
 
+        if (isBoss)
+        {
+            spriteColorChanger.ColorObject();
+            bossHealthBar.GetComponent<HealthbarManager>().SetSliderDown(damage);
+        }
+
         if (currentHealth <= 0)
         {
             currentHealth = 0;
+            
+            if (isBoss) return;
+            
             SetAnimation(100);
         }
     }
@@ -74,6 +90,14 @@ public class EnemyInformation : MonoBehaviour
 
     public void Death()
     {
+        if (isBoss)
+        {
+            crystal = Instantiate(crystalPrefab);
+            crystal.transform.position = transform.position;
+            bossHealthBar.SetActive(false);
+            return;
+        }
+        
         Destroy(this.gameObject);
         
         money = Instantiate(moneyPrefab);

@@ -24,6 +24,8 @@ public class BossCrushAbility : MonoBehaviour
     public GameObject dummyPrefab;
     private GameObject _dummy;
 
+    public Collider2D contactCollider;
+
     
     private void Awake()
     {
@@ -53,6 +55,7 @@ public class BossCrushAbility : MonoBehaviour
 
     public void HoverOver()
     {
+        contactCollider.enabled = false;
         _target = _player.transform;
 
         _dummy = Instantiate(dummyPrefab);
@@ -61,6 +64,7 @@ public class BossCrushAbility : MonoBehaviour
         crush = true;
         
         _bossPatrol.SetAnimationAction(20);
+        contactCollider.enabled = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -78,6 +82,7 @@ public class BossCrushAbility : MonoBehaviour
         
         _bossPatrol.SetAnimationAction(30);
         
+        
         Debug.Log("CrushOff");
         crush = false;
         _rb.linearVelocity = Vector2.zero;
@@ -87,6 +92,7 @@ public class BossCrushAbility : MonoBehaviour
 
     public void Crush() // via animation event in slam_ease
     {
+        contactCollider.enabled = false;
         _bossPatrol.ResumePatrolAfterAttack();
         Destroy(_dummy);
     }

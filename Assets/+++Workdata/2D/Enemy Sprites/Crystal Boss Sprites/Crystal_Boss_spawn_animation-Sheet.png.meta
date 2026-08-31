@@ -1,0 +1,2342 @@
+fileFormatVersion: 2
+guid: 7ef7370aadaba7d4d950f8952753801f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4272998367453784373
+    second: Crystal_Boss_spawn_animation-Sheet_0
+  - first:
+      213: -3845344389440501907
+    second: Crystal_Boss_spawn_animation-Sheet_1
+  - first:
+      213: -8550373657969444026
+    second: Crystal_Boss_spawn_animation-Sheet_2
+  - first:
+      213: 5406022361701989604
+    second: Crystal_Boss_spawn_animation-Sheet_3
+  - first:
+      213: -8855225475981318148
+    second: Crystal_Boss_spawn_animation-Sheet_4
+  - first:
+      213: -1317923965518710641
+    second: Crystal_Boss_spawn_animation-Sheet_5
+  - first:
+      213: -5558677640794088915
+    second: Crystal_Boss_spawn_animation-Sheet_6
+  - first:
+      213: -8253928464510854941
+    second: Crystal_Boss_spawn_animation-Sheet_7
+  - first:
+      213: -797520822149408408
+    second: Crystal_Boss_spawn_animation-Sheet_8
+  - first:
+      213: -4761460353356601305
+    second: Crystal_Boss_spawn_animation-Sheet_9
+  - first:
+      213: -9220939478039117312
+    second: Crystal_Boss_spawn_animation-Sheet_10
+  - first:
+      213: -7465460756910490180
+    second: Crystal_Boss_spawn_animation-Sheet_11
+  - first:
+      213: 1067457009796236422
+    second: Crystal_Boss_spawn_animation-Sheet_12
+  - first:
+      213: 2704215519839314247
+    second: Crystal_Boss_spawn_animation-Sheet_13
+  - first:
+      213: -7986662567021623117
+    second: Crystal_Boss_spawn_animation-Sheet_14
+  - first:
+      213: -1828291055456592844
+    second: Crystal_Boss_spawn_animation-Sheet_15
+  - first:
+      213: -8519352794160050374
+    second: Crystal_Boss_spawn_animation-Sheet_16
+  - first:
+      213: 209039833481994602
+    second: Crystal_Boss_spawn_animation-Sheet_17
+  - first:
+      213: 43444625313469043
+    second: Crystal_Boss_spawn_animation-Sheet_18
+  - first:
+      213: 7913983204805078750
+    second: Crystal_Boss_spawn_animation-Sheet_19
+  - first:
+      213: -3574964867805072151
+    second: Crystal_Boss_spawn_animation-Sheet_20
+  - first:
+      213: 5358134988430503871
+    second: Crystal_Boss_spawn_animation-Sheet_21
+  - first:
+      213: -6119407778133152900
+    second: Crystal_Boss_spawn_animation-Sheet_22
+  - first:
+      213: -2573783162109478412
+    second: Crystal_Boss_spawn_animation-Sheet_23
+  - first:
+      213: -2204422481916074621
+    second: Crystal_Boss_spawn_animation-Sheet_24
+  - first:
+      213: 8218429017119281426
+    second: Crystal_Boss_spawn_animation-Sheet_25
+  - first:
+      213: 3758675876699539038
+    second: Crystal_Boss_spawn_animation-Sheet_26
+  - first:
+      213: 7844593671524273048
+    second: Crystal_Boss_spawn_animation-Sheet_27
+  - first:
+      213: -916350696752811591
+    second: Crystal_Boss_spawn_animation-Sheet_28
+  - first:
+      213: 7529462277905343331
+    second: Crystal_Boss_spawn_animation-Sheet_29
+  - first:
+      213: -8273013291199296530
+    second: Crystal_Boss_spawn_animation-Sheet_30
+  - first:
+      213: 7878712176450139980
+    second: Crystal_Boss_spawn_animation-Sheet_31
+  - first:
+      213: 5167177896229484922
+    second: Crystal_Boss_spawn_animation-Sheet_32
+  - first:
+      213: 450637889445444515
+    second: Crystal_Boss_spawn_animation-Sheet_33
+  - first:
+      213: -4129015744196706697
+    second: Crystal_Boss_spawn_animation-Sheet_34
+  - first:
+      213: 4670117080084671557
+    second: Crystal_Boss_spawn_animation-Sheet_35
+  - first:
+      213: -2128998201753502583
+    second: Crystal_Boss_spawn_animation-Sheet_36
+  - first:
+      213: 7426072994080566068
+    second: Crystal_Boss_spawn_animation-Sheet_37
+  - first:
+      213: 7083300666033557272
+    second: Crystal_Boss_spawn_animation-Sheet_38
+  - first:
+      213: -1302555710940840527
+    second: Crystal_Boss_spawn_animation-Sheet_39
+  - first:
+      213: 7088892574303966065
+    second: Crystal_Boss_spawn_animation-Sheet_40
+  - first:
+      213: 6393188463142674250
+    second: Crystal_Boss_spawn_animation-Sheet_41
+  - first:
+      213: -896255884848422373
+    second: Crystal_Boss_spawn_animation-Sheet_42
+  - first:
+      213: -4991786251586655456
+    second: Crystal_Boss_spawn_animation-Sheet_43
+  - first:
+      213: 2622466550713925499
+    second: Crystal_Boss_spawn_animation-Sheet_44
+  - first:
+      213: -5714537700505110152
+    second: Crystal_Boss_spawn_animation-Sheet_45
+  - first:
+      213: -2905243667527879297
+    second: Crystal_Boss_spawn_animation-Sheet_46
+  - first:
+      213: 1832511050565486430
+    second: Crystal_Boss_spawn_animation-Sheet_47
+  - first:
+      213: 1980932341111866055
+    second: Crystal_Boss_spawn_animation-Sheet_48
+  - first:
+      213: 5000529591345146072
+    second: Crystal_Boss_spawn_animation-Sheet_49
+  - first:
+      213: -3553678304134518164
+    second: Crystal_Boss_spawn_animation-Sheet_50
+  - first:
+      213: 5714391185499985046
+    second: Crystal_Boss_spawn_animation-Sheet_51
+  - first:
+      213: 126206644318848595
+    second: Crystal_Boss_spawn_animation-Sheet_52
+  - first:
+      213: 4597364850782146914
+    second: Crystal_Boss_spawn_animation-Sheet_53
+  - first:
+      213: 6513877644294748595
+    second: Crystal_Boss_spawn_animation-Sheet_54
+  - first:
+      213: 104639945133431024
+    second: Crystal_Boss_spawn_animation-Sheet_55
+  - first:
+      213: -7968366713076856782
+    second: Crystal_Boss_spawn_animation-Sheet_56
+  - first:
+      213: -2127462602643245367
+    second: Crystal_Boss_spawn_animation-Sheet_57
+  - first:
+      213: -8171197055269300083
+    second: Crystal_Boss_spawn_animation-Sheet_58
+  - first:
+      213: -8455433295846693551
+    second: Crystal_Boss_spawn_animation-Sheet_59
+  - first:
+      213: -5728929129083687203
+    second: Crystal_Boss_spawn_animation-Sheet_60
+  - first:
+      213: -2921572331365221565
+    second: Crystal_Boss_spawn_animation-Sheet_61
+  - first:
+      213: -8040487297845401630
+    second: Crystal_Boss_spawn_animation-Sheet_62
+  - first:
+      213: -2295560617420577737
+    second: Crystal_Boss_spawn_animation-Sheet_63
+  - first:
+      213: 2520951749471871447
+    second: Crystal_Boss_spawn_animation-Sheet_64
+  - first:
+      213: -5704428179392332131
+    second: Crystal_Boss_spawn_animation-Sheet_65
+  - first:
+      213: -6083535726121418478
+    second: Crystal_Boss_spawn_animation-Sheet_66
+  - first:
+      213: -8823957219655499731
+    second: Crystal_Boss_spawn_animation-Sheet_67
+  - first:
+      213: -8036536014607622668
+    second: Crystal_Boss_spawn_animation-Sheet_68
+  - first:
+      213: -2275773776176780942
+    second: Crystal_Boss_spawn_animation-Sheet_69
+  - first:
+      213: -6217906610678761231
+    second: Crystal_Boss_spawn_animation-Sheet_70
+  - first:
+      213: -8284128935246401738
+    second: Crystal_Boss_spawn_animation-Sheet_71
+  - first:
+      213: -7007840421378643875
+    second: Crystal_Boss_spawn_animation-Sheet_72
+  - first:
+      213: 3336132657307364639
+    second: Crystal_Boss_spawn_animation-Sheet_73
+  - first:
+      213: -350659969137013123
+    second: Crystal_Boss_spawn_animation-Sheet_74
+  - first:
+      213: 8688458350832129527
+    second: Crystal_Boss_spawn_animation-Sheet_75
+  - first:
+      213: 7284670126593013172
+    second: Crystal_Boss_spawn_animation-Sheet_76
+  - first:
+      213: -8296992684849753276
+    second: Crystal_Boss_spawn_animation-Sheet_77
+  - first:
+      213: 4969467880861673958
+    second: Crystal_Boss_spawn_animation-Sheet_78
+  - first:
+      213: 3591552181092278458
+    second: Crystal_Boss_spawn_animation-Sheet_79
+  - first:
+      213: 6106726456933235658
+    second: Crystal_Boss_spawn_animation-Sheet_80
+  - first:
+      213: -579688528863795364
+    second: Crystal_Boss_spawn_animation-Sheet_81
+  - first:
+      213: 2480898374548715328
+    second: Crystal_Boss_spawn_animation-Sheet_82
+  - first:
+      213: 6307683859912355675
+    second: Crystal_Boss_spawn_animation-Sheet_83
+  - first:
+      213: -2763449940772486259
+    second: Crystal_Boss_spawn_animation-Sheet_84
+  - first:
+      213: -281678379862930794
+    second: Crystal_Boss_spawn_animation-Sheet_85
+  - first:
+      213: 1151716922430876015
+    second: Crystal_Boss_spawn_animation-Sheet_86
+  - first:
+      213: 8693617732907413918
+    second: Crystal_Boss_spawn_animation-Sheet_87
+  - first:
+      213: 1790050191489285854
+    second: Crystal_Boss_spawn_animation-Sheet_88
+  - first:
+      213: 1149886144550781263
+    second: Crystal_Boss_spawn_animation-Sheet_89
+  - first:
+      213: -7283487167751375764
+    second: Crystal_Boss_spawn_animation-Sheet_90
+  - first:
+      213: 4822119493373683887
+    second: Crystal_Boss_spawn_animation-Sheet_91
+  - first:
+      213: -809968935664319631
+    second: Crystal_Boss_spawn_animation-Sheet_92
+  - first:
+      213: 2799113040628989126
+    second: Crystal_Boss_spawn_animation-Sheet_93
+  - first:
+      213: 7425494971557814359
+    second: Crystal_Boss_spawn_animation-Sheet_94
+  - first:
+      213: 1853543082727105132
+    second: Crystal_Boss_spawn_animation-Sheet_95
+  - first:
+      213: -8134300907351532783
+    second: Crystal_Boss_spawn_animation-Sheet_96
+  - first:
+      213: -2261501879438309850
+    second: Crystal_Boss_spawn_animation-Sheet_97
+  - first:
+      213: -1447891722233065959
+    second: Crystal_Boss_spawn_animation-Sheet_98
+  - first:
+      213: -4563594096119817061
+    second: Crystal_Boss_spawn_animation-Sheet_99
+  - first:
+      213: 8181910769644691503
+    second: Crystal_Boss_spawn_animation-Sheet_100
+  - first:
+      213: 6940243511647895917
+    second: Crystal_Boss_spawn_animation-Sheet_101
+  - first:
+      213: -8037193906810191768
+    second: Crystal_Boss_spawn_animation-Sheet_102
+  - first:
+      213: -409592911567961449
+    second: Crystal_Boss_spawn_animation-Sheet_103
+  - first:
+      213: -109707531139680402
+    second: Crystal_Boss_spawn_animation-Sheet_104
+  - first:
+      213: 2095123234436453409
+    second: Crystal_Boss_spawn_animation-Sheet_105
+  - first:
+      213: 1338062143254523232
+    second: Crystal_Boss_spawn_animation-Sheet_106
+  - first:
+      213: -1535768531987144795
+    second: Crystal_Boss_spawn_animation-Sheet_107
+  - first:
+      213: -8162117637030700170
+    second: Crystal_Boss_spawn_animation-Sheet_108
+  - first:
+      213: 2732941511398333327
+    second: Crystal_Boss_spawn_animation-Sheet_109
+  - first:
+      213: 4281042253267332969
+    second: Crystal_Boss_spawn_animation-Sheet_110
+  - first:
+      213: -2303921291002180121
+    second: Crystal_Boss_spawn_animation-Sheet_111
+  - first:
+      213: -4951758616335505347
+    second: Crystal_Boss_spawn_animation-Sheet_112
+  - first:
+      213: 4917607602740639078
+    second: Crystal_Boss_spawn_animation-Sheet_113
+  - first:
+      213: -6182382960994418565
+    second: Crystal_Boss_spawn_animation-Sheet_114
+  - first:
+      213: -5619570597810262870
+    second: Crystal_Boss_spawn_animation-Sheet_115
+  - first:
+      213: 6272464313181082264
+    second: Crystal_Boss_spawn_animation-Sheet_116
+  - first:
+      213: 6373707131740187747
+    second: Crystal_Boss_spawn_animation-Sheet_117
+  - first:
+      213: -8135534770340010876
+    second: Crystal_Boss_spawn_animation-Sheet_118
+  - first:
+      213: 2935477603322404600
+    second: Crystal_Boss_spawn_animation-Sheet_119
+  - first:
+      213: -6362471276412356834
+    second: Crystal_Boss_spawn_animation-Sheet_120
+  - first:
+      213: -7584563876884380566
+    second: Crystal_Boss_spawn_animation-Sheet_121
+  - first:
+      213: -3581513409903251065
+    second: Crystal_Boss_spawn_animation-Sheet_122
+  - first:
+      213: 1012750471158995864
+    second: Crystal_Boss_spawn_animation-Sheet_123
+  - first:
+      213: 6248728867727318702
+    second: Crystal_Boss_spawn_animation-Sheet_124
+  - first:
+      213: 6407436703218954138
+    second: Crystal_Boss_spawn_animation-Sheet_125
+  - first:
+      213: 2901153096807619459
+    second: Crystal_Boss_spawn_animation-Sheet_126
+  - first:
+      213: -3298459658789135712
+    second: Crystal_Boss_spawn_animation-Sheet_127
+  - first:
+      213: 6835514297328347931
+    second: Crystal_Boss_spawn_animation-Sheet_128
+  - first:
+      213: -6825988998643803086
+    second: Crystal_Boss_spawn_animation-Sheet_129
+  - first:
+      213: 4629278884976987119
+    second: Crystal_Boss_spawn_animation-Sheet_130
+  - first:
+      213: 3776224116823089020
+    second: Crystal_Boss_spawn_animation-Sheet_131
+  - first:
+      213: -7463651292299744766
+    second: Crystal_Boss_spawn_animation-Sheet_132
+  - first:
+      213: 3858717133009169360
+    second: Crystal_Boss_spawn_animation-Sheet_133
+  - first:
+      213: -4162688547917305866
+    second: Crystal_Boss_spawn_animation-Sheet_134
+  - first:
+      213: 700082190406321263
+    second: Crystal_Boss_spawn_animation-Sheet_135
+  - first:
+      213: 3195529361989066432
+    second: Crystal_Boss_spawn_animation-Sheet_136
+  - first:
+      213: 3713713453259617693
+    second: Crystal_Boss_spawn_animation-Sheet_137
+  - first:
+      213: -8109689867463000886
+    second: Crystal_Boss_spawn_animation-Sheet_138
+  - first:
+      213: 742629311402512586
+    second: Crystal_Boss_spawn_animation-Sheet_139
+  - first:
+      213: 8914779905296236058
+    second: Crystal_Boss_spawn_animation-Sheet_140
+  - first:
+      213: -2712958756254259555
+    second: Crystal_Boss_spawn_animation-Sheet_141
+  - first:
+      213: -7845520471315948961
+    second: Crystal_Boss_spawn_animation-Sheet_142
+  - first:
+      213: 5339833427166018545
+    second: Crystal_Boss_spawn_animation-Sheet_143
+  - first:
+      213: -7150445651197251721
+    second: Crystal_Boss_spawn_animation-Sheet_144
+  - first:
+      213: -4490336960382162276
+    second: Crystal_Boss_spawn_animation-Sheet_145
+  - first:
+      213: -5509192586261422792
+    second: Crystal_Boss_spawn_animation-Sheet_146
+  - first:
+      213: 4665473019291763990
+    second: Crystal_Boss_spawn_animation-Sheet_147
+  - first:
+      213: -6823881124814423924
+    second: Crystal_Boss_spawn_animation-Sheet_148
+  - first:
+      213: -4845882365768362908
+    second: Crystal_Boss_spawn_animation-Sheet_149
+  - first:
+      213: 8897959220821243368
+    second: Crystal_Boss_spawn_animation-Sheet_150
+  - first:
+      213: 1238441163929972382
+    second: Crystal_Boss_spawn_animation-Sheet_151
+  - first:
+      213: 4242760516684311022
+    second: Crystal_Boss_spawn_animation-Sheet_152
+  - first:
+      213: 1033989348769895673
+    second: Crystal_Boss_spawn_animation-Sheet_153
+  - first:
+      213: 6664244633440028128
+    second: Crystal_Boss_spawn_animation-Sheet_154
+  - first:
+      213: 2078585154306572973
+    second: Crystal_Boss_spawn_animation-Sheet_155
+  - first:
+      213: 8407351656008697220
+    second: Crystal_Boss_spawn_animation-Sheet_156
+  - first:
+      213: -1599872470691494490
+    second: Crystal_Boss_spawn_animation-Sheet_157
+  - first:
+      213: -3584607533545468670
+    second: Crystal_Boss_spawn_animation-Sheet_158
+  - first:
+      213: 6577246205719550394
+    second: Crystal_Boss_spawn_animation-Sheet_159
+  - first:
+      213: -7603998409748879095
+    second: Crystal_Boss_spawn_animation-Sheet_160
+  - first:
+      213: -6535699015171216083
+    second: Crystal_Boss_spawn_animation-Sheet_161
+  - first:
+      213: 7748817042416537876
+    second: Crystal_Boss_spawn_animation-Sheet_162
+  - first:
+      213: -4157475650273461330
+    second: Crystal_Boss_spawn_animation-Sheet_163
+  - first:
+      213: -6602247778000930668
+    second: Crystal_Boss_spawn_animation-Sheet_164
+  - first:
+      213: 8118327367803680385
+    second: Crystal_Boss_spawn_animation-Sheet_165
+  - first:
+      213: 76979450398511499
+    second: Crystal_Boss_spawn_animation-Sheet_166
+  - first:
+      213: -4742052172354108151
+    second: Crystal_Boss_spawn_animation-Sheet_167
+  - first:
+      213: 5512261866903265407
+    second: Crystal_Boss_spawn_animation-Sheet_168
+  - first:
+      213: 2283248955663105399
+    second: Crystal_Boss_spawn_animation-Sheet_169
+  - first:
+      213: -2640040897991520115
+    second: Crystal_Boss_spawn_animation-Sheet_170
+  - first:
+      213: 5882029780322781041
+    second: Crystal_Boss_spawn_animation-Sheet_171
+  - first:
+      213: 4856026088054835844
+    second: Crystal_Boss_spawn_animation-Sheet_172
+  - first:
+      213: -3819567885919044371
+    second: Crystal_Boss_spawn_animation-Sheet_173
+  - first:
+      213: -1001721227691989063
+    second: Crystal_Boss_spawn_animation-Sheet_174
+  - first:
+      213: 356874340177972022
+    second: Crystal_Boss_spawn_animation-Sheet_175
+  - first:
+      213: -7181286816670450820
+    second: Crystal_Boss_spawn_animation-Sheet_176
+  - first:
+      213: -1994484832820753604
+    second: Crystal_Boss_spawn_animation-Sheet_177
+  - first:
+      213: 4973087950237881665
+    second: Crystal_Boss_spawn_animation-Sheet_178
+  - first:
+      213: -6663669469781876753
+    second: Crystal_Boss_spawn_animation-Sheet_179
+  - first:
+      213: 7768318567648980513
+    second: Crystal_Boss_spawn_animation-Sheet_180
+  - first:
+      213: 6444076534845706575
+    second: Crystal_Boss_spawn_animation-Sheet_181
+  - first:
+      213: -6569743152573447620
+    second: Crystal_Boss_spawn_animation-Sheet_182
+  - first:
+      213: 7573366516460792623
+    second: Crystal_Boss_spawn_animation-Sheet_183
+  - first:
+      213: -2789934961654168351
+    second: Crystal_Boss_spawn_animation-Sheet_184
+  - first:
+      213: 853721514010020566
+    second: Crystal_Boss_spawn_animation-Sheet_185
+  - first:
+      213: 6398415983118120819
+    second: Crystal_Boss_spawn_animation-Sheet_186
+  - first:
+      213: 4283287129057266099
+    second: Crystal_Boss_spawn_animation-Sheet_187
+  - first:
+      213: -3558643507466503121
+    second: Crystal_Boss_spawn_animation-Sheet_188
+  - first:
+      213: -7355957844093405775
+    second: Crystal_Boss_spawn_animation-Sheet_189
+  - first:
+      213: 5203177278332585029
+    second: Crystal_Boss_spawn_animation-Sheet_190
+  - first:
+      213: 1430184974540311191
+    second: Crystal_Boss_spawn_animation-Sheet_191
+  - first:
+      213: 567743731709159918
+    second: Crystal_Boss_spawn_animation-Sheet_192
+  - first:
+      213: -2691609672099170905
+    second: Crystal_Boss_spawn_animation-Sheet_193
+  - first:
+      213: 7963115639363275943
+    second: Crystal_Boss_spawn_animation-Sheet_194
+  - first:
+      213: 3974965706005854570
+    second: Crystal_Boss_spawn_animation-Sheet_195
+  - first:
+      213: 6268224164003514531
+    second: Crystal_Boss_spawn_animation-Sheet_196
+  - first:
+      213: -6366971173832528280
+    second: Crystal_Boss_spawn_animation-Sheet_197
+  - first:
+      213: -5405371910127870423
+    second: Crystal_Boss_spawn_animation-Sheet_198
+  - first:
+      213: -6600043019736274152
+    second: Crystal_Boss_spawn_animation-Sheet_199
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1650
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6d716cf9243b4c0800000000000000
+      internalID: -4272998367453784373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1650
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d678b5cb6a792aac0800000000000000
+      internalID: -3845344389440501907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1650
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bbfdbb578f65980800000000000000
+      internalID: -8550373657969444026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1650
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecb01512bc060b40800000000000000
+      internalID: 5406022361701989604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1650
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7e42ab85beb1580800000000000000
+      internalID: -8855225475981318148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1650
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f887842d22bc5bde0800000000000000
+      internalID: -1317923965518710641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2adf87032c9bd2b0800000000000000
+      internalID: -5558677640794088915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1500
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8585feac7247d80800000000000000
+      internalID: -8253928464510854941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8699ec6a903aee4f0800000000000000
+      internalID: -797520822149408408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728e2123905ebedb0800000000000000
+      internalID: -4761460353356601305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1500
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0024a1c3664a80080800000000000000
+      internalID: -9220939478039117312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd3bbbcefa556890800000000000000
+      internalID: -7465460756910490180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684c7e9ae7e50de00800000000000000
+      internalID: 1067457009796236422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1350
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741ee1010bd478520800000000000000
+      internalID: 2704215519839314247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1350
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b844cfd5bca92190800000000000000
+      internalID: -7986662567021623117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1350
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c5c75c8fa90a6e0800000000000000
+      internalID: -1828291055456592844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1350
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fcbdb65cd25c980800000000000000
+      internalID: -8519352794160050374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1350
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61e99afe98a6e200800000000000000
+      internalID: 209039833481994602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372953318a85a9000800000000000000
+      internalID: 43444625313469043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede60d07bcd14dd60800000000000000
+      internalID: 7913983204805078750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e43af9c46c236ec0800000000000000
+      internalID: -3574964867805072151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfedf3226beb5a40800000000000000
+      internalID: 5358134988430503871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b6c9c3c0f731ba0800000000000000
+      internalID: -6119407778133152900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1200
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9359db9d5184cd0800000000000000
+      internalID: -2573783162109478412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385e186ae615861e0800000000000000
+      internalID: -2204422481916074621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1050
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2115821e5a9bd0270800000000000000
+      internalID: 8218429017119281426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1050
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e568188abcf792430800000000000000
+      internalID: 3758675876699539038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1050
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b4b7eb1689ddc60800000000000000
+      internalID: 7844593671524273048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1050
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1fd5675e77843f0800000000000000
+      internalID: -916350696752811591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1050
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36360488c060e7860800000000000000
+      internalID: 7529462277905343331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb0bf37e3a503d80800000000000000
+      internalID: -8273013291199296530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47fad43bfec65d60800000000000000
+      internalID: 7878712176450139980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7932047be085b740800000000000000
+      internalID: 5167177896229484922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab3abad5ccf04600800000000000000
+      internalID: 450637889445444515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ef82f9e0ac2b6c0800000000000000
+      internalID: -4129015744196706697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c6ee1bdb69fc040800000000000000
+      internalID: 4670117080084671557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c79095a674472e0800000000000000
+      internalID: -2128998201753502583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b2b480b06be0760800000000000000
+      internalID: 7426072994080566068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fc7344d60fc4260800000000000000
+      internalID: 7083300666033557272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdf63d6b746cede0800000000000000
+      internalID: -1302555710940840527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173da4edc3ec06260800000000000000
+      internalID: 7088892574303966065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 750
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f9ebfd80b29b850800000000000000
+      internalID: 6393188463142674250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12a1c3750cdf83f0800000000000000
+      internalID: -896255884848422373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02baf7f0adc99bab0800000000000000
+      internalID: -4991786251586655456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fb5a6fe6fd46420800000000000000
+      internalID: 2622466550713925499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879b0d10d32e1b0b0800000000000000
+      internalID: -5714537700505110152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f753c0be6408ea7d0800000000000000
+      internalID: -2905243667527879297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e570fe767136e6910800000000000000
+      internalID: 1832511050565486430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c24e04087fad7b10800000000000000
+      internalID: 1980932341111866055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8e4fc5b23756540800000000000000
+      internalID: 5000529591345146072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6aac0c196cceaec0800000000000000
+      internalID: -3553678304134518164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694995fc1889d4f40800000000000000
+      internalID: 5714391185499985046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3564bea364060c100800000000000000
+      internalID: 126206644318848595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 450
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2619cb159fe1dcf30800000000000000
+      internalID: 4597364850782146914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9fb8a9431f56a50800000000000000
+      internalID: 6513877644294748595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f89ef6c971c37100800000000000000
+      internalID: 104639945133431024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238c10351bcaa6190800000000000000
+      internalID: -7968366713076856782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c67580e80cb972e0800000000000000
+      internalID: -2127462602643245367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8894f232931a9e80800000000000000
+      internalID: -8171197055269300083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 300
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1552c0b573448aa80800000000000000
+      internalID: -8455433295846693551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde249d6f41ce70b0800000000000000
+      internalID: -5728929129083687203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bbd5b917d7477d0800000000000000
+      internalID: -2921572331365221565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e762e627637a6090800000000000000
+      internalID: -8040487297845401630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7342546e7c78420e0800000000000000
+      internalID: -2295560617420577737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1ab2372483cf220800000000000000
+      internalID: 2520951749471871447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 150
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e77905bccc5d0b0800000000000000
+      internalID: -5704428179392332131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21182223d70f29ba0800000000000000
+      internalID: -6083535726121418478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20c039f8a10b8580800000000000000
+      internalID: -8823957219655499731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fddda8f21d787090800000000000000
+      internalID: -8036536014607622668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crystal_Boss_spawn_animation-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.495, y: 0.10666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27965d1eec3da60e0800000000000000
+      internalID: -2275773776176780942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cfa04c11d992edb469268c5f11acb3c7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4950000047683716,"y":0.10666666924953461},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Crystal_Boss_spawn_animation-Sheet_0: -4272998367453784373
+      Crystal_Boss_spawn_animation-Sheet_1: -3845344389440501907
+      Crystal_Boss_spawn_animation-Sheet_10: -9220939478039117312
+      Crystal_Boss_spawn_animation-Sheet_11: -7465460756910490180
+      Crystal_Boss_spawn_animation-Sheet_12: 1067457009796236422
+      Crystal_Boss_spawn_animation-Sheet_13: 2704215519839314247
+      Crystal_Boss_spawn_animation-Sheet_14: -7986662567021623117
+      Crystal_Boss_spawn_animation-Sheet_15: -1828291055456592844
+      Crystal_Boss_spawn_animation-Sheet_16: -8519352794160050374
+      Crystal_Boss_spawn_animation-Sheet_17: 209039833481994602
+      Crystal_Boss_spawn_animation-Sheet_18: 43444625313469043
+      Crystal_Boss_spawn_animation-Sheet_19: 7913983204805078750
+      Crystal_Boss_spawn_animation-Sheet_2: -8550373657969444026
+      Crystal_Boss_spawn_animation-Sheet_20: -3574964867805072151
+      Crystal_Boss_spawn_animation-Sheet_21: 5358134988430503871
+      Crystal_Boss_spawn_animation-Sheet_22: -6119407778133152900
+      Crystal_Boss_spawn_animation-Sheet_23: -2573783162109478412
+      Crystal_Boss_spawn_animation-Sheet_24: -2204422481916074621
+      Crystal_Boss_spawn_animation-Sheet_25: 8218429017119281426
+      Crystal_Boss_spawn_animation-Sheet_26: 3758675876699539038
+      Crystal_Boss_spawn_animation-Sheet_27: 7844593671524273048
+      Crystal_Boss_spawn_animation-Sheet_28: -916350696752811591
+      Crystal_Boss_spawn_animation-Sheet_29: 7529462277905343331
+      Crystal_Boss_spawn_animation-Sheet_3: 5406022361701989604
+      Crystal_Boss_spawn_animation-Sheet_30: -8273013291199296530
+      Crystal_Boss_spawn_animation-Sheet_31: 7878712176450139980
+      Crystal_Boss_spawn_animation-Sheet_32: 5167177896229484922
+      Crystal_Boss_spawn_animation-Sheet_33: 450637889445444515
+      Crystal_Boss_spawn_animation-Sheet_34: -4129015744196706697
+      Crystal_Boss_spawn_animation-Sheet_35: 4670117080084671557
+      Crystal_Boss_spawn_animation-Sheet_36: -2128998201753502583
+      Crystal_Boss_spawn_animation-Sheet_37: 7426072994080566068
+      Crystal_Boss_spawn_animation-Sheet_38: 7083300666033557272
+      Crystal_Boss_spawn_animation-Sheet_39: -1302555710940840527
+      Crystal_Boss_spawn_animation-Sheet_4: -8855225475981318148
+      Crystal_Boss_spawn_animation-Sheet_40: 7088892574303966065
+      Crystal_Boss_spawn_animation-Sheet_41: 6393188463142674250
+      Crystal_Boss_spawn_animation-Sheet_42: -896255884848422373
+      Crystal_Boss_spawn_animation-Sheet_43: -4991786251586655456
+      Crystal_Boss_spawn_animation-Sheet_44: 2622466550713925499
+      Crystal_Boss_spawn_animation-Sheet_45: -5714537700505110152
+      Crystal_Boss_spawn_animation-Sheet_46: -2905243667527879297
+      Crystal_Boss_spawn_animation-Sheet_47: 1832511050565486430
+      Crystal_Boss_spawn_animation-Sheet_48: 1980932341111866055
+      Crystal_Boss_spawn_animation-Sheet_49: 5000529591345146072
+      Crystal_Boss_spawn_animation-Sheet_5: -1317923965518710641
+      Crystal_Boss_spawn_animation-Sheet_50: -3553678304134518164
+      Crystal_Boss_spawn_animation-Sheet_51: 5714391185499985046
+      Crystal_Boss_spawn_animation-Sheet_52: 126206644318848595
+      Crystal_Boss_spawn_animation-Sheet_53: 4597364850782146914
+      Crystal_Boss_spawn_animation-Sheet_54: 6513877644294748595
+      Crystal_Boss_spawn_animation-Sheet_55: 104639945133431024
+      Crystal_Boss_spawn_animation-Sheet_56: -7968366713076856782
+      Crystal_Boss_spawn_animation-Sheet_57: -2127462602643245367
+      Crystal_Boss_spawn_animation-Sheet_58: -8171197055269300083
+      Crystal_Boss_spawn_animation-Sheet_59: -8455433295846693551
+      Crystal_Boss_spawn_animation-Sheet_6: -5558677640794088915
+      Crystal_Boss_spawn_animation-Sheet_60: -5728929129083687203
+      Crystal_Boss_spawn_animation-Sheet_61: -2921572331365221565
+      Crystal_Boss_spawn_animation-Sheet_62: -8040487297845401630
+      Crystal_Boss_spawn_animation-Sheet_63: -2295560617420577737
+      Crystal_Boss_spawn_animation-Sheet_64: 2520951749471871447
+      Crystal_Boss_spawn_animation-Sheet_65: -5704428179392332131
+      Crystal_Boss_spawn_animation-Sheet_66: -6083535726121418478
+      Crystal_Boss_spawn_animation-Sheet_67: -8823957219655499731
+      Crystal_Boss_spawn_animation-Sheet_68: -8036536014607622668
+      Crystal_Boss_spawn_animation-Sheet_69: -2275773776176780942
+      Crystal_Boss_spawn_animation-Sheet_7: -8253928464510854941
+      Crystal_Boss_spawn_animation-Sheet_8: -797520822149408408
+      Crystal_Boss_spawn_animation-Sheet_9: -4761460353356601305
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

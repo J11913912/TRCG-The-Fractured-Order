@@ -6,16 +6,15 @@ public class SpinColliderBehaviour : MonoBehaviour
    private Rigidbody2D _rb;
    private Vector2 _pushBack;
    private PlayerController _playerController;
+   private PlayerInformation _playerInformation;
    private bool _inYeetingRange = false;
+   public int damage;
    
    private void OnTriggerEnter2D(Collider2D other)
    {
       if (other.CompareTag("Player"))
       {
-         Debug.Log("HitPlayer");
-         
-         Debug.Log(_pushBack);
-         
+         _playerInformation =  other.GetComponent<PlayerInformation>();
          _playerController = other.GetComponent<PlayerController>();
          
          _inYeetingRange = true;
@@ -55,6 +54,7 @@ public class SpinColliderBehaviour : MonoBehaviour
       if (_inYeetingRange)
       {
          _playerController.ApplyForce(_pushBack, true);
+         _playerInformation.SetDamage(damage);
       }
    }
 }
