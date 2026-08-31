@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 8b3fb5faab1ddb140ba85a2df81f1ea0
+guid: cde4c2bdb7f624e448ad03320c280c2f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9169877530624898698
-    second: Slider_0
-  - first:
-      213: 5412086268284726026
-    second: Slider_1
-  - first:
-      213: 2659325523825384439
-    second: Slider_2
-  - first:
-      213: 7504960768746471891
-    second: Slider_3
-  - first:
-      213: -7088183947501127935
-    second: Slider_4
-  - first:
-      213: -8666544718437893577
-    second: Slider_5
+      213: 4448565389763416591
+    second: IMG_2721_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slider_0
+      name: IMG_2721_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 85
-        width: 26
-        height: 23
+        x: 153
+        y: 434
+        width: 4706
+        height: 2759
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,118 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a86bbbea703f14f70800000000000000
-      internalID: 9169877530624898698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slider_1
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 84
-        width: 26
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0b61ea59c79b1b40800000000000000
-      internalID: 5412086268284726026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slider_2
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 18
-        width: 13
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7fbddb56972d7e420800000000000000
-      internalID: 2659325523825384439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slider_3
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 32
-        width: 54
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d140626e0af62860800000000000000
-      internalID: 7504960768746471891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slider_4
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 21
-        width: 10
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 107b19a2146b1ad90800000000000000
-      internalID: -7088183947501127935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slider_5
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 23
-        width: 54
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73ab873fe7f3ab780800000000000000
-      internalID: -8666544718437893577
+      spriteID: f0212f807aa7cbd30800000000000000
+      internalID: 4448565389763416591
       vertices: []
       indices: 
       edges: []
@@ -273,12 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Slider_0: 9169877530624898698
-      Slider_1: 5412086268284726026
-      Slider_2: 2659325523825384439
-      Slider_3: 7504960768746471891
-      Slider_4: -7088183947501127935
-      Slider_5: -8666544718437893577
+      IMG_2721_0: 4448565389763416591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
