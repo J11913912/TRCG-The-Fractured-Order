@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2951f9a2a0ad67346b40b84f98459797, type: 3}
   m_Name: Crystal
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSoundArea
-  area: 0
-  fmodFootstepEvent: default
+  area: 6
+  fmodFootstepEvent: Crystal
