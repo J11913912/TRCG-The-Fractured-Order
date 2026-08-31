@@ -9,6 +9,7 @@ public class MainMenu_UiManager : MonoBehaviour
     public GameObject loadMenuContainer;
     public GameObject optionsMenuContainer;
     public GameObject creditsMenuContainer;
+    public GameObject creditsMenuContainer2;
     
     private GameObject _currentMenu;
     
@@ -44,6 +45,14 @@ public class MainMenu_UiManager : MonoBehaviour
         
         _currentMenu = creditsMenuContainer; 
     }
+    
+    public void OpenCredits2Menu()
+        {
+            _currentMenu.SetActive(false);
+            creditsMenuContainer2.SetActive(true);
+            
+            _currentMenu = creditsMenuContainer2; 
+        }
 
     public void OpenMainMenu()
     {

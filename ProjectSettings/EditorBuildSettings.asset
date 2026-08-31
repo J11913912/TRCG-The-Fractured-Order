@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/+++Workdata/Scenes/Epelepsie Warning.unity
+    guid: 12cabfed996366e4994dd7df718e3dc4
+  - enabled: 1
     path: Assets/+++Workdata/Scenes/MainMenu.unity
     guid: aeed12b48515bd842837a836cf11d92a
   - enabled: 1
