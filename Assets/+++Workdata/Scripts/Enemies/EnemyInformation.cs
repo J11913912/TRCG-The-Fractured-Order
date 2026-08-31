@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using FMODUnity;
 
 public class EnemyInformation : MonoBehaviour
 {
@@ -74,6 +75,7 @@ public class EnemyInformation : MonoBehaviour
 
     public void Death()
     {
+        RuntimeManager.PlayOneShot("event:/Enemies/Crystal/Death Enemy Crystal");
         Destroy(this.gameObject);
         
         money = Instantiate(moneyPrefab);

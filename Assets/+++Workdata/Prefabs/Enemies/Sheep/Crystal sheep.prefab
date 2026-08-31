@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 7475532704499825134}
   - component: {fileID: 6530039626917814581}
   - component: {fileID: 9216770942547022796}
+  - component: {fileID: 722272664301127700}
   m_Layer: 0
   m_Name: Shoop
   m_TagString: Untagged
@@ -293,6 +294,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &722272664301127700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4117874405045821827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
 --- !u!1 &6265885581297243870
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using FMODUnity;
 
 public class SheepBehaviour : MonoBehaviour
 {
@@ -53,6 +54,8 @@ public class SheepBehaviour : MonoBehaviour
             
             GameObject newProjectile = Instantiate(projectilePrefab);
             newProjectile.transform.position = gameObject.transform.position;
+            
+            RuntimeManager.PlayOneShot("event:/Enemies/Crystal/Animals/Crystal Bah Shards");
         
             newProjectile.GetComponent<ShootProjectile>().Shoot(direction);
             newProjectile.GetComponent<ShootProjectile>().StartDeathCountdown();

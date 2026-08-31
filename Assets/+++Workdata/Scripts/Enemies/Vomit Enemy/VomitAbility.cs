@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using FMODUnity;
 
 public class VomitAbility : MonoBehaviour
 {
@@ -44,6 +45,8 @@ public class VomitAbility : MonoBehaviour
     public void SpawnVomit()
     {
         canVomit = false;
+        
+        RuntimeManager.PlayOneShot("event:/Enemies/Crystal/Walker/Walker Eh");
         
         _spawnPosition.x = transform.position.x;
         _spawnPosition.y = transform.position.y - 0.5f;

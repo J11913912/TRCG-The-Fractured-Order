@@ -344,7 +344,7 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639238085476562573
+  lastModified: 639238117536548750
   FileSizes:
   - Name: Desktop
     Value: 2108
@@ -376,6 +376,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1065
+--- !u!114 &-8290130176885891188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Outro/Outro 02
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Outro/Outro 02
+  Guid:
+    Data1: -664856697
+    Data2: 1092820324
+    Data3: -1677064521
+    Data4: -931244746
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10050
 --- !u!114 &-8150292324749814828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1935,10 +1962,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639238085482374218
+  lastModified: 639238143605803238
   FileSizes:
   - Name: Desktop
-    Value: 5176608
+    Value: 6503200
   Exists: 1
 --- !u!114 &-4017517105343582320
 MonoBehaviour:
@@ -2520,7 +2547,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 4082
 --- !u!114 &-2875381069288511881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3387,10 +3414,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639238085476577624
+  lastModified: 639238117536570435
   FileSizes:
   - Name: Desktop
-    Value: 5832
+    Value: 5950
   Exists: 1
 --- !u!114 &-876004771093947698
 MonoBehaviour:
@@ -3499,7 +3526,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 476
+  Length: 858
 --- !u!114 &-809079589202828636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3916,13 +3943,16 @@ MonoBehaviour:
   - {fileID: 7654734639798062720}
   - {fileID: -6673921837623041824}
   - {fileID: 5810168972959478439}
+  - {fileID: 3426898227333182904}
+  - {fileID: 8637905407821795553}
+  - {fileID: -8290130176885891188}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8410532306005715668}
   StringsBanks:
   - {fileID: -894933262826298027}
   cacheVersion: 131859
-  cacheTime: 639238085482374218
+  cacheTime: 639238143606234435
   SerializableEventsDict:
   - key: event:/Music/Desert Music
     index: 0
@@ -4112,6 +4142,12 @@ MonoBehaviour:
     index: 92
   - key: event:/NPCs/Crystal Guard
     index: 93
+  - key: event:/Music/Outro Music
+    index: 94
+  - key: event:/Cutscenes/Outro/Outro 03
+    index: 95
+  - key: event:/Cutscenes/Outro/Outro 02
+    index: 96
 --- !u!114 &87112149515177248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4906,10 +4942,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639237855293496764
+  lastModified: 639238117549908075
   FileSizes:
   - Name: Desktop
-    Value: 29461248
+    Value: 30652928
   Exists: 1
 --- !u!114 &1603669795593131984
 MonoBehaviour:
@@ -5731,6 +5767,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1102
+--- !u!114 &3426898227333182904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Outro Music
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/Outro Music
+  Guid:
+    Data1: 954151267
+    Data2: 1321114322
+    Data3: -1291846741
+    Data4: 589280717
+  Banks:
+  - {fileID: 1600619298233364405}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 97714
 --- !u!114 &3431556144328253234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5788,7 +5851,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 1381
 --- !u!114 &3592823301364071378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6187,7 +6250,7 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 639235368146141230
+  lastModified: 639238143606234435
   FileSizes:
   - Name: Desktop
     Value: 119520
@@ -7673,6 +7736,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3658
+--- !u!114 &8637905407821795553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Outro/Outro 03
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Outro/Outro 03
+  Guid:
+    Data1: -1189055890
+    Data2: 1179227145
+    Data3: 1021604542
+    Data4: -446056248
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 97714
 --- !u!114 &8796813107593689369
 MonoBehaviour:
   m_ObjectHideFlags: 0
