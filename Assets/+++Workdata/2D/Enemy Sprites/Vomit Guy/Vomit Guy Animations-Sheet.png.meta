@@ -1,0 +1,3315 @@
+fileFormatVersion: 2
+guid: d037cec7a6198f54c94756d69afc269d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4403353353610247225
+    second: Vomit Guy Animations-Sheet_0
+  - first:
+      213: 8033678382880920270
+    second: Vomit Guy Animations-Sheet_1
+  - first:
+      213: -3413101883462682771
+    second: Vomit Guy Animations-Sheet_2
+  - first:
+      213: -2034638209402888571
+    second: Vomit Guy Animations-Sheet_3
+  - first:
+      213: 7877969436134997817
+    second: Vomit Guy Animations-Sheet_4
+  - first:
+      213: 6100026986375029645
+    second: Vomit Guy Animations-Sheet_5
+  - first:
+      213: -4242547732202170270
+    second: Vomit Guy Animations-Sheet_6
+  - first:
+      213: -3452185895241523268
+    second: Vomit Guy Animations-Sheet_7
+  - first:
+      213: -4603007072457948065
+    second: Vomit Guy Animations-Sheet_8
+  - first:
+      213: 7179333223478234897
+    second: Vomit Guy Animations-Sheet_9
+  - first:
+      213: -4074871798279942444
+    second: Vomit Guy Animations-Sheet_10
+  - first:
+      213: 9073495158342024186
+    second: Vomit Guy Animations-Sheet_11
+  - first:
+      213: 639543602706661420
+    second: Vomit Guy Animations-Sheet_12
+  - first:
+      213: 1849884918397997745
+    second: Vomit Guy Animations-Sheet_13
+  - first:
+      213: -2307189461653195900
+    second: Vomit Guy Animations-Sheet_14
+  - first:
+      213: -3209570488728241681
+    second: Vomit Guy Animations-Sheet_15
+  - first:
+      213: 5070902943898372790
+    second: Vomit Guy Animations-Sheet_16
+  - first:
+      213: 8126878775711274591
+    second: Vomit Guy Animations-Sheet_17
+  - first:
+      213: -7925593735941132271
+    second: Vomit Guy Animations-Sheet_18
+  - first:
+      213: -6501416326899283719
+    second: Vomit Guy Animations-Sheet_19
+  - first:
+      213: -4585971127416663853
+    second: Vomit Guy Animations-Sheet_20
+  - first:
+      213: 4275497220064018609
+    second: Vomit Guy Animations-Sheet_21
+  - first:
+      213: -8123435494255515214
+    second: Vomit Guy Animations-Sheet_22
+  - first:
+      213: -1008936534780975966
+    second: Vomit Guy Animations-Sheet_23
+  - first:
+      213: 7421034917352637513
+    second: Vomit Guy Animations-Sheet_24
+  - first:
+      213: 7625167069039075727
+    second: Vomit Guy Animations-Sheet_25
+  - first:
+      213: 6031401614424032870
+    second: Vomit Guy Animations-Sheet_26
+  - first:
+      213: 1768343446404348904
+    second: Vomit Guy Animations-Sheet_27
+  - first:
+      213: 6918896104526908725
+    second: Vomit Guy Animations-Sheet_28
+  - first:
+      213: 5373988082118724341
+    second: Vomit Guy Animations-Sheet_29
+  - first:
+      213: 3807554953143497838
+    second: Vomit Guy Animations-Sheet_30
+  - first:
+      213: 459097607251769950
+    second: Vomit Guy Animations-Sheet_31
+  - first:
+      213: 5365538513758900316
+    second: Vomit Guy Animations-Sheet_32
+  - first:
+      213: 6604342423658153975
+    second: Vomit Guy Animations-Sheet_33
+  - first:
+      213: -219588598917318317
+    second: Vomit Guy Animations-Sheet_34
+  - first:
+      213: -3527885938423839941
+    second: Vomit Guy Animations-Sheet_35
+  - first:
+      213: -4728044155051114120
+    second: Vomit Guy Animations-Sheet_36
+  - first:
+      213: 107039523635623489
+    second: Vomit Guy Animations-Sheet_37
+  - first:
+      213: 7687931222493578004
+    second: Vomit Guy Animations-Sheet_38
+  - first:
+      213: -8625312019676239295
+    second: Vomit Guy Animations-Sheet_39
+  - first:
+      213: -7210681758599239598
+    second: Vomit Guy Animations-Sheet_40
+  - first:
+      213: -596129833078433931
+    second: Vomit Guy Animations-Sheet_41
+  - first:
+      213: -592427258334233265
+    second: Vomit Guy Animations-Sheet_42
+  - first:
+      213: -9130651701590905646
+    second: Vomit Guy Animations-Sheet_43
+  - first:
+      213: -7591959780448144060
+    second: Vomit Guy Animations-Sheet_44
+  - first:
+      213: -4406251921464765350
+    second: Vomit Guy Animations-Sheet_45
+  - first:
+      213: -1338059439875242531
+    second: Vomit Guy Animations-Sheet_46
+  - first:
+      213: -6613953668899436692
+    second: Vomit Guy Animations-Sheet_47
+  - first:
+      213: 4389184383247331649
+    second: Vomit Guy Animations-Sheet_48
+  - first:
+      213: -8197045786714739807
+    second: Vomit Guy Animations-Sheet_49
+  - first:
+      213: -8278772772723097255
+    second: Vomit Guy Animations-Sheet_50
+  - first:
+      213: 1861826070691350270
+    second: Vomit Guy Animations-Sheet_51
+  - first:
+      213: 181024785660043398
+    second: Vomit Guy Animations-Sheet_52
+  - first:
+      213: -2202040612799553921
+    second: Vomit Guy Animations-Sheet_53
+  - first:
+      213: -2790513575729378687
+    second: Vomit Guy Animations-Sheet_54
+  - first:
+      213: 3885802645359669939
+    second: Vomit Guy Animations-Sheet_55
+  - first:
+      213: 7666541591902885528
+    second: Vomit Guy Animations-Sheet_56
+  - first:
+      213: 7313318961683832822
+    second: Vomit Guy Animations-Sheet_57
+  - first:
+      213: 5263714440912382854
+    second: Vomit Guy Animations-Sheet_58
+  - first:
+      213: 5172333426762881511
+    second: Vomit Guy Animations-Sheet_59
+  - first:
+      213: 3608273670202529325
+    second: Vomit Guy Animations-Sheet_60
+  - first:
+      213: 3984662172763785298
+    second: Vomit Guy Animations-Sheet_61
+  - first:
+      213: 1044515308677619863
+    second: Vomit Guy Animations-Sheet_62
+  - first:
+      213: -4765052011140459623
+    second: Vomit Guy Animations-Sheet_63
+  - first:
+      213: 5015478505032561791
+    second: Vomit Guy Animations-Sheet_64
+  - first:
+      213: 7370408458911129227
+    second: Vomit Guy Animations-Sheet_65
+  - first:
+      213: 1580217221862854971
+    second: Vomit Guy Animations-Sheet_66
+  - first:
+      213: -4707861022862987229
+    second: Vomit Guy Animations-Sheet_67
+  - first:
+      213: 1344614348660721578
+    second: Vomit Guy Animations-Sheet_68
+  - first:
+      213: -957244294818179158
+    second: Vomit Guy Animations-Sheet_69
+  - first:
+      213: 6331222692995919389
+    second: Vomit Guy Animations-Sheet_70
+  - first:
+      213: -1936747522351845140
+    second: Vomit Guy Animations-Sheet_71
+  - first:
+      213: -5286723134490176140
+    second: Vomit Guy Animations-Sheet_72
+  - first:
+      213: 8815558573207675858
+    second: Vomit Guy Animations-Sheet_73
+  - first:
+      213: -4526231739780629993
+    second: Vomit Guy Animations-Sheet_74
+  - first:
+      213: -5038441521850576788
+    second: Vomit Guy Animations-Sheet_75
+  - first:
+      213: -979663430198499344
+    second: Vomit Guy Animations-Sheet_76
+  - first:
+      213: -5926751512536463277
+    second: Vomit Guy Animations-Sheet_77
+  - first:
+      213: -3828478622269259528
+    second: Vomit Guy Animations-Sheet_78
+  - first:
+      213: 5463084159542288498
+    second: Vomit Guy Animations-Sheet_79
+  - first:
+      213: 6857747636870193410
+    second: Vomit Guy Animations-Sheet_80
+  - first:
+      213: 5430847048200749099
+    second: Vomit Guy Animations-Sheet_81
+  - first:
+      213: 4495210725163744953
+    second: Vomit Guy Animations-Sheet_82
+  - first:
+      213: -6704930440867959804
+    second: Vomit Guy Animations-Sheet_83
+  - first:
+      213: -3774915438970886733
+    second: Vomit Guy Animations-Sheet_84
+  - first:
+      213: 1297192825215111963
+    second: Vomit Guy Animations-Sheet_85
+  - first:
+      213: 125397150389963477
+    second: Vomit Guy Animations-Sheet_86
+  - first:
+      213: -4817372773980600465
+    second: Vomit Guy Animations-Sheet_87
+  - first:
+      213: 8942543792349015727
+    second: Vomit Guy Animations-Sheet_88
+  - first:
+      213: 1728229473721041581
+    second: Vomit Guy Animations-Sheet_89
+  - first:
+      213: 3118316821645091309
+    second: Vomit Guy Animations-Sheet_90
+  - first:
+      213: 910990958479982245
+    second: Vomit Guy Animations-Sheet_91
+  - first:
+      213: -2522492535885919509
+    second: Vomit Guy Animations-Sheet_92
+  - first:
+      213: 3839246067927238533
+    second: Vomit Guy Animations-Sheet_93
+  - first:
+      213: 3552252948990602633
+    second: Vomit Guy Animations-Sheet_94
+  - first:
+      213: 8729241733823779286
+    second: Vomit Guy Animations-Sheet_95
+  - first:
+      213: 264939994311056782
+    second: Vomit Guy Animations-Sheet_96
+  - first:
+      213: 575574891120031081
+    second: Vomit Guy Animations-Sheet_97
+  - first:
+      213: -7352959531711764997
+    second: Vomit Guy Animations-Sheet_98
+  - first:
+      213: 4139049389853033346
+    second: Vomit Guy Animations-Sheet_99
+  - first:
+      213: -253090427695514348
+    second: Vomit Guy Animations-Sheet_100
+  - first:
+      213: -6608533083829046786
+    second: Vomit Guy Animations-Sheet_101
+  - first:
+      213: -6297260539208591184
+    second: Vomit Guy Animations-Sheet_102
+  - first:
+      213: -8286275143291523808
+    second: Vomit Guy Animations-Sheet_103
+  - first:
+      213: 7200737446384914803
+    second: Vomit Guy Animations-Sheet_104
+  - first:
+      213: 1750550808131928882
+    second: Vomit Guy Animations-Sheet_105
+  - first:
+      213: 1393203573630503588
+    second: Vomit Guy Animations-Sheet_106
+  - first:
+      213: -1538961933742884940
+    second: Vomit Guy Animations-Sheet_107
+  - first:
+      213: -7394062898013438779
+    second: Vomit Guy Animations-Sheet_108
+  - first:
+      213: -8917363616857816262
+    second: Vomit Guy Animations-Sheet_109
+  - first:
+      213: 1125091866202099087
+    second: Vomit Guy Animations-Sheet_110
+  - first:
+      213: -3982942937447391006
+    second: Vomit Guy Animations-Sheet_111
+  - first:
+      213: -616514632727751833
+    second: Vomit Guy Animations-Sheet_112
+  - first:
+      213: -8625109299433516269
+    second: Vomit Guy Animations-Sheet_113
+  - first:
+      213: -8540667137545984948
+    second: Vomit Guy Animations-Sheet_114
+  - first:
+      213: -5232143512431619365
+    second: Vomit Guy Animations-Sheet_115
+  - first:
+      213: -9120225080779946419
+    second: Vomit Guy Animations-Sheet_116
+  - first:
+      213: 6818675526844826307
+    second: Vomit Guy Animations-Sheet_117
+  - first:
+      213: -240230792772386638
+    second: Vomit Guy Animations-Sheet_118
+  - first:
+      213: -1812969576476299
+    second: Vomit Guy Animations-Sheet_119
+  - first:
+      213: -6510291164045413917
+    second: Vomit Guy Animations-Sheet_120
+  - first:
+      213: 1231092503009475939
+    second: Vomit Guy Animations-Sheet_121
+  - first:
+      213: -7602714578483538291
+    second: Vomit Guy Animations-Sheet_122
+  - first:
+      213: -3139950515411716260
+    second: Vomit Guy Animations-Sheet_123
+  - first:
+      213: 3755098218094585746
+    second: Vomit Guy Animations-Sheet_124
+  - first:
+      213: -7068643267404373008
+    second: Vomit Guy Animations-Sheet_125
+  - first:
+      213: -93666906218582475
+    second: Vomit Guy Animations-Sheet_126
+  - first:
+      213: 953336098109022285
+    second: Vomit Guy Animations-Sheet_127
+  - first:
+      213: -88446774062312553
+    second: Vomit Guy Animations-Sheet_128
+  - first:
+      213: -2374368968253200612
+    second: Vomit Guy Animations-Sheet_129
+  - first:
+      213: -3171329648093221521
+    second: Vomit Guy Animations-Sheet_130
+  - first:
+      213: 2703508028281778384
+    second: Vomit Guy Animations-Sheet_131
+  - first:
+      213: 2532658211030023907
+    second: Vomit Guy Animations-Sheet_132
+  - first:
+      213: -4179267627689334812
+    second: Vomit Guy Animations-Sheet_133
+  - first:
+      213: -5322413291957435398
+    second: Vomit Guy Animations-Sheet_134
+  - first:
+      213: 6974349670749362977
+    second: Vomit Guy Animations-Sheet_135
+  - first:
+      213: 8195035558158056853
+    second: Vomit Guy Animations-Sheet_136
+  - first:
+      213: -3918470886240483702
+    second: Vomit Guy Animations-Sheet_137
+  - first:
+      213: -8967573913863360004
+    second: Vomit Guy Animations-Sheet_138
+  - first:
+      213: 7852317732986397944
+    second: Vomit Guy Animations-Sheet_139
+  - first:
+      213: 1237330385590615264
+    second: Vomit Guy Animations-Sheet_140
+  - first:
+      213: -3531167228053437645
+    second: Vomit Guy Animations-Sheet_141
+  - first:
+      213: -917778597273126609
+    second: Vomit Guy Animations-Sheet_142
+  - first:
+      213: -5622584101919225034
+    second: Vomit Guy Animations-Sheet_143
+  - first:
+      213: -5560173285904113979
+    second: Vomit Guy Animations-Sheet_144
+  - first:
+      213: 4313489036526257227
+    second: Vomit Guy Animations-Sheet_145
+  - first:
+      213: -3575963996816861703
+    second: Vomit Guy Animations-Sheet_146
+  - first:
+      213: 965476810949288340
+    second: Vomit Guy Animations-Sheet_147
+  - first:
+      213: -2948044591061335935
+    second: Vomit Guy Animations-Sheet_148
+  - first:
+      213: -7618288249928526257
+    second: Vomit Guy Animations-Sheet_149
+  - first:
+      213: 4546226405304678891
+    second: Vomit Guy Animations-Sheet_150
+  - first:
+      213: -6820243430415412990
+    second: Vomit Guy Animations-Sheet_151
+  - first:
+      213: -2315278026556622906
+    second: Vomit Guy Animations-Sheet_152
+  - first:
+      213: -7808712911759441431
+    second: Vomit Guy Animations-Sheet_153
+  - first:
+      213: -2096817896842017899
+    second: Vomit Guy Animations-Sheet_154
+  - first:
+      213: -2976521461195452338
+    second: Vomit Guy Animations-Sheet_155
+  - first:
+      213: -6033090088097646473
+    second: Vomit Guy Animations-Sheet_156
+  - first:
+      213: 6489080843529006538
+    second: Vomit Guy Animations-Sheet_157
+  - first:
+      213: -5542959274046454231
+    second: Vomit Guy Animations-Sheet_158
+  - first:
+      213: 4198564239901429431
+    second: Vomit Guy Animations-Sheet_159
+  - first:
+      213: -8123415106459376251
+    second: Vomit Guy Animations-Sheet_160
+  - first:
+      213: -283550327992395885
+    second: Vomit Guy Animations-Sheet_161
+  - first:
+      213: 1121538882864796754
+    second: Vomit Guy Animations-Sheet_162
+  - first:
+      213: 1355896218952084605
+    second: Vomit Guy Animations-Sheet_163
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c34981747524e2c0800000000000000
+      internalID: -4403353353610247225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2432
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec21a5bcceb5d7f60800000000000000
+      internalID: 8033678382880920270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2432
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d677dfd9be932a0d0800000000000000
+      internalID: -3413101883462682771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2432
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e9a1a145383c3e0800000000000000
+      internalID: -2034638209402888571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2432
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ff530867b245d60800000000000000
+      internalID: 7877969436134997817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2432
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d832e2b8936a7a450800000000000000
+      internalID: 6100026986375029645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2685377c0517f15c0800000000000000
+      internalID: -4242547732202170270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2304
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfd38ff73f5710d0800000000000000
+      internalID: -3452185895241523268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2304
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5488839475de10c0800000000000000
+      internalID: -4603007072457948065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2304
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f849d678d12a360800000000000000
+      internalID: 7179333223478234897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2304
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de444660b52377c0800000000000000
+      internalID: -4074871798279942444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2304
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbf338e5c78bed70800000000000000
+      internalID: 9073495158342024186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2044b9a48d10e800800000000000000
+      internalID: 639543602706661420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2176
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2177c388c1ca910800000000000000
+      internalID: 1849884918397997745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2176
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483f2ac98673bffd0800000000000000
+      internalID: -2307189461653195900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2176
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9b6c145a05573d0800000000000000
+      internalID: -3209570488728241681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2176
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba8b855c577f5640800000000000000
+      internalID: 5070902943898372790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2176
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f569eee303978c070800000000000000
+      internalID: 8126878775711274591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110fa2f1d72a20290800000000000000
+      internalID: -7925593735941132271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2048
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f84e32fb4456c5a0800000000000000
+      internalID: -6501416326899283719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2048
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0d120ae8b5b50c0800000000000000
+      internalID: -4585971127416663853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2048
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b00610b11e955b30800000000000000
+      internalID: 4275497220064018609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2048
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9a9113572c34f80800000000000000
+      internalID: -8123435494255515214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2048
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4677331998ff1f0800000000000000
+      internalID: -1008936534780975966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944039260ffccf660800000000000000
+      internalID: 7421034917352637513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1920
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81a417ac0902d960800000000000000
+      internalID: 7625167069039075727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1920
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666467500d7d3b350800000000000000
+      internalID: 6031401614424032870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1920
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb32d3defa6a8810800000000000000
+      internalID: 1768343446404348904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1920
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d0924695bd40060800000000000000
+      internalID: 6918896104526908725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa8ed520bd349a40800000000000000
+      internalID: 5373988082118724341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1792
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64b5ec7e0727d430800000000000000
+      internalID: 3807554953143497838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1792
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a397567da0f5600800000000000000
+      internalID: 459097607251769950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1792
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50d645b9d8367a40800000000000000
+      internalID: 5365538513758900316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1792
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7cf29617657ab50800000000000000
+      internalID: 6604342423658153975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1792
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359becc255dd3fcf0800000000000000
+      internalID: -219588598917318317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33c6283e6e6a0fc0800000000000000
+      internalID: -3527885938423839941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1664
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87101d724ec926eb0800000000000000
+      internalID: -4728044155051114120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1664
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1467a3f21e74c7100800000000000000
+      internalID: 107039523635623489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1664
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4134d56e6b401ba60800000000000000
+      internalID: 7687931222493578004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1664
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6a4eba6cbc4880800000000000000
+      internalID: -8625312019676239295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1664
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258ad46f4238eeb90800000000000000
+      internalID: -7210681758599239598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577d853431f1ab7f0800000000000000
+      internalID: -596129833078433931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1536
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dbabf1c8647c7f0800000000000000
+      internalID: -592427258334233265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1536
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcabd657a8694180800000000000000
+      internalID: -9130651701590905646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1536
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445f559bdc0f3a690800000000000000
+      internalID: -7591959780448144060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1536
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54d5360939d9d2c0800000000000000
+      internalID: -4406251921464765350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1536
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5c0ed57024e6de0800000000000000
+      internalID: -1338059439875242531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c678b5c2e248634a0800000000000000
+      internalID: -6613953668899436692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1408
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141362111f389ec30800000000000000
+      internalID: 4389184383247331649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1408
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab614b694e3e3e80800000000000000
+      internalID: -8197045786714739807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1408
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9510aa9a604eb1d80800000000000000
+      internalID: -8278772772723097255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1408
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef68e1962f886d910800000000000000
+      internalID: 1861826070691350270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1408
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680eecc5511238200800000000000000
+      internalID: 181024785660043398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e5915cab7c071e0800000000000000
+      internalID: -2202040612799553921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1280
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aceb900ba1649d0800000000000000
+      internalID: -2790513575729378687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1280
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2bfe70be42de530800000000000000
+      internalID: 3885802645359669939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1280
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896112175f6056a60800000000000000
+      internalID: 7666541591902885528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1280
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff1b4819d02e7560800000000000000
+      internalID: 7313318961683832822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b2da945687c0940800000000000000
+      internalID: 5263714440912382854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1152
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e99412f8d1d7c740800000000000000
+      internalID: 5172333426762881511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1152
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2611dc19c9231230800000000000000
+      internalID: 3608273670202529325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1152
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258858d622d5c4730800000000000000
+      internalID: 3984662172763785298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1152
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790ef20a32dde7e00800000000000000
+      internalID: 1044515308677619863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1152
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99356b331722fddb0800000000000000
+      internalID: -4765052011140459623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74b21f802f8a9540800000000000000
+      internalID: 5015478505032561791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1024
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e9eea7173f84660800000000000000
+      internalID: 7370408458911129227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1024
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b311711e03f0ee510800000000000000
+      internalID: 1580217221862854971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1024
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3203850d7515aaeb0800000000000000
+      internalID: -4707861022862987229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1024
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7c0d340a709a210800000000000000
+      internalID: 1344614348660721578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1024
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7d714b26f27b2f0800000000000000
+      internalID: -957244294818179158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ee9e9be750dd750800000000000000
+      internalID: 6331222692995919389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 896
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0b996c36a4f15e0800000000000000
+      internalID: -1936747522351845140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 896
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4759fd6c159c1a6b0800000000000000
+      internalID: -5286723134490176140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 896
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d361b4c0d7275a70800000000000000
+      internalID: 8815558573207675858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 896
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71af643b6389f21c0800000000000000
+      internalID: -4526231739780629993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 896
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c609484712cd31ab0800000000000000
+      internalID: -5038441521850576788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7e39bfc498762f0800000000000000
+      internalID: -979663430198499344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 768
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358414f86e2ffbda0800000000000000
+      internalID: -5926751512536463277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 768
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0c6792af28edac0800000000000000
+      internalID: -3828478622269259528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 768
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270e4933916c0db40800000000000000
+      internalID: 5463084159542288498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 768
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2012cee442d9b2f50800000000000000
+      internalID: 6857747636870193410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 768
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b200c71dd9e3e5b40800000000000000
+      internalID: 5430847048200749099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be39ef7652326e30800000000000000
+      internalID: 4495210725163744953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 640
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cac5cc94d43f2a0800000000000000
+      internalID: -6704930440867959804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 640
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5a00b986ecc9bc0800000000000000
+      internalID: -3774915438970886733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 640
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13d120700e800210800000000000000
+      internalID: 1297192825215111963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 640
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da07dc3b008db100800000000000000
+      internalID: 125397150389963477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f678f305cf0452db0800000000000000
+      internalID: -4817372773980600465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 512
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae6653133c4a1c70800000000000000
+      internalID: 8942543792349015727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 512
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2c08fbc87ebf710800000000000000
+      internalID: 1728229473721041581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 512
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1e743b0ac764b20800000000000000
+      internalID: 3118316821645091309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 512
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aebac9337d74ac00800000000000000
+      internalID: 910990958479982245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 512
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea02f1476e4efcd0800000000000000
+      internalID: -2522492535885919509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5874e1425fdb74530800000000000000
+      internalID: 3839246067927238533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 384
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d2be88c332c4130800000000000000
+      internalID: 3552252948990602633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1d41f7b1f742970800000000000000
+      internalID: 8729241733823779286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 384
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d54b765814da300800000000000000
+      internalID: 264939994311056782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 384
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965f7de505adcf700800000000000000
+      internalID: 575574891120031081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 384
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf56f78734a05f990800000000000000
+      internalID: -7352959531711764997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283ccfd8d7bd07930800000000000000
+      internalID: 4139049389853033346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 256
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d3821d897dc7cf0800000000000000
+      internalID: -253090427695514348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 256
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1f3fb7c26c944a0800000000000000
+      internalID: -6608533083829046786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8136667e2ab98a0800000000000000
+      internalID: -6297260539208591184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 256
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02da5f4e8ac310d80800000000000000
+      internalID: -8286275143291523808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 256
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37150ac6e882ee360800000000000000
+      internalID: 7200737446384914803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2330af76fa43b4810800000000000000
+      internalID: 1750550808131928882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 128
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa0d0ac447a55310800000000000000
+      internalID: 1393203573630503588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 128
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b73868664284aae0800000000000000
+      internalID: -1538961933742884940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 128
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc730d38f2036990800000000000000
+      internalID: -7394062898013438779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 128
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33823469092f3480800000000000000
+      internalID: -8917363616857816262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 128
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d48a067112d9f00800000000000000
+      internalID: 1125091866202099087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e02ccc308eb9b8c0800000000000000
+      internalID: -3982942937447391006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7639e6d3533b177f0800000000000000
+      internalID: -616514632727751833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313d85a3ac47d4880800000000000000
+      internalID: -8625109299433516269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4428b12d74797980800000000000000
+      internalID: -8540667137545984948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd216af4231b367b0800000000000000
+      internalID: -5232143512431619365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vomit Guy Animations-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1920
+        width: 150
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.0625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c4c4dd837db6b4bb7e3b179d1130e5
+      internalID: 1466576074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf089e8b1245fd443875aca978e9d0c4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":150.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.47999998927116396,"y":0.0625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Vomit Guy Animations-Sheet_0: -4403353353610247225
+      Vomit Guy Animations-Sheet_1: 8033678382880920270
+      Vomit Guy Animations-Sheet_10: -4074871798279942444
+      Vomit Guy Animations-Sheet_100: -253090427695514348
+      Vomit Guy Animations-Sheet_101: -6608533083829046786
+      Vomit Guy Animations-Sheet_102: -6297260539208591184
+      Vomit Guy Animations-Sheet_103: -8286275143291523808
+      Vomit Guy Animations-Sheet_104: 7200737446384914803
+      Vomit Guy Animations-Sheet_105: 1750550808131928882
+      Vomit Guy Animations-Sheet_106: 1393203573630503588
+      Vomit Guy Animations-Sheet_107: -1538961933742884940
+      Vomit Guy Animations-Sheet_108: -7394062898013438779
+      Vomit Guy Animations-Sheet_109: -8917363616857816262
+      Vomit Guy Animations-Sheet_11: 9073495158342024186
+      Vomit Guy Animations-Sheet_110: 1125091866202099087
+      Vomit Guy Animations-Sheet_111: -3982942937447391006
+      Vomit Guy Animations-Sheet_112: -616514632727751833
+      Vomit Guy Animations-Sheet_113: -8625109299433516269
+      Vomit Guy Animations-Sheet_114: -8540667137545984948
+      Vomit Guy Animations-Sheet_115: -5232143512431619365
+      Vomit Guy Animations-Sheet_116: 1466576074
+      Vomit Guy Animations-Sheet_12: 639543602706661420
+      Vomit Guy Animations-Sheet_13: 1849884918397997745
+      Vomit Guy Animations-Sheet_14: -2307189461653195900
+      Vomit Guy Animations-Sheet_15: -3209570488728241681
+      Vomit Guy Animations-Sheet_16: 5070902943898372790
+      Vomit Guy Animations-Sheet_17: 8126878775711274591
+      Vomit Guy Animations-Sheet_18: -7925593735941132271
+      Vomit Guy Animations-Sheet_19: -6501416326899283719
+      Vomit Guy Animations-Sheet_2: -3413101883462682771
+      Vomit Guy Animations-Sheet_20: -4585971127416663853
+      Vomit Guy Animations-Sheet_21: 4275497220064018609
+      Vomit Guy Animations-Sheet_22: -8123435494255515214
+      Vomit Guy Animations-Sheet_23: -1008936534780975966
+      Vomit Guy Animations-Sheet_24: 7421034917352637513
+      Vomit Guy Animations-Sheet_25: 7625167069039075727
+      Vomit Guy Animations-Sheet_26: 6031401614424032870
+      Vomit Guy Animations-Sheet_27: 1768343446404348904
+      Vomit Guy Animations-Sheet_28: 6918896104526908725
+      Vomit Guy Animations-Sheet_29: 5373988082118724341
+      Vomit Guy Animations-Sheet_3: -2034638209402888571
+      Vomit Guy Animations-Sheet_30: 3807554953143497838
+      Vomit Guy Animations-Sheet_31: 459097607251769950
+      Vomit Guy Animations-Sheet_32: 5365538513758900316
+      Vomit Guy Animations-Sheet_33: 6604342423658153975
+      Vomit Guy Animations-Sheet_34: -219588598917318317
+      Vomit Guy Animations-Sheet_35: -3527885938423839941
+      Vomit Guy Animations-Sheet_36: -4728044155051114120
+      Vomit Guy Animations-Sheet_37: 107039523635623489
+      Vomit Guy Animations-Sheet_38: 7687931222493578004
+      Vomit Guy Animations-Sheet_39: -8625312019676239295
+      Vomit Guy Animations-Sheet_4: 7877969436134997817
+      Vomit Guy Animations-Sheet_40: -7210681758599239598
+      Vomit Guy Animations-Sheet_41: -596129833078433931
+      Vomit Guy Animations-Sheet_42: -592427258334233265
+      Vomit Guy Animations-Sheet_43: -9130651701590905646
+      Vomit Guy Animations-Sheet_44: -7591959780448144060
+      Vomit Guy Animations-Sheet_45: -4406251921464765350
+      Vomit Guy Animations-Sheet_46: -1338059439875242531
+      Vomit Guy Animations-Sheet_47: -6613953668899436692
+      Vomit Guy Animations-Sheet_48: 4389184383247331649
+      Vomit Guy Animations-Sheet_49: -8197045786714739807
+      Vomit Guy Animations-Sheet_5: 6100026986375029645
+      Vomit Guy Animations-Sheet_50: -8278772772723097255
+      Vomit Guy Animations-Sheet_51: 1861826070691350270
+      Vomit Guy Animations-Sheet_52: 181024785660043398
+      Vomit Guy Animations-Sheet_53: -2202040612799553921
+      Vomit Guy Animations-Sheet_54: -2790513575729378687
+      Vomit Guy Animations-Sheet_55: 3885802645359669939
+      Vomit Guy Animations-Sheet_56: 7666541591902885528
+      Vomit Guy Animations-Sheet_57: 7313318961683832822
+      Vomit Guy Animations-Sheet_58: 5263714440912382854
+      Vomit Guy Animations-Sheet_59: 5172333426762881511
+      Vomit Guy Animations-Sheet_6: -4242547732202170270
+      Vomit Guy Animations-Sheet_60: 3608273670202529325
+      Vomit Guy Animations-Sheet_61: 3984662172763785298
+      Vomit Guy Animations-Sheet_62: 1044515308677619863
+      Vomit Guy Animations-Sheet_63: -4765052011140459623
+      Vomit Guy Animations-Sheet_64: 5015478505032561791
+      Vomit Guy Animations-Sheet_65: 7370408458911129227
+      Vomit Guy Animations-Sheet_66: 1580217221862854971
+      Vomit Guy Animations-Sheet_67: -4707861022862987229
+      Vomit Guy Animations-Sheet_68: 1344614348660721578
+      Vomit Guy Animations-Sheet_69: -957244294818179158
+      Vomit Guy Animations-Sheet_7: -3452185895241523268
+      Vomit Guy Animations-Sheet_70: 6331222692995919389
+      Vomit Guy Animations-Sheet_71: -1936747522351845140
+      Vomit Guy Animations-Sheet_72: -5286723134490176140
+      Vomit Guy Animations-Sheet_73: 8815558573207675858
+      Vomit Guy Animations-Sheet_74: -4526231739780629993
+      Vomit Guy Animations-Sheet_75: -5038441521850576788
+      Vomit Guy Animations-Sheet_76: -979663430198499344
+      Vomit Guy Animations-Sheet_77: -5926751512536463277
+      Vomit Guy Animations-Sheet_78: -3828478622269259528
+      Vomit Guy Animations-Sheet_79: 5463084159542288498
+      Vomit Guy Animations-Sheet_8: -4603007072457948065
+      Vomit Guy Animations-Sheet_80: 6857747636870193410
+      Vomit Guy Animations-Sheet_81: 5430847048200749099
+      Vomit Guy Animations-Sheet_82: 4495210725163744953
+      Vomit Guy Animations-Sheet_83: -6704930440867959804
+      Vomit Guy Animations-Sheet_84: -3774915438970886733
+      Vomit Guy Animations-Sheet_85: 1297192825215111963
+      Vomit Guy Animations-Sheet_86: 125397150389963477
+      Vomit Guy Animations-Sheet_87: -4817372773980600465
+      Vomit Guy Animations-Sheet_88: 8942543792349015727
+      Vomit Guy Animations-Sheet_89: 1728229473721041581
+      Vomit Guy Animations-Sheet_9: 7179333223478234897
+      Vomit Guy Animations-Sheet_90: 3118316821645091309
+      Vomit Guy Animations-Sheet_91: 910990958479982245
+      Vomit Guy Animations-Sheet_92: -2522492535885919509
+      Vomit Guy Animations-Sheet_93: 3839246067927238533
+      Vomit Guy Animations-Sheet_94: 3552252948990602633
+      Vomit Guy Animations-Sheet_95: 8729241733823779286
+      Vomit Guy Animations-Sheet_96: 264939994311056782
+      Vomit Guy Animations-Sheet_97: 575574891120031081
+      Vomit Guy Animations-Sheet_98: -7352959531711764997
+      Vomit Guy Animations-Sheet_99: 4139049389853033346
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
