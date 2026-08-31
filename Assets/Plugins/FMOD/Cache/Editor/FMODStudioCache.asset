@@ -344,7 +344,7 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639237871585852193
+  lastModified: 639238085476562573
   FileSizes:
   - Name: Desktop
     Value: 2108
@@ -612,6 +612,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1171
+--- !u!114 &-7552971653722287209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 06
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 06
+  Guid:
+    Data1: -467569173
+    Data2: 1119243258
+    Data3: 612399031
+    Data4: -566667710
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5160
 --- !u!114 &-7531247676985151401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,6 +910,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4870
+--- !u!114 &-6673921837623041824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Purist Guard
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/NPCs/Purist Guard
+  Guid:
+    Data1: -1871480706
+    Data2: 1283490687
+    Data3: 1265162160
+    Data4: 130529132
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 788
 --- !u!114 &-6610224690156195636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1597,6 +1651,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 656
+--- !u!114 &-5095476576094230436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 07
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 07
+  Guid:
+    Data1: 217972544
+    Data2: 1092535028
+    Data3: 483449254
+    Data4: 307042512
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
 --- !u!114 &-4913627603613090259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1854,10 +1935,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639237871589707762
+  lastModified: 639238085482374218
   FileSizes:
   - Name: Desktop
-    Value: 3776480
+    Value: 5176608
   Exists: 1
 --- !u!114 &-4017517105343582320
 MonoBehaviour:
@@ -1886,6 +1967,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7844
+--- !u!114 &-4015462062938192535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Cultist Guard
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/NPCs/Cultist Guard
+  Guid:
+    Data1: 1290657064
+    Data2: 1271584368
+    Data3: 121444755
+    Data4: 992892929
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 990
 --- !u!114 &-3930693144387537608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2386,6 +2494,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 29457728
   Exists: 1
+--- !u!114 &-2978679425984170683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 08
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 08
+  Guid:
+    Data1: -347103012
+    Data2: 1079531176
+    Data3: -168055167
+    Data4: 465361539
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2875381069288511881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3252,11 +3387,38 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639237871585862267
+  lastModified: 639238085476577624
   FileSizes:
   - Name: Desktop
-    Value: 5344
+    Value: 5832
   Exists: 1
+--- !u!114 &-876004771093947698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 05
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 05
+  Guid:
+    Data1: -1889394335
+    Data2: 1137748698
+    Data3: -1674818630
+    Data4: 210280010
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
 --- !u!114 &-855106535099671914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3739,16 +3901,28 @@ MonoBehaviour:
   - {fileID: 1397105112540589727}
   - {fileID: -3869318407026461926}
   - {fileID: 8626466691340884220}
-  - {fileID: 8500719627561508645}
   - {fileID: 3663248959080472387}
   - {fileID: -6678223235666413265}
+  - {fileID: 3534169324316171091}
+  - {fileID: -5095476576094230436}
+  - {fileID: -876004771093947698}
+  - {fileID: 1299282028235503642}
+  - {fileID: 7631558198444033275}
+  - {fileID: 4341138088332448732}
+  - {fileID: 7589245794069730619}
+  - {fileID: -2978679425984170683}
+  - {fileID: -7552971653722287209}
+  - {fileID: -4015462062938192535}
+  - {fileID: 7654734639798062720}
+  - {fileID: -6673921837623041824}
+  - {fileID: 5810168972959478439}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8410532306005715668}
   StringsBanks:
   - {fileID: -894933262826298027}
   cacheVersion: 131859
-  cacheTime: 639237871589707762
+  cacheTime: 639238085482374218
   SerializableEventsDict:
   - key: event:/Music/Desert Music
     index: 0
@@ -3908,12 +4082,36 @@ MonoBehaviour:
     index: 77
   - key: event:/NPCs/Hoardinger
     index: 78
-  - key: event:/NPCs/Eldritch Guard
-    index: 79
   - key: event:/NPCs/Guard Teleport Reverse
-    index: 80
+    index: 79
   - key: event:/NPCs/Guard Teleport
+    index: 80
+  - key: event:/Cutscenes/Outro/Outro 01
     index: 81
+  - key: event:/Cutscenes/Intro/Intro 07
+    index: 82
+  - key: event:/Cutscenes/Intro/Intro 05
+    index: 83
+  - key: event:/Cutscenes/Intro/Intro 04
+    index: 84
+  - key: event:/Cutscenes/Intro/Intro 02
+    index: 85
+  - key: event:/Cutscenes/Intro/Intro 03
+    index: 86
+  - key: event:/Cutscenes/Intro/Intro 01
+    index: 87
+  - key: event:/Cutscenes/Intro/Intro 08
+    index: 88
+  - key: event:/Cutscenes/Intro/Intro 06
+    index: 89
+  - key: event:/NPCs/Cultist Guard
+    index: 90
+  - key: event:/NPCs/Techno Guard
+    index: 91
+  - key: event:/NPCs/Purist Guard
+    index: 92
+  - key: event:/NPCs/Crystal Guard
+    index: 93
 --- !u!114 &87112149515177248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4584,6 +4782,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1042
+--- !u!114 &1299282028235503642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 04
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 04
+  Guid:
+    Data1: 1542972798
+    Data2: 1326174835
+    Data3: 1652259462
+    Data4: 293895843
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
 --- !u!114 &1397105112540589727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5537,6 +5762,33 @@ MonoBehaviour:
   - Crystal
   - Grass
   Exists: 1
+--- !u!114 &3534169324316171091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Outro/Outro 01
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Outro/Outro 01
+  Guid:
+    Data1: -387263218
+    Data2: 1196790694
+    Data3: 1780559264
+    Data4: 1527880377
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3592823301364071378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5808,6 +6060,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 928
+--- !u!114 &4341138088332448732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 03
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 03
+  Guid:
+    Data1: 969205413
+    Data2: 1075415788
+    Data3: 1277312662
+    Data4: -134034105
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2300
 --- !u!114 &4404813809279163950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6313,6 +6592,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5810168972959478439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Crystal Guard
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/NPCs/Crystal Guard
+  Guid:
+    Data1: 2046584530
+    Data2: 1087830127
+    Data3: 421936515
+    Data4: -399303182
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 880
 --- !u!114 &5868147764046342502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6968,6 +7274,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 621
+--- !u!114 &7589245794069730619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 01
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 01
+  Guid:
+    Data1: -97410101
+    Data2: 1336745188
+    Data3: 1398750087
+    Data4: 782144597
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2591
 --- !u!114 &7602737343599047785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6995,6 +7328,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 540
+--- !u!114 &7631558198444033275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cutscenes/Intro/Intro 02
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cutscenes/Intro/Intro 02
+  Guid:
+    Data1: 1840468355
+    Data2: 1273234855
+    Data3: -191473498
+    Data4: -437360617
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3800
+--- !u!114 &7654734639798062720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCs/Techno Guard
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/NPCs/Techno Guard
+  Guid:
+    Data1: -1406966181
+    Data2: 1316680287
+    Data3: -8358011
+    Data4: -378658589
+  Banks:
+  - {fileID: -4190133250577262374}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 660
 --- !u!114 &7825974408378888304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7178,33 +7565,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2083
---- !u!114 &8500719627561508645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/NPCs/Eldritch Guard
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/NPCs/Eldritch Guard
-  Guid:
-    Data1: -1370399272
-    Data2: 1154865728
-    Data3: -435835969
-    Data4: -1501996149
-  Banks:
-  - {fileID: -4190133250577262374}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3927
 --- !u!114 &8561066722642898886
 MonoBehaviour:
   m_ObjectHideFlags: 0
