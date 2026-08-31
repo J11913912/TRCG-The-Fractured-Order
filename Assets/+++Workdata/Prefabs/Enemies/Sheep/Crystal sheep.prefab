@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 5411946721074013068}
   m_Layer: 6
   m_Name: Crystal sheep
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -648,3 +648,4 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  moneyPrefab: {fileID: 6062593061598188648, guid: 7d3fbcbc183d05c49b79f210b3740759, type: 3}

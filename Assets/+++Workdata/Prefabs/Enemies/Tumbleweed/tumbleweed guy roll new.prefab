@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 2265238751903781707}
   m_Layer: 0
   m_Name: tumbleweed guy roll new
-  m_TagString: TumbleweedGuy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -315,6 +315,7 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  moneyPrefab: {fileID: 6062593061598188648, guid: 7d3fbcbc183d05c49b79f210b3740759, type: 3}
 --- !u!1 &4002657215848634692
 GameObject:
   m_ObjectHideFlags: 0

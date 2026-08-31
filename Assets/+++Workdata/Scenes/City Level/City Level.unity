@@ -14587,6 +14587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 243453412}
   - component: {fileID: 243453413}
+  - component: {fileID: 243453414}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -14667,6 +14668,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &243453414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243453411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c6d4952d813d74db4b6956c43bb9fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoneyShard
 --- !u!1 &253375315
 GameObject:
   m_ObjectHideFlags: 0
@@ -45273,6 +45286,10 @@ PrefabInstance:
     - target: {fileID: 697544869150785507, guid: d5d5af5e5c7704c41b57a980393966f1, type: 3}
       propertyPath: m_Name
       value: sheep waypoints
+      objectReference: {fileID: 0}
+    - target: {fileID: 697544869150785507, guid: d5d5af5e5c7704c41b57a980393966f1, type: 3}
+      propertyPath: m_TagString
+      value: TumbleweedGuy
       objectReference: {fileID: 0}
     - target: {fileID: 2304089646008191517, guid: d5d5af5e5c7704c41b57a980393966f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -104867,10 +104884,6 @@ PrefabInstance:
     - target: {fileID: 6863257515893609486, guid: 3e0baca0d6e45074b935fb1fb2bbe856, type: 3}
       propertyPath: m_Name
       value: Vomit Guy
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456413826978127242, guid: 3e0baca0d6e45074b935fb1fb2bbe856, type: 3}
-      propertyPath: waypoints.Array.size
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7456413826978127242, guid: 3e0baca0d6e45074b935fb1fb2bbe856, type: 3}
       propertyPath: 'waypoints.Array.data[0]'

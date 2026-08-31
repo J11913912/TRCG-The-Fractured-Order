@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7893602239193734526}
   - component: {fileID: 7196720690349646837}
   - component: {fileID: -7976018805712889986}
+  - component: {fileID: 9048668073051695930}
   m_Layer: 0
   m_Name: Base Projectile Prefab
   m_TagString: Untagged
@@ -208,3 +209,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc1a4ba86615ab548956a8826eb0f07f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
+--- !u!114 &9048668073051695930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559585208921659398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a9dd1a834c8dc44e9794e83cf8208a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageEnemies
+  damage: 5
