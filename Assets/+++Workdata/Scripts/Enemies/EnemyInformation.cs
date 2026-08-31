@@ -96,6 +96,7 @@ public class EnemyInformation : MonoBehaviour
             crystal = Instantiate(crystalPrefab);
             crystal.transform.position = transform.position;
             bossHealthBar.SetActive(false);
+            OnDeath?.Invoke();
             return;
         }
         

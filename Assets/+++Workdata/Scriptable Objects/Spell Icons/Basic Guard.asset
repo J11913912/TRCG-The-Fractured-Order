@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_guard
   sprite: {fileID: 9100731244305434460, guid: 29cb1df7ea5aad64b8fe656a21d7eed2, type: 3}
   displayName: Bubble
-  description: 2
+  description: Shields your from damage
   cooldownState: 0
   spellScript: 
   cooldownTime: 3

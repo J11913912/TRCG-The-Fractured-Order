@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/+++Workdata/Scenes/MainMenu.unity
     guid: aeed12b48515bd842837a836cf11d92a
   - enabled: 1
+    path: Assets/+++Workdata/Scenes/Intro.unity
+    guid: 5109516e932d21d41b1ad39153ce3e42
+  - enabled: 1
     path: Assets/+++Workdata/Scenes/City Level/City Level.unity
     guid: 3c6a4b329e1ce564ba17c41c228d79ab
   - enabled: 1
     path: Assets/+++Workdata/Scenes/Dessert Level.unity
     guid: ba095dde749b4ba41b1916b8562e3fd0
+  - enabled: 1
+    path: Assets/+++Workdata/Scenes/Outro.unity
+    guid: a1132417c499f4c4abfdd29e1c7adf72
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -47,10 +47,10 @@ public class ShopInventory : MonoBehaviour
     public MoneyManager moneyManager;
     public PutOnHat _putOnHat;
     
-    public int prizeHealthPotions;
-    public int prizeManaPotions;
-    public int prizeCostumisable;
-    public int prizeSpell;
+    public int prizeHealthPotions = 5;
+    public int prizeManaPotions = 7;
+    public int prizeCostumisable = 20;
+    public int prizeSpell = 15;
 
     private int _defaultPrizeHealth;
     private int _defaultPrizeMana;

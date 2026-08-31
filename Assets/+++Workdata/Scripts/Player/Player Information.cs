@@ -29,6 +29,8 @@ public class PlayerInformation : MonoBehaviour
 
     private int iFrames;
     public int howManyIFrames;
+    
+    public PauseMenuManager pauseMenuManager;
    
    
 
@@ -104,6 +106,7 @@ public class PlayerInformation : MonoBehaviour
          
             playerAnimation.AnimationSetAction(100);
             PlayerStates.OnChangeAction?.Invoke(PlayerAction.Dead);
+            pauseMenuManager.OpenPauseMenu();
             RuntimeManager.PlayOneShot("event:/Misc/Game Over");
             
             HealthbarManager.OnHealthDecrease(damage);

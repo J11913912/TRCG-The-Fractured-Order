@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7fd1bca90c504b4bac839b18492a86c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ManaManager
-  maxMana: 30
+  maxMana: 200
   currrentMana: 0
 --- !u!114 &579188067152920708
 MonoBehaviour:
@@ -906,6 +906,7 @@ MonoBehaviour:
   inTeleportZone: 0
   whereDoWeWantToGo: {x: 0, y: 0}
   _isTeleporting: 0
+  unlockedTeleport: 1
 --- !u!114 &4889857719390999303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -981,7 +982,7 @@ MonoBehaviour:
   targetPrefab: {fileID: 2805717590181599927, guid: 06e020fabe0793e4f9ab181ece51ae01, type: 3}
   attackPillarPrefab: {fileID: 7315864855031046300, guid: 916b1cb09e5264e45b24e67ff5a3c4cc, type: 3}
   deathTime: 15
-  manaCost: 10
+  manaCost: 30
   spell: {fileID: 11400000, guid: b0126853edcba1243a61ca025c66177f, type: 2}
   playerCamera: {fileID: 0}
   howFarFromPlayer: 0
@@ -1028,7 +1029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrystalProjectileSpell
   projectilePrefab: {fileID: 928591610570380805, guid: 93dd59c10ff1f794fb98df944144b3f5, type: 3}
-  manaCost: 2
+  manaCost: 5
   ySpawnOffset: 0
 --- !u!114 &1979724783844789743
 MonoBehaviour:
@@ -1057,7 +1058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicHealingSpell
   sparklesPrefab: {fileID: 7963704601534173387, guid: 7062f46bb3397d34f9fac6b86870afb7, type: 3}
-  healAmount: 0
+  healAmount: 15
   spell: {fileID: 11400000, guid: 19205219b4dbb2a4f8739462012a4db1, type: 2}
 --- !u!114 &4382461020824544556
 MonoBehaviour:
@@ -1072,7 +1073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrystalGuardSpell
   shieldPrefab: {fileID: 899792797028155889, guid: 1ce755162e815284dbc1b3db2ccdbd1d, type: 3}
-  manaCost: 5
+  manaCost: 20
   _bubbleOn: 0
   ySpawnOffset: 1
   spell: {fileID: 11400000, guid: 0104b0a043aa83f4bbdf94f87fc03c58, type: 2}
@@ -1089,10 +1090,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrystalHealingSpell
   crystalBallPrefab: {fileID: 1326835886221984847, guid: 7c32d23ffb1610841b3167634d6e6c70, type: 3}
-  healAmount: 0
+  healAmount: 6
   _isCooling: 0
   maxHealTime: 30
-  manaCost: 20
+  manaCost: 25
   spell: {fileID: 11400000, guid: 90c1901905fe62343a326826f6c4380e, type: 2}
   timeToNextHeal: 1.5
 --- !u!114 &6576133443044099003

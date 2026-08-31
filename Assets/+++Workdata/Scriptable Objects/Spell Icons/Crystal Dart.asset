@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_cr_dart
   sprite: {fileID: -2757594801081891318, guid: a38ed606787c2f84195bb5370a6de40d, type: 3}
   displayName: Crystal Shard
-  description: 9
+  description: Crystal Projectile - more damage, but mana cost
   cooldownState: 0
   spellScript: 
   cooldownTime: 0

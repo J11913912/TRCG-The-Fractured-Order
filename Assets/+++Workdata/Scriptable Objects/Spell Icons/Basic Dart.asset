@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_dart
   sprite: {fileID: -466375435757223432, guid: 82a50e071a630374fb350374c78cbe01, type: 3}
   displayName: Dart
-  description: 1
+  description: Basic Projectile for damage
   cooldownState: 0
   spellScript: Basic Projectile Spell
   cooldownTime: 1

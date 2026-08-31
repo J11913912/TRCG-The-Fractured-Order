@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_orb
   sprite: {fileID: -6778129731193717965, guid: 87691a580be19b7428dac855ee92adfe, type: 3}
   displayName: Orb
-  description: 4
+  description: Basic damage but more
   cooldownState: 0
   spellScript: 
   cooldownTime: 3

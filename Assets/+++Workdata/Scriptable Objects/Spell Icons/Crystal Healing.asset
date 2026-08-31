@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_cr_healing
   sprite: {fileID: -805271208889596536, guid: 1f4d71dab74f3b1438000f640bcb535b, type: 3}
   displayName: Crystal Cocoon
-  description: 11
+  description: Hide in your cocoon and heal up until the dager's passed
   cooldownState: 0
   spellScript: 
   cooldownTime: 3

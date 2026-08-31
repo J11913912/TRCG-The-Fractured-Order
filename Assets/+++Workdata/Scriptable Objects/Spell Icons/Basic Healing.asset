@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_healing
   sprite: {fileID: 7033268232438392466, guid: a7e740a9c56d97d42aa97e2facde05f2, type: 3}
   displayName: Respite
-  description: 3
+  description: Heals you up when in need
   cooldownState: 0
   spellScript: 
   cooldownTime: 3

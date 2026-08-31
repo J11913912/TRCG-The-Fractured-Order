@@ -311,11 +311,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyInformation
   currentHealth: 0
-  maxHealth: 0
+  maxHealth: 60
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
   moneyPrefab: {fileID: 6062593061598188648, guid: 7d3fbcbc183d05c49b79f210b3740759, type: 3}
+  isBoss: 0
+  crystalPrefab: {fileID: 0}
+  bossHealthBar: {fileID: 0}
+  spriteColorChanger: {fileID: 0}
 --- !u!1 &4002657215848634692
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a03ba24071b95e64d9a0dbc92bd47e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyContactDamage
-  damage: 10
+  damage: 12
   OnDamage:
     m_PersistentCalls:
       m_Calls: []

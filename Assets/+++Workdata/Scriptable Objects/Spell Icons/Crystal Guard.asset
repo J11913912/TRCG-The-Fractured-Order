@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_cr_guard
   sprite: {fileID: -8197427923511851060, guid: a36d11df761df1441add209c292ce566, type: 3}
   displayName: Crystal Wall
-  description: 10
+  description: Shields you from damage through the power from crystal
   cooldownState: 0
   spellScript: 
   cooldownTime: 3

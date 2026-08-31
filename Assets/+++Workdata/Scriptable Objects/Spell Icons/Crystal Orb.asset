@@ -16,7 +16,7 @@ MonoBehaviour:
   Id: spell_cr_orb
   sprite: {fileID: 867903333782336370, guid: 683765668dff9af4987a3305ed97baf1, type: 3}
   displayName: Crystal Pillar
-  description: 12
+  description: Even more crystal damage
   cooldownState: 0
   spellScript: 
   cooldownTime: 3
