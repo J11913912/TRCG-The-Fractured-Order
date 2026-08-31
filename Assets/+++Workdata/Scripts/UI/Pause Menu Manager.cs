@@ -56,7 +56,7 @@ public class PauseMenuManager : MonoBehaviour
        
        private void OnEnable()
        {
-           _inputActions.Enable();
+           EnableInput();
            _pauseAction.performed += Pause;
            _spellAction.performed += SpellMenu;
            _inventoryAction.performed += Inventory;
@@ -67,13 +67,23 @@ public class PauseMenuManager : MonoBehaviour
    
        private void OnDisable()
        {
-           _inputActions.Disable();
+           DisableInput();
            _pauseAction.performed -= Pause;
            _spellAction.performed -= SpellMenu;
             _inventoryAction.performed -= Inventory;
             //_questLogAction.performed -= QuestLog;
             
             //OnGameOver -= OpenGameOverMenu;
+       }
+
+       public void EnableInput()
+       {
+           _inputActions.Enable();
+       }
+
+       public void DisableInput()
+       {
+           _inputActions.Disable();
        }
    
        private void Pause(InputAction.CallbackContext context)
@@ -103,9 +113,9 @@ public class PauseMenuManager : MonoBehaviour
                if (_menuAlreadyOpen) return;
                
                playerInput.ToggleSpells(false);
+               playerInput.DisableInput();
                SpellButtonSetter.SpellMenuToggle(true);
                
-               _currentMenu.SetActive(false);
                spellMenuContainer.SetActive(true);
                spellMenuContainer.GetComponent<CanvasGroup>().alpha = 1;
                
@@ -126,6 +136,7 @@ public class PauseMenuManager : MonoBehaviour
            else if (_isPaused)
            {
                playerInput.ToggleSpells(true);
+               playerInput.EnableInput();
                SpellButtonSetter.SpellMenuToggle(false);
                
                spellMenuContainer.GetComponent<CanvasGroup>().alpha = 0;
@@ -154,6 +165,7 @@ public class PauseMenuManager : MonoBehaviour
                if (_menuAlreadyOpen) return;
                
                playerInput.ToggleSpells(false);
+               playerInput.DisableInput();
                
                _currentMenu.SetActive(false);
                pauseMenuContainer.SetActive(true);
@@ -175,6 +187,7 @@ public class PauseMenuManager : MonoBehaviour
            else if (_isPaused)
            {
                playerInput.ToggleSpells(true);
+               playerInput.EnableInput();
                
                pauseMenuContainer.SetActive(false);
                //hudContainer.SetActive(true);
@@ -207,6 +220,8 @@ public class PauseMenuManager : MonoBehaviour
            _currentMenu.SetActive(false);
            gameOverMenuContainer.SetActive(true);
            
+           playerInput.DisableInput();
+           
            gameOverButton.Select();
            
            if (_currentMenu == spellMenuContainer)
@@ -222,6 +237,7 @@ public class PauseMenuManager : MonoBehaviour
        {
            _currentMenu.SetActive(false);
            Time.timeScale = 1;
+           playerInput.EnableInput();
        }
    
        public void OpenWinMenu()
@@ -246,6 +262,7 @@ public class PauseMenuManager : MonoBehaviour
            if (!_isInventory && !_menuAlreadyOpen)
            {
                _currentMenu.SetActive(false);
+               playerInput.DisableInput();
                inventoryMenuContainer.SetActive(true);
                Time.timeScale = 0;
                _isInventory = true;
@@ -264,6 +281,7 @@ public class PauseMenuManager : MonoBehaviour
            else if (_isInventory && _menuAlreadyOpen)
            {
                inventoryMenuContainer.SetActive(false);
+               playerInput.EnableInput();
                Time.timeScale = 1;
                _isInventory = false;
                _menuAlreadyOpen = false;

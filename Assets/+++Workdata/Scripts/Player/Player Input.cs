@@ -29,7 +29,7 @@ public class PlayerInput : MonoBehaviour
         private InputAction _crystalHealingAction;
         
         private InputAction _interactAction;
-
+        
         #endregion
 
         private Vector2 _lasMoveInput;
@@ -319,7 +319,7 @@ public class PlayerInput : MonoBehaviour
         
         private void Teleport(InputAction.CallbackContext ctx)
         {
-            DashAbility.OnDashInput?.Invoke();
+            DashAbility.OnDashInput?.Invoke(_lasMoveInput);
         }
         
         
