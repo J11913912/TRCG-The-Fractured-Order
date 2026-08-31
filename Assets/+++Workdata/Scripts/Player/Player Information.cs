@@ -7,6 +7,7 @@ public class PlayerInformation : MonoBehaviour
 {
     public static Action<int> OnHealthDown;
     public static Action<int> OnHealthUp;
+    public static Action OnReset;
     
     public static Action<string, bool> ShieldOn;
    
@@ -41,6 +42,7 @@ public class PlayerInformation : MonoBehaviour
         OnHealthDown += SetDamage;
         OnHealthUp += SetHealth;
         ShieldOn += ActivateShield;
+        OnReset += SetHealthToMax;
     }
 
     private void OnDisable()
@@ -48,6 +50,7 @@ public class PlayerInformation : MonoBehaviour
         OnHealthDown -= SetDamage;
         OnHealthUp -= SetHealth;
         ShieldOn -= ActivateShield;
+        OnReset -= SetHealthToMax;
     }
 
     private void Update()

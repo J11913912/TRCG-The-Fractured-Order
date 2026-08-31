@@ -34,10 +34,7 @@ public class MainMenu_UiManager : MonoBehaviour
         
         _currentMenu = loadMenuContainer;
         
-        PlayerPrefs.SetInt("UnlockedCrystalHealing", 0);
-        PlayerPrefs.SetInt("UnlockedCrystalAoE", 0);
-        PlayerPrefs.SetInt("UnlockedCrystalProjectile", 0);
-        PlayerPrefs.SetInt("UnlockedCrystalGuard", 0);    
+        ResetGame();
     }
     
     public void OpenCreditsMenu()
@@ -60,6 +57,21 @@ public class MainMenu_UiManager : MonoBehaviour
     {
         Debug.Log("Quit Game");
         Application.Quit();
+    }
+
+    public void ResetGame()
+    {
+        PlayerPrefs.SetInt("UnlockedCrystalHealing", 0);
+        PlayerPrefs.SetInt("UnlockedCrystalAoE", 0);
+        PlayerPrefs.SetInt("UnlockedCrystalProjectile", 0);
+        PlayerPrefs.SetInt("UnlockedCrystalGuard", 0);    
+        
+        PlayerPrefs.SetInt("Money", 0);
+        PlayerPrefs.SetInt("HealthPotions", 0);
+        PlayerPrefs.SetInt("ManaPotions", 0);
+        
+        PlayerPrefs.SetInt("HatUnlocked", 0);
+        PlayerPrefs.SetInt("HatOn", 0);
     }
     
 }

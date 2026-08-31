@@ -49,8 +49,6 @@ public class EldritchGuardManager : MonoBehaviour
 
     public void SetAnimation(int ID)
     {
-        Debug.Log("SetAnimation");
-        
         animator.SetTrigger(HashActionTrigger);
         animator.SetInteger(HashActionID, ID);
     }

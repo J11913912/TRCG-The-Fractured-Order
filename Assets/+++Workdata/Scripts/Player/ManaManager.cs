@@ -3,12 +3,24 @@ using UnityEngine;
 
 public class ManaManager : MonoBehaviour
 {
+   public static Action OnReset;
+   
    public int maxMana;
    public int currrentMana;
 
    private void Awake()
    {
       currrentMana =  maxMana;
+   }
+
+   private void OnEnable()
+   {
+      OnReset += SetManaToMax;
+   }
+
+   private void OnDisable()
+   {
+      OnReset -= SetManaToMax;
    }
 
    public void DecreaseMana(int mana)
@@ -50,5 +62,10 @@ public class ManaManager : MonoBehaviour
       {
          return false;
       }
+   }
+
+   public void SetManaToMax()
+   {
+      currrentMana = maxMana;
    }
 }

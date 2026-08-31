@@ -51,9 +51,20 @@ public class MoneyManager : MonoBehaviour
         manaText.SetText(manaPotions.ToString());
     }
 
+    public void SetInventory()
+    {
+        Debug.Log("SetInventory");
+        money = PlayerPrefs.GetInt("Money");
+        healthPotions = PlayerPrefs.GetInt("HealthPotions");
+        manaPotions = PlayerPrefs.GetInt("ManaPotions");
+    }
+
     private void MoreMoney(int amount)
     {
         money += amount;
+        
+        PlayerPrefs.SetInt("Money", money);
+        PlayerPrefs.Save();
     }
 
     private void LessMoney(int amount)
@@ -64,6 +75,9 @@ public class MoneyManager : MonoBehaviour
         {
             money = 0;
         }
+        
+        PlayerPrefs.SetInt("Money", money);
+        PlayerPrefs.Save();
     }
 
     private void SetCurrentPrize(int prize)
@@ -80,6 +94,9 @@ public class MoneyManager : MonoBehaviour
         {
             healthPotions = 0;
         }
+        
+        PlayerPrefs.SetInt("HealthPotions", healthPotions);
+        PlayerPrefs.Save();
     }
 
     public void ChangeManaPotion(int amount)
@@ -90,6 +107,9 @@ public class MoneyManager : MonoBehaviour
         {
             manaPotions = 0;
         }
+        
+        PlayerPrefs.SetInt("ManaPotions", manaPotions);
+        PlayerPrefs.Save();
     }
 
     public int ReturnMoney()

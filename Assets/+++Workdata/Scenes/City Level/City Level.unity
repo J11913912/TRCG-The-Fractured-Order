@@ -93144,6 +93144,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   youShallPass: 0
+--- !u!70 &1668809264 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3247827275270237334, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+  m_PrefabInstance: {fileID: 2085060783}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1674177948
 GameObject:
   m_ObjectHideFlags: 0
@@ -100969,7 +100974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[0].onEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -100989,6 +100994,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+      propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
@@ -101012,6 +101021,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 964782905}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+      propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1668809264}
+    - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[0].onEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -101029,6 +101042,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+      propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
@@ -101052,6 +101069,10 @@ PrefabInstance:
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+      propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[0].onEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: EldritchGuardManager, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -101070,6 +101091,10 @@ PrefabInstance:
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+      propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.CapsuleCollider2D, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[0].onEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -101092,6 +101117,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+      propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[0].onEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
@@ -101109,6 +101138,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
       propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 444494265147675044, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
+      propertyPath: inkEvents.Array.data[1].onEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1529374917041102809, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}

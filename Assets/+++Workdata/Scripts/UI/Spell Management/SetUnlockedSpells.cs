@@ -9,7 +9,7 @@ public class SetUnlockedSpells : MonoBehaviour
    public List<bool> unlockedStates = new List<bool>();
 
    private void Update()
-   {
+   { 
       if (PlayerPrefs.GetInt("UnlockedCrystalHealing") == 1)
       {
          unlockedStates[9] = true;
