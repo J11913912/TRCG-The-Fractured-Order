@@ -106,7 +106,7 @@ public class PlayerInformation : MonoBehaviour
          
             playerAnimation.AnimationSetAction(100);
             PlayerStates.OnChangeAction?.Invoke(PlayerAction.Dead);
-            pauseMenuManager.OpenPauseMenu();
+            pauseMenuManager.OpenGameOverMenu();
             RuntimeManager.PlayOneShot("event:/Misc/Game Over");
             
             HealthbarManager.OnHealthDecrease(damage);
