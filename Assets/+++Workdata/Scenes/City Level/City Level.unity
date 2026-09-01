@@ -28555,7 +28555,7 @@ MonoBehaviour:
   pauseButton: {fileID: 347809388}
   inventoryButton: {fileID: 1013332416}
   optionsButton: {fileID: 0}
-  gameOverButton: {fileID: 0}
+  gameOverButton: {fileID: 1470223340}
   spellMenuButton: {fileID: 0}
   spellTutorialManager: {fileID: 289425040}
   playerInput: {fileID: 1648649300}
@@ -46874,6 +46874,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b3ee307a4dcf0c479751a69b3dbe7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+--- !u!114 &1470223340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 159246809202408503, guid: 708d443c9ac54b341a2d04174b440d9f, type: 3}
+  m_PrefabInstance: {fileID: 1470223337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470223338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1478407241
 GameObject:
   m_ObjectHideFlags: 0
