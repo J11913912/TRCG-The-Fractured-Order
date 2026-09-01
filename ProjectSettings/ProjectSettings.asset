@@ -302,6 +302,9 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
     m_DynamicBatching: 0
+  - m_BuildTarget: WebGL
+    m_StaticBatching: 0
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -609,8 +612,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: TRCG The Fractured Order
-  metroPackageVersion: 
+  metroPackageName: TRCGTheFracturedOrder
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -618,7 +621,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: TRCG The Fractured Order
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: TRCG The Fractured Order
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -687,11 +690,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 10e7b3ee-d16c-4346-b1e6-d8dff0348644
+  cloudProjectId: a0a17eac-c881-41d8-92d2-3fc14e1ada33
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: TRCG The Fractured Order
-  organizationId: j11913912
+  projectName: TFO 20.0
+  organizationId: lars-wilken-gmx-net
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

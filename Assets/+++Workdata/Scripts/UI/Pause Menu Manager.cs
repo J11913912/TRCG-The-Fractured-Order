@@ -214,6 +214,14 @@ public class PauseMenuManager : MonoBehaviour
                _currentMenu = optionsMenuContainer;
                Time.timeScale = 0;
        }
+
+       public void Continue()
+       {
+           _currentMenu.SetActive(false);
+           Time.timeScale = 1;
+           playerInput.ToggleSpells(true);
+           playerInput.EnableInput();
+       }
    
        public void OpenGameOverMenu()
        {
@@ -221,6 +229,7 @@ public class PauseMenuManager : MonoBehaviour
            gameOverMenuContainer.SetActive(true);
            
            playerInput.DisableInput();
+           playerInput.ToggleSpells(false);
            
            gameOverButton.Select();
            

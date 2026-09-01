@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f8ce70243e122348b64b90ec099a4e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseProjectileBehaviour
-  timeToSelfDestruct: 10
+  timeToSelfDestruct: 20
   moveSpeed: 15
   isAoE: 0
 --- !u!50 &7893602239193734526
