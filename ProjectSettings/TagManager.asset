@@ -13,6 +13,7 @@ TagManager:
   - StopLog
   - TumbleweedGuy
   - Enemy
+  - BreakProjectile
   layers:
   - Default
   - TransparentFX

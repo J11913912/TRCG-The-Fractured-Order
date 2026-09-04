@@ -47,7 +47,12 @@ public class ShootProjectile : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    
+
+    public void SetAnimation(int id)
+    {
+        _animator.SetTrigger(Hash_ActionTrigger);
+        _animator.SetInteger(Hash_ActionID, id);
+    }
     private void UpdateAnimator()
     {
         if (_direction == Vector2.down)                                                                                 // set flying direction
