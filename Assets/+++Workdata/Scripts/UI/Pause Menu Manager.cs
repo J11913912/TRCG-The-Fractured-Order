@@ -34,6 +34,7 @@ public class PauseMenuManager : MonoBehaviour
     private bool _isInventory = false;
     private bool _isQuestLog = false;
     private bool _menuAlreadyOpen = false;
+    private bool _spellsOpen = false;
 
     private bool unlockQuestLog = false;
        
@@ -96,6 +97,7 @@ public class PauseMenuManager : MonoBehaviour
        private void SpellMenu(InputAction.CallbackContext context)
        {
            OpenSpellMenu();
+           _spellsOpen = !_spellsOpen;
        }
        
        private void Inventory(InputAction.CallbackContext context)
@@ -163,6 +165,8 @@ public class PauseMenuManager : MonoBehaviour
        public void OpenPauseMenu()
        {
            if (_dialogueOn) return;
+           
+           if (_spellsOpen) return;
            
            if (_isInventory)
            {

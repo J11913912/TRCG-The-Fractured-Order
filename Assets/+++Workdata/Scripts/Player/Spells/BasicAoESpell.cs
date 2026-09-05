@@ -6,6 +6,8 @@ using FMODUnity;
 
 public class BasicAoESpell : MonoBehaviour
 {
+    public static Action<bool> OtherSpellActive;
+    
     public static Action BaseAoESpell;
     public static Action OnAttack;
     public static Action OnAttackEnd;
@@ -35,6 +37,8 @@ public class BasicAoESpell : MonoBehaviour
     public UnityEvent ChargeStart;
     public UnityEvent ChargeStop;
     
+    private bool _otherSpellActive = false;
+    
     private void Awake()
     {
         _playerState =  GetComponent<PlayerStates>();
@@ -53,6 +57,8 @@ public class BasicAoESpell : MonoBehaviour
         OnAttackCancel += CancelAttack;
 
         OnCooldownEnd += EndCooldown;
+
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
@@ -66,15 +72,32 @@ public class BasicAoESpell : MonoBehaviour
         OnAttackCancel -= CancelAttack;
         
         OnCooldownEnd -= EndCooldown;
+        
+        OtherSpellActive -= SetOtherSpellActive;
+    }
+
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
     }
 
     private void Cast()                                                                                                 // on Input
     {
-        _currentlyActive = true;
-
+        if (_otherSpellActive) return;
+        
         if (_isCooling) return;
         
         if (!_canAttack) return;
+        
+        BasicProjectileSpell.OtherSpellActive?.Invoke(true);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(true);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(true);
+        CrystalAoESpell.OtherSpellActive?.Invoke(true);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(true);
+        BasicHealingSpell.OtherSpellActive?.Invoke(true);
+        
+        _currentlyActive = true;
 
         _playerInput.ToggleMovement(false);
         
@@ -142,6 +165,8 @@ public class BasicAoESpell : MonoBehaviour
         
         _currentlyActive = false;
         _canAttack = true;
+        
+        UnFreezeSpells();
     }
 
     private void EndCooldown()
@@ -166,6 +191,8 @@ public class BasicAoESpell : MonoBehaviour
         _currentlyActive = false;
         _canAttack = true;
         
+        UnFreezeSpells();
+        
     }
 
     private IEnumerator ResetCharge()
@@ -174,5 +201,16 @@ public class BasicAoESpell : MonoBehaviour
         _playerAnimation.AnimationSetBool("isCharging", false);
         _playerAnimation.AnimationSetBool("secondPress", false);
 
+    }
+
+    private void UnFreezeSpells()
+    {
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
     }
 }

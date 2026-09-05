@@ -6,6 +6,8 @@ public class CrystalGuardSpell : MonoBehaviour
     public static int Hash_ActionID = Animator.StringToHash("ActionID");
     public static int Hash_ActionTrigger = Animator.StringToHash("ActionTrigger");
     
+    public static Action<bool> OtherSpellActive;
+    
     public static Action CrysGuardSpell;
     public static Action OnActivateShield;
     public static Action KillShield;
@@ -39,6 +41,8 @@ public class CrystalGuardSpell : MonoBehaviour
 
     private bool _nearSeedbed = false;
     private GameObject _currentSeedbed;
+    
+    private bool _otherSpellActive = false;
 
     private void Awake()
     {
@@ -72,6 +76,7 @@ public class CrystalGuardSpell : MonoBehaviour
         OnActivateShield += ActivateShield;
         KillShield += BurstBubble;
         OnCooledDown += EndCooldown;
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
@@ -80,8 +85,13 @@ public class CrystalGuardSpell : MonoBehaviour
         OnActivateShield -= ActivateShield;
         KillShield -= BurstBubble;
         OnCooledDown -= EndCooldown;
+        OtherSpellActive -= SetOtherSpellActive;
     }
 
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
+    }
     private void PuzzleWall()
     {
         if (!_nearSeedbed) return;
@@ -91,6 +101,8 @@ public class CrystalGuardSpell : MonoBehaviour
 
     private void Cast()                                                                                                 // on input
     {
+        if (_otherSpellActive) return;
+        
         if (_bubbleOn) return;
         
         if (_isCooling) return;
@@ -98,6 +110,14 @@ public class CrystalGuardSpell : MonoBehaviour
         if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
         
         _isActive = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(true);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(true);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalAoESpell.OtherSpellActive?.Invoke(true);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(true);
+        BasicHealingSpell.OtherSpellActive?.Invoke(true);
         
         _playerAnimation.AnimationSetAction(30);
     }
@@ -182,5 +202,13 @@ public class CrystalGuardSpell : MonoBehaviour
         _shieldOn = false;
         
         _isActive = false;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
     }
 }

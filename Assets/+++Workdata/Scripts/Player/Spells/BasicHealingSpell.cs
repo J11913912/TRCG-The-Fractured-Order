@@ -4,6 +4,8 @@ using FMODUnity;
 
 public class BasicHealingSpell : MonoBehaviour
 {
+    public static Action<bool> OtherSpellActive;
+    
     public static Action BaseHealingSpell;
     public static Action OnHealEnd;
     public static Action OnCooldownEnd;
@@ -25,6 +27,8 @@ public class BasicHealingSpell : MonoBehaviour
     private bool _isActive = false;
 
     public SpellDefinition spell;
+    
+    private bool _otherSpellActive = false;
 
     private void Awake()
     {
@@ -38,6 +42,7 @@ public class BasicHealingSpell : MonoBehaviour
         BaseHealingSpell += Cast;
         OnHealEnd += EndHeal;
         OnCooldownEnd += EndCooldown;
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
@@ -45,15 +50,31 @@ public class BasicHealingSpell : MonoBehaviour
         BaseHealingSpell -= Cast;
         OnHealEnd -= EndHeal; 
         OnCooldownEnd -= EndCooldown;
+        OtherSpellActive -= SetOtherSpellActive;
+    }
+
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
     }
 
     private void Cast()                                                                                                 // on input
     {
+        if (_otherSpellActive) return;
+        
         if (_isCooling) return;
         
         if (!_canHeal) return;
         
         _isActive = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(true);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(true);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(true);
+        CrystalAoESpell.OtherSpellActive?.Invoke(true);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(true);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(true);
         
         _canHeal = false;
         
@@ -90,6 +111,14 @@ public class BasicHealingSpell : MonoBehaviour
         _playerInput.ToggleMovement(true);
         
         _isActive = false;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
 
         _isCooling = true;
         SpellCooldownManager.OnStartCooldown?.Invoke(spell);

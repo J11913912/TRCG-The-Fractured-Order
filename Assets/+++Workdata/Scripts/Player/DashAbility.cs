@@ -45,23 +45,25 @@ public class DashAbility : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        inTeleportZone = true;
-
         if (other.CompareTag("GoUp"))
         {
             whereDoWeWantToGo = Vector2.up;
+            inTeleportZone = true; 
         }
         else if (other.CompareTag("GoDown"))
         {
             whereDoWeWantToGo = Vector2.down;
+            inTeleportZone = true; 
         }
         else if (other.CompareTag("GoLeft"))
         {
             whereDoWeWantToGo = Vector2.left;
+            inTeleportZone = true; 
         }
         else if (other.CompareTag("GoRight"))
         {
             whereDoWeWantToGo = Vector2.right;
+            inTeleportZone = true; 
         }
     }
 
@@ -105,6 +107,8 @@ public class DashAbility : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
             
+        Debug.Log("Teleport");
+        
         if (_direction == whereDoWeWantToGo)
         {
             Vector2 pos = gameObject.transform.position;

@@ -8,6 +8,8 @@ using UnityEngine.Events;
 
 public class CrystalAoESpell : MonoBehaviour
 {
+    public static Action<bool> OtherSpellActive;
+
     public static Action CrystalAoE;
     public static Action OnCooldownEnd;
 
@@ -46,6 +48,8 @@ public class CrystalAoESpell : MonoBehaviour
     
     public UnityEvent ChargeStart;
     public UnityEvent ChargeStop;
+    
+    private bool _otherSpellActive = false;
 
     // TODO player has to really charge like with basic aoe??????
     
@@ -63,12 +67,19 @@ public class CrystalAoESpell : MonoBehaviour
     {
         CrystalAoE += Cast;
         OnCooldownEnd += EndCooldown;
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
     {
         CrystalAoE -= Cast;
         OnCooldownEnd -= EndCooldown;
+        OtherSpellActive -= SetOtherSpellActive;
+    }
+
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
     }
 
     private void Update()
@@ -103,11 +114,21 @@ public class CrystalAoESpell : MonoBehaviour
 
     private void Cast()                                                                                                 // on input
     {
+        if (_otherSpellActive) return;
+        
         if (_isCooling) return;
         
         if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;                                                      // only if enough mana
         
         _isActive = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(true);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(true);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(true);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(true);
+        BasicHealingSpell.OtherSpellActive?.Invoke(true);
         
         if (!_castStarted && !_casting && _canCast)
         {
@@ -117,7 +138,7 @@ public class CrystalAoESpell : MonoBehaviour
             }
             
             _playerAnimation.AnimationSetAction(20);
-            _playerAnimation.AnimationSetBool("isCharging", true);
+            _playerAnimation.AnimationSetBool("isCharging", true); 
             ChargeStart?.Invoke();                                                                                  
             
             _casting = true;
@@ -192,6 +213,14 @@ public class CrystalAoESpell : MonoBehaviour
         
         _isActive = false;
         _playerInput.ToggleMovement(true);
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
     }
 
     private void EndCooldown()

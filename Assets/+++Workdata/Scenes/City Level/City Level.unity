@@ -18952,7 +18952,7 @@ MonoBehaviour:
   - {fileID: 1765283018}
   - {fileID: 1160881401}
   - {fileID: 1534375596}
-  unlockedStates: 00000000000000000000000000000000
+  unlockedStates: 00000000000000000000000000010000
 --- !u!114 &387875546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23732,7 +23732,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8245893557734287466, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1392111687}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4362013670515121856, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1516888109}
   m_SourcePrefab: {fileID: 100100000, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
 --- !u!1 &554458526 stripped
 GameObject:
@@ -68456,6 +68459,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510712183}
   m_CullTransparentMesh: 1
+--- !u!1 &1516888102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4362013670515121856, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+  m_PrefabInstance: {fileID: 554458525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1516888109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516888102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee8758a66c5d854b8542c7c9ea6b691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GeneralAnimationEventManager
+  OnAnimationEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1648649303}
+        m_TargetAssemblyTypeName: BasicProjectileSpell, Assembly-CSharp
+        m_MethodName: EndAttack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1534375595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1066017491868724273, guid: d93cb68076ea4a74c95ab16e4fe548ef, type: 3}
@@ -98175,6 +98210,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6513679979285681003, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
   m_PrefabInstance: {fileID: 554458525}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1648649303 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4889857719390999303, guid: aa27d45c4fc96744a81490ada8cfeb96, type: 3}
+  m_PrefabInstance: {fileID: 554458525}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554458526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80785168a452bba4d8b88ba2e48117e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BasicProjectileSpell
 --- !u!1 &1668809255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1529374917041102809, guid: 449ce3a2a8111664b93b7c6235c2fe8c, type: 3}
