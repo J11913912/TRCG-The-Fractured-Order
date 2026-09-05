@@ -88,7 +88,7 @@ public class CrystalAoESpell : MonoBehaviour
         
         if (_casting)
         {
-            TargetBehaviour targetBehaviour= _target.GetComponent<TargetBehaviour>();
+            TargetBehaviour targetBehaviour = _target.GetComponent<TargetBehaviour>();
 
             howFarFromPlayer = Vector2.Distance(gameObject.transform.position, _target.transform.position);
 
@@ -195,6 +195,36 @@ public class CrystalAoESpell : MonoBehaviour
     {
         if (!_isActive) return;
         
+        ChargeStop?.Invoke();                                                                                       
+        
+        _pillar = Instantiate(attackPillarPrefab);                                                                      // pillar damage
+        _pillar.transform.position = _target.transform.position;
+        
+        playerCamera.Follow = gameObject.transform;                                                                     // camera back to player
+        
+        Destroy(_target);
+        
+        _canCast = true;
+            
+        _playerInput.ToggleMovement(true);
+        
+        _isCooling = true;
+        SpellCooldownManager.OnStartCooldown?.Invoke(spell);
+        
+        _isActive = false;
+        _playerInput.ToggleMovement(true);
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
+    }
+    
+    public void Attack2Backup()                                                                                               // triggered via animations event
+    {
         ChargeStop?.Invoke();                                                                                       
         
         _pillar = Instantiate(attackPillarPrefab);                                                                      // pillar damage
