@@ -7,6 +7,8 @@ public class BasicBubbleSpell : MonoBehaviour
     public static int Hash_ActionID = Animator.StringToHash("ActionID");
     public static int Hash_ActionTrigger = Animator.StringToHash("ActionTrigger");
     
+    public static Action<bool> OtherSpellActive;
+
     public static Action BaseBubbleSpell;
     public static Action OnActivateShield;
     public static Action KillBubble;
@@ -27,6 +29,7 @@ public class BasicBubbleSpell : MonoBehaviour
     private Vector2 _spawnPosition;
 
     public SpellDefinition spell;
+    private bool _otherSpellActive = false;
 
     private void Awake()
     {
@@ -39,6 +42,7 @@ public class BasicBubbleSpell : MonoBehaviour
         OnActivateShield += ActivateShield;
         KillBubble += BurstBubble;
         OnCooledDown += EndCooldown;
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
@@ -47,6 +51,7 @@ public class BasicBubbleSpell : MonoBehaviour
         OnActivateShield -= ActivateShield;
         KillBubble -= BurstBubble;
         OnCooledDown -= EndCooldown;
+        OtherSpellActive -= SetOtherSpellActive;
     }
 
     private void FixedUpdate()
@@ -60,11 +65,26 @@ public class BasicBubbleSpell : MonoBehaviour
         }
     }
 
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
+    }
+    
     private void Cast()                                                                                                 // on input
-    { 
+    {
+        if (_otherSpellActive) return;
+        
         if (_bubbleOn) return;
         
         if (_isCooling) return;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(true);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(true);
+        CrystalAoESpell.OtherSpellActive?.Invoke(true);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(true);
+        BasicHealingSpell.OtherSpellActive?.Invoke(true);
         
         _isActive = true;
         
@@ -103,6 +123,14 @@ public class BasicBubbleSpell : MonoBehaviour
         
         _isActive = false;
         
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
+        
         PlayerInformation.ShieldOn?.Invoke("Basic", false);
         RuntimeManager.PlayOneShot("event:/Player/Standard/Shield Pop");
     }
@@ -110,5 +138,13 @@ public class BasicBubbleSpell : MonoBehaviour
     private void EndCooldown()
     {
         _isCooling = false;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
     }
 }

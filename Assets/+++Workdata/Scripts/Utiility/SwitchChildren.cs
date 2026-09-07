@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SwitchChildren : MonoBehaviour
@@ -5,6 +7,11 @@ public class SwitchChildren : MonoBehaviour
     public GameObject child1;
     public GameObject child2;
 
+    private void Awake()
+    {
+        SwitchOnChild1();
+    }
+    
     public void SwitchOnChild1()
     {
         child1.SetActive(true);

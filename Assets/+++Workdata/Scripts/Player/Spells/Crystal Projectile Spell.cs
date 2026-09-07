@@ -4,6 +4,8 @@ using FMODUnity;
 
 public class CrystalProjectileSpell : MonoBehaviour
 {
+    public static Action<bool> OtherSpellActive;
+    
     public static Action CrysProjectileSpell;
     public static Action OnAttackEnd;
     public GameObject projectilePrefab;
@@ -26,6 +28,8 @@ public class CrystalProjectileSpell : MonoBehaviour
     private bool _secondAttack = false;
     
     private bool _currentlyActive = false;
+    
+    private bool _otherSpellActive = false;
 
     // TODO charging
     
@@ -40,21 +44,38 @@ public class CrystalProjectileSpell : MonoBehaviour
     {
         CrysProjectileSpell += Cast;
         OnAttackEnd += EndAttack;
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
     {
         CrysProjectileSpell -= Cast;
         OnAttackEnd += EndAttack;
+        OtherSpellActive -= SetOtherSpellActive;
+    }
+
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
     }
 
     private void Cast()                                                                                                 // on input
     {
-        _currentlyActive = true;
+        if (_otherSpellActive) return;
         
         if (!_canAttack) return;
         
         if (!_manaManager.CheckIfSpellIsAllowed(manaCost)) return;
+        
+        _currentlyActive = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(true);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(true);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(true);
+        CrystalAoESpell.OtherSpellActive?.Invoke(true);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(true);
+        BasicHealingSpell.OtherSpellActive?.Invoke(true);
         
         _canAttack  = false;
 
@@ -115,5 +136,13 @@ public class CrystalProjectileSpell : MonoBehaviour
         
         _currentlyActive = false;
         _canAttack = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
     }
 }

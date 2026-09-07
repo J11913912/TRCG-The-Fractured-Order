@@ -62,6 +62,11 @@ public class PlayerAnimation : MonoBehaviour
         
         _body.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         _hat.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        
+        foreach (var _animator in _animators)
+        {
+            _animator.Play("Movement BlendTree");
+        }
     }
 
     private void PutOnNormal()
@@ -77,6 +82,11 @@ public class PlayerAnimation : MonoBehaviour
         
         _body.gameObject.GetComponent<SpriteRenderer>().enabled = true;
         _hat.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        
+        foreach (var _animator in _animators)
+        {
+            _animator.Play("Movement BlendTree");
+        }
     }
 
     private void SetMovementAnimationValues()

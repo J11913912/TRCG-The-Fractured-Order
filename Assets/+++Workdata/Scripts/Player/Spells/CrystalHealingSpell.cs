@@ -5,6 +5,8 @@ using Random = UnityEngine.Random;
 
 public class CrystalHealingSpell : MonoBehaviour
 {
+    public static Action<bool> OtherSpellActive;
+
     public static Action CrysHealingSpell;
     public static Action OnHealEnd;
     public static Action OnCooldownEnd;
@@ -34,6 +36,8 @@ public class CrystalHealingSpell : MonoBehaviour
 
     private float time;
     public float timeToNextHeal;
+    
+    private bool _otherSpellActive = false;
 
     private void Awake()
     {
@@ -48,6 +52,7 @@ public class CrystalHealingSpell : MonoBehaviour
         CrysHealingSpell += Cast;
         OnHealEnd += EndHeal;
         OnCooldownEnd += EndCooldown;
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
@@ -55,6 +60,12 @@ public class CrystalHealingSpell : MonoBehaviour
         CrysHealingSpell -= Cast;
         OnHealEnd -= EndHeal; 
         OnCooldownEnd -= EndCooldown;
+        OtherSpellActive -= SetOtherSpellActive;
+    }
+
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
     }
 
     private void Update()
@@ -87,6 +98,8 @@ public class CrystalHealingSpell : MonoBehaviour
 
     private void Cast()                                                                                                 // on input
     {
+        if (_otherSpellActive) return;
+        
         if (_isCooling) return;
         
         if (!_canHeal) return;
@@ -96,6 +109,14 @@ public class CrystalHealingSpell : MonoBehaviour
         _canHeal = false;
         
         _isActive = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(true);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(true);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(true);
+        CrystalAoESpell.OtherSpellActive?.Invoke(true);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(true);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(true);
+        BasicHealingSpell.OtherSpellActive?.Invoke(true);
         
         _playerAnimation.AnimationSetAction(50);
         _playerAnimation.AnimationSetBool("isCharging", true);
@@ -133,6 +154,8 @@ public class CrystalHealingSpell : MonoBehaviour
 
     private void EndHeal()                                                                                              // triggered when player stops holding or is forced out of healing                                                                                       
     {
+        if (!_isActive) return;
+        
         if (crystalBall == null) return;
         
         if (_canHeal) return;
@@ -150,6 +173,14 @@ public class CrystalHealingSpell : MonoBehaviour
         SpellCooldownManager.OnStartCooldown?.Invoke(spell);
         
         _isActive = false;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        BasicProjectileSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
     }
 
     private void EndCooldown()

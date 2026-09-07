@@ -3,7 +3,8 @@ using UnityEngine;
 using FMODUnity;
 
 public class BasicProjectileSpell : MonoBehaviour
-{
+{ 
+    public static Action<bool> OtherSpellActive;
     public static Action BaseProjectileSpell;
     public static Action OnAttackEnd;
     public GameObject projectilePrefab;
@@ -17,12 +18,14 @@ public class BasicProjectileSpell : MonoBehaviour
     private Vector2 _spawnPosition;
     private Vector2 _direction;
 
-    private bool _canAttack = true;
-    private bool _currentlyActive = false;
+    public bool _canAttack = true;
+    public bool _currentlyActive = false;
 
     public float ySpawnOffset;
 
     public SpellDefinition spell;
+    
+    public bool _otherSpellActive = false;
 
     // TODO charging
     // TODO cooldown
@@ -38,6 +41,8 @@ public class BasicProjectileSpell : MonoBehaviour
         BaseProjectileSpell += Cast;
         
         OnAttackEnd += EndAttack;
+        
+        OtherSpellActive += SetOtherSpellActive;
     }
 
     private void OnDisable()
@@ -45,14 +50,31 @@ public class BasicProjectileSpell : MonoBehaviour
         BaseProjectileSpell -= Cast;
         
         OnAttackEnd -= EndAttack;
+        
+        OtherSpellActive -= SetOtherSpellActive;
+    }
+
+    private void SetOtherSpellActive(bool value)
+    {
+        _otherSpellActive = value;
     }
 
     private void Cast()                                                                                                 // on Input
     {
-        _currentlyActive = true;
+        if (_otherSpellActive) return;
         
         if (!_canAttack) return;
-
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(true);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(true);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(true);
+        CrystalAoESpell.OtherSpellActive?.Invoke(true);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(true);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(true);
+        BasicHealingSpell.OtherSpellActive?.Invoke(true);
+        
+        _currentlyActive = true;
+        
       // SpellCooldownManager.OnStartCooldown(spell);
         
         _canAttack = false;
@@ -98,10 +120,18 @@ public class BasicProjectileSpell : MonoBehaviour
     }
 
     public void EndAttack()                                                                                             // triggered after attack animation ends
-    {
+    { 
         if (!_currentlyActive) return;
         
         _currentlyActive = false;
         _canAttack = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
     }
 }

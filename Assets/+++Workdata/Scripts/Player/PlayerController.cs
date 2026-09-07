@@ -133,6 +133,8 @@ public class PlayerController : MonoBehaviour
         
         public void ApplyDash(Vector2 force)
         {
+            Debug.Log("Applying dash");
+            
             _pushedBack = true;
             _rb.linearVelocity = force * dashForce;
 

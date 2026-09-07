@@ -8,8 +8,8 @@ public class PotionInput : MonoBehaviour
     private InputAction _healthAction;
     private InputAction _manaAction;
 
-    public int heallingPower = 40;
-    public int manaPower = 200;
+    private int heallingPower = 40;
+    private int manaPower = 200;
 
     public GameObject player;
     

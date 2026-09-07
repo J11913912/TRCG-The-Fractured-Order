@@ -101,6 +101,7 @@ public class EnemyInformation : MonoBehaviour
         }
         
         RuntimeManager.PlayOneShot("event:/Enemies/Crystal/Death Enemy Crystal");
+        OnDeath?.Invoke();
         
         Destroy(this.gameObject);
         

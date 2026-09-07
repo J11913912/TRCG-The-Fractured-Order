@@ -34,10 +34,13 @@ public class PauseMenuManager : MonoBehaviour
     private bool _isInventory = false;
     private bool _isQuestLog = false;
     private bool _menuAlreadyOpen = false;
+    private bool _spellsOpen = false;
 
     private bool unlockQuestLog = false;
        
     public PlayerInput playerInput;
+    
+    private bool _dialogueOn = false;
     
        private void SetInputActions()
        {
@@ -94,6 +97,7 @@ public class PauseMenuManager : MonoBehaviour
        private void SpellMenu(InputAction.CallbackContext context)
        {
            OpenSpellMenu();
+           _spellsOpen = !_spellsOpen;
        }
        
        private void Inventory(InputAction.CallbackContext context)
@@ -105,9 +109,17 @@ public class PauseMenuManager : MonoBehaviour
        {
            OpenQuestLogMenu();
        }*/
+
+
+       public void SetDialogue(bool value)
+       {
+           _dialogueOn = value;
+       }
        
        public void OpenSpellMenu()
        {
+           if (_dialogueOn) return;
+           
            if (!_isPaused && !_menuAlreadyOpen)
            {
                if (_menuAlreadyOpen) return;
@@ -152,6 +164,10 @@ public class PauseMenuManager : MonoBehaviour
        
        public void OpenPauseMenu()
        {
+           if (_dialogueOn) return;
+           
+           if (_spellsOpen) return;
+           
            if (_isInventory)
            {
                OpenInventoryMenu();
@@ -199,6 +215,8 @@ public class PauseMenuManager : MonoBehaviour
        
        public void OpenOptionsMenu()
        {
+           if (_dialogueOn) return;
+           
            if (_isQuestLog) return;
            
                _currentMenu.SetActive(false);
@@ -265,6 +283,8 @@ public class PauseMenuManager : MonoBehaviour
 
        public void OpenInventoryMenu()
        {
+           if (_dialogueOn) return;
+           
            if (_isPaused) return;
            if (_isQuestLog) return;
            
