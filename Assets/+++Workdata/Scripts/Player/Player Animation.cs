@@ -6,6 +6,7 @@ public class PlayerAnimation : MonoBehaviour
 {
     public static Action CustomOn;
     public static Action CustomOff;
+    public static Action OnReset;
     
     public static int Hash_MovementValue = Animator.StringToHash("MovementValue");
     public static int Hash_XDirection = Animator.StringToHash("XDirection");
@@ -35,6 +36,7 @@ public class PlayerAnimation : MonoBehaviour
         OnAnimationAction += AnimationSetAction;
         CustomOn += PutOnCustom;
         CustomOff += PutOnNormal;
+        OnReset += Reset;
     }
 
     private void LateUpdate()
@@ -47,6 +49,7 @@ public class PlayerAnimation : MonoBehaviour
         OnAnimationAction -= AnimationSetAction;
         CustomOn -= PutOnCustom;
         CustomOff -= PutOnNormal;
+        OnReset -= Reset;
     }
 
     private void PutOnCustom()
@@ -117,6 +120,14 @@ public class PlayerAnimation : MonoBehaviour
         foreach (var _animator in _animators)
         {
             _animator.SetBool(boolInQuestion, value);
+        }
+    }
+
+    private void Reset()
+    {
+        foreach (var _animator in _animators)
+        {
+            _animator.Play("Movement BlendTree");
         }
     }
 }

@@ -125,8 +125,6 @@ public class BasicProjectileSpell : MonoBehaviour
     { 
         if (_currentlyActive == false) return;
         
-        Debug.Log("i did not return sorry");
-        
         _currentlyActive = false;
         _canAttack = true;
         
@@ -141,11 +139,9 @@ public class BasicProjectileSpell : MonoBehaviour
 
     private IEnumerator BackUpUnlockSpell()
     {
-        yield return new WaitForSeconds(0.45f);
+        yield return new WaitForSeconds(0.4f);
         
         if (_currentlyActive == false) yield break;
-        
-        Debug.Log("i did not return sorry");
         
         _currentlyActive = false;
         _canAttack = true;

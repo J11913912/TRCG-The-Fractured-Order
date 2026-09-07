@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7074626248557352003}
   - component: {fileID: 2360748120837709979}
   - component: {fileID: 979669011168191664}
+  - component: {fileID: -8693169110898008479}
   m_Layer: 0
   m_Name: MoneyShard
   m_TagString: Untagged
@@ -169,3 +170,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c6d4952d813d74db4b6956c43bb9fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoneyShard
+--- !u!58 &-8693169110898008479
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6062593061598188648}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.012666702, y: 0}
+  m_Radius: 0.08513355

@@ -51,7 +51,6 @@ public class LockInBattle : MonoBehaviour
         
         if (firstEnemy && secondEnemy && thirdEnemy && fourthEnemy)
         {
-            Debug.Log("unlocked room");
             BattleWon?.Invoke();
             return;
         }
@@ -63,7 +62,6 @@ public class LockInBattle : MonoBehaviour
         
         if (firstEnemy && secondEnemy && thirdEnemy && fourthEnemy)
         {
-            Debug.Log("unlocked room");
             BattleWon?.Invoke();
             return;
         }
@@ -75,7 +73,6 @@ public class LockInBattle : MonoBehaviour
         
         if (firstEnemy && secondEnemy && thirdEnemy && fourthEnemy)
         {
-            Debug.Log("unlocked room");
             BattleWon?.Invoke();
             return;
         }
