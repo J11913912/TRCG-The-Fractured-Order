@@ -24,8 +24,8 @@ public class LogBehaviour : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("StopLog"))
-        {
-           // LogRollStop?.Invoke();
+        { 
+            LogRollStop?.Invoke();
             RuntimeManager.PlayOneShot("event:/Enviroment/Desert/Log Crash");
             _rb.linearVelocity = Vector2.zero;
             _animator.SetBool("RollSide", false);
@@ -35,8 +35,8 @@ public class LogBehaviour : MonoBehaviour
     }
 
     public void RollDown()
-    {
-      //  LogRollStart?.Invoke();
+    { 
+        LogRollStart?.Invoke();
         _rb.linearVelocity = Vector2.down * _moveSpeed;
         _animator.SetBool("Roll", true);
     }
@@ -48,8 +48,8 @@ public class LogBehaviour : MonoBehaviour
     }
     
     public void RollLeft()
-    {
-      //  LogRollStart?.Invoke();
+    { 
+        LogRollStart?.Invoke();
         Vector2 direction = target.position - transform.position;
         _rb.linearVelocity = direction * _moveSpeed;
         _animator.SetBool("RollSide", true);

@@ -197,7 +197,7 @@ public class BasicAoESpell : MonoBehaviour
 
     private IEnumerator ResetCharge()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         _playerAnimation.AnimationSetBool("isCharging", false);
         _playerAnimation.AnimationSetBool("secondPress", false);
 
