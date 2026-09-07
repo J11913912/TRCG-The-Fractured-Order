@@ -3132,7 +3132,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 361
+  Length: 0
 --- !u!114 &-5009839150868739191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3554,10 +3554,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639241244412727080
+  lastModified: 639243896262438699
   FileSizes:
   - Name: Desktop
-    Value: 5962
+    Value: 6002
   Exists: 1
 --- !u!114 &-4485391268814241487
 MonoBehaviour:
@@ -3687,6 +3687,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 6503200
   Exists: 1
+--- !u!114 &-4087538511142051461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Main Menu
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/Main Menu
+  Guid:
+    Data1: 1912004476
+    Data2: 1165957883
+    Data3: 1442346402
+    Data4: -1690493165
+  Banks:
+  - {fileID: 1224674354450846400}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 167808
 --- !u!114 &-4061485679909888274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6782,13 +6809,14 @@ MonoBehaviour:
   - {fileID: 243806135666204918}
   - {fileID: -4061485679909888274}
   - {fileID: -7747492454233532385}
+  - {fileID: -4087538511142051461}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5483326339020776369}
   StringsBanks:
   - {fileID: -4489457693277094468}
   cacheVersion: 131859
-  cacheTime: 639241244418862468
+  cacheTime: 639243896287416724
   SerializableEventsDict:
   - key: event:/Music/Desert Music
     index: 0
@@ -6984,6 +7012,8 @@ MonoBehaviour:
     index: 95
   - key: event:/Player/ChargeUp New
     index: 96
+  - key: event:/Music/Main Menu
+    index: 97
 --- !u!114 &38375383527538029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8067,10 +8097,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639241239525019504
+  lastModified: 639243896287104914
   FileSizes:
   - Name: Desktop
-    Value: 30652928
+    Value: 32847232
   Exists: 1
 --- !u!114 &1231704312137740888
 MonoBehaviour:
@@ -11235,7 +11265,7 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639241244412717001
+  lastModified: 639243896262418644
   FileSizes:
   - Name: Desktop
     Value: 2108
@@ -12164,10 +12194,10 @@ MonoBehaviour:
   Path: ../../KW/SoundDesign/FMOD/TFO/TFO/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 639241196581524384
+  lastModified: 639243896287416724
   FileSizes:
   - Name: Desktop
-    Value: 99392
+    Value: 91904
   Exists: 1
 --- !u!114 &6724633304366285394
 MonoBehaviour:
