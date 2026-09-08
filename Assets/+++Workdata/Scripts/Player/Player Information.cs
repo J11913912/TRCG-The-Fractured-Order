@@ -141,6 +141,7 @@ public class PlayerInformation : MonoBehaviour
     public void SetHealthToMax()
     {
         currentHealth = maxHealth;
+        HealthbarManager.OnHealthIncrease(maxHealth);
     }
 
     private void ActivateShield(string guardSpell, bool value)

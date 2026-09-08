@@ -31,6 +31,7 @@ public class SafeManager : MonoBehaviour
         player.transform.position = currentReset.position;
         ManaManager.OnReset?.Invoke();
         PlayerInformation.OnReset?.Invoke();
+        PlayerAnimation.OnReset?.Invoke();
     }
     
 }

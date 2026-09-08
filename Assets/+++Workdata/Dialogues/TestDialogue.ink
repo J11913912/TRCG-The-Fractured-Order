@@ -164,7 +164,11 @@ Gart the Barb: No groove, no move.
 === UI ===
 
 = GetPotion
-You found a health potion - Hooray!
+You found a Health potion - Hooray!
+->END
+
+= GetManaPotion
+You found a Mana potion - Hooray!
 ->END
 
 = GetCrystalWall
@@ -180,11 +184,15 @@ You found the Crystal Cocoon Spell - Check it out in the Spell Menu!
 ->END
 
 = GetCrystalDart
-You found the Crystal Shard Spell - Check it out in the Spell Menu!
+You found the Crystal Dart Spell - Check it out in the Spell Menu!
 ->END
 
 = GetTeleport
-You found the Teleport Spell!
+You found the Teleport Ability!
+->END
+
+= ManaMax
+Your Mana has been maxed out!
 ->END
 
 === Council ===

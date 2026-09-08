@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using FMODUnity;
 
@@ -26,9 +27,6 @@ public class BasicProjectileSpell : MonoBehaviour
     public SpellDefinition spell;
     
     public bool _otherSpellActive = false;
-
-    // TODO charging
-    // TODO cooldown
     
     private void Awake()
     {
@@ -74,6 +72,8 @@ public class BasicProjectileSpell : MonoBehaviour
         BasicHealingSpell.OtherSpellActive?.Invoke(true);
         
         _currentlyActive = true;
+
+        StartCoroutine(BackUpUnlockSpell());
         
       // SpellCooldownManager.OnStartCooldown(spell);
         
@@ -84,7 +84,9 @@ public class BasicProjectileSpell : MonoBehaviour
 
     public void Attack()                                                                                                // triggered via Animationevent in attack animation
     {
-        if (!_currentlyActive) return;
+        if (_currentlyActive == false) return;
+        
+        Debug.Log("attack with projectile spell");
         
         _playerDirection = _playerState.GetPlayerDirection();
         
@@ -121,7 +123,25 @@ public class BasicProjectileSpell : MonoBehaviour
 
     public void EndAttack()                                                                                             // triggered after attack animation ends
     { 
-        if (!_currentlyActive) return;
+        if (_currentlyActive == false) return;
+        
+        _currentlyActive = false;
+        _canAttack = true;
+        
+        BasicAoESpell.OtherSpellActive?.Invoke(false);
+        BasicBubbleSpell.OtherSpellActive?.Invoke(false);
+        CrystalGuardSpell.OtherSpellActive?.Invoke(false);
+        CrystalAoESpell.OtherSpellActive?.Invoke(false);
+        CrystalProjectileSpell.OtherSpellActive?.Invoke(false);
+        CrystalHealingSpell.OtherSpellActive?.Invoke(false);
+        BasicHealingSpell.OtherSpellActive?.Invoke(false);
+    }
+
+    private IEnumerator BackUpUnlockSpell()
+    {
+        yield return new WaitForSeconds(0.4f);
+        
+        if (_currentlyActive == false) yield break;
         
         _currentlyActive = false;
         _canAttack = true;

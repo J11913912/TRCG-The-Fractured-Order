@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using FMODUnity;
+using Unity.VisualScripting;
 
 public class EnemyInformation : MonoBehaviour
 {
@@ -20,9 +21,6 @@ public class EnemyInformation : MonoBehaviour
     private GameObject money7;
     private GameObject money8;
     private GameObject money9;
-
-    private float timer;
-    private float time = 1f;
     
     private bool _dropped = false;
     
@@ -41,25 +39,7 @@ public class EnemyInformation : MonoBehaviour
 
     private void Update()
     {
-        if (_dropped)
-        {
-            timer += Time.deltaTime;
-
-            if (timer >= time)
-            {
-                _dropped = false;
-                
-                money.GetComponent<Rigidbody2D>().linearVelocity = Vector2.negativeInfinity;
-                money2.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                money3.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                money4.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                money5.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                money6.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                money7.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                money8.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-                money9.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
-            }
-        }
+       
     }
 
     public void TakeDamage(int damage)
@@ -103,50 +83,77 @@ public class EnemyInformation : MonoBehaviour
         RuntimeManager.PlayOneShot("event:/Enemies/Crystal/Death Enemy Crystal");
         OnDeath?.Invoke();
         
-        Destroy(this.gameObject);
-        
         money = Instantiate(moneyPrefab);
         money.transform.position = transform.position;
-        money.GetComponent<Rigidbody2D>().AddForce(new Vector2(-1, -1) * 4);
+        //money.GetComponent<Rigidbody2D>().AddForce(new Vector2(-1, -1) * 4);
+        money.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(-1, -1) * 4;
         
         money2 = Instantiate(moneyPrefab);
         money2.transform.position = transform.position;
-        money2.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 3);
+        //money2.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 3);
+        money2.GetComponent<Rigidbody2D>().linearVelocity = Vector2.up * 3;
         
         money3 = Instantiate(moneyPrefab);
         money3.transform.position = transform.position;
-        money3.GetComponent<Rigidbody2D>().AddForce(new Vector2(-1, -1) * 2);
+        //money3.GetComponent<Rigidbody2D>().AddForce(new Vector2(-1, -1) * 2);
+        money3.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(-1, -1) * 2;
         
         money4 = Instantiate(moneyPrefab);
         money4.transform.position = transform.position;
-        money4.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 3);
+        //money4.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 3);
+        money4.GetComponent<Rigidbody2D>().linearVelocity = Vector2.up * 3;
         
         money5 = Instantiate(moneyPrefab);
         money5.transform.position = transform.position;
-        money5.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, 1) * 4);
+        //money5.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, 1) * 4);
+        money5.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(1, 1) * 4;
         
         money6 = Instantiate(moneyPrefab);
         money6.transform.position = transform.position;
-        money6.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 3);
+        //money6.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 3);
+        money6.GetComponent<Rigidbody2D>().linearVelocity = Vector2.right * 3;
         
         money7 = Instantiate(moneyPrefab);
         money7.transform.position = transform.position;
-        money7.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 3);
+       // money7.GetComponent<Rigidbody2D>().AddForce(Vector2.left * 3);
+        money7.GetComponent<Rigidbody2D>().linearVelocity = Vector2.left * 3;
         
         money8 = Instantiate(moneyPrefab);
         money8.transform.position = transform.position;
-        money8.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, 1) * 3);
+        money8.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(1, 1) * 3;
+        //money8.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, 1) * 3);
         
         money9 = Instantiate(moneyPrefab);
         money9.transform.position = transform.position;
-        money9.GetComponent<Rigidbody2D>().AddForce(Vector2.down * 2);
-
+        //money9.GetComponent<Rigidbody2D>().AddForce(Vector2.down * 2);
+        money9.GetComponent<Rigidbody2D>().linearVelocity = Vector2.down * 2;
+        
         _dropped = true;
+        StartCoroutine(StopMoney());
     }
 
     private IEnumerator StopMoney()
     {
-        yield return new WaitForSeconds(1f);
-        
+        yield return new WaitForSeconds(0.5f);
+
+        if (_dropped)
+        {
+            Debug.Log("Dropped");
+            
+            _dropped = false;
+
+            money.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money2.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money3.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money4.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money5.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money6.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money7.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money8.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            money9.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+            
+            Destroy(this.gameObject);
+        }
+
     }
 }

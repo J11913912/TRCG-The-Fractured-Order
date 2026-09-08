@@ -67,5 +67,6 @@ public class ManaManager : MonoBehaviour
    public void SetManaToMax()
    {
       currrentMana = maxMana;
+      ManabarManager.OnManaIncrease(maxMana);
    }
 }
