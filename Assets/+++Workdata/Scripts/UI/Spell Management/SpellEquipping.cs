@@ -119,7 +119,7 @@ public class SpellEquipping : MonoBehaviour
       assignMode = true;
       spellId = Id;
       
-      assignModeIndicator.SetActive(true);
+      //assignModeIndicator.SetActive(true);
       grey.SetActive(true);
       eventSystem.GetComponent<InputSystemUIInputModule>().move = null;
    }
@@ -140,7 +140,7 @@ public class SpellEquipping : MonoBehaviour
    {
       assignMode = false;
       grey.SetActive(false);
-      assignModeIndicator.SetActive(false);
+      //assignModeIndicator.SetActive(false);
       eventSystem.GetComponent<InputSystemUIInputModule>().move = _oldInput;
    }
 

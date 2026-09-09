@@ -96,7 +96,6 @@ public class PlayerAnimation : MonoBehaviour
     {
         foreach (var _animator in _animators)
         {
-            Debug.Log(_animator);
             _animator.SetFloat(Hash_MovementValue, Mathf.Abs(_playerController.Rb.linearVelocity.magnitude));
 
             if (_playerController.MoveInput.x == 0 && _playerController.MoveInput.y == 0) continue;

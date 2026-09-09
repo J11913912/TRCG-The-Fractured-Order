@@ -826,7 +826,8 @@ MonoBehaviour:
   inIFrames: 0
   shieldOn: 0
   basicBubbleSpell: {fileID: 1979724783844789743}
-  howManyIFrames: 600
+  howManyIFrames: 300
+  pauseMenuManager: {fileID: 0}
 --- !u!114 &4803592846052854511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,8 +921,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicProjectileSpell
   projectilePrefab: {fileID: 6559585208921659398, guid: 4fa82e86265d8914c801d85c03729c37, type: 3}
+  _canAttack: 1
+  _currentlyActive: 0
   ySpawnOffset: 0.4
   spell: {fileID: 11400000, guid: 111ffdc7d7ea0aa4fb0aea671fd566bb, type: 2}
+  _otherSpellActive: 0
 --- !u!114 &7714341567131980322
 MonoBehaviour:
   m_ObjectHideFlags: 0

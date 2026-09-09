@@ -86,8 +86,6 @@ public class BasicProjectileSpell : MonoBehaviour
     {
         if (_currentlyActive == false) return;
         
-        Debug.Log("attack with projectile spell");
-        
         _playerDirection = _playerState.GetPlayerDirection();
         
         if (_playerDirection == PlayerDirection.Left)                                                                   // spawn in position and direction according to playerDirection

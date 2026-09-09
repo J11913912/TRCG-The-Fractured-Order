@@ -116,8 +116,6 @@ public class ShopInventory : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(EventSystem.current.currentSelectedGameObject);
-        
         if (isActive)
         {
              GameObject currentSelectedGameObject = EventSystem.current.currentSelectedGameObject;

@@ -8,7 +8,6 @@ public class DamagePlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
             other.GetComponent<PlayerInformation>().SetDamage(damage);
         }
     }

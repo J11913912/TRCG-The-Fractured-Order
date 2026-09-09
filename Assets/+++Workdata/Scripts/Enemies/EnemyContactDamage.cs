@@ -14,13 +14,11 @@ public class EnemyContactDamage : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.GetComponent<PlayerInformation>().SetDamage(damage);
-            Debug.Log("found player");
             OnDamage?.Invoke();
         }
-        
-        if (other.CompareTag("GoUp"))
+
+        if (other.CompareTag("Wall"))
         {
-            Debug.Log("found wall");
             OnCollision?.Invoke();
         }
     }

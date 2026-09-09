@@ -330,37 +330,31 @@ public class PlayerInput : MonoBehaviour
 
         private void BaseProjectile(InputAction.CallbackContext ctx)
         {
-            Debug.Log("BaseProjectile");
             BasicProjectileSpell.BaseProjectileSpell?.Invoke();
         }
         
         private void BaseAoE(InputAction.CallbackContext ctx)
         {
-            Debug.Log("BaseAoE");
             BasicAoESpell.BaseAoESpell?.Invoke();
         }
         
         private void BaseAoE2(InputAction.CallbackContext ctx)
         {
-            Debug.Log("BaseAoE2");
             BasicAoESpell.OnAttack?.Invoke();
         }
         
         private void BaseAoE3(InputAction.CallbackContext ctx)
         {
-            Debug.Log("BaseAoE3");
             BasicAoESpell.OnAttackCancel?.Invoke();
         }
         
         private void BaseShield(InputAction.CallbackContext ctx)
         {
-            Debug.Log("BaseShield");
             BasicBubbleSpell.BaseBubbleSpell?.Invoke();
         }
         
         private void BaseHealing(InputAction.CallbackContext ctx)
         {
-            Debug.Log("BaseHealing");
             BasicHealingSpell.BaseHealingSpell?.Invoke();
         }
 
@@ -369,25 +363,21 @@ public class PlayerInput : MonoBehaviour
         
         private void CrystalProjectile(InputAction.CallbackContext ctx)
         {
-            Debug.Log("CrystalProjectile");
             CrystalProjectileSpell.CrysProjectileSpell?.Invoke();
         }
         
         private void CrystalAoE(InputAction.CallbackContext ctx)
         {
-            Debug.Log("CrystalAoE");
             CrystalAoESpell.CrystalAoE?.Invoke();
         }
         
         private void CrystalShield(InputAction.CallbackContext ctx)
         {
-            Debug.Log("CrystalShield");
             CrystalGuardSpell.CrysGuardSpell?.Invoke();
         }
         
         private void CrystalHealing(InputAction.CallbackContext ctx)
         {
-            Debug.Log("CrystalHealing");
             CrystalHealingSpell.CrysHealingSpell?.Invoke();
         }
         

@@ -451,7 +451,6 @@ public class SheepPatrol : MonoBehaviour
         {
             enemyState = EnemyState.AttackIdle;
             SetNextWaypointForAttackIdle();
-            Debug.Log("attacking idle");
         }
     }
 

@@ -103,7 +103,6 @@ public class SlurpEnemyPatrol : MonoBehaviour
             {
                 enemyState = EnemyState.Attacking;
                 _canAttack = false;
-                Debug.Log("Vomit guy attacks");
                 _vomitAbility.ToggleVomit(true);
                 _vomitAbility.SpawnVomit();
             }

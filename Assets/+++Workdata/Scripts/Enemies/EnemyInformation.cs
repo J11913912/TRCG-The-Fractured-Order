@@ -27,6 +27,11 @@ public class EnemyInformation : MonoBehaviour
     public bool isBoss = false;
     public GameObject crystalPrefab;
     private GameObject crystal;
+
+    public GameObject manaPotionPrefab;
+    private GameObject manaPotion;
+    public GameObject healthPotionPrefab;
+    private GameObject healthPotion;
     
     public GameObject bossHealthBar;
     public SpriteColorChanger spriteColorChanger;
@@ -36,12 +41,7 @@ public class EnemyInformation : MonoBehaviour
         currentHealth = maxHealth;
         _animator = GetComponentInChildren<Animator>();
     }
-
-    private void Update()
-    {
-       
-    }
-
+    
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -56,8 +56,6 @@ public class EnemyInformation : MonoBehaviour
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            
-            if (isBoss) return;
             
             SetAnimation(100);
         }
@@ -130,6 +128,28 @@ public class EnemyInformation : MonoBehaviour
         
         _dropped = true;
         StartCoroutine(StopMoney());
+        
+        int firstRandom = Random.Range(0, 3);
+
+        if (firstRandom == 0 || firstRandom == 1) return;
+        
+        int random = Random.Range(0, 101);
+
+        if (random <= 40)
+        {
+            Debug.Log("Dropped health");
+            healthPotion = Instantiate(healthPotionPrefab);
+            healthPotion.transform.position = transform.position;
+            Debug.Log("Dropped health2");
+
+        }
+        else if (random > 40)
+        {
+            Debug.Log("Dropped mana");
+            manaPotion = Instantiate(manaPotionPrefab);
+            manaPotion.transform.position = transform.position;
+            Debug.Log("Dropped mana2");
+        }
     }
 
     private IEnumerator StopMoney()
@@ -138,8 +158,6 @@ public class EnemyInformation : MonoBehaviour
 
         if (_dropped)
         {
-            Debug.Log("Dropped");
-            
             _dropped = false;
 
             money.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;

@@ -60,7 +60,6 @@ public class PlayerInformation : MonoBehaviour
     {
         if (iFrames > 0)
         {
-            Debug.Log("taking iframes");
             iFrames -= 1;
             
             if (iFrames == 0)

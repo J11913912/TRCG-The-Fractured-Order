@@ -53,7 +53,6 @@ public class MoneyManager : MonoBehaviour
 
     public void SetInventory()
     {
-        Debug.Log("SetInventory");
         money = PlayerPrefs.GetInt("Money");
         healthPotions = PlayerPrefs.GetInt("HealthPotions");
         manaPotions = PlayerPrefs.GetInt("ManaPotions");

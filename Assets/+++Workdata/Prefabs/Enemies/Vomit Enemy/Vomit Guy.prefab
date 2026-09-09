@@ -602,6 +602,8 @@ MonoBehaviour:
   moneyPrefab: {fileID: 6062593061598188648, guid: 7d3fbcbc183d05c49b79f210b3740759, type: 3}
   isBoss: 0
   crystalPrefab: {fileID: 0}
+  manaPotionPrefab: {fileID: 8158989616456889992, guid: 7e0691c449f41b04e8e09444c3ffd8a8, type: 3}
+  healthPotionPrefab: {fileID: 6930457127498829136, guid: 41f371bd69e0fa74196d022afde8abb8, type: 3}
   bossHealthBar: {fileID: 0}
   spriteColorChanger: {fileID: 0}
 --- !u!1 &9155502139778521615
