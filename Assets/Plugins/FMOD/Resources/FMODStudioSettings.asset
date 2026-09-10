@@ -536,8 +536,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../Desktop/fmod tfo newest/TFO/TFO.fspro
-  sourceBankPath: ../../../Desktop/fmod tfo newest/TFO/Build
+  sourceProjectPath: ../../KW/SoundDesign/FMOD/TFO/TFO/TFO.fspro
+  sourceBankPath: ../../KW/SoundDesign/FMOD/TFO/TFO/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
